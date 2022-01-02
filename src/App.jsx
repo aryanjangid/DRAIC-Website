@@ -10,6 +10,7 @@ import Navbar from "./Components/Navbar.jsx"
 import Footer from "./Components/Footer.jsx"
 import { Route, Navigate } from 'react-router-dom';
 import { Routes } from "react-router-dom";
+import Background from './Components/Background';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/project" element={<Project />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Background />
       <Footer />
     </div>
   );
