@@ -140,7 +140,7 @@ li{
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 15vh;
+  height: 18vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.1)));
   background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
@@ -152,26 +152,40 @@ li{
 
 .footer-links{
   display: flex;
-  width: 15%;
-  justify-content: space-around;
+  width: 20%;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-150%);
+  transform: translate(-50%,-170%);
 }
 
 .footer-link{
   color: #00A0FF;
-  font-size: 2rem;
+  font-size: 3rem;
+  position: relative;
+  left: -1rem;
+}
+
+.footer-link::after{
+  content: '';
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  background-color: #ffffff;
+  position: absolute;
+  left: -1rem;
+  top: -0.6rem;
+  z-index: -1;
+  border-radius: 50%;
 }
 
 .footer .copywrite {
-  font-family: ;
   color: white;
   font-size: 1.3rem;
   position: relative;
-  top: 10%;
+  top: 0%;
   text-align: center;
 }
 
