@@ -5,9 +5,11 @@ const Footer = () => {
     return (
         <>
             <div className="footer">
-                <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><ion-icon name="logo-linkedin"></ion-icon></Link>
+                <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><i class="fab fa-linkedin"></i></Link>
+                <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><i class="fab fa-instagram-square"></i></Link>
+                <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><i class="fab fa-twitter-square"></i></Link>
             </div>
-            <div className="background"></div>
+            {/* <div className="background"></div> */}
         </>
     )
 }
