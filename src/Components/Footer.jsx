@@ -6,9 +6,9 @@ const Footer = () => {
         <>
             <div className="footer">
                 <div className="footer-links">
-                    <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img src="https://img.icons8.com/color/48/000000/linkedin.png" /></Link>
-                    <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></Link>
-                    <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img src="https://img.icons8.com/color/48/000000/twitter-squared.png" /></Link>
+                    <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin"/></Link>
+                    <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="instagram" /></Link>
+                    <Link className="footer-link" to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img src="https://img.icons8.com/color/48/000000/twitter-squared.png" alt="twitter"/></Link>
                 </div>
                 <div className="copywrite">
                     <p>@ 2022 D.Y. Patil Robotics & Ai Club</p>

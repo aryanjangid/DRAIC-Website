@@ -1,11 +1,10 @@
 import React from 'react';
-
+import Landingslide from './Landingslide';
 
 function Home() {
   return (
-    <div >
-      <h1>home</h1>
-
+    <div>
+      <Landingslide />
     </div>
   );
 }

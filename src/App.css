@@ -1,5 +1,7 @@
 /* BASIC STYLING */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet');
+
 
 *{
   margin: 0;
@@ -19,6 +21,24 @@ h1{
 }
 
 
+/* Landing page */
+
+.draicimage{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left:180px
+
+}
+.text{
+  padding: 70px;
+  font-family: "mclaren", cursive;
+  font-weight: 200;
+  font-size: 60px;
+}
+
+
 /* NAV BAR */
 
 .nav-container{
@@ -32,7 +52,7 @@ h1{
   display: flex;
   align-items: center;
   background-color: white;
-  width: 50%;
+  width: 70%;
   justify-content: space-around;
   border-radius: 0 0 30px 30px;
 }
@@ -127,10 +147,17 @@ li{
 }
 
 .nav-container{
+<<<<<<< HEAD
   transform: scale(0.8);
   position: relative;
   top: -10px;
   z-index: 22;
+=======
+  transform: scale(0.7);
+  position: relative;
+  top: -12px;
+  z-index: 2;
+>>>>>>> e35dc987b2f4898b99f5c8dcb1d3d863569332df
 }
 
 
@@ -156,7 +183,7 @@ li{
   justify-content: space-between;
   align-items: center;
   position: relative;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%,-170%);
 }
@@ -165,27 +192,28 @@ li{
   color: #00A0FF;
   font-size: 3rem;
   position: relative;
-  left: -1rem;
+  left: -1.5rem;
 }
 
 .footer-link::after{
   content: '';
   display: inline-block;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-color: #ffffff;
   position: absolute;
-  left: -1rem;
-  top: -0.6rem;
+  left: 0;
+  top: -0.3rem;
   z-index: -1;
   border-radius: 50%;
 }
 
 .footer .copywrite {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
   position: relative;
-  top: 0%;
+  top: -1rem;
+  left: -0.6rem;
   text-align: center;
 }
 

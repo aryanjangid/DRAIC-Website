@@ -1,5 +1,6 @@
 import './App.css';
-// import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+//import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import Home from './Components/Home.jsx';
 import Project from './Components/Project.jsx';
@@ -16,7 +17,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
