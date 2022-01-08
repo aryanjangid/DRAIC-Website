@@ -10,19 +10,19 @@ html {
   font-size: 62.5%;
 }
 
-h2{
+.title2{
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 70px;
   margin-bottom: 150px;
   
 }
-h2 {
+.title2 {
   overflow: hidden;
   text-align: left;
   color: #22375F;
   
 }
-h2:before,h2:after {
+.title2:before,.title2:after {
   background-color: rgb(82, 119, 126);
   content: "";
   display: inline-block;
@@ -33,11 +33,11 @@ h2:before,h2:after {
   margin-top: 10%;
   
 }
-h2:before {
+.title2:before {
   right: 2.5em;
   margin-left: -50%;
 }
-h2:after {
+.title2:after {
   left: 0.5em;
   margin-right: -50%;
 }
@@ -54,7 +54,7 @@ h2:after {
 }
 
 
-body {
+.projects {
   background-color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -142,7 +142,7 @@ body {
 }
 
 @media only screen and (max-width: 70em) and (min-width: 40em) {
-  body {
+  .projects {
     padding: 3rem;
   }
 
