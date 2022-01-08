@@ -62,7 +62,7 @@ function particle() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 3,
+            speed: 1,
             straight: false,
           },
           number: {

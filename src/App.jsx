@@ -24,7 +24,8 @@ function App() {
         <Route exact path="/project" element={<Project/>} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      <Background />
+      <Project />
+      <Background className="particles" />
       <Footer />
     </div>
   );
