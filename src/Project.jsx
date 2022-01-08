@@ -1,7 +1,7 @@
 import React from "react";
-import pic1 from "../Assets/webdev.gif"
-import pic2 from "../Assets/android.gif"
-import pic3 from "../Assets/sde.gif"
+import pic1 from "./Assets/webdev.gif"
+import pic2 from "./Assets/android.gif"
+import pic3 from "./Assets/sde.gif"
 // import "../style.css";
 
 function Project() {

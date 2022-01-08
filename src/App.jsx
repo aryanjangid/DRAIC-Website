@@ -3,7 +3,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
 //import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import Home from './Components/Home.jsx';
-import Project from './Components/Project.jsx';
+import Project from './Project.jsx';
 import Contact from './Contact.jsx';
 import Achivement from './Achivements.jsx';
 import About from './About.jsx';
