@@ -1,7 +1,7 @@
 /* BASIC STYLING */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet');
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300&display=swap');
 
 *{
   margin: 0;
@@ -16,24 +16,28 @@ h1{
 
 .App{
   position: sticky;
-  background-color: black;
+  background: linear-gradient(to right bottom,rgb(0, 1, 78),rgb(0, 0, 0));
 }
 
 /* Landing page */
 
-.draicimage{
-  height: 250px;
-  width: 250px;
-  position: relative;
-  top: 100px;
-  left:180px
-
+.landing-slide{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+  padding: 0 10rem;
 }
+
+.draic-logo{
+  height: 40vh;
+}
+
 .text{
-  padding: 70px;
-  font-family: "mclaren", cursive;
-  font-weight: 200;
-  font-size: 60px;
+  font-weight: 800;
+  font-size: 6rem;
+  width: 50%;
+  /* font-family: "orbitron"; */
 }
 
 
@@ -44,6 +48,7 @@ h1{
   width: 100%;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 
 .nav{
@@ -165,36 +170,36 @@ li{
   font-size: 62.5%;
 } */
 
+
 .title2{
   font-family: raleway-semibold,raleway,sans-serif;
-  font-size: 70px;
-  margin-bottom: 150px;
+  font-size: 6rem;
   
 }
 .title2 {
   overflow: hidden;
   text-align: left;
-  color: #22375F;
+  color: #00A0FF;
   
 }
 .title2:before,.title2:after {
-  background-color: rgb(82, 119, 126);
+  background-color: #ffffff;
   content: "";
   display: inline-block;
   height: 6px;
   position:relative;
   vertical-align:super;
   width: 60%;
-  margin-top: 10%;
+  margin-top: 5%;
   
 }
 .title2:before {
   right: 2.5em;
-  margin-left: -50%;
+  margin-left: -57%;
 }
 .title2:after {
   left: 0.5em;
-  margin-right: -50%;
+  margin-right: -10%;
 }
 
 .projects {
@@ -210,41 +215,64 @@ li{
 .grid {
   display: grid;
   width: 114em;
-  grid-gap: 2rem;
+  grid-gap: 0;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
 }
 
 .grid-item {
 
-  border-radius: 0.9rem;
+  border-radius: 3rem;
   overflow: hidden;
-  box-shadow: 0 5rem 10rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  box-shadow: 0.5rem 0.5rem 0rem rgba(0, 0, 0, 0.281);
   transition: 0.2s;
+  margin: 5rem 3rem;
 }
 
 .grid-item:hover {
   transform: translateY(-0.5%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.5);
 }
 
-.card-img {
+.card-img1 {
   display: block;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
   object-fit: cover;
+  object-position: top;
+}
+
+.card-img2 {
+  display: block;
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.card-img3 {
+  display: block;
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  object-position: top;
 }
 
 .card-content {
   padding: 3rem;
+  background-color: #ffffff;
 }
 
 .card-header {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  color: #0d0d0d;
+  color: #00A0FF;
+  text-align: center;
   margin-bottom: 1.5rem;
+  font-weight: bold;
+  width: 100%;
 }
 
 .card-text {
@@ -252,7 +280,7 @@ li{
   letter-spacing: 0.1rem;
   line-height: 1.7;
   color: #3d3d3d;
-  margin-bottom: 2.5rem;
+  text-align: center;
 }
 
 .card-btn {
@@ -261,8 +289,8 @@ li{
   padding: 1.5rem;
   font-size: 2rem;
   text-align: center;
-  color: #3363ff;
-
+  color: #00A0FF;
+  background-color: white ;
   border: none;
   border-radius: 0.4rem;
   transition: 0.2s;
@@ -275,10 +303,11 @@ li{
   transition: 0.2s;
 }
 
-.card-btn:hover,
+/* .card-btn:hover,
 .card-btn:active {
   background-color: #c2cffc;
-}
+  color: white;
+} */
 
 .card-btn:hover span,
 .card-btn:active span {
@@ -297,7 +326,14 @@ li{
 
 .projects{
   height: fit-content;
-  transform: scale(0.5);
+  z-index: 5;
+}
+
+.background{
+
+  border-radius: 20px;
+  transform: scale(0.75);
+  z-index: 5;
 }
 
 /* FOOTER */
@@ -349,6 +385,7 @@ li{
 
 .footer .copywrite {
   color: white;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
   font-size: 1rem;
   position: relative;
   top: -1rem;
