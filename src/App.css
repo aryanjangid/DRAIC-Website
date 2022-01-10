@@ -43,6 +43,7 @@ h1{
 
 /* NAV BAR */
 
+
 .nav-container{
   display: flex;
   width: 100%;
@@ -58,6 +59,7 @@ h1{
   width: 70%;
   justify-content: space-around;
   border-radius: 0 0 30px 30px;
+  position: sticky;
 }
 
 li{
