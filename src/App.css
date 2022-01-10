@@ -358,3 +358,91 @@ li{
 
 
 
+/*//////////////  Profile Card  ///////////////*/
+.profile-card {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    z-index: 2;
+    border-radius: 10px;
+}
+.profile-card:hover{
+  background-color: #2760a0;
+  box-shadow: 0px 0px 10px 0px #3869a0;
+  z-index: 3;
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+}
+
+.profile-card .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+
+.profile-card .text img{
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom:10px;
+}
+
+.profile-card .text h3{
+  color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.profile-card .text p{
+    color:white;
+    font-size: 15px;
+    margin-top: -5px;
+    padding: 20px 0 10px 0;
+}
+
+
+.profile-card .links{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.profile-card .links .ul {
+  position: relative;
+  display: flex;
+}
+
+.profile-card .links .li {
+  list-style: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.profile-card .links .fa{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.5s;
+}
+
+.profile-card .links .fa:hover{
+  background: #03a9f4;
+  color: #fff;
+}
