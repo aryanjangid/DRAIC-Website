@@ -16,7 +16,7 @@ h1{
 
 .App{
   position: sticky;
-  background: linear-gradient(to right bottom,rgb(0, 1, 78),rgb(0, 0, 0));
+  background: linear-gradient(to right top,rgb(0, 1, 88),rgb(0, 0, 0));
 }
 
 /* Landing page */
@@ -332,7 +332,6 @@ color: white;
 }
 
 .background{
-  border-radius: 20px;
   transform: scale(0.6);
   z-index: 5;
 }
@@ -420,14 +419,13 @@ color: white;
 /*//////////////  Profile Card  ///////////////*/
 .profile-card {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    padding: 10px 0;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
     flex: 0 0 22%;
     margin: 1rem 1rem;
-    height: 45vh;
+    height: 43vh;
     /* z-index: 6; */
 }
 .profile-card:hover{
@@ -447,7 +445,7 @@ color: white;
     justify-content: stretch;
     height: 100%;
     width: 100%;
-    margin: 4rem 0;
+    margin: 2rem 0;
     z-index: 6;
 }
 
@@ -457,8 +455,9 @@ color: white;
     border-radius: 50%;
     margin-bottom:10px;
     position: relative;
-    top: -50px;
+    top: 0px;
     z-index: 6;
+    margin-bottom: 2rem;
 }
 
 .profile-card .text h3{
@@ -470,6 +469,7 @@ color: white;
 .profile-card .text p{
     color:white;
     font-size: 15px;
+    text-align: center;
     padding: 20px 0 10px 0;
 }
 
