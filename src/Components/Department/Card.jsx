@@ -19,11 +19,9 @@ function BasicCard(ProfDepList) {
 }
 function Card() {
     return (
-        <div>
+        <div className="department-container">
             {ProfDepList.map(BasicCard)}
         </div>
-
-
     )
 }
 export default Card
