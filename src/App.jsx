@@ -12,6 +12,7 @@ import Footer from "./Components/Footer.jsx"
 import { Route, Navigate } from 'react-router-dom';
 import { Routes } from "react-router-dom";
 import Background from './Components/Background';
+import Progdep from './Components/Department/progdep';
 function App() {
   return (
     <div className="App">
@@ -21,10 +22,10 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/achivements" element={<Achivement />} />
-        <Route exact path="/project" element={<Project/>} />
+        <Route exact path="/project" element={<Project />} />
+        <Route exact path="/progammingDepartment" element={<Progdep />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      <Project />
       <Background className="particles" />
       <Footer />
     </div>
