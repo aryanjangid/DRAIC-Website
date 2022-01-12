@@ -1,13 +1,13 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './App.css';
-import Progdep from './Components/Department/progdep';
 
 function About() {
   return (
     <div>
       <h1>About</h1>
-      <Progdep  />
-      </div>
+      <NavLink activeClassName="active" aria-current="page" to="/progammingDepartment">pro</NavLink>
+    </div>
   );
 }
 
