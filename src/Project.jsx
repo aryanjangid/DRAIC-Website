@@ -6,7 +6,7 @@ import pic3 from "./Assets/project3.jpg"
 
 function Project() {
   return (
-    <div className="projects">
+    <div className="projectsp">
       <div className="background">
         <h2 className="title2"><span>Our Top Projects</span></h2>
         <div className="grid">
