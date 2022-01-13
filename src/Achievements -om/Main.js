@@ -1,36 +1,40 @@
 import React from "react";
 import "./Main.css";
-import xyz from "./assets/xyz.webp"
-// const images = [xyz]
+import xyz from "./imgs/webdev.gif"
+// import edu from "./imgs/edu.png"
+
+
 const image=xyz
 const Main = () => {
 
   return (
     <>
+    
     <div className="timeline">
         <div><h1 className="achievements">Achievements</h1></div>
         <div className="container left">
           <div className="content">
             <div className="contents">
               <h2>Shreyash Choppawar, Amit Prasad, Vedansh Shrivastav</h2>
+            <p>
+              <strong>-31 Dec 2021</strong>  
+            </p>
             </div>
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
-              <p>
-              Second Runner-up at Innovate for Smart Pimpri Chinchwad, innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.
-              </p>
+              <img className="image-left" src={image} alt="" />
+              
             </div>
           </div>
         </div>
         <div className="container right">
           <div className="content">
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image-right" src={image} alt="" />
             </div>
             <div className="contents">
-            <h2>Lorem ipsum dolor sit amet</h2>
+            <h2>Shreyash Choppawar, Amit Prasad, Vedansh Shrivastav</h2>
             <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+               <strong>31 Dec 2021</strong>            
             </p>
             </div>
           </div>
@@ -38,25 +42,25 @@ const Main = () => {
         <div className="container left">
           <div className="content">
             <div className="contents">
-              <h2>Lorem ipsum dolor sit amet</h2>
+            <h2>Shreyash Choppawar, Amit Prasad, Vedansh Shrivastav</h2>
               <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+                <strong>31 Dec 2021</strong>              
               </p>
             </div>
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image-left" src={image} alt="" />
             </div>
           </div>
         </div>
         <div className="container right">
           <div className="content">
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image-right" src={image} alt="" />
             </div>
             <div className="contents">
-            <h2>Lorem ipsum dolor sit amet</h2>
+            <h2>Shreyash Choppawar, Amit Prasad, Vedansh Shrivastav</h2>
             <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+            <strong>31 Dec 2021</strong>            
             </p>
             </div>
           </div>
@@ -64,25 +68,25 @@ const Main = () => {
         <div className="container left">
           <div className="content">
             <div className="contents">
-              <h2>Lorem ipsum dolor sit amet</h2>
+            <h2>Shreyash Choppawar, Amit Prasad, Vedansh Shrivastav</h2>
               <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+              <strong>31 Dec 2021</strong>              
               </p>
             </div>
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image-left" src={image} alt="" />
             </div>
           </div>
         </div>
         <div className="container right">
           <div className="content">
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image-right" src={image} alt="" />
             </div>
             <div className="contents">
-            <h2>Lorem ipsum dolor sit amet</h2>
+            <h2>Shreyash Choppawar, Amit Prasad, Vedansh Shrivastav</h2>
             <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+            <strong>31 Dec 2021</strong>            
             </p>
             </div>
           </div>
