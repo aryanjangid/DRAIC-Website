@@ -87,6 +87,7 @@ li{
   top: -50px;
   transition: all 0.3s ease;
   opacity: 0;
+  font-size: 25px;
 }
 
 .nav-link{
@@ -118,17 +119,18 @@ li{
 .nav-link::after{
   content: " ";
   display: inline-block;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
   background-color: #00A0FF;
   position: absolute;
   transform: translate(-50px,-82px);
   border-radius: 50%;
-
   transition: all 0.3s ease;
-  
   opacity: 0;
-  border: 10px solid black;
+  margin-top: 33px;
+  margin-left: 25px;
+  border: 5px solid rgb(0, 0, 0);
+
 }
 
 .nav-link:hover:after{
@@ -167,22 +169,21 @@ li{
 
 /* PROJECTS */
 
-/* html {
+html {
   box-sizing: border-box;
   font-size: 62.5%;
-} */
+}
 
 
 .title2{
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 6rem;
-  
-}
-.title2 {
+  position: relative;
   overflow: hidden;
+  bottom:8rem;
   text-align: left;
   color: #00A0FF;
-  
+  margin-right: 100px;
 }
 .title2:before,.title2:after {
   background-color: #ffffff;
@@ -191,7 +192,7 @@ li{
   height: 6px;
   position:relative;
   vertical-align:super;
-  width: 60%;
+  width: 75%;
   margin-top: 5%;
   
 }
@@ -200,25 +201,25 @@ li{
   margin-left: -57%;
 }
 .title2:after {
-  left: 0.5em;
+  left: 2em;
   margin-right: -10%;
 }
 
-.projects {
+.projectsp {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 10vh;
+  height: 175rem;
   background: none;
 }
 
 .grid {
   display: grid;
-  width: 114em;
-  grid-gap: 0;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  width: 70em;
+  grid-row-gap: 0;
+  grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
 }
 
@@ -234,14 +235,14 @@ li{
 
 .grid-item:hover {
   transform: translateY(-0.5%);
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .card-img1 {
   display: block;
   width: 100%;
-  height: 25rem;
+  height: 45rem;
   object-fit: cover;
   object-position: top;
 }
@@ -249,7 +250,7 @@ li{
 .card-img2 {
   display: block;
   width: 100%;
-  height: 25rem;
+  height: 45rem;
   object-fit: cover;
   object-position: bottom;
 }
@@ -257,7 +258,7 @@ li{
 .card-img3 {
   display: block;
   width: 100%;
-  height: 25rem;
+  height: 45rem;
   object-fit: cover;
   object-position: top;
 }
@@ -268,7 +269,7 @@ li{
 }
 
 .card-header {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 500;
   color: #00A0FF;
   text-align: center;
@@ -278,17 +279,22 @@ li{
 }
 
 .card-text {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: 0.1rem;
   line-height: 1.7;
   color: #3d3d3d;
   text-align: center;
+  opacity: 0;
 }
-
+.card:hover .card-text{
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
 .card-btn {
   display: block;
-  width: 100%;
+  width: 40%;
   padding: 1.5rem;
+  margin-left: 180px;
   font-size: 2rem;
   text-align: center;
   color: #00A0FF;
@@ -305,11 +311,13 @@ li{
   transition: 0.2s;
 }
 
-/* .card-btn:hover,
+.card-btn:hover,
 .card-btn:active {
-background-color: #c2cffc;
+background-color: #00A0FF;
 color: white;
-} */
+
+
+}
 
 .card-btn:hover span,
 .card-btn:active span {
@@ -373,12 +381,12 @@ color: white;
 .footer-link::after{
   content: '';
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   background-color: #ffffff;
   position: absolute;
-  left: -0.5rem;
-  top: -0.5rem;
+  left: -0.2rem;
+  top: -0.2rem;
   z-index: -1;
   border-radius: 50%;
 }
@@ -394,7 +402,7 @@ color: white;
 }
 
 
-/* ///////////////// Depatment ////////////////// */
+/* ///////////////// Department ////////////////// */
 
 .department-title{
   text-align: center;
