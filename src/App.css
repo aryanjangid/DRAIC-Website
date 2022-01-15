@@ -186,7 +186,7 @@ html {
   margin-right: 100px;
 }
 .title2 *{
-  margin-right: 46px;
+  margin-right: 100px;
 }
 .title2:before,.title2:after {
   background-color: #ffffff;
@@ -200,13 +200,13 @@ html {
   
 }
 .title2:before {
-  right: 5.5em;
+  right: 8.5em;
   margin-left: -57%;
 }
 .title2:after {
   left: 2em;
   margin-right: -10%;
-  margin-left: -24%;
+  margin-left: -22%;
 }
 .card {
   display:flex;
@@ -218,7 +218,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 175rem;
+  height: 131rem;
   background: none;
 }
 
@@ -300,14 +300,14 @@ html {
   display: block;
   width: 40%;
   padding: 1.5rem;
-  margin-left: 124px;
+  margin-left: 156px;
   font-size: 2rem;
   text-align: center;
   color: #00A0FF;
   background-color: white;
   border: none;
   margin-top: 50px;
-  border-radius: 50%;
+  border-radius: 0.5rem;
   transition: 0.2s;
   cursor: pointer;
   letter-spacing: 0.1rem;
