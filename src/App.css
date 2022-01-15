@@ -181,9 +181,12 @@ html {
   position: relative;
   overflow: hidden;
   bottom:8rem;
-  text-align: left;
+  text-align: center;
   color: #00A0FF;
   margin-right: 100px;
+}
+.title2 *{
+  margin-right: 46px;
 }
 .title2:before,.title2:after {
   background-color: #ffffff;
@@ -197,14 +200,18 @@ html {
   
 }
 .title2:before {
-  right: 2.5em;
+  right: 5.5em;
   margin-left: -57%;
 }
 .title2:after {
   left: 2em;
   margin-right: -10%;
+  margin-left: -24%;
 }
-
+.card {
+  display:flex;
+  
+ }
 .projectsp {
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -217,7 +224,6 @@ html {
 
 .grid {
   display: grid;
-  width: 70em;
   grid-row-gap: 0;
   grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
@@ -294,13 +300,14 @@ html {
   display: block;
   width: 40%;
   padding: 1.5rem;
-  margin-left: 180px;
+  margin-left: 124px;
   font-size: 2rem;
   text-align: center;
   color: #00A0FF;
-  background-color: white ;
+  background-color: white;
   border: none;
-  border-radius: 0.4rem;
+  margin-top: 50px;
+  border-radius: 50%;
   transition: 0.2s;
   cursor: pointer;
   letter-spacing: 0.1rem;
