@@ -1,6 +1,4 @@
 import './App.css';
-import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
-//import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import Home from './Components/Home.jsx';
 import Contact from './Contact.jsx';
