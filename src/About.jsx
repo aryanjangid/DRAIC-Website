@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./about.css"
@@ -155,19 +156,13 @@ function About() {
                   in the company I joined. I honestly feel I got every penny’s worth.
                 </p>
               </div>
-
-
-
-
             </article>
           </div>
 
         </div>
 
       </div>
-
-    </div>
-  );
+  )
 }
-
 export default About;
+
