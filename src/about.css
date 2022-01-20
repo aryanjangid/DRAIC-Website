@@ -168,7 +168,6 @@ select {
 }
 
 .testimonial.quote {
-  background-image: url(" ");
   background-repeat: no-repeat;
   background-position: top right 10%;
   z-index: 111;
