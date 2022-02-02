@@ -128,34 +128,38 @@ function About() {
 
               </article>
             </NavLink>
-            <article className="dept-grid-box flow bg-black text-neutral-100 border-primary-400">
+            <NavLink activeClassName="active" aria-current="page" to="/MechenicalDepartment">
+              <article className="dept-grid-box flow bg-black text-neutral-100 border-primary-400">
 
-              <div className='title-div'>
-                <img className='dept-img' alt="mechdep" src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/ffffff/external-wrench-labour-day-vitaliy-gorbachev-fill-vitaly-gorbachev.png" />
-                <p className="dept-name">Mechanical</p>
-              </div>
+                <div className='title-div'>
+                  <img className='dept-img' alt="mechdep" src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/ffffff/external-wrench-labour-day-vitaliy-gorbachev-fill-vitaly-gorbachev.png" />
+                  <p className="dept-name">Mechanical</p>
+                </div>
 
-              <div className="dept-content">
-                <p>
-                  I received a job offer mid-course, and the subjects I learned were current, if not more so,
-                  in the company I joined. I honestly feel I got every penny’s worth.
-                </p>
-              </div>
+                <div className="dept-content">
+                  <p>
+                    I received a job offer mid-course, and the subjects I learned were current, if not more so,
+                    in the company I joined. I honestly feel I got every penny’s worth.
+                  </p>
+                </div>
 
-            </article>
-            <article className="dept-grid-box flow bg-black text-neutral-100 border-primary-400">
+              </article>
+            </NavLink>
+            <NavLink activeClassName="active" aria-current="page" to="/ElectricalDepartment">
+              <article className="dept-grid-box flow bg-black text-neutral-100 border-primary-400">
 
-              <div className='title-div'>
-                <img className="dept-img" src="https://img.icons8.com/ios-filled/50/ffffff/electronics.png" alt="" />
-                <p className="dept-name">Electrical</p>
-              </div>
-              <div className="dept-content">
-                <p>
-                  I received a job offer mid-course, and the subjects I learned were current, if not more so,
-                  in the company I joined. I honestly feel I got every penny’s worth.
-                </p>
-              </div>
-            </article>
+                <div className='title-div'>
+                  <img className="dept-img" src="https://img.icons8.com/ios-filled/50/ffffff/electronics.png" alt="" />
+                  <p className="dept-name">Electrical</p>
+                </div>
+                <div className="dept-content">
+                  <p>
+                    I received a job offer mid-course, and the subjects I learned were current, if not more so,
+                    in the company I joined. I honestly feel I got every penny’s worth.
+                  </p>
+                </div>
+              </article>
+            </NavLink>
           </div>
 
         </div>

@@ -11,7 +11,21 @@ import { Route, Navigate } from 'react-router-dom';
 import { Routes } from "react-router-dom";
 import Background from './Components/Background';
 import Progdep from './Components/Department/progdep';
+import Mechdep from './Components/Department/mechanicaldep';
+import Elecdep from './Components/Department/Elecdep';
+
+import { useLocation } from "react-router-dom";
+import { useEffect } from 'react';
+
+
+
 function App() {
+
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div className="App">
       <Navbar />
@@ -22,6 +36,8 @@ function App() {
         <Route exact path="/achivements" element={<Achivement />} />
         <Route exact path="/project" element={<Project />} />
         <Route exact path="/progammingDepartment" element={<Progdep />} />
+        <Route exact path="/MechenicalDepartment" element={<Mechdep />} />
+        <Route exact path="/ElectricalDepartment" element={<Elecdep />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Background className="particles" />
