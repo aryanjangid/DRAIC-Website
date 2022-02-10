@@ -2,11 +2,11 @@ import './App.css';
 import React from 'react';
 import Home from './Components/Home.jsx';
 import Contact from './Contact.jsx';
-import Achivement from './Achivements.jsx';
-import About from './About.jsx';
+import Achivement from './Components/Achievements/Achivements';
+import About from './Components/About/About.jsx';
 import Project from './Project'
-import Navbar from "./Components/Navbar.jsx"
-import Footer from "./Components/Footer.jsx"
+import Navbar from "./Components/Navbar/Navbar.jsx"
+import Footer from "./Components/Footer/Footer"
 import { Route, Navigate } from 'react-router-dom';
 import { Routes } from "react-router-dom";
 import Background from './Components/Background';
