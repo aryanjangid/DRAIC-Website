@@ -1,10 +1,9 @@
 import React from "react";
-
 import Avatar from "./Avatar";
 import SocialMedia from "./Socialmedia";
-import ProfDepList from "./ProgDepList"
+import ProfDepList from "./mechDep"
 
-function Progdep() {
+function mechdep() {
     return (
         <>
             <div className="department">
@@ -33,4 +32,4 @@ function Progdep() {
     )
 }
 
-export default Progdep
+export default mechdep
