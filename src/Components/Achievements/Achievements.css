@@ -53,7 +53,7 @@ body {
 }
 .container::after {
   content: "";
-  background: url("./Assets/cap.png");
+  background: url("../../Assets/cap.png");
   background-size: 40px;
   background-repeat: no-repeat;
   background-position: center;

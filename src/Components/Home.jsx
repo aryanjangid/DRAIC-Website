@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Projects-home';
 
 import Landingslide from './Landingslide';
-import Deck from './deck';
+import Deck from './CoreTeam/deck';
 import HomeAbout from './About-home';
 
 function Home() {

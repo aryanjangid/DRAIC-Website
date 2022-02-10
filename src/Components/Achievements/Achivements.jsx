@@ -1,10 +1,10 @@
 import React from "react";
-import "./avhi.css"
-import Achievements1 from "./Assets/Achievements1.jpg"
-import Achievements2 from "./Assets/Achievements2.webp"
-import Achievements3 from "./Assets/Achievements3.webp"
-import Achievements4 from "./Assets/Achievements4.webp"
-import Achievements5 from "./Assets/Achievements5.webp"
+import "./Achievements.css"
+import Achievements1 from "../../Assets/Achievements1.jpg"
+import Achievements2 from "../../Assets/Achievements2.webp"
+import Achievements3 from "../../Assets/Achievements3.webp"
+import Achievements4 from "../../Assets/Achievements4.webp"
+import Achievements5 from "../../Assets/Achievements5.webp"
 // const images = [xyz]
 const Main = () => {
 
