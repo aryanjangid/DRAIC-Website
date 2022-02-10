@@ -203,9 +203,9 @@ const styles={
   deck:{
       textAlign:'center',
       position: 'relative',
-      top:'100%',
+      // top:'100%',
       left:'50%', 
-      transform: 'translate(-50%,-50%)',
+      transform: 'translate(-50%,0%)',
       height: '300px',
       width: '300px',
   }

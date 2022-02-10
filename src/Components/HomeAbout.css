@@ -70,7 +70,7 @@
   background-repeat: repeat;
 } 
 .img-clg{
-  max-height: 120px;
+  max-height: 100px;
 }
 .mid-line{
     border-right: solid beige 2px;
@@ -150,7 +150,13 @@
   .HomeAgrid1img{
     width: 100%;
     border-radius: 2rem;
-   
+    height: 100%;
+    object-fit: cover;
+  }
+  .HomeAgrid2img{
+    width: 100%;
+    border-radius: 2rem;
+    height: 15rem;
     object-fit: cover;
   }
   .HomeAtitle-img{

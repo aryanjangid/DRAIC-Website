@@ -9,7 +9,7 @@
 
 .footer{
     position:static;
-    height: 63vh;
+    height: 50vh;
     width: 100%;
     background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.1)));
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
