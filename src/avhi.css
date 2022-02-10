@@ -1,204 +1,153 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-  }
-  .achievements {
-    text-align: center;
-  }
-  .timeline {
-    position: relative;
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 15px 0;
-    margin-bottom: 10rem;
-  }
-  
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+.achievements {
+  text-align: center;
+  font-style: bolder;
+}
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+  margin-bottom: 10rem;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  background: #fff;
+  top: 100px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2.5px;
+}
+.container {
+  padding: 30px 60px;
+  position: relative;
+  background: inherit;
+  width: 60%;
+}
+.container.left {
+  left: -10%;
+}
+.container.right {
+  left: 50%;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 54px;
+  right: 40px;
+  z-index: 1;
+  border: 10px solid;
+  border-color: transparent #ffffff transparent transparent;
+}
+.container::after {
+  content: "";
+  background: url("./Assets/cap.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 30px;
+  right: -35px;
+  z-index: 4;
+  border: 4px solid;
+  border-radius: 50%;
+  background-color: #00a0ff;
+  border: 5px solid rgb(255, 255, 255);
+}
+.container.right::before {
+  left: 40px;
+  border-color: transparent transparent transparent #ffffff;
+}
+.container.right::after {
+  left: -35px;
+}
+.container .content {
+  padding: 1rem;
+  background: #ffffff00;
+  position: relative;
+  border: 5px solid #eeeeee;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .container.right .content {
+      border-radius: 0 500px 500px 500px;
+  } */
+.container .content h2 {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #e94b3c;
+}
+.container .content p {
+  margin: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.image-container {
+  width: 300px;
+  height: 200px;
+}
+.image {
+  width: 250px;
+  height: 180px;
+  border-radius: 20px;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content:hover {
+  background: rgb(0, 0, 0);
+  border: 5px solid rgb(96, 147, 163);
+}
+@media (max-width: 767.98px) {
   .timeline::after {
-    content: "";
-    position: absolute;
-    width: 5px;
-    background: #fff;
-    top: 100px;
-    bottom: 0;
-    left: 50%;
-    margin-left: -2.5px;
+    left: 90px;
   }
-  
   .container {
-    padding: 30px 60px;
-    position: relative;
-    background: inherit;
-    width: 60%;
-  }
-  
-  .container.left {
-    left: -10%;
-  }
-  
-  .container.right {
-    left: 50%;
-  }
-  /* 
-  .container .icon {
-    position: absolute;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    top: 30px;
-    right: -30px;
-    padding: 9px 0;
-    background: #ffffff;
-    border: 5px solid #e94b3c;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    color: #e94b3c;
-    z-index: 1;
-  }
-  
-  .container.right .icon {
-    left: -30px;
-  } */
-  /* 
-  .container .date {
-    position: absolute;
-    display: inline-block;
-    height: 30px;
-    min-width: 60px;
-    top: 45px;
-    padding: 6px 8px;
-    background: #e94b3c;
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-    z-index: -1;
-  }
-  
-  .container.left .date {
-    right: -86px;
-    border-radius: 0 30px 30px 0;
-  }
-  
-  .container.right .date {
-    left: -86px;
-    border-radius: 30px 0 0 30px;
-  } */
-  
-  .container::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 50px;
-    right: 29px;
-    z-index: 1;
-    border: 10px solid;
-    border-color: transparent #ffffff transparent transparent;
+    width: 90%;
+    /* padding-left: 80px;
+    padding-right: 30px; */
   }
   .container::after {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 30px;
-    right: -35px;
-    z-index: 1;
-    border: 4px solid;
-    border-radius: 50%;
-    background-color: #fff;
-  }
-  
-  .container.right::before {
-    left: 29px;
-    border-color: transparent transparent transparent #ffffff;
-  }
-  .container.right::after {
     left: -35px;
   }
-  
-  .container .content {
-    padding: 1rem;
-    background: #ffffff;
-    position: relative;
-    border: 5px solid #eeeeee;
-    border-radius: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    z-index: 5;
+  .container.left {
+    left: 90px;
   }
-  
-  /* .container.right .content {
-    border-radius: 0 500px 500px 500px;
-  } */
-  
-  .container .content h2 {
-    margin: 10px;
-    font-size: 18px;
-    font-weight: normal;
-    color: #e94b3c;
+  .container.right {
+    left: 90px;
   }
-  
-  .container .content p {
-    margin: 10px;
-    font-size: 16px;
-    line-height: 22px;
-    color: #454545;
+
+  .container.left::before,
+  .container.right::before {
+    left: 40px;
+    border-color: transparent transparent transparent #e94b3c;
   }
-  
-  @media (max-width: 767.98px) {
-    .timeline::after {
-      left: 90px;
-    }
-  
-    .container {
-      width: 100%;
-      padding-left: 135px;
-      padding-right: 30px;
-    }
-  
-    .container.right {
-      left: 0%;
-    }
-  
-    .container.left .icon,
-    .container.right .icon {
-      width: 45px;
-      height: 45px;
-      top: 37.5px;
-      font-size: 18px;
-      left: 67.5px;
-    }
-  
-    .container.left::before,
-    .container.right::before {
-      left: 110px;
-      border-color: transparent transparent transparent #e94b3c;
-    }
-  
-    .container.left .date,
-    .container.right .date {
-      right: auto;
-      left: 15px;
-      border-radius: 30px 0 0 30px;
-    }
-  
-    .container.left .content,
-    .container.right .content {
-      border-radius: 0 500px 500px 500px;
-    }
-  }
-  .image-container {
-    width: 300px;
-    height: 200px;
-  }
-  .image {
-    width: 250px;
-    height: 180px;
-  }
-  .contents {
-    display: flex;
-    flex-direction: column;
-  }
-  
+}

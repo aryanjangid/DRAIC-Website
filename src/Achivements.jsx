@@ -1,8 +1,11 @@
 import React from "react";
 import "./avhi.css"
-import xyz from "./Assets/ac.jpg"
+import Achievements1 from "./Assets/Achievements1.jpg"
+import Achievements2 from "./Assets/Achievements2.webp"
+import Achievements3 from "./Assets/Achievements3.webp"
+import Achievements4 from "./Assets/Achievements4.webp"
+import Achievements5 from "./Assets/Achievements5.webp"
 // const images = [xyz]
-const image = xyz
 const Main = () => {
 
   return (
@@ -12,13 +15,13 @@ const Main = () => {
         <div className="container left">
           <div className="content">
             <div className="contents">
-              <h2>Shreyash Choppawar, Amit Prasad, Vedansh Shrivastav</h2>
+              <h2>Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav</h2>
               <p>
                 Second Runner-up at Innovate for Smart Pimpri Chinchwad, innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.
               </p>
             </div>
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image" src={Achievements1} alt="" />
 
             </div>
           </div>
@@ -26,12 +29,12 @@ const Main = () => {
         <div className="container right">
           <div className="content">
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image" src={Achievements2} alt="" />
             </div>
             <div className="contents">
-              <h2>Lorem ipsum dolor sit amet</h2>
+              <h2> Sagar Warungase</h2>
               <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+              First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
               </p>
             </div>
           </div>
@@ -39,25 +42,25 @@ const Main = () => {
         <div className="container left">
           <div className="content">
             <div className="contents">
-              <h2>Lorem ipsum dolor sit amet</h2>
+              <h2>Samiksha Bhokare & Dibyanshu Sharma</h2>
               <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+              Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
               </p>
             </div>
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image" src={Achievements3} alt="" />
             </div>
           </div>
         </div>
         <div className="container right">
           <div className="content">
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image" src={Achievements4} alt="" />
             </div>
             <div className="contents">
-              <h2>Lorem ipsum dolor sit amet</h2>
+              <h2> Arvind Patel</h2>
               <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+              Second Runner-up at COEP Mindspark-19 Search & Destroy, organised by COEP, Pune.
               </p>
             </div>
           </div>
@@ -65,20 +68,20 @@ const Main = () => {
         <div className="container left">
           <div className="content">
             <div className="contents">
-              <h2>Lorem ipsum dolor sit amet</h2>
+              <h2>Arvind Patel</h2>
               <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+              First Position at Bro Code & Code Capture Competition organised by PCCOE, Ravet.
               </p>
             </div>
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image" src={Achievements5} alt="" />
             </div>
           </div>
         </div>
         <div className="container right">
           <div className="content">
             <div className="image-conainer">
-              <img className="image" src={image} alt="" />
+              <img className="image" src={Achievements1} alt="" />
             </div>
             <div className="contents">
               <h2>Lorem ipsum dolor sit amet</h2>
