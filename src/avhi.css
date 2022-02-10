@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
 
 body {
   margin: 0;
@@ -102,7 +102,7 @@ body {
   font-size: 18px;
   font-weight: normal;
   color: black;
-  font-family: 'Rowdies', cursive;
+  font-family: "Rowdies", cursive;
 }
 .container .content p {
   margin: 10px;
@@ -132,10 +132,10 @@ body {
 } */
 @media (max-width: 767.98px) {
   .timeline::after {
-    left: 90px;
+    left: 40px;
   }
   .container {
-    width: 90%;
+    width: 103%;
     /* padding-left: 80px;
     padding-right: 30px; */
   }
@@ -143,15 +143,28 @@ body {
     left: -35px;
   }
   .container.left {
-    left: 90px;
+    left: 40px;
   }
   .container.right {
-    left: 90px;
+    left: 40px;
   }
 
   .container.left::before,
   .container.right::before {
     left: 40px;
     border-color: transparent transparent transparent #e94b3c;
+  }
+  .container .content h2 {
+    font-size: 8px;
+    line-height: 8.2px;
+  }
+  .container .content p {
+    font-size: 6px;
+    line-height: 6.2px;
+  }
+  .image {
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
   }
 }
