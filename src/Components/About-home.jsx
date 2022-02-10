@@ -20,11 +20,11 @@ function HomeAbout(){
             <div className="HomeAgrid1">
                 <div className="HomeAgrid1box flow grid-row-span-2 image-h">
                     <img className="HomeAgrid1img" src={pic} alt="collegepic"></img>
-                    <p className="HomeAtitle-img">Our Team</p>
+                    <p className="HomeAtitle-img">Our College</p>
                 </div>
                 <div className="HomeAgrid1box">
                     <img className="HomeAgrid2img " src={pic1} alt="collegepic"></img>
-                    <p className="HomeAtitle-img">Our College</p>
+                    <p className="HomeAtitle-img">Our Team</p>
                 </div>
                 <div className="HomeAgrid1box">
                     <img className="HomeAgrid2img" src={pic1} alt="collegepic"></img>

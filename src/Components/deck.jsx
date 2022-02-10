@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Card from './card';
 import './deck.css';
-import nxt from '../Assets/next.png';
-import prev from '../Assets/previous.png';
-
 class Deck extends Component {
   constructor(props) {
     super(props)
@@ -163,8 +160,8 @@ else{
       {this.state.cards}
     </div>
     <div className='deck-button' >
-    <button className='button' onClick={this.handle_previous}><img className='button-image' src={prev} alt="nextimg"></img></button>
-      <button className='button' onClick={this.handle_next}><img className='button-image' src={nxt} alt="nextimg"></img></button>
+    <button className='button2' onClick={this.handle_previous}></button>
+      <button className='button1' onClick={this.handle_next}></button>
       </div>
     </div>
     )
@@ -184,19 +181,19 @@ const imgarray = [
 ]
 
 const name =[
-  'Prathis',
+  'Prathis Upadhyay',
   'Sumedh Salvekar',
-  'Sagar',
-  'Axasusan',
-  'Koushal',
+  'Sagar Warungase',
+  'Axasusan Mathew',
+  'Abhishek Borse',
 ]
 
 const dep=[
-  'Programming Head',
-  'Captain',
-  'Mechanical Head',
-  'Electrical Head',
-  'Vice-Captain',
+  'PROGRAMING HEAD',
+  'CAPTAIN',
+  'MECHANICAL HEAD',
+  'ELECTRICAL HEAD',
+  'VICE_CAPTAIN',
 ]
 
 const styles={

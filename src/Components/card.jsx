@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import './card.css'
 function Card(props) {
     return (
         <div style={{
@@ -16,11 +16,11 @@ function Card(props) {
              }}>
 
              <img style={styles.image} src={props.picsum_img} alt='reactjs'></img>
-             <h1>{props.name}</h1>
-             <h4>( {props.dep} )</h4>
-             <NavLink activeClassName="active" aria-current="page" to="/progammingDepartment">
-             <h4 style={styles.department}>[ View Department ]</h4>
-             </NavLink>
+             <h1 className="name">{props.name}</h1>
+             <div className="hh">
+             <h4 className="pos">( {props.dep} )</h4>
+
+             </div>
 
         </div>
     )
@@ -40,12 +40,12 @@ const styles = {
         backgroundColor: 'red',
         boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
         boxSizing: 'border-box',
-        borderRadius:'30px',
+        borderRadius:'10px',
     },
     image: {
         width:'100%',
         height:'100%',
-        borderRadius:'30px'
+        borderRadius:'10px'
     },
     department:{
         color:'white',

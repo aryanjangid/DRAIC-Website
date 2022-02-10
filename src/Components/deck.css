@@ -3,7 +3,7 @@
   margin-top: 200px;
   margin-bottom: 90px;
 }
-.button {
+/* .button {
   background-color: #00A0FF;
   border-radius: 100px;
   width: 50px;
@@ -16,4 +16,52 @@
     position: relative;
     height: 20px;
     width: 20px;
-}
+} */
+
+
+.button1 {
+    width: 48px;
+    height: 48px;
+    background-color:  #00A0FF;
+    border-radius: 48px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+    margin-left:20px;
+  margin-right:20px ;
+  }
+  
+.button1::after {
+    content: "\2192";
+    font-size: 18px;
+    color:  white;
+    transition: all 0.3s ease;
+  }
+
+  .button2 {
+    width: 48px;
+    height: 48px;
+    background-color: #00A0FF;
+    border-radius: 48px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+    margin-left:20px;
+  margin-right:20px ;
+  }
+  
+.button2::after {
+    content: "\2190";
+    font-size: 18px;
+    color:white;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    border-color: #00A0FF;
+    
+  }
+  
+  button:hover::after {
+    color: white;
+    ;
+  }
+  

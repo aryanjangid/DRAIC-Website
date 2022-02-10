@@ -12,7 +12,7 @@ function Navbar() {
                         <NavLink className="nav-link " activeClassName="active" aria-current="page" to="/about"> <div className="title">About</div> <span className='icon'><ion-icon name="information-circle"></ion-icon></span> </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link " activeClassName="active" aria-current="page" to="/project"> <div className="title">Projects</div> <span className='icon'><ion-icon name="settings"></ion-icon></span> </NavLink>
+                        <NavLink className="nav-link " activeClassName="active" aria-current="page" to="/project"> <div className="title">Projects</div> <span className='icon'><ion-icon name="rocket"></ion-icon></span> </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" activeClassName="active" aria-current="page" to="/"> <div className="title">Home</div> <span className='icon'><ion-icon name="home"></ion-icon></span></NavLink>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap');
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -75,7 +77,7 @@ body {
 }
 .container .content {
   padding: 1rem;
-  background: #ffffff00;
+  background: #00a0ff;
   position: relative;
   border: 5px solid #eeeeee;
   border-radius: 20px;
@@ -99,13 +101,14 @@ body {
   margin: 10px;
   font-size: 18px;
   font-weight: normal;
-  color: #e94b3c;
+  color: black;
+  font-family: 'Rowdies', cursive;
 }
 .container .content p {
   margin: 10px;
   font-size: 16px;
   line-height: 22px;
-  color: #ffffff;
+  color: white;
 }
 .image-container {
   width: 300px;
@@ -122,10 +125,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-.content:hover {
+
+/* .content:hover {
   background: rgb(0, 0, 0);
   border: 5px solid rgb(96, 147, 163);
-}
+} */
 @media (max-width: 767.98px) {
   .timeline::after {
     left: 90px;

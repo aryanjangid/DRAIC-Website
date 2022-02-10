@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap');
 
 *{
   margin: 0;
@@ -28,7 +29,7 @@ h1{
   justify-content: space-evenly;
   margin-top: 10rem ;
   margin-bottom: 15.6rem;
-  padding: 0 10rem;
+  padding: 0 8rem;
 }
 
 .draic-logo{
@@ -36,9 +37,10 @@ h1{
 }
 
 .text{
-  font-weight: 800;
-  font-size: 4rem;
+  font-weight: 500;
+  font-size: 5rem;
   width: 50%;
+  font-family: 'Rowdies', cursive;
   /* font-family: "orbitron"; */
 }
 
@@ -88,6 +90,7 @@ li{
   position: relative;
   top: -50px;
   transition: all 0.3s ease;
+  font-family: 'Roboto', sans-serif;
   /* opacity: 0; */
 }
 
@@ -176,14 +179,15 @@ li{
 
 
 .title2{
-  font-family: raleway-semibold,raleway,sans-serif;
-  font-size: 4rem;
+  
   
 }
 .title2 {
   overflow: hidden;
   text-align: left;
   color: #ffffff;
+  font-family: 'Rowdies', cursive;
+  font-size: 4rem;
   
 }
 .title2:before,.title2:after {
