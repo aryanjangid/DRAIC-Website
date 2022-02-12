@@ -177,7 +177,7 @@ li{
   font-size: 62.5%;
 } */
 
-
+/* 
 .title2{
   
   
@@ -316,7 +316,7 @@ li{
 .card-btn:active {
 background-color: #c2cffc;
 color: white;
-} */
+} 
 
 .card-btn:hover span,
 .card-btn:active span {
@@ -342,7 +342,7 @@ color: white;
 .background{
   transform: scale(0.7);
   z-index: 5;
-}
+} */
 
 /* FOOTER */
 
