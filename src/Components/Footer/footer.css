@@ -9,7 +9,7 @@
 
 .footer{
     position:static;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.1)));
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
@@ -28,7 +28,7 @@
 }
 .footer-links{
 display: flex;
-width: 16%;
+width: 15%;
 justify-content: space-between;
 align-items: center;
 position: relative;
@@ -49,7 +49,7 @@ content: '';
 display: inline-block;
 width: 4rem;
 height: 4rem;
-background-color: #ffffff;
+background-color: black;
 position: absolute;
 left: -0.5rem;
 top: -0.5rem;
@@ -75,21 +75,42 @@ text-align: center;
 }
 .footer .footertitle p{
     color: white;
-
 }
 .footerhr{
-    width: 7%;
+    width:10%;
+    height : 40%;
+    opacity : 2;
 }
 .Menu{
     text-align: left;
     margin-top: -15.1%;
-    margin-left: 56%;
+    margin-left: 54%;
     font-size: 20px;
     color: white;
     line-height: 34px;
+    font-family: "poppins",'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 .Menu .headmenu{
     margin-bottom: 0.8%;
     font-size: 30px;
     line-height: 70px;
+}
+@media (max-width: 768px){
+    .footer{
+        height: 78vh;
+    }
+    .footer .footertitle{
+        font-size: 18px;
+        margin-top: -4rem;
+        margin-left: 3rem;
+    }
+    .Menu{
+        text-align: left;
+        margin-top: -10.4rem;
+        margin-left: 56%;
+        font-size: 17px;
+        color: white;
+        line-height: 31px;
+    }
+
 }
