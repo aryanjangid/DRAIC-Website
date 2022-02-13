@@ -17,6 +17,11 @@
   }
   
   
+ 
+  
+  
+  
+  
   
   html:focus-within {
     scroll-behavior: smooth;
@@ -45,13 +50,9 @@
     }
   }
    
- /* body {
-   
-       background-color: black;
-   
-  }  */
-  .inline{
-    display: inline;
+
+  .about-margin{
+    margin-left: 30px;
   }
   .flex {
     display: flex;
@@ -70,7 +71,7 @@
   background-repeat: repeat;
 } 
 .img-clg{
-  max-height: 100px;
+  max-height: 120px;
 }
 .mid-line{
     border-right: solid beige 2px;
@@ -84,13 +85,16 @@
   
 }
 .HomeAtitle-main{
+  
   font-family: "Barlow Semi Condensed", sans-serif;
     font-weight:  500;
     font-size: 40px;
+    margin-bottom: 20px;
     color: white;
 
 }
 .HomeAtitle-sub{
+    margin-bottom: 25px;
     font-size: 20px;
     color: white;
    
@@ -104,8 +108,7 @@
     
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight:  500;
-    display: flex;
-    gap: var(--gap, 1rem);
+    
   
    
     display: grid;
@@ -135,7 +138,6 @@
 .HomeAgrid1box{
   position: relative;
   
-  
   border-radius: 2rem;
   border-style: solid 4px;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
@@ -161,12 +163,14 @@
     z-index: 100;
     object-fit: cover;
   }
+
+  
   .HomeAtitle-img{
     color: white;
     font-size: 20px;
     font-weight: 600;
     position: absolute;
-    bottom: 7px;
-    left:17px;
+    bottom: 20px;
+    left:20px;
     
   }
