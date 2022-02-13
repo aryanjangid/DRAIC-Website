@@ -11,7 +11,7 @@ function Home() {
       <Landingslide />
       <HomeAbout/>
       <Deck />
-      {/* <Project /> */}
+      <Project />
     </div>
   );
 }

@@ -1,12 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@800&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap');
 
-.name{
-    font-family: 'Poppins', sans-serif;
+.maincard{
+    z-index: 18;
+}
+.namee{
+    font-family: 'Montserrat', sans-serif;
     padding: 0.3rem;
     font-size:1.7rem;
+    z-index: 5;
+    position: relative;
+    top: -100px;
+    text-align: left;
+    padding-left: 20px;
+}
+.ll{
+    height: 4px;
+    width: 30px;
+    background-color: aliceblue;
+    position: relative;
+    top: -185px;
+    left: 21px;
 }
 .pos{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size:1.1rem;
     padding: 0.3rem;
+    position: relative;
+    top: -220px;
+    text-align: left;
+    padding-left: 20px;
 }

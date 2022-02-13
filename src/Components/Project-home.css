@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
+
+.outermost-project{
+    margin-bottom: 50px;
+}
+.project-section {
+  text-align: center;
+}
+.project-heading {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+}
+.project-line {
+  text-align: center;
+
+  /* left:38.7%; */
+  height: 7px;
+  width: 200px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.project-container {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-direction: row;
+}
+
+.link-active{
+    text-decoration: none;
+  }
+
+.link-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.p-container {
+  text-align: center;
+  background-color: #6895A6;
+  z-index:2;
+  padding: 10px;
+  margin: 10px;
+  margin: auto;
+  border: 2px solid;
+  width: 400px;
+  border-color: aliceblue;
+  border-radius:10px;
+}
+
+.projectline{
+    height: 3px;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    text-align:center;
+}
+
+
+.left-link{
+    position: relative;
+    text-align: left;
+    width: 150px;
+    text-align: center;
+}
+.right-link{
+    position: relative;
+    text-align: right;
+    left:20px;
+    text-align: center;
+    margin: auto;
+}
+.project-card-btn {
+text-decoration: none;
+  margin-left: auto;
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #ff4322;
+  background-color: #6895A6;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+.project-card-btn span {
+  transition: 0.2s;
+}
+.project-card-btn:hover span,
+.project-card-btn:active span {
+  margin-left: 1rem;
+}
+
+.project-heading2{
+    font-size: 1.4rem;
+}
