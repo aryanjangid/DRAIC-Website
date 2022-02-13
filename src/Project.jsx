@@ -3,13 +3,14 @@ import pic1 from "./Assets/project1.jpg"
 import pic2 from "./Assets/project2.jpg"
 import pic3 from "./Assets/project3.jpg"
 
-// import "../style.css";
+import "./Components/Project.css";
+
 
 function project() {
   return (
     <div className="projectsp">
       <div className="background">
-        <h2 className="title2"><span>Our Top Projects</span></h2>
+        <h2 className="projecttitle">Our Top Projects</h2>
         <div className="grid">
           <div className="grid-item">
             <div className="card">

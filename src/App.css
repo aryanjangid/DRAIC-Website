@@ -176,7 +176,7 @@ li{
   box-sizing: border-box;
   font-size: 62.5%;
 } */
-
+/* 
 
 .title2{
   
@@ -219,15 +219,7 @@ li{
   background: none;
 }
 
-.grid {
-  display: grid;
-  width: 110em;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-  grid-gap: 0;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  align-items: start;
-}
+
 
 .grid-item {
 
@@ -316,7 +308,7 @@ li{
 .card-btn:active {
 background-color: #c2cffc;
 color: white;
-} */
+} 
 
 .card-btn:hover span,
 .card-btn:active span {
@@ -342,7 +334,7 @@ color: white;
 .background{
   transform: scale(0.7);
   z-index: 5;
-}
+} */
 
 /* FOOTER */
 
