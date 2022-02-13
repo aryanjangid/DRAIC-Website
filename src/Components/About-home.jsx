@@ -11,9 +11,11 @@ function HomeAbout(){
     <>
     <div className="HomeAmain">
         <div className="HomeAtitle">
-        <hr className="HomeAtitle-line inline"></hr>
-            <p className="HomeAtitle-main inline">About</p>
-            <p className="HomeAtitle-sub">A random paragraph generator is a tool</p>
+        
+            <p className="HomeAtitle-main about-margin">About</p>
+            <p className="HomeAtitle-sub about-margin">A random paragraph generator is a tool</p>
+
+        </div>
 
         </div>
         <div className="HomeAgrid">
