@@ -130,7 +130,7 @@ body {
   background: rgb(0, 0, 0);
   border: 5px solid rgb(96, 147, 163);
 } */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .timeline::after {
     left: 40px;
   }
