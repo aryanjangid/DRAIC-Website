@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer_section">
             <div className="footer">
                 <div className='footer_intro'>
-                    <img src={logo} className="footer_image" />
+                    <img src={logo} className="footer_image" alt="draicimg" />
                     <h1>DRAIC DYPCOE</h1>
                     <p>Let's ready to dive into Robotics</p>
                 </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
                 <div className='footer_address'>
                     <div className='footer_locate'>
-                        <img className='footer_location_pin' src="https://img.icons8.com/color-glass/48/4a90e2/google-maps-new.png"/>
+                        <img alt=" " className='footer_location_pin' src="https://img.icons8.com/color-glass/48/4a90e2/google-maps-new.png"/>
                         <h1 className='footer_locateus'>Locate Us</h1>
                     </div>
                     <p className='footer_location'>D. Y. Patil College of Engineering, D. Y. Patil<br/>Educational Complex, Sector 29, Nigdi<br/>Pradhikaran, Akurdi, Pune 411044.</p>

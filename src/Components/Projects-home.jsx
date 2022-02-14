@@ -16,7 +16,7 @@ function Project() {
             </div>
             <div className="project-container">
                 <div className="p-container">
-                    <h1 className="project-heading2">Autonomous Quadrupled Robot</h1>
+                    <h1 className="project-heading2">AUTONOMOUS QUADRUPLED ROBOT</h1>
                     <div className="projectline">
 
                     </div>
@@ -33,7 +33,10 @@ function Project() {
 
                 </div>
                 <div className="p-container">
-                    <h1 className="project-heading2">Customized 3 Dimensional Printer</h1>
+                    <h1 className="project-heading2">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
+                    <div className="projectline">
+
+                    </div>
                     <p className="project-description">Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.</p>
                     <div className="link-container">
                         <div className="left-link">
@@ -46,7 +49,10 @@ function Project() {
                     </div>
                 </div>
                 <div className="p-container">
-                    <h1 className="project-heading2">Autonomous Path Finder Robot</h1>
+                    <h1 className="project-heading2">AUTONOMOUS PATH FINDER ROBOT</h1>
+                    <div className="projectline">
+
+                    </div>
                     <p className="project-description">Made an Autonomous Obstacle avoider and Path finder robot with Omni Wheel drive and Ultrasonic Sensor.</p>
                     <div className="link-container">
                         <div className="left-link">

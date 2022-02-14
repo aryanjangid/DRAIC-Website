@@ -5,12 +5,12 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(rgba(255, 255, 255, 0.1)),
-    to(rgba(255, 255, 255, 0.1))
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(rgba(255, 255, 255, 0.1)),
+      to(rgba(255, 255, 255, 0.1))
   );
   /* background: linear-gradient(
     to bottom right,
@@ -24,7 +24,7 @@
 }
 .footer {
   color: aliceblue;
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
