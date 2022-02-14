@@ -156,14 +156,17 @@ class Deck extends Component {
   }
   render() {
     return (<div>
-      <div className='space'>
+      <div className='space'></div>
+      <div className="firstrow">
+        <h1 className="wheredowe">FINDING INSPIRATION IN EVERY TURN</h1>
+        <div className="seperator">
+          <div className="lineaboutus1"></div>
+          <div>
+            <h1 className="aboutusheading">OUR TEAM</h1>
+          </div>
+          <div className="lineaboutus2"></div>
+        </div>
 
-      </div>
-      <div className='meetteam'>
-        <h1 className='meettheteam'>MEET THE TEAM</h1>
-      </div>
-      <div className='linex'>
-        {/* <hr></hr> */}
       </div>
 
       <div ref={ref_id => this.deck = ref_id} style={styles.deck}>
@@ -199,7 +202,7 @@ const name = [
   'ABHISHEK',
 ]
 
-const surname=[
+const surname = [
   'UPADHYAY',
   'SALVEKAR',
   'WARUNGASE',

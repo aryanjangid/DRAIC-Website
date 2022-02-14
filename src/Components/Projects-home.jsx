@@ -1,7 +1,7 @@
 import React from "react";
-// import pic1 from "../Assets/project1.jpg"
-// import pic2 from "../Assets/project2.jpg"
-// import pic3 from "../Assets/project3.jpg"
+import pic1 from "../Assets/project1.jpg"
+import pic2 from "../Assets/project2.jpg"
+import pic3 from "../Assets/project3.jpg"
 import './Project-home.css';
 import { NavLink } from "react-router-dom";
 // import "../style.css";
@@ -9,14 +9,21 @@ import { NavLink } from "react-router-dom";
 function Project() {
     return (
         <div className="outermost-project">
-            <div className="project-section">
-                <h1 className="project-heading">OUR TOP PROJECTS</h1>
-            </div>
-            <div className="project-line">
-            </div>
+             <div className="firstrowourproject">
+                    <h1 className="wheredowe">SEE WHAT WE HAVE DONE SO FAR</h1>
+                    <div className="seperator">
+                        <div className="lineourproject1"></div>
+                        <div>
+                            <h1 className="aboutusheading ">OUR PROJECTS</h1>
+                        </div>
+                        <div className="lineourproject2"></div>
+                    </div>
+
+                </div>
             <div className="project-container">
                 <div className="p-container">
-                    <h1 className="project-heading2">AUTONOMOUS QUADRUPLED ROBOT</h1>
+                <img className="project-image" src={pic1} alt="Rome" />
+                    <h1 className="title1ourproject">AUTONOMOUS QUADRUPLED ROBOT</h1>
                     <div className="projectline">
 
                     </div>
@@ -33,7 +40,8 @@ function Project() {
 
                 </div>
                 <div className="p-container">
-                    <h1 className="project-heading2">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
+                    <img className="project-image" src={pic2} alt="Rome" />
+                    <h1 className="title1ourproject">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
                     <div className="projectline">
 
                     </div>
@@ -49,7 +57,8 @@ function Project() {
                     </div>
                 </div>
                 <div className="p-container">
-                    <h1 className="project-heading2">AUTONOMOUS PATH FINDER ROBOT</h1>
+                <img className="project-image" src={pic3} alt="Rome" />
+                    <h1 className="title1ourproject">AUTONOMOUS PATH FINDER ROBOT</h1>
                     <div className="projectline">
 
                     </div>

@@ -1,0 +1,6 @@
+.deckback{
+    position: relative;
+    background-color: #0a1931;
+    z-index: 100;
+    opacity: 1;
+}

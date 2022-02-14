@@ -16,7 +16,7 @@
 .ll{
     height: 4px;
     width: 30px;
-    background-color: aliceblue;
+    background-color: #0A1931;
     position: relative;
     top: -185px;
     left: 21px;
@@ -29,4 +29,5 @@
     top: -220px;
     text-align: left;
     padding-left: 20px;
+    color:white;
 }

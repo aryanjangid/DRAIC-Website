@@ -4,6 +4,8 @@
   text-align: center;
   margin-top: 200px;
   margin-bottom: 90px;
+  position: relative;
+  top: -50px;
 }
 /* .button {
   background-color: #00A0FF;
@@ -21,7 +23,7 @@
 } */
 
 .space {
-  height: 100px;
+  height: 50px;
 }
 .meetteam {
   text-align: center;
@@ -48,8 +50,8 @@
   width: 48px;
   height: 48px;
   background-color: #00a0ff;
+  border: 2px solid #00a0ff;
   border-radius: 48px;
-  border: 2px solid white;
   transition: all 0.3s ease;
   margin-left: 20px;
   margin-right: 20px;
@@ -67,7 +69,7 @@
   height: 48px;
   background-color: #00a0ff;
   border-radius: 48px;
-  border: 2px solid white;
+  border: 2px solid #00a0ff;
   transition: all 0.3s ease;
   margin-left: 20px;
   margin-right: 20px;
@@ -77,13 +79,15 @@
   content: "\2190";
   font-size: 18px;
   color: white;
-  transition: all 0.3s ease;
+  transition: all 0s ease;
 }
 
 button:hover {
+  background-color: #141820;
   border-color: #00a0ff;
 }
-
+/* 
 button:hover::after {
   color: white;
-}
+  background-color: #141820;
+} */
