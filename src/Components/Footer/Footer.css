@@ -90,6 +90,9 @@
 .footer_location_pin {
   width: 30px;
 }
+.footer_location{
+  color:#00a0ff;
+}
 
 .footer_social {
   display: flex;
