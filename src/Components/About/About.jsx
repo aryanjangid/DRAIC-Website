@@ -8,7 +8,7 @@ function About() {
         <div className="about-title"><p>Who we are and <br></br> why we are doing this</p></div>
         <div className="about-text"><p> Who vdsv vesv vv svv  gvavavgvverv xcvxvvxvxv <br></br> lkvjbv vvfv fadv z zdavearvhv'pih</p></div>
         <div className="testimonial-grid">
-          <article className="testimonial flow bg-secondary-400 text-neutral-100 ">
+          <article className="testimonial flow bg-secondary-400 text-neutral-100 testi">
             <div className="flex">
               <div>
                 <img src="https://img.icons8.com/external-sbts2018-solid-sbts2018/58/ffffff/external-group-social-media-sbts2018-solid-sbts2018.png" alt="who we are" />
@@ -32,15 +32,13 @@ function About() {
 
               </div>
             </div>
-
             <p className="position">
               Team DRAIC seeks to inspire the next generation of bright minds, to cultivate an appreciation for the present technology and develop a cognitive thinking towards the solutions to present scenario by engaging in competition and building innovative projects.
             </p>
           </article>
         </div>
         <div className="row2">
-
-          <article className="testimonial grid-col-span-2 flow bg-secondary-400 text-neutral-100">
+          <article className="testimonial grid-col-span-2 flow bg-secondary-400 text-neutral-100 testi">
             <div className="flex">
               <div>
                 <img src="https://img.icons8.com/android/48/ffffff/rocket.png" alt="vission" />
@@ -55,12 +53,8 @@ function About() {
               To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation.
             </p>
           </article>
-
-
-
           <article className="testimonial  flow bg-secondary-500 text-neutral-100">
             <div className="flex">
-
               <div>
                 <h2 className="name"><strong>50+</strong></h2>
                 <p className="subscript">Members</p>
@@ -93,7 +87,7 @@ function About() {
 
 
           </article>
-          <article className="testimonial flow bg-secondary-500 text-neutral-100">
+          <article className="testimonial flow bg-secondary-500 text-neutral-100 testi2">
             <div className="flex">
 
               <div>
@@ -122,7 +116,7 @@ function About() {
                 <div className="dept-content">
                   <p>
                     I received a job offer mid-course, and the subjects I learned were current, if not more so,
-                    in the company I joined. I honestly feel I got every penny’s worth.
+                    in the company I joined. I honestly feel I got every penny,s worth.
                   </p>
                 </div>
 
@@ -139,7 +133,7 @@ function About() {
                 <div className="dept-content">
                   <p>
                     I received a job offer mid-course, and the subjects I learned were current, if not more so,
-                    in the company I joined. I honestly feel I got every penny’s worth.
+                    in the company I joined. I honestly feel I got every penny's worth.
                   </p>
                 </div>
 
