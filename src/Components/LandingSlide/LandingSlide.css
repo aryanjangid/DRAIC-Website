@@ -1,0 +1,39 @@
+.landing-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+  margin-bottom: 13.6rem;
+  padding: 0 8rem;
+}
+
+.draic-logo {
+  height: 35vh;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 5rem;
+  width: 50%;
+  font-family: "Rowdies", cursive;
+  /* font-family: "orbitron"; */
+}
+@media (max-width: 1000px) {
+  .draic-logo {
+    height: 25vh;
+  }
+  .text {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .landing-slide {
+    padding: 0 4rem;
+  }
+  .draic-logo {
+    height: 15vh;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+}
