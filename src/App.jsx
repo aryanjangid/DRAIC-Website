@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/achivements" element={<Achivement />} />
+        <Route exact path="/achievements" element={<Achivement />} />
         <Route exact path="/project" element={<Project />} />
         <Route exact path="/progammingDepartment" element={<Progdep />} />
         <Route exact path="/MechenicalDepartment" element={<Mechdep />} />
