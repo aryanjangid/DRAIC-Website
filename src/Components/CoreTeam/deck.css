@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
+
 .deck-button {
   text-align: center;
   margin-top: 200px;
   margin-bottom: 90px;
+  position: relative;
+  top: -50px;
 }
 /* .button {
   background-color: #00A0FF;
@@ -18,50 +22,72 @@
     width: 20px;
 } */
 
+.space {
+  height: 50px;
+}
+.meetteam {
+  text-align: center;
+  
+}
+
+.meettheteam {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+}
+.linex {
+  text-align: center;
+  
+  /* left:38.7%; */
+  height: 7px;
+  width: 200px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
 
 .button1 {
-    width: 48px;
-    height: 48px;
-    background-color:  #00A0FF;
-    border-radius: 48px;
-    border: 2px solid white;
-    transition: all 0.3s ease;
-    margin-left:20px;
-  margin-right:20px ;
-  }
-  
-.button1::after {
-    content: "\2192";
-    font-size: 18px;
-    color:  white;
-    transition: all 0.3s ease;
-  }
+  width: 48px;
+  height: 48px;
+  background-color: #00a0ff;
+  border: 2px solid #00a0ff;
+  border-radius: 48px;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  .button2 {
-    width: 48px;
-    height: 48px;
-    background-color: #00A0FF;
-    border-radius: 48px;
-    border: 2px solid white;
-    transition: all 0.3s ease;
-    margin-left:20px;
-  margin-right:20px ;
-  }
-  
+.button1::after {
+  content: "\2192";
+  font-size: 18px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.button2 {
+  width: 48px;
+  height: 48px;
+  background-color: #00a0ff;
+  border-radius: 48px;
+  border: 2px solid #00a0ff;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .button2::after {
-    content: "\2190";
-    font-size: 18px;
-    color:white;
-    transition: all 0.3s ease;
-  }
-  
-  button:hover {
-    border-color: #00A0FF;
-    
-  }
-  
-  button:hover::after {
-    color: white;
-    ;
-  }
-  
+  content: "\2190";
+  font-size: 18px;
+  color: white;
+  transition: all 0s ease;
+}
+
+button:hover {
+  background-color: #141820;
+  border-color: #00a0ff;
+}
+/* 
+button:hover::after {
+  color: white;
+  background-color: #141820;
+} */

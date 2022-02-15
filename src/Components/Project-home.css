@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
+
+.outermost-project {
+  margin-bottom: 50px;
+  background-color: #141820;
+  position: relative;
+  top:-90px;
+  z-index: 100;
+  padding-top: 30px;
+  height: 850px;
+}
+
+.project-section {
+  text-align: center;
+}
+
+.project-heading {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+}
+.project-line {
+  text-align: center;
+
+  /* left:38.7%; */
+  height: 7px;
+  width: 200px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.lineourproject2 {
+    height: 3px;
+    width: 35%;
+    color: white;
+    z-index: 30000;
+    margin: auto;
+    background-color: azure;
+    text-align: left;
+    margin-left: 0;
+  }
+  
+  .lineourproject1 {
+      height: 3px;
+      width: 35%;
+      color: white;
+      z-index: 30000;
+      margin: auto;
+      background-color: azure;
+      text-align: left;
+      margin-right: 0;
+  }
+
+  .firstrowourproject {
+    z-index: 100;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+.project-container {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-direction: row;
+}
+
+.link-active {
+  text-decoration: none;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.p-container {
+  text-align: center;
+  background-color: #17202e;
+  z-index: 2;
+  padding: 10px;
+  margin: 10px;
+  margin: auto;
+  /* border: 2px solid; */
+  width: 28%;
+  /* border-color: aliceblue; */
+  border-radius: 20px;
+}
+
+.projectline {
+  height: 2px;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.left-link {
+  position: relative;
+  text-align: left;
+  width: 150px;
+  text-align: center;
+}
+.right-link {
+  position: relative;
+  text-align: right;
+  left: 20px;
+  text-align: center;
+  margin: auto;
+}
+.project-card-btn {
+  text-decoration: none;
+  margin-left: auto;
+  display: block;
+  /* padding-right:10px ; */
+  font-size: 0.8rem;
+  text-align: center;
+  color: #719fb0;
+  font-weight: bold;
+  background-color: #17202e;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  /* margin-right: 20px; */
+}
+.project-card-btn span {
+  transition: 0.2s;
+}
+.project-card-btn:hover span,
+.project-card-btn:active span {
+  margin-left: 1rem;
+}
+
+.project-heading2 {
+  font-size: 1.4rem;
+  color: #b2daf1;
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.title1ourproject {
+    font-family: "Rowdies", cursive;
+    font-size: 1.5rem;
+    color: #b2daf1;
+    padding: 10px;
+  }
+
+.project-description {
+  color: white;
+  padding: 10px 20px;
+}
+
+
+
+
+.project-image{
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    width: 92%;
+    height: fit-content;
+}
