@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import "./about.css"
 function About() {
   return (
-    <div className='main'>
+    <div>
       <div className="aboutmain">
         <div className="about-title"><p>Who we are and <br></br> why we are doing this</p></div>
         <div className="about-text"><p> Who vdsv vesv vv svv  gvavavgvverv xcvxvvxvxv <br></br> lkvjbv vvfv fadv z zdavearvhv'pih</p></div>
