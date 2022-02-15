@@ -2,10 +2,9 @@
 
 .deck-button {
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 90px;
+  margin-top: 150px;
+  /* margin-bottom: 50px; */
   position: relative;
-  top: -50px;
 }
 /* .button {
   background-color: #00A0FF;

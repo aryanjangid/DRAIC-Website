@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className='footer_links_section'>
                 <div className='footer_links'>
-                    <h1 className='footer_links_name'>Links</h1>
+                    <h1 className='footer_links_name'>LINKS</h1>
                     <ul>
                         <li className='footer_link'><a>Home</a></li>
                         <li className='footer_link'><a>Projects</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='footer_links'>
-                    <h1 className='footer_links_name'>Teams</h1>
+                    <h1 className='footer_links_name'>TEAMS</h1>
                     <ul>
                         <li className='footer_link'><a>Programming</a></li>
                         <li className='footer_link'><a>Mechanical</a></li>
@@ -47,8 +47,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer_copyrights">
-                <p>@ 2022 D.Y. Patil Robotics & Ai Club</p>
-                <p>All Rights Reserved.</p>
+                <div class="Footerdevicer"></div>
+                <p>@ 2022 D.Y. Patil Robotics & Ai Club <br />
+                All Rights Reserved.</p>
             </div>
         </div>  
         </>

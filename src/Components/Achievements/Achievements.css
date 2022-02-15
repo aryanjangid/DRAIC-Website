@@ -1,17 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
 
-body {
-  margin: 0;
-  background: #1A374D;
+.achiveouter{
+  /* background-color: #0A1931; */
+  background-color: rgba(10, 25, 49, 0.9);
+  z-index: 1;
+  position: relative;
+  margin-top: -10rem;
 }
-.achievements-heading {
-  /* padding: 50px; */
-  font-family: "Rowdies", cursive;
-  padding-top: 50px;
-  
+
+
+
+.lineachi2 {
+  height: 3px;
+  width: 28%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-left: 0;
+}
+
+.lineachi1 {
+    height: 3px;
+    width: 28%;
+    color: white;
+    z-index: 30000;
+    margin: auto;
+    background-color: azure;
+    text-align: left;
+    margin-right: 0;
+  }
+
+
+.firstrowachive{
+  padding-top:190px ;
   text-align: center;
-  font-size: 3rem
 }
+
 .timeline .achievements{
   font-family: "Rowdies", cursive;
   font-size: 5rem;
@@ -22,15 +48,14 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 15px 0;
-  margin-bottom: 10rem;
 }
 .timeline::after {
   content: "";
   position: absolute;
   width: 5px;
   height: 1600px;
-  background: #406882;
-  top: 210px;
+  background: #ffffff;
+  top: 60px;
   bottom: 0;
   left: 50%;
   margin-left: -2.5px;
@@ -60,11 +85,11 @@ body {
   right: 40px;
   z-index: 1;
   border: 10px solid;
-  border-color: transparent #406882 transparent transparent;
+  border-color: transparent #56B6FC transparent transparent;
 }
 .container::after {
   content: "";
-  background: url("../../Assets/cap.png");
+  background: url("https://img.icons8.com/glyph-neue/64/57b8ff/graduation-cap.png");
   background-size: 40px;
   background-repeat: no-repeat;
   background-position: center;
@@ -76,13 +101,14 @@ body {
   z-index: 4;
   border: 4px solid;
   border-radius: 50%;
-  background-color: #D8E3E7;
-  border: 5px solid #1A374D
+  background-color: #17202E;
+  border: 5px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
 .container.right::before {
   left: 40px;
-  border-color: transparent transparent transparent #406882;
+  border-color: transparent transparent transparent #56B6FC;
 }
 .container.right::after {
   left: -35px;
@@ -90,7 +116,7 @@ body {
 .container .content {
   padding: 1rem;
   /* opacity: 0.5; */
-  background: #0A1931;
+  background: #17202E;
   /* mix-blend-mode: multiply; */
   /* mix-blend-mode: screen; */
   position: relative;
@@ -103,8 +129,8 @@ body {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
-  border: 2px solid;
-  border-color: aliceblue;
+  /* border: 2px solid;
+  border-color: aliceblue; */
 }
 .contents {
   
@@ -120,7 +146,8 @@ body {
   margin: 10px;
   font-size: 20px;
   font-weight: normal;
-  color: #D8E3E7;
+  /* color: #D8E3E7; */
+  color: #56B6FC;
   font-family: "Rowdies", cursive;
 }
 
@@ -128,8 +155,10 @@ body {
   margin: 10px;
   font-size: 15px;
   line-height: 22px;
-  color: #719FB0;
-  font-family: "Rowdies", cursive;
+  /* color: #719FB0; */
+  color: #D8E3E7;
+  /* font-family: "Rowdies", cursive; */
+  font-weight: bold;
 
 }
 .achievementDevicer{
@@ -148,7 +177,7 @@ body {
   width: 10em;
   display: block;
   height: 2px;
-  background-color: #868B8E;
+  background-color: white;
   margin-top: 10px;
   border-radius: 500px;
 

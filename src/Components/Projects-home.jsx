@@ -9,20 +9,20 @@ import { NavLink } from "react-router-dom";
 function Project() {
     return (
         <div className="outermost-project">
-             <div className="firstrowourproject">
-                    <h1 className="wheredowe">SEE WHAT WE HAVE DONE SO FAR</h1>
-                    <div className="seperator">
-                        <div className="lineourproject1"></div>
-                        <div>
-                            <h1 className="aboutusheading ">OUR PROJECTS</h1>
-                        </div>
-                        <div className="lineourproject2"></div>
+            <div className="firstrowourproject">
+                <h1 className="wheredowe">SEE WHAT WE HAVE DONE SO FAR</h1>
+                <div className="seperator">
+                    <div className="lineourproject1"></div>
+                    <div>
+                        <h1 className="aboutusheading ">OUR PROJECTS</h1>
                     </div>
-
+                    <div className="lineourproject2"></div>
                 </div>
+
+            </div>
             <div className="project-container">
                 <div className="p-container">
-                <img className="project-image" src={pic1} alt="Rome" />
+                    <img className="project-image" src={pic1} alt="Rome" />
                     <h1 className="title1ourproject">AUTONOMOUS QUADRUPLED ROBOT</h1>
                     <div className="projectline">
 
@@ -57,7 +57,7 @@ function Project() {
                     </div>
                 </div>
                 <div className="p-container">
-                <img className="project-image" src={pic3} alt="Rome" />
+                    <img className="project-image" src={pic3} alt="Rome" />
                     <h1 className="title1ourproject">AUTONOMOUS PATH FINDER ROBOT</h1>
                     <div className="projectline">
 
@@ -75,6 +75,7 @@ function Project() {
                 </div>
 
             </div>
+            
         </div>
 
     )

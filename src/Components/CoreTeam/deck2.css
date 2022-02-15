@@ -1,6 +1,8 @@
 .deckback{
     position: relative;
-    background-color: #0a1931;
+    /* background-color: #0a1931; */
+    background-color: rgba(10, 25, 49, 0.9);
     z-index: 100;
     opacity: 1;
+    height: 750px;
 }

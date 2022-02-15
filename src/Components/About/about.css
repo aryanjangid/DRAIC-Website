@@ -95,6 +95,13 @@ select {
   gap: var(--gap, 1rem);
 }
 
+.main{
+  background-color: rgba(10, 25, 49, 0.9);
+  z-index: 1;
+  position: relative;
+  margin-top: -5rem;
+}
+
 .flow > *:where(:not(:first-child)) {
   margin-top: var(--flow-spacer, 1em);
 }
@@ -138,6 +145,8 @@ select {
   width: min(95%, 70rem);
   margin-inline: auto;
   z-index: 111;
+  position: relative;
+  top:3rem;
 }
 
 .testimonial-grid {
