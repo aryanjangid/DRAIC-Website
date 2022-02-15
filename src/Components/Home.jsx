@@ -5,7 +5,7 @@ import Landingslide from '../Components/LandingSlide/Landingslide';
 // import Deck from './CoreTeam/deck';
 import Dec2 from './CoreTeam/deck2';
 // import HomeAbout from './About-home';
-import Homeabouttemp from './About-temp';
+import Homeabouttemp from "./AboutTemp/About-temp";
 
 function Home() {
   return (

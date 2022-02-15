@@ -1,7 +1,7 @@
 import React from "react";
-import pic from "../Assets/college.jpg";
-import pic1 from "../Assets/college1.jpg";
-import pic2 from "../Assets/college2.jpg";
+import pic from "../../Assets/college.jpg";
+import pic1 from "../../Assets/college1.jpg";
+import pic2 from "../../Assets/college2.jpg";
 
 import "./About-temp.css";
 
