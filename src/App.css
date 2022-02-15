@@ -25,27 +25,6 @@ h1 {
 
 /* Landing page */
 
-.landing-slide {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 10rem;
-  margin-bottom: 13.6rem;
-  padding: 0 8rem;
-}
-
-.draic-logo {
-  height: 35vh;
-}
-
-.text {
-  font-weight: 500;
-  font-size: 5rem;
-  width: 50%;
-  font-family: "Rowdies", cursive;
-  /* font-family: "orbitron"; */
-}
-
 /* NAV BAR */
 
 /* PARTICLES */
