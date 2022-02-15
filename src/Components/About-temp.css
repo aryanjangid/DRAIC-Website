@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@700;800&family=Open+Sans+Condensed:wght@300&family=Orbitron:wght@700&family=Oswald:wght@500&family=Poppins:wght@200&family=Roboto+Condensed&family=Roboto:wght@500&family=Rowdies&display=swap");
 
 .aboutsection1 {
-  background-color: #141820;
+  /* background-color: #141820; */
+  background-color: rgba(18, 21, 33, 0.9);
+  /* opacity: 0.8; */
   position: relative;
   z-index: 100;
   text-align: center;

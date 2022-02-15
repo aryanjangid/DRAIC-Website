@@ -7,10 +7,20 @@
   
 }
 .projectsp {
-  height:116rem;
   margin-top: -10rem;
+  /* background-color: #292828; */
+  /* background: rgba(20,24  ,32 , 0.9); */
+  background-color: rgba(10, 25, 49, 0.9);
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 1;
 }
 
+.firstrowproject{
+  padding-top:190px ;
+  text-align: center;
+  margin-bottom: 30px;
+}
 .grid {
   display: grid;
   width: fit-content;

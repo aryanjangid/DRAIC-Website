@@ -9,11 +9,23 @@ import Achievements5 from "../../Assets/Achievements5.webp"
 const Main = () => {
 
   return (
-    <>
+    <div className="achiveouter">
+      
+      <div className="firstrowachive">
+        <h1 className="wheredowe">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
+        <div className="seperator">
+          <div className="lineachi1"></div>
+          <div>
+            <h1 className="aboutusheading">OUR ACHIEVEMENTS</h1>
+          </div>
+          <div className="lineachi2"></div>
+        </div>
+
+      </div>
       <div className="timeline">
-      <div class=""></div>
-        <div><h1 className="achievements-heading">Achievements</h1></div>             
-         <div class="achievementDevicer"></div>
+
+     
+
         <div className="container left">
           <div className="content">
             <div className="contents">
@@ -38,7 +50,7 @@ const Main = () => {
               <h2> Sagar Warungase</h2>
               <div class="devicer"></div>
               <p>
-              First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
+                First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
               </p>
             </div>
           </div>
@@ -49,7 +61,7 @@ const Main = () => {
               <h2>Samiksha Bhokare & Dibyanshu Sharma</h2>
               <div class="devicer"></div>
               <p>
-              Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
+                Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
               </p>
             </div>
             <div className="image-conainer">
@@ -66,7 +78,7 @@ const Main = () => {
               <h2> Arvind Patel</h2>
               <div class="devicer"></div>
               <p>
-              Second Runner-up at COEP Mindspark-19 Search & Destroy, organised by COEP, Pune.
+                Second Runner-up at COEP Mindspark-19 Search & Destroy, organised by COEP, Pune.
               </p>
             </div>
           </div>
@@ -77,7 +89,7 @@ const Main = () => {
               <h2>Arvind Patel</h2>
               <div class="devicer"></div>
               <p>
-              First Position at Bro Code & Code Capture Competition organised by PCCOE, Ravet.
+                First Position at Bro Code & Code Capture Competition organised by PCCOE, Ravet.
               </p>
             </div>
             <div className="image-conainer">
@@ -91,7 +103,7 @@ const Main = () => {
               <img className="image" src={Achievements1} alt="" />
             </div>
             <div className="contents">
-              
+
               <h2>Lorem ipsum dolor sit amet</h2>
               <div class="devicer"></div>
               <p>
@@ -101,7 +113,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

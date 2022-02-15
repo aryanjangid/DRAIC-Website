@@ -2,7 +2,7 @@ import React from 'react';
 function Contact() {
   return (
 
-    <div>
+    <div className='contactusouter'>
       <div className="grid-container-contactus">
         <div className="item1">
           <h1 className="get-in-touch">GET IN TOUCH</h1>
