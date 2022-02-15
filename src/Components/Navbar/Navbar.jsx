@@ -24,9 +24,9 @@ function Navbar() {
                             </div>
                             <span className='icon hover'>
                                 {/* <img className="logo" src={logo}/> */}
-                                <div className="home">
+                                {/* <div className="home"> */}
                                 <ion-icon name="home" ></ion-icon>
-                                </div>
+                                {/* </div> */}
                             </span>
                         </NavLink>
                     </li>

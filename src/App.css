@@ -61,7 +61,6 @@ h1 {
   font-size: 62.5%;
 } */
 
-
 .title2 {
   overflow: hidden;
   text-align: left;
@@ -97,8 +96,6 @@ h1 {
   align-items: center;
   background: none;
 }
-
-
 
 .grid-item {
   border-radius: 3rem;
@@ -267,7 +264,7 @@ color: white;
   justify-content: stretch;
   height: 100%;
   width: 100%;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   z-index: 6;
 }
 
