@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Home from './Components/Home.jsx';
-import Contact from './Contact.jsx';
+import Contact from './Components/Contact/Contact';
 import Achivement from './Components/Achievements/Achivements';
 import About from './Components/About/About.jsx';
 import Project from './Project'
