@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Home from './Components/Home.jsx';
-import Contact from './Contact.jsx';
+import Contact from './Components/Contact/Contact';
 import Achivement from './Components/Achievements/Achivements';
 import About from './Components/About/About.jsx';
 import Project from './Project'
@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/achivements" element={<Achivement />} />
+        <Route exact path="/achievements" element={<Achivement />} />
         <Route exact path="/project" element={<Project />} />
         <Route exact path="/progammingDepartment" element={<Progdep />} />
         <Route exact path="/MechenicalDepartment" element={<Mechdep />} />

@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -22,33 +21,10 @@ h1 {
   background: linear-gradient(to right top, rgb(0, 1, 88), rgb(0, 0, 0));
   transition: 0.5s ease;
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 /* Landing page */
-
-
-
-.landing-slide {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 10rem;
-  margin-bottom: 13.6rem;
-  padding: 0 8rem;
-  
-}
-
-.draic-logo {
-  height: 35vh;
-}
-
-.text {
-  font-weight: 500;
-  font-size: 5rem;
-  width: 50%;
-  font-family: "Rowdies", cursive;
-  /* font-family: "orbitron"; */
-}
 
 /* NAV BAR */
 
@@ -611,7 +587,6 @@ select {
 } */
 
 /* Contact */
-
 
 .linecontactus2 {
   height: 3px;
