@@ -4,9 +4,14 @@ import styles from "./Contact.css"
 function Contact() {
   return (
     <div className='contactusfull'>
+      <div className="seperator">
+          <div className="lineachi1"></div>
+          <div>
+            <h1 className="aboutusheading">GET IN TOUCH</h1>
+          </div>
+          <div className="lineachi2"></div>
+        </div>
       <div className="headingcontainer">
-            <h1 className="get-in-touch">GET IN TOUCH</h1>
-            <hr className="line" /><br></br>
             <h3 className="send-email-line">
               Please fill out the form below to send us an email and we will get
               back to you as soon as possible.
