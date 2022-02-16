@@ -619,55 +619,10 @@ select {
   margin-top:-5rem;
   height: 700px;
 }
-.item1 {
-  grid-area: header;
-}
-.item2 {
-  grid-area: menu;
-}
-.item3 {
-  grid-area: main;
-}
-.item4 {
-  grid-area: right;
-}
-.item5 {
-  grid-area: footer;
-}
-.item6 {
-  grid-area: submit;
-}
 
-.grid-container-contactus {
-  display: grid;
-  grid-template-areas:
-    "header header header header header header"
-    "menu menu main main right right"
-    "footer footer footer footer right right"
-    "submit submit submit submit submit submit";
-  grid-gap: 0px;
-  padding: 30px;
-  margin: 0rem 0;
-  width: 100%;
-  padding-left: 15rem;
-  padding-top: 100px;
-
-}
-
-input[type="text"],
-select {
-  width: 90%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
-}
 
 .message-box {
-  height: 100px;
+  height: 130px;
   font-family: "Raleway", sans-serif;
   width: 95%;
   border: 1px solid #ccc;
@@ -714,15 +669,9 @@ select {
   font-size: medium;
   display: inline;
   position: relative;
-  top: -4px;
-  padding: 5px;
 }
 
-.img-t1 {
-  font-family: "Raleway", sans-serif;
-  font-size: medium;
-  height: 20px;
-}
+
 .info-t1 {
   font-family: "Open Sans", sans-serif;
   font-size: medium;
@@ -735,27 +684,15 @@ select {
   padding: 10px;
   color: white;
   border: 10px white;
-  border-radius: 10px;
-  width: 10%;
+  border-radius: 20px;
+  width: 60%;
 }
 
-br {
-  margin: 0;
-}
-
-.item4 {
-  text-align: left;
-  padding: 10px;
-  margin: left 5px;
-}
 
 form {
   font-size: 1rem;
 }
 
 .message-box {
-  font-size: 1rem;
-}
-.send-button {
   font-size: 1rem;
 }
