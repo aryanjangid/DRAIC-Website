@@ -334,7 +334,7 @@ color: white;
 }
 
 /* ABOUT */
-
+/* 
 :root {
   --clr-primary-400: 263 55% 52%;
   --clr-secondary-400: 217 19% 35%;
@@ -490,7 +490,7 @@ select {
   font-size: var(--fs-400);
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+  /* box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25); */
 }
 
 .testimonial.quote {
@@ -501,7 +501,7 @@ select {
 .testimonial img {
   width: 1.75rem;
   aspect-ratio: 1;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .testimonial .name {
@@ -593,8 +593,8 @@ select {
   max-width: 40px;
 }
 .dept-grid-box:hover {
-  transform: translateY(-0.9%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  /* transform: translateY(-0.9%); */
+  /* box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5); */
   border-color: white;
 }
 
@@ -608,15 +608,40 @@ select {
 .container-xl,
 .container-xxl {
   margin-left: 0;
-}
+} */
 
 /* Contact */
 
+
+.linecontactus2 {
+  height: 3px;
+  width: 38%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-left: 0;
+}
+
+.linecontactus1 {
+    height: 3px;
+    width: 38%;
+    color: white;
+    z-index: 30000;
+    margin: auto;
+    background-color: azure;
+    text-align: left;
+    margin-right: 0;
+  }
+
+
 .contactusouter{
-  background-color: rgba(10, 25, 49, 0.9);
+  /* background-color: rgba(10, 25, 49, 0.8); */
+  background-color: #ffffff;
   position: relative;
   z-index: 1;
-  top:-5rem;
+  margin-top:-5rem;
   height: 700px;
 }
 .item1 {
@@ -683,7 +708,7 @@ select {
 }
 
 .line {
-  text-align: left;
+  text-align: center;
   width: 7%;
   margin-left: 0;
   margin-top: 0;

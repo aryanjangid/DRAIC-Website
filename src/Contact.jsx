@@ -1,18 +1,32 @@
 import React from 'react';
 function Contact() {
-  return (
+  return (<div>
+    <div className='cmain'>
+      <div className="firstrow">
+        <h1 className="wheredowe">Still, wondering?? Let's talk, and get things done!</h1>
+        <div className="seperator">
+          <div className="linecontactus1"></div>
+          <div>
+            <h1 className="aboutusheading">GET IN TOUCH</h1>
+          </div>
+          <div className="linecontactus2"></div>
+        </div>
+      </div>
 
-    <div className='contactusouter'>
+
+    </div>
+
+    <div className="contactusouter">
       <div className="grid-container-contactus">
-        <div className="item1">
+        {/* <div className="item1">
           <h1 className="get-in-touch">GET IN TOUCH</h1>
           <hr className="line" /><br></br>
           <h3 className="send-email-line">
-            Please fill out the form below to send us an email and we will get
-            back to you as soon as possible.
+            Still, wondering?? Let's talk, and get things done!
           </h3>
-        </div>
+        </div> */}
         <div className="item2">
+
           <form>
             <input type="text" id="fname" name="fname" placeholder="Name" />
           </form>
@@ -57,6 +71,9 @@ function Contact() {
 
       </div>
     </div>
+  </div>
+
+
 
   );
 }

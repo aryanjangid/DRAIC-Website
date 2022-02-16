@@ -19,7 +19,6 @@ function HomeAbout() {
                         </div>
                         <div className="lineaboutus2"></div>
                     </div>
-
                 </div>
             <div className="secondrow">
                 <div className="secondrowcol1">

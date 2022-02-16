@@ -44,6 +44,7 @@
   font-size: 2.5rem;
   font-family: "Rowdies", cursive;
   margin: 0.5 rem;
+  white-space: nowrap;
 }
 
 .footer_intro p {
@@ -58,11 +59,17 @@
 }
 .footer_links {
   margin: 20px;
-
   color: #00a0ff;
 }
 .footer_link {
   font-size: 1rem;
+  color: #00a0ff;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+.footer_link:hover,
+.footer_location:hover {
+  color: #ffffff;
 }
 .footer_links_name {
   font-size: 1.5rem;
@@ -90,8 +97,10 @@
 .footer_location_pin {
   width: 30px;
 }
-.footer_location{
-  color:#00a0ff;
+.footer_location {
+  color: #00a0ff;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
 }
 
 .footer_social {
@@ -103,6 +112,12 @@
 .footer_social_links {
   margin: 10px;
 }
+.footer_social_img {
+  transition: all 0.3s ease;
+}
+.footer_social_img:hover {
+  transform: rotate(360deg);
+}
 .footer_copyrights {
   text-align: center;
   width: 100%;
@@ -113,7 +128,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.Footerdevicer {
+.footer_ruler {
   width: 90%;
   margin: auto;
   height: 2px;
@@ -139,5 +154,6 @@
   }
   .footer_location {
     text-align: center;
+    white-space: nowrap;
   }
 }
