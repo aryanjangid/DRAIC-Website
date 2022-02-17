@@ -6,6 +6,7 @@ import Landingslide from '../Components/LandingSlide/Landingslide';
 import Dec2 from './CoreTeam/deck2';
 // import HomeAbout from './About-home';
 import Homeabouttemp from "./AboutTemp/About-temp";
+import Teacher from './Teacher/Teacher';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Landingslide />
       <Homeabouttemp/>
       {/* <HomeAbout/> */}
+      <Teacher/>
       <Dec2/>
       <Project />
     </div>
