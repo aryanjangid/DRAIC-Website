@@ -2,12 +2,21 @@ import React from "react";
 import Avatar from "./Avatar";
 import SocialMedia from "./Socialmedia";
 import ProfDepList from "./mechDep"
+import pc from '../../Assets/cp.jpg'
 
 function mechdep() {
     return (
         <>
             <div className="department">
-                <h1 className="department-title">OUR TEAM</h1>
+                <div className="department-header">
+                    <div className="dep-head-text">
+                        <div className="dep-head-title">Mechanical Department</div>
+                        <div className="dep-head-des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit harum iusto atque sunt quis explicabo, soluta autem vero voluptates perferendis, eum placeat fugit labore excepturi, quaerat eius similique necessitatibus voluptatum!</div>
+                    </div>
+                    <div className="dep-img">
+                        <img src={pc} alt="" className="mech-img" />
+                    </div>
+                </div>
                 <div className="department-container">
                     {
                         ProfDepList.map(card => {
