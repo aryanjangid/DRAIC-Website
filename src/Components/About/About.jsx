@@ -103,7 +103,7 @@ function About() {
 
               <div>
                 <h2 className="name2"><strong>50+</strong></h2>
-                <p className="subscript1">Achievements</p>
+                <p className="subscript1" style={{fontSize: '1.3rem'}}>Achievements</p>
                 {/* <p className="position">Verified Graduate</p> */}
               </div>
             </div>

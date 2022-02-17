@@ -222,7 +222,7 @@ select {
 
 .testimonial {
   font-size: var(--fs-400);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 0.5rem;
   /* box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25); */
   z-index: 1;
@@ -267,7 +267,7 @@ select {
 .subscript1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 1.6rem;
   opacity: 0.5;
 }
 
@@ -399,12 +399,20 @@ z-index: 1;
         display: flex;
          flex-wrap: wrap;  
     }
+    .flex{
+      width: 40%;
+    }
 }
 
 @media(max-width: 600px)
 {
-
   .testi2{
-    width: 52%;
+    width: 46%;
+  }
+}
+@media(max-width: 400px)
+{
+  .aboutouter{
+    padding-right: 63%;
   }
 }
