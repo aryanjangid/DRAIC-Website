@@ -5,25 +5,26 @@
   top: -3rem;
   height: 100%;
 }
-.headingcontainer{
-      position: relative;
-      margin-top: 1%;
-      margin-left: 13%;
-      padding: 10px;
-      font-size: 2rem;
+.headingcontainer {
+  position: relative;
+  margin-top: 1%;
+  margin-left: 13%;
+  padding: 10px;
+  font-size: 2rem;
 }
-img{
+img {
   font-size: 25px;
 }
-.fullform{
-      margin: 4vw auto;
-      width: 75%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+.fullform {
+  margin: 4vw auto;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-input[type="text"], input[type="email"]{
+input[type="text"],
+input[type="email"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -33,76 +34,98 @@ input[type="text"], input[type="email"]{
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
-.leftform{
+.leftform {
   display: flex;
   flex-direction: column;
 }
 
-.nameandemail{
+.nameandemail {
   display: flex;
 }
 
-.name, .emails{
+.name,
+.emails {
   margin: 5px;
   width: 20vw;
 }
 
-.textar{
+.textar {
   margin-left: 5px;
   width: 104%;
   height: 220%;
 }
 
-
-button{
+.send-button {
   margin-top: 10px;
+  transition: all 0.3s ease;
 }
 
-button:hover{
+.send-button:hover {
   background-color: white;
-  color: rgb(0, 162, 255);
+  color: rgb(0, 0, 0);
   font-weight: bolder;
   cursor: pointer;
 }
 
-.rightside{
+.rightside {
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
 }
-.email, .phone, .linkedin{
+.email,
+.phone,
+.linkedin {
   display: flex;
   align-items: center;
   height: 11vh;
 }
 
-.infoemail, .infophone, .infolink{
+.infoemail,
+.infophone,
+.infolink {
   margin-left: 30px;
 }
 
-.button{
+.button {
   width: 40%;
 }
 
-@media(max-width: 770px)
-{
-  .rightside{
+@media (max-width: 770px) {
+  .rightside {
     margin-top: 20px;
   }
-  .nameandemail{
+  .nameandemail {
     flex-direction: column;
   }
-  .name{
+  .name {
     width: 60vw;
   }
-  .emails{
+  .emails {
     width: 60vw;
     margin-bottom: 10px;
   }
 }
-@media(max-width: 800px)
-{
-  .rightside{
+@media (max-width: 768px) {
+  .rightside {
     margin-left: 20px;
+  }
+  .fullform {
+    justify-content: center;
+  }
+  .email,
+  .phone,
+  .linkedin {
+    height: 7vh;
+  }
+  .headingcontainer {
+    text-align: center;
+    margin: 0;
+  }
+  .message-box {
+    width: 93%;
+  }
+  .send-button {
+    padding: 10px 40px;
+    width: auto;
   }
 }
