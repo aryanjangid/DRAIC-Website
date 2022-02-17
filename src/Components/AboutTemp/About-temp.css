@@ -67,7 +67,6 @@
 .secondrowcol2 {
   display: flex;
   flex-direction: column;
-
   width: 50%;
   height: 500px;
   margin: 20px;
@@ -159,11 +158,24 @@
     height: auto;
     margin: 0;
   }
+  .secondrowcol2 {
+    width: 100%;
+    margin: 0;
+  }
   .ourcollegeimg {
     height: auto;
   }
   .secondrow {
     justify-content: center;
     align-items: center;
+  }
+  .divs1 {
+    border: 0;
+  }
+  .title1 {
+    text-align: center;
+  }
+  .paragraph1 {
+    text-align: center;
   }
 }
