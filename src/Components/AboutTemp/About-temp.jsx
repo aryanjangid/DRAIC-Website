@@ -24,7 +24,6 @@ function HomeAbout() {
                 <div className="secondrowcol1">
                     <img className="ourcollegeimg" src={pic} alt="collegepic"></img>
                     <h1 className="imagetext">OUR COLLEGE</h1>
-
                 </div>
                 <div className="secondrowcol2">
                     <div className="div1">
@@ -52,8 +51,6 @@ function HomeAbout() {
                 <div className="divs2">
                     <h1 className="title1">OUR MISSION</h1>
                     <p className="paragraph1">A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly.</p>
-
-
                 </div>
             </div>
 
