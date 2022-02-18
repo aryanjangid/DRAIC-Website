@@ -3,14 +3,19 @@ import styles from "./Contact.css"
 
 function Contact() {
   return (
-    <div className='contactusfull'>
-      <div className="seperator">
-          <div className="lineachi1"></div>
+    <div className='contactusouter'>
+
+      <div className="contfirstrow">
+        <h1 className="contwheredowe">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
+        <div className="seperator">
+          <div className="contline1"></div>
           <div>
-            <h1 className="aboutusheading">GET IN TOUCH</h1>
+            <h1 className="contaboutusheading">GET IN TOUCH</h1>
           </div>
-          <div className="lineachi2"></div>
+          <div className="contline2"></div>
         </div>
+
+      </div>
       <div className="headingcontainer">
             <h3 className="send-email-line">
               Please fill out the form below to send us an email and we will get
@@ -37,7 +42,7 @@ function Contact() {
         </form>
         </div>
         <div className="rightside">
-          <h1 className="contact-info">Contact Info</h1>
+          <h1 className="contact-info">CONTACT INFORMATION</h1>
           <div className="email">
             <img className="img-t1" alt="email" src="https://img.icons8.com/material-rounded/24/ffffff/new-post.png" />
             <div className="infoemail">

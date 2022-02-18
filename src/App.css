@@ -657,14 +657,6 @@ select {
   }
 
 
-.contactusouter{
-  /* background-color: rgba(10, 25, 49, 0.8); */
-  background-color: #ffffff;
-  position: relative;
-  z-index: 1;
-  margin-top:-5rem;
-  height: 700px;
-}
 
 
 .message-box {
@@ -703,11 +695,13 @@ select {
   font-family: "Raleway", sans-serif;
   font-size: medium;
   color: white;
+  text-align: center;
 }
 
 .contact-info {
-  font-family: "Raleway", sans-serif;
-  font-size: larger;
+  font-family: "Rowdies", cursive;
+  font-size: 1.5rem;
+  color: #2196f3;
 }
 
 .t1 {

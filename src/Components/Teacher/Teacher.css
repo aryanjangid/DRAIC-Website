@@ -1,51 +1,88 @@
 .teacher {
-    background-color: rgba(5, 34, 71, 0.9);
+    background: rgba(20, 24, 32, 0.9);
+
+    position: relative;
     z-index: 100;
 }
 
-.cflex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80vh;
-    column-gap: 6rem;
-}
-.teacherpic{
-    width: 30rem;
-    height: 22rem;
-    border-radius: 20px;
-    margin-left: 2rem;
-    margin-top: -4rem;
-}
+.teachfirstrow {
+    z-index: 100;
+    text-align: center;
+  }
 
-.seperator {
+  .teachwheredowe {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    padding-top: 40px;
+    color: #57b8ff;
+    letter-spacing: 0.5em;
+  }
+  .teachaboutusheading {
+    font-family: "Rowdies", cursive;
+    font-size: 2.5em;
+    padding: 20px;
+  }
+  .teachseperator {
     display: flex;
     margin: auto;
-}
-.lineaboutus2 {
+  }
+
+  .teachlineaboutus2 {
     height: 3px;
-    width: 41%;
+    width: 32%;
     color: white;
     z-index: 30000;
     margin: auto;
     background-color: azure;
     text-align: left;
     margin-left: 0;
-}
+  }
 
-.lineaboutus1 {
+  .teachlineaboutus1 {
     height: 3px;
-    width: 41%;
+    width: 32%;
     color: white;
     z-index: 30000;
     margin: auto;
     background-color: azure;
     text-align: left;
     margin-right: 0;
+  }
+
+.cflex{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 5rem;
+    /* height: 80vh; */
+    /* column-gap: 6rem; */
+}
+
+.para{
+    width: 50%;
+    padding-left: 130px;
+}
+.teachername{
+  font-family: "Rowdies", cursive;
+  color: #57b8ff;
+}
+
+.teacherpic{
+    height: 22rem;
+    border-radius: 20px;
+    /* padding-left: 15rem; */
+}
+
+.teacherphoto{
+    padding-left: 15rem;
 }
 .teacherpara{
   color: #e7f2f8;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding: 20px 0;
-  margin-top: -3.5rem;
+  /* margin-top: -3.5rem; */
+}
+
+.teacher_footer_social_img{
+    padding: 10px;
 }
