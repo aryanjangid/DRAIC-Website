@@ -8,11 +8,11 @@ function About() {
         <div className="firstrowaboutus">
           <h1 className="wheredowe">WHO WE ARE AND WHY WE ARE DOING THIS</h1>
           <div className="seperator">
-            <div className="lineaboutus1"></div>
+            <div className="lineaboutus12"></div>
             <div>
               <h1 className="aboutusheading">ABOUT US</h1>
             </div>
-            <div className="lineaboutus2"></div>
+            <div className="lineaboutus22"></div>
           </div>
 
         </div>

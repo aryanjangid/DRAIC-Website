@@ -20,14 +20,16 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.grid {
+
+
+/* .grid {
   display: grid;
   width: fit-content;
   margin: auto;
   grid-gap: 0;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
-}
+} */
 /* .grid {
   margin: auto;
   width: auto;
@@ -35,7 +37,7 @@
   grid-gap: 0;
   grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
 } */
-
+/* 
 .grid-item {
   border-radius: 1rem;
   overflow: hidden;
@@ -225,4 +227,4 @@
 .background {
   transform: scale(0.7);
   z-index: 5;
-}
+} */
