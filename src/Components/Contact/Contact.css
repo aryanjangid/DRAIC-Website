@@ -19,7 +19,23 @@
       font-size: 2rem;
       text-align: center;
 }
-
+.contact_topic{
+    text-align: center;
+}
+.lineachi1
+{
+    height: 3px;
+    width: 33%;
+    margin-top: 40px;
+    background-color: white;
+}
+.lineachi2
+{
+    height: 3px;
+    width: 33%;
+    margin-top: 40px;
+    background-color: white;
+}
 
 /* CONTACT FULL FORM */
 
