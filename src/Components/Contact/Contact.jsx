@@ -7,10 +7,10 @@ function Contact() {
       <div className="contact_headline_div">
         <h1 className="contact_headline">OPPORTUNITIES DON'T HAPPEN, YOU CREATE THEM</h1>
       </div>
-      <div className="seperator">
+      <div className="seperator" style={{width: '80%', marginLeft: '13%'}}>
           <div className="lineachi1"></div>
-          <div>
-            <h1 className="aboutusheading">GET IN TOUCH</h1>
+          <div className='contact_topic'>
+            <h1 className="aboutusheading" style={{fontSize: '1.9rem'}}>GET IN TOUCH</h1>
           </div>
           <div className="lineachi2"></div>
         </div>
