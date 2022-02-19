@@ -19,9 +19,9 @@ useEffect(() => {
   return (
     <div className="achievements_section">
       
-      <div data-aos={"zoom-in-up"} className="achievements_header">
-        <h1 className="achievements_thought">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
-        <div className="achievements_heading">
+      <div className="achievements_header">
+        <h1 data-aos={"zoom-in-up"} className="achievements_thought">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
+        <div data-aos={"zoom-in-up"} data-aos-delay={'1000'} className="achievements_heading">
           <div className="achievements_lines"></div>
           <div>
             <h1 className="achievements_title">OUR ACHIEVEMENTS</h1>

@@ -72,8 +72,10 @@ const Footer = () => {
             </div>
             <div className="footer_copyrights">
                 <div class="footer_ruler"></div>
-                <p>@ 2022 D.Y. Patil Robotics & Ai Club <br />
-                All Rights Reserved.</p>
+                <p className='footer_copyright'>
+                    © 2022 D.Y. Patil Robotics & Ai Club. <br />
+                    All Rights Reserved.
+                </p>
             </div>
         </div>  
         </>
