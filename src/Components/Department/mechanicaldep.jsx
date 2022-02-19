@@ -18,13 +18,16 @@ function mechdep() {
                     </div>
                 </div> */}
 
-                <div className="department-hero-container department-mechanical-hero-container">
+
+                {/* department-hero-container */}
+                <div className=" department-mechanical-hero-container">
                     <div className="department-text-container">
                         <h1 className="department-title">MECHANICAL DEPARTMENT</h1>
                         <p className="department-description">A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly. A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly.</p>
                     </div>
                     <div className="department-image-container">
-                        <img src="https://cdn.dribbble.com/users/525908/screenshots/3013825/coder.gif" className="department-image department-mechanical-image" alt="departimg"></img>
+                        {/* department-image */}
+                        <img src="https://cdn.dribbble.com/users/525908/screenshots/3013825/coder.gif" className=" department-mechanical-image" alt="departimg"></img>
 
                     </div>
                 </div>

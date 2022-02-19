@@ -2,7 +2,7 @@ import React from "react";
 import Avatar from "./Avatar";
 import SocialMedia from "./Socialmedia";
 import ProfDepList from "./eleDep"
-import pc from '../../Assets/cp.jpg'
+import './electrical-department.css'
 
 
 function Elecdep() {
