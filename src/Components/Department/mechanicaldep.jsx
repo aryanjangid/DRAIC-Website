@@ -2,12 +2,12 @@ import React from "react";
 import Avatar from "./Avatar";
 import SocialMedia from "./Socialmedia";
 import ProfDepList from "./mechDep"
-import pc from '../../Assets/cp.jpg'
+import './mechanical-department.css'
 
 function mechdep() {
     return (
         <>
-            <div className="departmentmain">
+            <div className="department-page">
                 {/* <div className="department-header">
                     <div className="dep-head-text">
                         <div className="dep-head-title">Electrical Department</div>
@@ -18,30 +18,30 @@ function mechdep() {
                     </div>
                 </div> */}
 
-                <div className="depmechfirstbox">
-                    <div className="deptextbox">
-                        <h1 className="depheading">MECHANICAL DEPARTMENT</h1>
-                        <p className="deppara">A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly. A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly.</p>
+                <div className="department-hero-container department-mechanical-hero-container">
+                    <div className="department-text-container">
+                        <h1 className="department-title">MECHANICAL DEPARTMENT</h1>
+                        <p className="department-description">A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly. A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly.</p>
                     </div>
-                    <div className="deptimgbox">
-                        <img src="https://cdn.dribbble.com/users/525908/screenshots/3013825/coder.gif" className="mechdepimg" alt="departimg"></img>
+                    <div className="department-image-container">
+                        <img src="https://cdn.dribbble.com/users/525908/screenshots/3013825/coder.gif" className="department-image department-mechanical-image" alt="departimg"></img>
 
                     </div>
                 </div>
 
 
-                <div className="depfirstrow">
-                    <h1 className="depsmallhead">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
+                <div className="department-header-container">
+                    <h1 className="department-moto">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
                     <div className="seperator">
                         <div className="depline1"></div>
                         <div>
-                            <h1 className="aboutusheading">MECHANICAL TEAM</h1>
+                            <h1 className="department-name">MECHANICAL TEAM</h1>
                         </div>
                         <div className="depline2"></div>
                     </div>
 
                 </div>
-                <div className="departmentcontainer">
+                <div className="department-members-container">
                     {
                         ProfDepList.map(card => {
                             return (
