@@ -121,6 +121,9 @@
   height: 2px;
   background-color: aliceblue;
 }
+.footer_copyright {
+  font-family: "Rowdies", cursive;
+}
 
 @media (max-width: 768px) {
   .footer_section {
@@ -132,6 +135,14 @@
   }
   .footer_image {
     text-align: center;
+    padding-bottom: 30px;
+  }
+  .footer_intro h1 {
+    padding-bottom: 10px;
+  }
+
+  .footer_intro p {
+    padding-bottom: 10px;
   }
   .footer_social {
     flex-direction: row;
@@ -142,5 +153,6 @@
   .footer_location {
     text-align: center;
     white-space: nowrap;
+    padding: 20px;
   }
 }
