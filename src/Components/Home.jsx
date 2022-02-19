@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Projects-home';
+import Project from '../Components/home-projects/Projects-home';
 
 import Landingslide from '../Components/LandingSlide/Landingslide';
 // import Deck from './CoreTeam/deck';
@@ -12,10 +12,10 @@ function Home() {
   return (
     <div>
       <Landingslide />
-      <Homeabouttemp/>
+      <Homeabouttemp />
       {/* <HomeAbout/> */}
-      <Teacher/>
-      <Dec2/>
+      <Teacher />
+      <Dec2 />
       <Project />
     </div>
   );

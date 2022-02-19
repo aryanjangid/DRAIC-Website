@@ -1,0 +1,57 @@
+import React from "react";
+import pic1 from "../../Assets/project1.jpg"
+import pic2 from "../../Assets/project2.jpg"
+import pic3 from "../../Assets/project3.jpg"
+import { NavLink } from "react-router-dom";
+import "./Project.css";
+
+
+function project() {
+  return (
+    <div className="project-page">
+      <div className="project-header">
+        <h1 className="project-moto">A GLIMPSE OF THE JOURNEY, WE MADE</h1>
+        <div className="project-seperator">
+          <div className="lineachi1"></div>
+          <div>
+            <h1 className="project-page-title">OUR PROJECTS</h1>
+          </div>
+          <div className="lineachi2"></div>
+        </div>
+
+      </div>
+      <div className="projects-container">
+        <div className="individual-project-container">
+          <img className="project-image" src={pic1} alt="Rome" />
+          <h1 className="project-title">AUTONOMOUS QUADRUPLED ROBOT</h1>
+          <div className="project-decoration-line" />
+
+          <p className="project-description">Development of 3 Dimensional Printed Autonomous four-legged robot with Servo Motors for actuation.</p>
+
+        </div>
+        <div className="individual-project-container">
+          <img className="project-image" src={pic2} alt="Rome" />
+          <h1 className="project-title">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
+          <div className="project-decoration-line">
+
+          </div>
+          <p className="project-description">Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.</p>
+
+        </div>
+        <div className="individual-project-container">
+          <img className="project-image" src={pic3} alt="Rome" />
+          <h1 className="project-title">AUTONOMOUS PATH FINDER ROBOT</h1>
+          <div className="project-decoration-line">
+
+          </div>
+          <p className="project-description">Made an Autonomous Obstacle avoider and Path finder robot with Omni Wheel drive and Ultrasonic Sensor.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  )
+}
+export default project
+
