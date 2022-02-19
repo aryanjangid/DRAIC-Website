@@ -1,14 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
 
-.achiveouter {
-  /* background-color: #0A1931; */
+.achievements_section {
   background-color: rgba(10, 25, 49, 0.8);
   z-index: 1;
   position: relative;
   margin-top: -10rem;
 }
+.achievements_header {
+  padding-top: 190px;
+  text-align: center;
+}
+.achievements_thought {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
+  color: #57b8ff;
+  letter-spacing: 0.5em;
+}
+.achievements_heading {
+  display: flex;
+  margin: auto;
+}
 
-.lineachi2 {
+.achievements_lines {
   height: 3px;
   width: 28%;
   color: white;
@@ -18,35 +32,24 @@
   text-align: left;
   margin-left: 0;
 }
-
-.lineachi1 {
-  height: 3px;
-  width: 28%;
-  color: white;
-  z-index: 30000;
-  margin: auto;
-  background-color: azure;
-  text-align: left;
-  margin-right: 0;
+.achievements_title {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+  padding: 20px;
 }
 
-.firstrowachive {
-  padding-top: 190px;
-  text-align: center;
-}
-
-.timeline .achievements {
+.achievements_timeline .achievements {
   font-family: "Rowdies", cursive;
   font-size: 5rem;
 }
-.timeline {
+.achievements_timeline {
   position: relative;
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
   padding: 15px 0;
 }
-.timeline::after {
+.achievements_timeline::after {
   content: "";
   position: absolute;
   width: 5px;
@@ -57,34 +60,32 @@
   left: 50%;
   margin-left: -2.5px;
 }
-.container {
+.achievement_container {
   padding: 30px 60px;
   margin-right: 0;
   position: relative;
   background: inherit;
   width: 60%;
 }
-.container.left {
+.achievement_container.left {
   left: -10%;
 }
-.container.right {
+.achievement_container.right {
   left: 50%;
-  /* text-align: right; */
 }
 
-.container::before {
+.achievement_container::before {
   content: "";
   position: absolute;
   width: 0;
   height: 0;
-
   top: 54px;
   right: 40px;
   z-index: 1;
   border: 10px solid;
   border-color: transparent #56b6fc transparent transparent;
 }
-.container::after {
+.achievement_container::after {
   content: "";
   background: url("https://img.icons8.com/glyph-neue/64/57b8ff/graduation-cap.png");
   background-size: 40px;
@@ -102,96 +103,68 @@
   border: 5px solid white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.container.right::before {
+.achievement_container.right::before {
   left: 40px;
   border-color: transparent transparent transparent #56b6fc;
 }
-.container.right::after {
+.achievement_container.right::after {
   left: -35px;
 }
-.container .content {
+.achievement_container .achievement_content_container {
   padding: 1rem;
-  /* opacity: 0.5; */
   background: #17202e;
-  /* mix-blend-mode: multiply; */
-  /* mix-blend-mode: screen; */
   position: relative;
-  /* border: 5px solid #eeeeee; */
   border-radius: 20px;
-  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
   display: flex;
   z-index: 5;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
-  /* border: 2px solid;
-  border-color: aliceblue; */
 }
-.contents {
+.achievements_achievement_content_containers {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-items: center; */
 }
-/* .container.right .content {
-      border-radius: 0 500px 500px 500px;
-  } */
-.container .content h2 {
+
+.achievement_container .achievement_content_container h2 {
   margin: 10px;
   font-size: 20px;
   font-weight: normal;
-  /* color: #D8E3E7; */
   color: #56b6fc;
   font-family: "Rowdies", cursive;
 }
 
-.container .content p {
+.achievement_container .achievement_content_container p {
   margin: 10px;
   font-size: 15px;
   line-height: 22px;
-  /* color: #719FB0; */
   color: #d8e3e7;
-  /* font-family: "Rowdies", cursive; */
   font-weight: bold;
 }
-.achievementDevicer {
-  margin: auto;
-  width: 300px;
-  height: 4px;
-  background-color: #868b8e;
-  border-radius: 100px;
-  /* margin: 60px auto 0; */
-  margin-bottom: 50px;
-}
-.devicer {
+.achievement_devicer {
   position: relative;
-  /* top: 10px; */
   left: -5px;
   width: auto;
-  /* display: block; */
   height: 2px;
   background-color: white;
   margin-top: 10px;
-  /* border-radius: 500px; */
-
-  /* margin: 60px auto 0; */
 }
-.image-container {
+.achievement_image_conainer {
   width: 500px;
-  height: 300px;
-  /* aspect-ratio: 16/9; */
+  height: auto;
   background-size: cover;
   z-index: 100;
 }
-.image {
+.achievement_image {
   width: 240px;
   height: 210px;
   border-radius: 20px;
   background-size: cover;
   opacity: 0.8;
 }
-.contents {
+.achievements_achievement_content_containers {
   display: flex;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -200,52 +173,46 @@
   align-items: ce;
 }
 
-/* .content:hover {
-  background: rgb(0, 0, 0);
-  border: 5px solid rgb(96, 147, 163);
-} */
 @media (max-width: 767.98px) {
-  .timeline::after {
+  .achievements_timeline::after {
     left: 40px;
   }
-  .container {
+  .achievement_container {
     width: 90%;
     padding: 21px 27px;
-    /* padding-left: 80px;
-    padding-right: 30px; */
   }
-  .container::after {
+  .achievement_container::after {
     left: -20px;
     width: 30px;
     height: 30px;
     background-size: 20px;
   }
-  .container.right::after {
+  .achievement_container.right::after {
     left: -20px;
   }
-  .container.left {
+  .achievement_container.left {
     left: 40px;
   }
-  .container.right {
+  .achievement_container.right {
     left: 40px;
   }
 
-  .container.left::before,
-  .container.right::before {
+  .achievement_container.left::before,
+  .achievement_container.right::before {
     top: 45px;
     left: 22px;
     border: 5px solid;
     border-color: transparent transparent transparent #56b6fc;
   }
-  .container .content h2 {
+  .achievement_container .achievement_content_container h2 {
     font-size: 12px;
     line-height: 11px;
   }
-  .container .content p {
-    font-size: 9px;
+  .achievement_container .achievement_content_container p {
+    font-size: 10px;
     line-height: 8px;
   }
-  .image {
+  .achievement_image {
     width: 170px;
     height: 150px;
     border-radius: 20px;
