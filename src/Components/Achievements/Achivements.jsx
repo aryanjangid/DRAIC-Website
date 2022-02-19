@@ -1,16 +1,25 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Achievements.css"
 import Achievements1 from "../../Assets/Achievements1.jpg"
 import Achievements2 from "../../Assets/Achievements2.webp"
 import Achievements3 from "../../Assets/Achievements3.webp"
 import Achievements4 from "../../Assets/Achievements4.webp"
 import Achievements5 from "../../Assets/Achievements5.webp"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Main = () => {
+useEffect(() => {
+  AOS.init({
+    duration : 1000
+  });
+}, [])
+
 
   return (
     <div className="achievements_section">
       
-      <div className="achievements_header">
+      <div data-aos={"zoom-in-up"} className="achievements_header">
         <h1 className="achievements_thought">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
         <div className="achievements_heading">
           <div className="achievements_lines"></div>
@@ -26,7 +35,7 @@ const Main = () => {
 
      
 
-        <div className="achievement_container left">
+        <div data-aos-delay={'1000'} data-aos={"fade-left"} className="achievement_container left">
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav</h2>
@@ -41,7 +50,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="achievement_container right">
+        <div data-aos-delay={'1000'} data-aos={"fade-right"} className="achievement_container right">
           <div className="achievement_content_container">
             <div className="achievement_image_conainer">
               <img className="achievement_image" src={Achievements2} alt="" />
@@ -55,7 +64,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="achievement_container left">
+        <div data-aos-delay={'1000'} data-aos={"fade-left"} className="achievement_container left">
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Samiksha Bhokare & Dibyanshu Sharma</h2>
@@ -69,7 +78,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="achievement_container right">
+        <div data-aos-delay={'1000'} data-aos={"fade-right"} className="achievement_container right">
           <div className="achievement_content_container">
             <div className="achievement_image_conainer">
               <img className="achievement_image" src={Achievements4} alt="" />
@@ -83,7 +92,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="achievement_container left">
+        <div data-aos-delay={'1000'} data-aos={"fade-left"} className="achievement_container left">
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Arvind Patel</h2>
@@ -97,7 +106,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="achievement_container right">
+        <div data-aos-delay={'1000'} data-aos={"fade-right"} className="achievement_container right">
           <div className="achievement_content_container">
             <div className="achievement_image_conainer">
               <img className="achievement_image" src={Achievements1} alt="" />
