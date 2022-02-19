@@ -27,7 +27,15 @@ function project() {
           <div className="project-decoration-line" />
 
           <p className="project-description">Development of 3 Dimensional Printed Autonomous four-legged robot with Servo Motors for actuation.</p>
+          <div className="home-links-container">
+            <div className="view-more-container">
+              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
+            </div>
+            <div className="youtube-link-container">
+              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
 
+            </div>
+          </div>
         </div>
         <div className="individual-project-container">
           <img className="project-image" src={pic2} alt="Rome" />
@@ -36,7 +44,15 @@ function project() {
 
           </div>
           <p className="project-description">Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.</p>
+          <div className="home-links-container">
+            <div className="view-more-container">
+              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
+            </div>
+            <div className="youtube-link-container">
+              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
 
+            </div>
+          </div>
         </div>
         <div className="individual-project-container">
           <img className="project-image" src={pic3} alt="Rome" />
@@ -45,7 +61,15 @@ function project() {
 
           </div>
           <p className="project-description">Made an Autonomous Obstacle avoider and Path finder robot with Omni Wheel drive and Ultrasonic Sensor.</p>
+          <div className="home-links-container">
+            <div className="view-more-container">
+              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
+            </div>
+            <div className="youtube-link-container">
+              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
 
+            </div>
+          </div>
         </div>
 
       </div>
