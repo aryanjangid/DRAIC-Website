@@ -56,7 +56,7 @@ input[type="text"], input[type="email"]{
   width: 104%;
   height: 220%;
 }
-button{
+/* button{
   margin-top: 10px;
 }
 button:hover{
@@ -64,8 +64,9 @@ button:hover{
   color: rgb(0, 162, 255);
   font-weight: bolder;
   cursor: pointer;
-}
+} */
 .contact_sendbtn{
+  margin-top: 10px;
   background-color: #2196f3;
   padding: 10px;
   color: white;
