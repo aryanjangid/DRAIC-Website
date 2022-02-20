@@ -1,6 +1,5 @@
-import react from 'react'
+import React from 'react'
 import './Teacher.css'
-import achieve from '../../Assets/Achievements2.webp'
 
 function Teacher() {
     return (
