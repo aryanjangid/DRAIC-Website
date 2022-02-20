@@ -21,7 +21,7 @@ function Elecdep() {
 
                 <div className="department-hero-container">
                     <div className="department-text-container">
-                        <h1 className="department-title">ELECTRICAL DEPARTMENT</h1>
+                        <h1 className="department-electrical-title">ELECTRICAL DEPARTMENT</h1>
                         <p className="department-description">A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly. A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly.</p>
                     </div>
                     <div className="department-image-container">
