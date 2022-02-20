@@ -27,7 +27,7 @@ function mechdep() {
                     </div>
                     <div className="department-image-container">
                         {/* department-image */}
-                        <img src="https://cdn.dribbble.com/users/525908/screenshots/3013825/coder.gif" className=" department-mechanical-image" alt="departimg"></img>
+                        <img src="https://cdn.dribbble.com/users/2221597/screenshots/11933222/media/c7bff7d4fa3f4befecb1cd1ae87c08ae.gif" className=" department-mechanical-image" alt="departimg"></img>
 
                     </div>
                 </div>
