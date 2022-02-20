@@ -119,6 +119,9 @@ li {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
   }
+  .nav-link .icon {
+    top: -14px;
+  }
   .nav-container {
     display: flex;
     width: 144%;
