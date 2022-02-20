@@ -22,7 +22,8 @@
   margin: auto;
 }
 
-.achievements_line_1,.achievements_line_2 {
+.achievements_line_1,
+.achievements_line_2 {
   height: 3px;
   width: 26%;
   color: white;
@@ -33,12 +34,12 @@
   margin-left: 0;
 }
 
-.achievements_line_1{
+.achievements_line_1 {
   margin-right: 0%;
   margin-left: auto;
 }
 
-.achievements_line_2{
+.achievements_line_2 {
   margin-left: 0;
 }
 
@@ -174,6 +175,7 @@
   border-radius: 20px;
   background-size: cover;
   opacity: 0.8;
+  box-shadow: 0 0 10px 0.3px #fff;
 }
 .achievements_achievement_content_containers {
   display: flex;
@@ -228,15 +230,15 @@
     height: 150px;
     border-radius: 20px;
   }
-  .achievement_container .achievement_content_container{
+  .achievement_container .achievement_content_container {
     padding: 0.3rem 0;
   }
-  .achievements_title{
+  .achievements_title {
     margin: 1rem;
     padding: 0;
     font-size: 1rem;
   }
-  .achievements_thought{
+  .achievements_thought {
     letter-spacing: 3px;
     font-size: 12px;
     margin: 0.4rem;
@@ -248,5 +250,5 @@
     height: 2px;
     background-color: white;
     margin-top: 10px;
-}
+  }
 }
