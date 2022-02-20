@@ -43,24 +43,24 @@
 
 .project-line1 {
   height: 3px;
-    width: 32%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-right: 0; 
+  width: 32%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-right: 0;
 }
 
 .project-line2 {
   height: 3px;
-    width: 32%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-left: 0;
+  width: 32%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-left: 0;
 }
 
 .firstrowourproject {
@@ -129,7 +129,7 @@
 }
 .project-card-btn {
   text-decoration: none;
-  margin-left: auto;
+  margin-left: 10px;
   display: block;
   font-size: 0.8rem;
   text-align: center;
@@ -140,6 +140,8 @@
   border-radius: 0.4rem;
   transition: 0.2s;
   cursor: pointer;
+  white-space: nowrap;
+  margin-right: 20px;
   letter-spacing: 0.1rem;
 }
 .project-card-btn span {
@@ -198,33 +200,32 @@
   }
 }
 
-
 @media screen and (max-width: 412px) {
-  .project-moto{
+  .project-moto {
     font-size: 0.8rem;
     letter-spacing: 0.3rem;
   }
-  .project-page-title{
+  .project-page-title {
     font-size: 1.7rem;
   }
-  .project-line1{
+  .project-line1 {
     width: 15%;
   }
-  .project-line2{
+  .project-line2 {
     width: 15%;
   }
-  .individual-project-container{
+  .individual-project-container {
     margin: 40px;
     margin-top: 0;
   }
-  .project-image{
+  .project-image {
     width: 100%;
   }
-  .project-title{
-    font-size: 1.4rem ;
+  .project-title {
+    font-size: 1.4rem;
     padding: 10px 0;
   }
-  .project-page{
+  .project-page {
     padding-bottom: 20px;
   }
 }
