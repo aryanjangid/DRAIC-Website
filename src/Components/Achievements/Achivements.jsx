@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./Achievements.css"
 import Achievements1 from "../../Assets/Achievements1.jpg"
 import Achievements2 from "../../Assets/Achievements2.webp"
@@ -9,31 +9,31 @@ import AOS from 'aos';
 // import 'aos/dist/aos.css';
 
 const Main = () => {
-useEffect(() => {
-  AOS.init({
-    duration : 1000
-  });
-}, [])
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+  }, [])
 
 
   return (
     <div className="achievements_section">
-      
+
       <div className="achievements_header">
         <h1 data-aos={"zoom-in-up"} className="achievements_thought">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
         <div data-aos={"zoom-in-up"} data-aos-delay={'1000'} className="achievements_heading">
-          <div className="achievements_lines"></div>
+          <div className="achievements_line_1"></div>
           <div>
             <h1 className="achievements_title">OUR ACHIEVEMENTS</h1>
           </div>
-          <div className="achievements_lines"></div>
+          <div className="achievements_line_2"></div>
         </div>
       </div>
 
 
       <div className="achievements_timeline">
 
-     
+
 
         <div data-aos-delay={'1000'} data-aos={"fade-left"} className="achievement_container left">
           <div className="achievement_content_container">
