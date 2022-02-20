@@ -108,6 +108,18 @@
   }
 }
 @media screen and (max-width:750px) and (min-width:414px) {
+
+.home-teacher-moto{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.home-teacher-title{
+    font-size: 1.7rem;
+}
+
+
+
   .home-teacher-image-container{
     padding-left: 0rem;
   }
@@ -133,39 +145,38 @@
   .home-teacher-image{
     height: 15rem;
   }
-  .home-teacher-title{
-    font-size: 1.8rem;
-  }
-  .home-teacher-moto {
-    letter-spacing: 0.3em;
-    margin-bottom: 3rem;
-  }
+  
   .teacher-footer{
     display: flex;
     margin: auto;
     justify-content: center;
   }
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:412px) {
   .home-teacher-content{
     flex-direction: column;
     /* align-items: center; */
-    margin: 3rem 0;
+    margin: 1rem 0;
+    margin-bottom: 0;
     padding: 0;
   }
   .home-teacher-text{
     padding: 10px;
     width: 100%;
+    margin-bottom: 30px;
   }
   .home-teacher-paragraph{
     /* width: 100%; */
     width: auto;
     text-align: center;
+    font-size: 1rem;
+    padding: 10px 20px;
   }
   .home-teacher-name{
     font-size: 1.5rem;
     text-align: center;
     width: 100%;
+    padding: 10px;
   }
   .home-teacher-image{
     height: 15rem;
@@ -174,12 +185,20 @@
     padding-left: 0;
   }
   .home-teacher-title{
-    font-size: 1.4rem;
-    padding: 0;
+    font-size: 1.7rem;
+    padding: 20px;
   }
   .home-teacher-moto {
-    letter-spacing: 0.3em;
-    margin-bottom: 3rem;
+    font-size: 0.8rem;
+  }
+  .home-teacher-decoration-line1{
+    width: 17%;
+    height: 2.8px;
+  }
+  .home-teacher-decoration-line2{
+      width: 17%;
+    height: 2.8px;
+
   }
   .teacher-footer{
     display: flex;

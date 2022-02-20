@@ -6,3 +6,9 @@
     /* opacity: 1; */
     height: 750px;
 }
+
+@media screen and (max-width:412px) {
+    .deckback{
+        height: 700px;
+    }
+}

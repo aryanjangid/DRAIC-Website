@@ -51,6 +51,7 @@ const styles = {
     },
     department: {
         color: 'white',
-    }
+    },
+
 }
 export default Card
