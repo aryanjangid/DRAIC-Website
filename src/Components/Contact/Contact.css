@@ -17,7 +17,7 @@
   font-size: 1.2rem;
   margin-top: 3.5rem;
   color: #57b8ff;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.45rem;
 }
 .contact_fillform_div {
   position: relative;
@@ -32,17 +32,21 @@
 }
 .contactusline1 {
   height: 3px;
-  width: 37%;
+  width: 32%;
   margin-top: 40px;
   background-color: white;
 }
 .contactusline2 {
   height: 3px;
-  width: 37%;
+  width: 32%;
   margin-top: 40px;
   background-color: white;
 }
-
+.contactus_seperator {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 /* CONTACT FULL FORM */
 
 .contact_form_details {
@@ -134,7 +138,7 @@ form {
   margin-left: 30px;
 }
 .contact_fillform {
-  /* font-family: "Raleway", sans-serif; */
+  font-family:Arial, Helvetica, sans-serif;
   font-size: medium;
   color: white;
   text-align: center;
@@ -196,7 +200,7 @@ img {
     white-space: nowrap;
   }
   .contact_fillform {
-    font-size: 12px;
+    font-size: 14px;
   }
   .contact_textarea {
     width: 93%;
