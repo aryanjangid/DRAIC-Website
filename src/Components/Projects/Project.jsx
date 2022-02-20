@@ -12,11 +12,11 @@ function project() {
       <div className="project-header">
         <h1 className="project-moto">A GLIMPSE OF THE JOURNEY, WE MADE</h1>
         <div className="project-seperator">
-          <div className="lineachi1"></div>
+          <div className="project-line1"></div>
           <div>
             <h1 className="project-page-title">OUR PROJECTS</h1>
           </div>
-          <div className="lineachi2"></div>
+          <div className="project-line2"></div>
         </div>
 
       </div>

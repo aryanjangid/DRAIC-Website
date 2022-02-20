@@ -14,18 +14,18 @@
   margin-bottom: 30px;
 }
 
-.project-moto{
+.project-moto {
   font-family: "Roboto Condensed", sans-serif;
-    font-size: 1rem;
-    padding-top: 40px;
-    color: #57b8ff;
-    letter-spacing: 0.5em;
+  font-size: 1rem;
+  padding-top: 40px;
+  color: #57b8ff;
+  letter-spacing: 0.5em;
 }
 
-.project-page-title{
+.project-page-title {
   font-family: "Rowdies", cursive;
-    font-size: 2.5rem;
-    padding: 20px;
+  font-size: 2.5rem;
+  padding: 20px;
 }
 
 .project-section {
@@ -36,39 +36,31 @@
   font-family: "Rowdies", cursive;
   font-size: 2.5rem;
 }
-.project-line {
-  text-align: center;
 
-  /* left:38.7%; */
-  height: 7px;
-  width: 200px;
-  background-color: aliceblue;
-  border-radius: 50px;
-  margin: auto;
-  margin-bottom: 50px;
-  margin-top: 10px;
+.project-seperator {
+  display: flex;
 }
 
-.lineourproject2 {
+.project-line1 {
   height: 3px;
-  width: 35%;
-  color: white;
-  z-index: 30000;
-  margin: auto;
-  background-color: azure;
-  text-align: left;
-  margin-left: 0;
+    width: 32%;
+    color: white;
+    z-index: 30000;
+    margin: auto;
+    background-color: azure;
+    text-align: left;
+    margin-right: 0; 
 }
 
-.lineourproject1 {
+.project-line2 {
   height: 3px;
-  width: 35%;
-  color: white;
-  z-index: 30000;
-  margin: auto;
-  background-color: azure;
-  text-align: left;
-  margin-right: 0;
+    width: 32%;
+    color: white;
+    z-index: 30000;
+    margin: auto;
+    background-color: azure;
+    text-align: left;
+    margin-left: 0;
 }
 
 .firstrowourproject {
@@ -206,3 +198,33 @@
   }
 }
 
+
+@media screen and (max-width: 412px) {
+  .project-moto{
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+  }
+  .project-page-title{
+    font-size: 1.7rem;
+  }
+  .project-line1{
+    width: 15%;
+  }
+  .project-line2{
+    width: 15%;
+  }
+  .individual-project-container{
+    margin: 40px;
+    margin-top: 0;
+  }
+  .project-image{
+    width: 100%;
+  }
+  .project-title{
+    font-size: 1.4rem ;
+    padding: 10px 0;
+  }
+  .project-page{
+    padding-bottom: 20px;
+  }
+}
