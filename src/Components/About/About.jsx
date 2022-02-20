@@ -51,10 +51,10 @@ function About() {
           <article className="about-content-grid about-grid-span2 flow bg-secondary-400 text-neutral-100 content-grid-width">
             <div className="about-content-grid-box">
               <div className='about-content-iconbox'>
-                <img className='about-content-icon' src="https://img.icons8.com/android/48/ffffff/rocket.png" alt="vission" />
+                <img className='about-content-icon' src="https://img.icons8.com/android/48/ffffff/rocket.png" alt="vision" />
               </div>
               <div>
-                <h2 className="about-content-title">VISSION</h2>
+                <h2 className="about-content-title">VISION</h2>
 
               </div>
             </div>

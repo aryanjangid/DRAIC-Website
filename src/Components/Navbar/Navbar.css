@@ -139,14 +139,15 @@ li {
   border-radius: 50%;
   transition: all 0.3s ease;
   opacity: 0;
-  border: 10px solid black;
+  border: 8px solid white;
+
 }
 .nav-link:hover:after {
-  transform: translate(-39px, -18px);
+  transform: translate(-34px, -15px);
   opacity: 1;
 }
 .active:after {
-  transform: translate(-39px, -18px);
+  transform: translate(-34px, -15px);
   opacity: 1;
 }
 }
