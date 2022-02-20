@@ -32,12 +32,11 @@
   padding: 20px;
 }
 
-.home-project-title-heading{
+.home-project-title-heading {
   font-family: "Rowdies", cursive;
   font-size: 1.5rem;
-  padding:10px 30px;
+  padding: 10px 30px;
   color: #719fb0;
-
 }
 
 .home-project-section {
@@ -116,9 +115,12 @@
 
 .home-links-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 0 20px;
 }
 .home-individual-project-container {
   text-align: center;
@@ -234,10 +236,10 @@
     padding-top: 10px;
     letter-spacing: 0.4em;
   }
-  .project-component-home{
+  .project-component-home {
     padding-bottom: 30px;
   }
-  .home-project-header{
+  .home-project-header {
     margin-bottom: 0;
   }
   .home-project-title {
@@ -249,23 +251,23 @@
     width: 15%;
     height: 2.8px;
   }
-  .seperator-decoration-line2{
+  .seperator-decoration-line2 {
     width: 15%;
     height: 2.8px;
   }
 
-  .home-individual-project-container{
+  .home-individual-project-container {
     margin: 40px;
   }
-  .home-project-image{
+  .home-project-image {
     width: 100%;
   }
 
-  .home-project-title-our-project{
+  .home-project-title-our-project {
     font-size: 1.7rem;
   }
 
-  .home-project-title-heading{
+  .home-project-title-heading {
     padding: 10px 0px;
     font-size: 1.4rem;
   }
