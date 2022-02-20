@@ -22,9 +22,9 @@
   margin: auto;
 }
 
-.achievements_lines {
+.achievements_line_1,.achievements_line_2 {
   height: 3px;
-  width: 28%;
+  width: 26%;
   color: white;
   z-index: 30000;
   margin: auto;
@@ -32,6 +32,16 @@
   text-align: left;
   margin-left: 0;
 }
+
+.achievements_line_1{
+  margin-right: 0%;
+  margin-left: auto;
+}
+
+.achievements_line_2{
+  margin-left: 0;
+}
+
 .achievements_title {
   font-family: "Rowdies", cursive;
   font-size: 2.5rem;
@@ -146,8 +156,8 @@
 }
 .achievement_devicer {
   position: relative;
-  left: -5px;
-  width: auto;
+  left: 11px;
+  width: 85%;
   height: 2px;
   background-color: white;
   margin-top: 10px;
@@ -206,16 +216,37 @@
     border-color: transparent transparent transparent #56b6fc;
   }
   .achievement_container .achievement_content_container h2 {
-    font-size: 12px;
-    line-height: 11px;
+    font-size: 9px;
+    line-height: 14px;
   }
   .achievement_container .achievement_content_container p {
-    font-size: 10px;
-    line-height: 8px;
+    font-size: 9px;
+    line-height: 14px;
   }
   .achievement_image {
     width: 170px;
     height: 150px;
     border-radius: 20px;
   }
+  .achievement_container .achievement_content_container{
+    padding: 0.3rem 0;
+  }
+  .achievements_title{
+    margin: 1rem;
+    padding: 0;
+    font-size: 1rem;
+  }
+  .achievements_thought{
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin: 0.4rem;
+  }
+  .achievement_devicer {
+    position: relative;
+    left: 11px;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+}
 }
