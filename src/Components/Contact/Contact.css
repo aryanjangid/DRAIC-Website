@@ -1,64 +1,62 @@
 /* CONTACT FORM MAIN HEADLINES */
-.contact_main_body{
-    margin-top: -6rem;
-    background-color: rgba(10, 25, 49, 0.8);
-    position: relative;
-    z-index: 1;
-    height: auto;
-    padding-top: 6.5rem;
-    padding-bottom: 0.3rem;
+.contact_main_body {
+  margin-top: -6rem;
+  background-color: rgba(10, 25, 49, 0.8);
+  position: relative;
+  z-index: 1;
+  height: auto;
+  padding-top: 6.5rem;
+  padding-bottom: 0.3rem;
 }
-.contact_headline_div{
+.contact_headline_div {
   text-align: center;
   padding-bottom: 15px;
 }
-.contact_headline{
+.contact_headline {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2rem;
   margin-top: 3.5rem;
   color: #57b8ff;
   letter-spacing: 0.5em;
 }
-.contact_fillform_div{
-      position: relative;
-      margin-top: 0.5%;
-      margin-bottom: 2%;
-      padding: 10px;
-      font-size: 2rem;
-      text-align: center;
+.contact_fillform_div {
+  position: relative;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
 }
-.contact_topic{
-    text-align: center;
+.contact_topic {
+  text-align: center;
 }
-.contactusline1
-{
-    height: 3px;
-    width: 37%;
-    margin-top: 40px;
-    background-color: white;
+.contactusline1 {
+  height: 3px;
+  width: 37%;
+  margin-top: 40px;
+  background-color: white;
 }
-.contactusline2
-{
-    height: 3px;
-    width: 37%;
-    margin-top: 40px;
-    background-color: white;
+.contactusline2 {
+  height: 3px;
+  width: 37%;
+  margin-top: 40px;
+  background-color: white;
 }
 
 /* CONTACT FULL FORM */
 
-.contact_form_details{
-      margin: 4vw 8vw;
-      width: 80%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
+.contact_form_details {
+  margin: 4vw 8vw;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-
 
 /* CONTACT LEFT FORM */
 
-input[type="text"], input[type="email"]{
+input[type="text"],
+input[type="email"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -68,14 +66,15 @@ input[type="text"], input[type="email"]{
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
-.contact_name_email_div{
+.contact_name_email_div {
   display: flex;
 }
-.contact_form_name, .contact_form_email{
+.contact_form_name,
+.contact_form_email {
   margin: 5px;
   width: 20vw;
 }
-.contact_form_textarea_div{
+.contact_form_textarea_div {
   margin-left: 5px;
   width: 104%;
   height: 220%;
@@ -83,21 +82,24 @@ input[type="text"], input[type="email"]{
 /* button{
   margin-top: 10px;
 }*/
-.contact_sendbtn:hover{
-  border: 3px solid rgb(0, 162, 255);
-  background-color: rgb(31, 30, 30);
-  color: rgb(237, 240, 241);
-  font-weight: bolder;
-  cursor: pointer;
-} 
-.contact_sendbtn{
+
+.contact_sendbtn {
   margin-top: 10px;
   background-color: #2196f3;
   padding: 10px;
   color: white;
-  border: 10px white;
+  border: 2px solid #2196f3;
   border-radius: 20px;
   width: 30%;
+  transition: all 0.3s ease;
+}
+.contact_sendbtn:hover {
+  border: 2px solid rgb(0, 162, 255);
+  background-color: rgb(31, 30, 30);
+  color: rgb(237, 240, 241);
+  font-weight: bolder;
+  padding: 10px;
+  cursor: pointer;
 }
 .contact_textarea {
   height: 130px;
@@ -113,24 +115,26 @@ form {
   font-size: 1rem;
 }
 
-
-
 /* CONTACT RIGHTSIDE DETAILS */
-.contact_information_div{
+.contact_information_div {
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
 }
-.contact_info_email_div, .contact_info_phone_div, .contact_info_linkedin_div{
+.contact_info_email_div,
+.contact_info_phone_div,
+.contact_info_linkedin_div {
   display: flex;
   align-items: center;
   height: 10vh;
 }
-.contact_infoemail, .contact_infophone, .contact_infolink{
+.contact_infoemail,
+.contact_infophone,
+.contact_infolink {
   margin-left: 30px;
 }
 .contact_fillform {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: medium;
   color: white;
   text-align: center;
@@ -139,9 +143,15 @@ form {
   font-family: "Rowdies", cursive;
   font-size: 1.5rem;
   color: #2196f3;
+  white-space: nowrap;
 }
-img{
+img {
   font-size: 25px;
+}
+.contactusheading {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+  padding: 20px;
 }
 .contact_info_subhead {
   font-family: "Raleway", sans-serif;
@@ -154,36 +164,56 @@ img{
   font-size: medium;
 }
 
-
 /* MEDIA QUERIES */
-  @media(max-width: 800px)
-  {
-    .contact_name_email_div{
-      flex-direction: column;
-    }
-    .contact_form_name{
-      width: 72vw;
-    }
-    .contact_form_email{
-      width: 72vw;
-      margin-bottom: 10px;
-    }
+@media (max-width: 800px) {
+  .contact_name_email_div {
+    flex-direction: column;
+    margin-bottom: 8px;
   }
-  @media(max-width: 800px)
-  {
-    .contact_information_div{
-      margin-left: 20px;
-    }
+  .contact_form_details {
+    width: auto;
   }
-  @media(max-width: 800px)
-  {
-    .contact_information_div{
-      margin-top: 4.6vh;
-    }
+  .contact_form_name {
+    width: 72vw;
   }
-  @media(max-width: 850px) and (min-width: 800px)
-  {
-      .contact_information_div{
-        margin-left: 1vw;
-      }
+  .contact_form_email {
+    width: 72vw;
+    margin-bottom: 10px;
   }
+  .contact_headline {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+  }
+  .contact_information_div {
+    margin-left: 0;
+  }
+  .contact_information_div {
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+  .contactusheading {
+    font-size: 1.7rem;
+    white-space: nowrap;
+  }
+  .contact_fillform {
+    font-size: 12px;
+  }
+  .contact_textarea {
+    width: 93%;
+  }
+  .contact_sendbtn {
+    margin-top: 18px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 6px;
+  }
+  .contact_info_headline {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 850px) and (min-width: 800px) {
+  .contact_information_div {
+    margin-left: 1vw;
+  }
+}

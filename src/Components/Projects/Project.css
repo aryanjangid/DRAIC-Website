@@ -19,7 +19,7 @@
   font-size: 1rem;
   padding-top: 40px;
   color: #57b8ff;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
 }
 
 .project-page-title {
@@ -203,7 +203,7 @@
 @media screen and (max-width: 412px) {
   .project-moto {
     font-size: 0.8rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 3px;
   }
   .project-page-title {
     font-size: 1.7rem;
