@@ -39,7 +39,6 @@ function About() {
               </div>
               <div>
                 <h2 className="about-content-title">MISSION</h2>
-
               </div>
             </div>
             <p className="about-content-text">

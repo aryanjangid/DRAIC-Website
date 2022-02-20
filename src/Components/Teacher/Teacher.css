@@ -88,7 +88,7 @@
 .teacher-footer{
   display: flex;
   margin: auto;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .teacher_footer_social_img{
@@ -117,8 +117,6 @@
 .home-teacher-title{
     font-size: 1.7rem;
 }
-
-
 
   .home-teacher-image-container{
     padding-left: 0rem;
