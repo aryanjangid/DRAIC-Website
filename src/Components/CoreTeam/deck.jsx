@@ -157,14 +157,14 @@ class Deck extends Component {
   render() {
     return (<div>
       <div className='space'></div>
-      <div className="firstrow">
-        <h1 className="wheredowe">FINDING INSPIRATION IN EVERY TURN</h1>
+      <div className="core-firstrow">
+        <h1 className="core-subheading">FINDING INSPIRATION IN EVERY TURN</h1>
         <div className="seperator">
-          <div className="lineaboutus1"></div>
+          <div className="core-line1"></div>
           <div>
-            <h1 className="aboutusheading">OUR TEAM</h1>
+            <h1 className="core-heading">OUR TEAM</h1>
           </div>
-          <div className="lineaboutus2"></div>
+          <div className="core-line2"></div>
         </div>
 
       </div>

@@ -31,3 +31,9 @@
     padding-left: 20px;
     color:white;
 }
+
+@media screen and (max-width:412px) {
+    .card{
+        width: 20px;
+    }
+}

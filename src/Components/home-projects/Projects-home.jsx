@@ -12,18 +12,18 @@ function Project() {
             <div className="home-project-header">
                 <h1 className="home-project-moto">SEE WHAT WE HAVE DONE SO FAR</h1>
                 <div className="home-project-seperator">
-                    <div className="seperator-decoration-line"></div>
+                    <div className="seperator-decoration-line1"></div>
                     <div>
-                        <h1 className="home-project-title ">OUR PROJECTS</h1>
+                        <h1 className="home-project-title-our-project">OUR PROJECTS</h1>
                     </div>
-                    <div className="seperator-decoration-line"></div>
+                    <div className="seperator-decoration-line2"></div>
                 </div>
 
             </div>
             <div className="home-projects-container">
                 <div className="home-individual-project-container">
                     <img className="home-project-image" src={pic1} alt="Rome" />
-                    <h1 className="home-project-title">AUTONOMOUS QUADRUPLED ROBOT</h1>
+                    <h1 className="home-project-title-heading">AUTONOMOUS QUADRUPLED ROBOT</h1>
                     <div className="home-project-decoration-line" />
 
                     <p className="home-project-description">Development of 3 Dimensional Printed Autonomous four-legged robot with Servo Motors for actuation.</p>
@@ -40,7 +40,7 @@ function Project() {
                 </div>
                 <div className="home-individual-project-container">
                     <img className="home-project-image" src={pic2} alt="Rome" />
-                    <h1 className="home-project-title">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
+                    <h1 className="home-project-title-heading">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
                     <div className="home-project-decoration-line">
 
                     </div>
@@ -57,7 +57,7 @@ function Project() {
                 </div>
                 <div className="home-individual-project-container">
                     <img className="home-project-image" src={pic3} alt="Rome" />
-                    <h1 className="home-project-title">AUTONOMOUS PATH FINDER ROBOT</h1>
+                    <h1 className="home-project-title-heading">AUTONOMOUS PATH FINDER ROBOT</h1>
                     <div className="home-project-decoration-line">
 
                     </div>
