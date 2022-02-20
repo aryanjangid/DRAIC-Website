@@ -7,7 +7,7 @@ function Contact() {
       <div className="contact_headline_div">
         <h1 className="contact_headline">OPPORTUNITIES DON'T HAPPEN, YOU CREATE THEM</h1>
       </div>
-      <div className="seperator">
+      <div className="contactus_seperator">
           <div className="contactusline1"></div>
           <div className='contact_topic'>
             <h1 className="contactusheading">GET IN TOUCH</h1>
