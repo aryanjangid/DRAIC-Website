@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Contact() {
+const Contact = () => {
   return (
     <div className='contact_main_body'>
       <div className="contact_headline_div">
