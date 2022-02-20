@@ -7,7 +7,6 @@
   position: relative;
 }
 
-
 .core-firstrow {
   z-index: 100;
   text-align: center;
@@ -24,6 +23,7 @@
   font-family: "Rowdies", cursive;
   font-size: 2.5rem;
   padding: 20px;
+  white-space: nowrap;
 }
 .seperator {
   display: flex;
@@ -52,7 +52,6 @@
   margin-right: 0;
 }
 
-
 /* .button {
   background-color: #00A0FF;
   border-radius: 100px;
@@ -73,7 +72,6 @@
 }
 .meetteam {
   text-align: center;
-  
 }
 
 .meettheteam {
@@ -82,7 +80,7 @@
 }
 .linex {
   text-align: center;
-  
+
   /* left:38.7%; */
   height: 7px;
   width: 200px;
@@ -138,32 +136,28 @@ button:hover::after {
   background-color: #141820;
 } */
 
-
-@media screen and (max-width:412px) {
-  .space{
+@media screen and (max-width: 412px) {
+  .space {
     height: 0;
   }
-  .core-firstrow{
+  .core-firstrow {
     margin-bottom: 20px;
   }
 
-  .core-subheading{
+  .core-subheading {
     font-size: 0.8rem;
     letter-spacing: 0.4em;
   }
 
-  .core-heading{
+  .core-heading {
     font-size: 1.7rem;
   }
-  .core-line1{
+  .core-line1 {
     width: 25%;
     height: 2.8px;
   }
-  .core-line2{
+  .core-line2 {
     width: 25%;
     height: 2.8px;
   }
-
-
-
 }

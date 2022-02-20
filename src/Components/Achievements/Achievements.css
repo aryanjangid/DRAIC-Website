@@ -47,6 +47,7 @@
   font-family: "Rowdies", cursive;
   font-size: 2.5rem;
   padding: 20px;
+  white-space: nowrap;
 }
 
 .achievements_timeline .achievements {
@@ -164,7 +165,7 @@
   margin-top: 10px;
 }
 .achievement_image_conainer {
-  width: 500px;
+  width: 500px; /*auto  */
   height: auto;
   background-size: cover;
   z-index: 100;
@@ -175,7 +176,7 @@
   border-radius: 20px;
   background-size: cover;
   opacity: 0.8;
-  box-shadow: 0 0 10px 0.3px #fff;
+  /* box-shadow: 0 0 10px 0.3px #fff; */
 }
 .achievements_achievement_content_containers {
   display: flex;
@@ -226,9 +227,9 @@
     line-height: 14px;
   }
   .achievement_image {
-    width: 170px;
-    height: 150px;
-    border-radius: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
   }
   .achievement_container .achievement_content_container {
     padding: 0.3rem 0;
@@ -236,7 +237,7 @@
   .achievements_title {
     margin: 1rem;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.7rem;
   }
   .achievements_thought {
     letter-spacing: 3px;
