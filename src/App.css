@@ -338,14 +338,6 @@ select {
 .grid-col-span-2 {
   grid-row: span 2;
 }
-.aboutmain {
-  display: grid;
-  gap: 2em;
-  padding-block: 2rem;
-  width: min(95%, 70rem);
-  margin-inline: auto;
-}
-
 .testimonial-grid {
   display: grid;
   column-gap: 2em;
@@ -466,11 +458,7 @@ select {
   margin: 0px;
   max-width: 40px;
 }
-.dept-grid-box:hover {
-  /* transform: translateY(-0.9%); */
-  /* box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5); */
-  /* border-color: white; */
-}
+
 
 /* ACHIEVEMENTS */
 

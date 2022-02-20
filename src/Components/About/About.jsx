@@ -102,8 +102,7 @@ function About() {
 
               <div>
                 <h2 className="about-content-count-main"><strong>50+</strong></h2>
-                <p className="about-content-count-sub" style={{fontSize: '1.3rem'}}>Achievements</p>
-               
+                <p className="about-content-count-sub achieve">Achievements</p>
               </div>
             </div>
 
