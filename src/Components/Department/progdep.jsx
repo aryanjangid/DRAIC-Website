@@ -7,39 +7,29 @@ import './programming-department.css'
 function Progdep() {
     return (
         <>
-            <div className="department-page">
-                {/* <div className="department-header">
-                    <div className="dep-head-text">
-                        <div className="dep-head-title">Electrical Department</div>
-                        <div className="dep-head-des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit harum iusto atque sunt quis explicabo, soluta autem vero voluptates perferendis, eum placeat fugit labore excepturi, quaerat eius similique necessitatibus voluptatum!</div>
+            <div className="prog-department-page">
+                <div className="prog-department-hero-container">
+                    <div className="prog-department-text-container">
+                        <h1 className="prog-department-title">PROGRAMMING DEPARTMENT</h1>
+                        <p className="prog-department-description">A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly. A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly.</p>
                     </div>
-                    <div className="dep-img">
-                        <img src={pc} alt="" className="elec-img" />
-                    </div>
-                </div> */}
-
-                <div className="department-hero-container">
-                    <div className="department-text-container">
-                        <h1 className="department-title">PROGRAMMING DEPARTMENT</h1>
-                        <p className="department-description">A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly. A random paragraph generator is a tool provided by various websites that provides you as many random paragraphs as you want. Be it for any work purpose of yours, effortlessly.</p>
-                    </div>
-                    <div className="department-image-container">
-                        <img src="https://cdn.dribbble.com/users/542979/screenshots/3000076/sarah-working-on-computer.gif" className="department-image" alt="departimg"></img>
+                    <div className="prog-department-image-container">
+                        <img src="https://cdn.dribbble.com/users/542979/screenshots/3000076/sarah-working-on-computer.gif" className="prog-department-image" alt="departimg"></img>
                     </div>
                 </div>
 
-                <div className="department-header-container">
-                    <h1 className="department-moto">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
+                <div className="prog-department-header-container">
+                    <h1 className="prog-department-moto">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
                     <div className="seperator">
                         <div className="depline1"></div>
                         <div>
-                            <h1 className="department-name">PROGRAMMING TEAM</h1>
+                            <h1 className="prog-department-name">PROGRAMMING TEAM</h1>
                         </div>
                         <div className="depline2"></div>
                     </div>
                 </div>
 
-                <div className="department-members-container">
+                <div className="prog-department-members-container">
                     {
                         ProfDepList.map(card => {
                             return (
