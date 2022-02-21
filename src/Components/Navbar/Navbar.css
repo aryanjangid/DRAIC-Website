@@ -112,9 +112,14 @@ li {
   z-index: 22;
 }
 @media (max-width: 768px) {
+  .nav{
+    height: 4.4rem;
+  }
+
   .nav-link .title {
     position: relative;
     top: -49px;
+    left: -4px;
     transition: all 0.3s ease;
     font-family: "Roboto", sans-serif;
     font-size: 18px;

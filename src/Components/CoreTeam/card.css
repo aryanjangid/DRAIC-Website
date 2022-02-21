@@ -32,6 +32,14 @@
     color:white;
 }
 
+.core_team_social_img{
+    position: relative;
+    top: -12rem;
+    /* top: -32rem; */
+    z-index: 300000;
+    left: 7rem;
+}
+
 @media screen and (max-width:412px) {
     .card{
         width: 20px;
