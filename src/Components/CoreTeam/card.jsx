@@ -1,6 +1,7 @@
 import React from "react";
 import './card.css'
 import immg from './photos/picc.jpg'
+import { Link } from "react-router-dom";
 function Card(props) {
     return (
             <div className="maincard" style={{
@@ -20,9 +21,9 @@ function Card(props) {
 
                     <h1 className="namee">{props.name}<br></br>{props.surname}</h1>
                     <div className="ll"></div>
-                    <h4 className="pos">{props.dep} </h4>
-
-        </div>
+                    <h4 className="pos">{props.dep} </h4>   
+                    <Link className='footer_social_links' to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img className='core_team_social_img' src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Linkedin" /></Link>
+                    </div>
 
     )
 }
