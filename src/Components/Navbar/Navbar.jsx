@@ -8,7 +8,7 @@ function Navbar() {
     
     return (<>
 
-        <div classNameName="navbar">
+        <div className="navbar">
             <div className="nav-container">
                 <ul className="nav">
                     <li className="nav-item">

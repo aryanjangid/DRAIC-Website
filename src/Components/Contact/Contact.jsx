@@ -14,11 +14,11 @@ const Contact = () => {
           </div>
           <div className="contactusline2"></div>
         </div>
-      <div className="contact_fillform_div">
-            <h3 className="contact_fillform">Please fill out the form below to send us an email and we will get back to you as soon as possible.</h3>
-      </div>
       <div className="contact_form_details">
         <div>
+        <div className="contact_fillform_div">
+            <h3 className="contact_fillform">Please fill out the form below to connect.</h3>
+      </div>
         <form action="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" className="leftform" method='POST'>
           <div className="contact_name_email_div">
             <div className="contact_form_name">

@@ -39,7 +39,7 @@ const Main = () => {
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav</h2>
-              <div class="achievement_devicer"></div>
+              <div className="achievement_devicer"></div>
               <p>
                 Second Runner-up at Innovate for Smart Pimpri Chinchwad, innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.
               </p>
@@ -57,7 +57,7 @@ const Main = () => {
             </div>
             <div className="achievements_contents">
               <h2> Sagar Warungase</h2>
-              <div class="achievement_devicer"></div>
+              <div className="achievement_devicer"></div>
               <p>
                 First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
               </p>
@@ -68,7 +68,7 @@ const Main = () => {
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Samiksha Bhokare & Dibyanshu Sharma</h2>
-              <div class="achievement_devicer"></div>
+              <div className="achievement_devicer"></div>
               <p>
                 Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
               </p>
@@ -85,7 +85,7 @@ const Main = () => {
             </div>
             <div className="achievements_contents">
               <h2> Arvind Patel</h2>
-              <div class="achievement_devicer"></div>
+              <div className="achievement_devicer"></div>
               <p>
                 Second Runner-up at COEP Mindspark-19 Search & Destroy, organised by COEP, Pune.
               </p>
@@ -96,7 +96,7 @@ const Main = () => {
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Arvind Patel</h2>
-              <div class="achievement_devicer"></div>
+              <div className="achievement_devicer"></div>
               <p>
                 First Position at Bro Code & Code Capture Competition organised by PCCOE, Ravet.
               </p>
@@ -114,7 +114,7 @@ const Main = () => {
             <div className="achievements_contents">
 
               <h2>Lorem ipsum dolor sit amet</h2>
-              <div class="achievement_devicer"></div>
+              <div className="achievement_devicer"></div>
               <p>
                 Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
               </p>

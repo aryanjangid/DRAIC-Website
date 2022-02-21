@@ -27,7 +27,6 @@ function About() {
                 <h2 className="about-content-title">WHO WE ARE</h2>
               </div>
             </div>
-
             <p className="about-content-text">
               D. Y. Patil Robotics & AI Club is a group of highly dedicated individuals, from all engineering disciplines, working passionately in the field of Robotics & AI to take the college (DYPCOE, Pune) to new heights in this field. The Club focuses on the development of students through working on various robotic projects and also participating in National as well as International level Competitions.
             </p>
@@ -47,67 +46,58 @@ function About() {
           </article>
         </div>
         <div className="about-content-grid-row2">
-          <article className="about-content-grid about-grid-span2 flow bg-secondary-400 text-neutral-100 content-grid-width">
+          <article className="about-content-grid row1 about-grid-span2 flow bg-secondary-400 text-neutral-100 content-grid-width">
             <div className="about-content-grid-box">
               <div className='about-content-iconbox'>
                 <img className='about-content-icon' src="https://img.icons8.com/android/48/ffffff/rocket.png" alt="vission" />
               </div>
               <div>
                 <h2 className="about-content-title">VISION</h2>
-
               </div>
             </div>
-
             <p className="about-content-text">
               To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation.
             </p>
           </article>
-          <article className="about-content-grid  flow bg-secondary-500 text-neutral-100">
+          <div className="about_row2">
+            <div className="memberalumni">
+          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
             <div className="about-content-grid-box">
               <div>
                 <h2 className="about-content-count-main"><strong>50+</strong></h2>
                 <p className="about-content-count-sub">Members</p>
               </div>
             </div>
-
           </article>
-          <article className="about-content-grid flow bg-secondary-500 text-neutral-100">
+          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
             <div className="about-content-grid-box">
-
               <div>
                 <h2 className="about-content-count-main"><strong>50+</strong></h2>
-                <p className="about-content-count-sub">Alumni</p>
-                
+                  <p className="about-content-count-sub">Alumni</p>                
               </div>
             </div>
-
-
           </article>
-
-          <article className="about-content-grid  flow bg-secondary-500 text-neutral-100">
+          </div>
+          <div className="projectachieve">
+          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
             <div className="about-content-grid-box">
-
               <div>
                 <h2 className="about-content-count-main"><strong>50+</strong></h2>
-                <p className="about-content-count-sub">Projects</p>
-              
+                <p className="about-content-count-sub">Projects</p> 
               </div>
             </div>
-
-
           </article>
-          <article className="about-content-grid flow bg-secondary-500 text-neutral-100 about-content-width">
+          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100 about-content-width">
             <div className="about-content-grid-box">
-
               <div>
                 <h2 className="about-content-count-main"><strong>50+</strong></h2>
                 <p className="about-content-count-sub achieve">Achievements</p>
               </div>
             </div>
-
           </article>
+          </div>
         </div>
-
+        </div>
      
         <div className="about-department">
         <div className="about-title-body">
