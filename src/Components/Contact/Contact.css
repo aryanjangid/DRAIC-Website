@@ -10,35 +10,35 @@
 }
 .contact_headline_div {
   text-align: center;
-  padding-bottom: 15px;
+  margin-top: 14px;
+  padding-bottom: 1px;
 }
 .contact_headline {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.2rem;
-  margin-top: 3.5rem;
+  font-size: 1rem;
+  padding-top: 40px;
   color: #57b8ff;
-  letter-spacing: 0.45rem;
+  letter-spacing: 0.5em;
 }
 .contact_fillform_div {
   position: relative;
   margin-top: 0.5%;
-  margin-bottom: 2%;
-  padding: 10px;
-  font-size: 2rem;
+  margin-bottom: 4%;
   text-align: center;
+  width: 44vw;
 }
 .contact_topic {
   text-align: center;
 }
 .contactusline1 {
   height: 3px;
-  width: 32%;
+  width: 29.5%;
   margin-top: 40px;
   background-color: white;
 }
 .contactusline2 {
   height: 3px;
-  width: 32%;
+  width: 29.5%;
   margin-top: 40px;
   background-color: white;
 }
@@ -54,14 +54,14 @@
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 /* CONTACT LEFT FORM */
 
 input[type="text"],
 input[type="email"] {
-  width: 100%;
+  width: 115%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -71,7 +71,9 @@ input[type="email"] {
   font-family: "Raleway", sans-serif;
 }
 .contact_name_email_div {
+  width: 101.6%;
   display: flex;
+  justify-content: space-between;
 }
 .contact_form_name,
 .contact_form_email {
@@ -80,7 +82,7 @@ input[type="email"] {
 }
 .contact_form_textarea_div {
   margin-left: 5px;
-  width: 104%;
+  width: 110%;
   height: 220%;
 }
 /* button{
@@ -107,7 +109,7 @@ input[type="email"] {
 }
 .contact_textarea {
   height: 130px;
-  width: 95%;
+  width: 97%;
   border: 1px solid #ccc;
   border-radius: 10px;
   resize: none;
@@ -123,6 +125,7 @@ form {
 .contact_information_div {
   display: flex;
   flex-direction: column;
+  margin-right: -40px;
   /* justify-content: space-between; */
 }
 .contact_info_email_div,
@@ -139,15 +142,17 @@ form {
 }
 .contact_fillform {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  font-size: 15px;
   color: white;
   text-align: center;
+  margin-left: 8px
 }
 .contact_info_headline {
   font-family: "Rowdies", cursive;
   font-size: 1.5rem;
   color: #2196f3;
   white-space: nowrap;
+  margin-bottom: 4vh;
 }
 img {
   font-size: 25px;
@@ -170,15 +175,22 @@ img {
 
 /* MEDIA QUERIES */
 @media (max-width: 800px) {
+  .contact_fillform_div {
+      width: 81vw;
+  }
   .contact_name_email_div {
     flex-direction: column;
     margin-bottom: 8px;
   }
   .contact_form_details {
     width: auto;
+    margin-top: 30px;
   }
   .contact_form_name {
     width: 72vw;
+  }
+  .contact_info_subhead{
+    font-weight: 800;
   }
   .contact_form_email {
     width: 72vw;
@@ -194,6 +206,10 @@ img {
   .contact_information_div {
     margin-top: 80px;
     margin-bottom: 60px;
+    margin-left: 15px;
+  }
+  .contact_info_headline{
+      margin-bottom: 2vh;
   }
   .contactusheading {
     font-size: 1.7rem;
