@@ -8,16 +8,6 @@ function mechdep() {
     return (
         <>
             <div className='mech-department-page'>
-                {/* <div className="mech-department-header">
-                    <div className="dep-head-text">
-                        <div className="dep-head-title">Electrical mech-department</div>
-                        <div className="dep-head-des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit harum iusto atque sunt quis explicabo, soluta autem vero voluptates perferendis, eum placeat fugit labore excepturi, quaerat eius similique necessitatibus voluptatum!</div>
-                    </div>
-                    <div className="dep-img">
-                        <img src={pc} alt="" className="elec-img" />
-                    </div>
-                </div> */}
-
                 {/* mech-department-hero-container */}
                 <div className=' mech-department-hero-container'>
                     <div className='mech-department-text-container'>

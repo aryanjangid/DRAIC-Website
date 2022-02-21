@@ -54,7 +54,7 @@
     z-index: 100;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .prog-department-moto {
@@ -283,6 +283,7 @@
 
     .prog-department-image {
         padding: 0;
+        margin: 3rem 0;
     }
 
     .prog-department-moto {
