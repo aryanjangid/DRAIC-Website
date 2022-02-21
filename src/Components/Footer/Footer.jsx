@@ -62,7 +62,7 @@ const Footer = () => {
                         <img alt=" " className='footer_location_pin' src="https://img.icons8.com/color-glass/48/4a90e2/google-maps-new.png"/>
                         <h1 className='footer_locateus'>Locate Us</h1>
                     </div>
-                    <a href={locationurl} target='_blank' className='footer_location'>D. Y. Patil College of Engineering, D. Y. Patil<br/>Educational Complex, Sector 29, Nigdi<br/>Pradhikaran, Akurdi, Pune 411044.</a>
+                    <a href={locationurl} target='_blank' rel='noopener noreferrer' className='footer_location'>D. Y. Patil College of Engineering, D. Y. Patil<br/>Educational Complex, Sector 29, Nigdi<br/>Pradhikaran, Akurdi, Pune 411044.</a>
                 </div>
                 <div className='footer_social'>
                     <Link className='footer_social_links' to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" ><img className='footer_social_img' src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Linkedin"/></Link>

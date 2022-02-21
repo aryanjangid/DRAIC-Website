@@ -93,20 +93,15 @@ select {
   
   height: auto;
 }
-@media(max-width: 400px)
-{
-  .about-body{
-    padding-right: 63%;
-  }
-}
 
 .aboutmain{
   display: grid;
   gap:2em;
-  width: 100%;
+  width: 90%;
   position: relative;
   z-index: 1;
   padding: 1rem;
+  margin: 0px auto;
 }
 
 .about-content-count-main{
@@ -118,10 +113,16 @@ select {
   font-family: "Rowdies", cursive;
 
 }
+.about-seperator{
+  display: flex;
+  margin: auto;
+  margin-bottom: 2rem;
+}
 .about-heading{
   font-family: "Rowdies", cursive;
     font-size: 2.5rem;
     padding: 20px;
+    white-space: nowrap;
 }
 .about-subheading{
   font-family: "Roboto Condensed", sans-serif;
@@ -129,13 +130,12 @@ select {
     padding-top: 40px;
     color: #57b8ff;
     letter-spacing: 0.5em;
-    margin-top: 100px;
+    margin-top: 13rem;
     margin-bottom: 20px;
 }
 .about-title-body {
   z-index: 100;
   text-align: center;
-  padding-top: 80px;
 }
 
 
@@ -209,12 +209,12 @@ select {
 
 .about-content-grid .about-content-title {
   margin-top: 1%;
-  font-size: 35px;
+  font-size: 2rem;
   font-weight: var(--fw-400);
   line-height: 1;
   color: #719fb0;
   font-family: "Rowdies", cursive;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .about-content-text{
   font-size: 25px;
@@ -308,15 +308,13 @@ z-index: 1;
   max-width: 40px;
 }
 .about-department-grid-box:hover {
- 
   border-color: white;
 }
 
 .about-department{
   margin-bottom: 7rem;
-  margin-top: 5rem;
-  width: 100%;
- 
+  margin-top: -3rem;
+
 }
 
 @media(max-width: 780px)
@@ -388,3 +386,42 @@ z-index: 1;
     width: 87%;
   } 
 }
+
+.about-subheading2{
+  margin-top: 80px;
+}
+
+@media(max-width: 400px)
+{
+  .aboutmain{
+      width: 90%;
+      padding: 3rem 0rem;
+  }
+  .about-title-body{
+    width: 76%;
+  }
+  .about-content-title{
+      white-space: nowrap;
+  }
+  .about-content{
+    width: 75%;
+  }
+  .about-content-grid-row2 {
+      width: 75%;
+  }
+  .achieve {
+    font-size: 1.15rem;
+  }
+  .about-department{
+    width: 75%;
+  }
+  .about-subheading2{
+      margin-top: 80px;
+      width: 136%;
+  }
+  .about-content-text{
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px 2px;
+  }
+}
+

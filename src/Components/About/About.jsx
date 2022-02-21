@@ -53,7 +53,7 @@ function About() {
                 <img className='about-content-icon' src="https://img.icons8.com/android/48/ffffff/rocket.png" alt="vission" />
               </div>
               <div>
-                <h2 className="about-content-title">VISSION</h2>
+                <h2 className="about-content-title">VISION</h2>
 
               </div>
             </div>
@@ -111,11 +111,11 @@ function About() {
      
         <div className="about-department">
         <div className="about-title-body">
-          <h1 className="about-subheading">WHO WE ARE AND WHY WE ARE DOING THIS</h1>
-          <div className="seperator">
+          <h1 className="about-subheading about-subheading2">WHO WE ARE AND WHY WE ARE DOING THIS</h1>
+          <div className="about-seperator">
             <div className="about-title-line1"></div>
             <div>
-              <h1 className="about-heading">OUR DEPARTMENTS</h1>
+              <h1 className="about-heading about-heading2">OUR DEPARTMENTS</h1>
             </div>
             <div className="about-title-line2"></div>
           </div>

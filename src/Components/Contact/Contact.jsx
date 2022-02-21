@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./Contact.css"
+import "./Contact.css"
 
-function Contact() {
+const Contact = () => {
   return (
     <div className='contact_main_body'>
       <div className="contact_headline_div">
