@@ -245,10 +245,11 @@
         margin: auto;
     }
     .prog-department-title {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         width: 100%;
         margin: auto;
         white-space: nowrap;
+        text-align: center;
     }
 
     .prog-department-container {
@@ -260,6 +261,7 @@
         margin: auto;
         margin-bottom: 2rem;
         width: 90%;
+        text-align: center;
     }
 
     .prog-department-image {
@@ -302,5 +304,9 @@
     }
     .prog-department-members-container {
         width: 120%;
+    }
+
+    .profile-card .text {
+        margin-top: 0;
     }
 }
