@@ -114,13 +114,14 @@ li {
 @media (max-width: 768px) {
   .nav-link .title {
     position: relative;
-    top: -42px;
+    top: -49px;
     transition: all 0.3s ease;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
   }
   .nav-link .icon {
     top: -14px;
+    font-size: 35px;
   }
   .nav-container {
     display: flex;
@@ -133,15 +134,15 @@ li {
   .nav-link::after {
     content: " ";
     display: inline-block;
-    height: 51px;
-    width: 51px;
+    height: 58px;
+    width: 58px;
     background-color: #00a0ff;
     position: absolute;
     transform: translate(-37px, -14px);
     border-radius: 50%;
     transition: all 0.3s ease;
     opacity: 0;
-    border: 10px solid black;
+    border: 7px solid black;
   }
   .nav-link:hover:after {
     transform: translate(-39px, -18px);
@@ -152,8 +153,10 @@ li {
     opacity: 1;
   }
   .active .icon {
-    top: -24px;
+    top: -26px;
     right: 3px;
-    font-size: 40px;
+    font-size: 35px;
   }
+
+  
 }
