@@ -53,7 +53,7 @@ function About() {
                 <img className='about-content-icon' src="https://img.icons8.com/android/48/ffffff/rocket.png" alt="vission" />
               </div>
               <div>
-                <h2 className="about-content-title">VISSION</h2>
+                <h2 className="about-content-title">VISION</h2>
 
               </div>
             </div>

@@ -308,15 +308,13 @@ z-index: 1;
   max-width: 40px;
 }
 .about-department-grid-box:hover {
- 
   border-color: white;
 }
 
 .about-department{
-  margin-bottom: 5rem;
-  margin-top: 1rem;
-  width: 100%;
- 
+  margin-bottom: 7rem;
+  margin-top: -3rem;
+
 }
 
 @media(max-width: 780px)
