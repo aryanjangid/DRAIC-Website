@@ -1,22 +1,20 @@
 import React from 'react';
-import Project from '../Components/home-projects/Projects-home';
+import HomeProject from './Home Projects/Projects-home'
 
 import Landingslide from '../Components/LandingSlide/Landingslide';
-// import Deck from './CoreTeam/deck';
+import HomeAbout from './Home About Us/Home-aboutus.jsx';
 import Dec2 from './CoreTeam/deck2';
-// import HomeAbout from './About-home';
-import Homeabouttemp from "./AboutTemp/About-temp";
+
 import Teacher from './Teacher/Teacher';
 
 function Home() {
   return (
     <div>
       <Landingslide />
-      <Homeabouttemp />
-      {/* <HomeAbout/> */}
+      <HomeAbout />
       <Teacher />
       <Dec2 />
-      <Project />
+      <HomeProject/>
     </div>
   );
 }

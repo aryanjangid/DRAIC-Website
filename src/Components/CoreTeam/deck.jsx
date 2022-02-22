@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from './card';
 import './deck.css';
+// import ourteaminfo from '../../Data/home-our-team';
 class Deck extends Component {
   constructor(props) {
     super(props)

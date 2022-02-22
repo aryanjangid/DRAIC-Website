@@ -7,7 +7,7 @@ const members = [
         linkedinURL: "https://www.linkedin.com/in/prathisupadhyay/",
         instagramURl: "https://www.linkedin.com/in/prathisupadhyay/",
     },
-    {
+    { 
         id: 2,
         name: "Abhishek",
         imgURL: "https://media-exp1.licdn.com/dms/image/C5603AQFt57LxoWB0bw/profile-displayphoto-shrink_100_100/0/1590076597636?e=1647475200&v=beta&t=pQQY1rHMDgsxc3p3MkqII2KafYXgLBMvqyRsKNsxBgg",

@@ -21,6 +21,7 @@
     font-family: "Rowdies", cursive;
     font-size: 2.5em;
     padding: 20px;
+    white-space: nowrap;
   }
   .home-teacher-seperator {
     display: flex;
@@ -91,7 +92,7 @@
   justify-content: flex-start;
 }
 
-.teacher_footer_social_img{
+.teacher_social_img{
     padding: 10px;
 }
 
@@ -112,10 +113,12 @@
 .home-teacher-moto{
     font-size: 0.8rem;
     margin-bottom: 0;
+    letter-spacing: 0.2rem;
 }
 
 .home-teacher-title{
     font-size: 1.7rem;
+    white-space: nowrap;
 }
 
   .home-teacher-image-container{
@@ -126,7 +129,8 @@
     align-items: center;
     padding: 10px;
     font-size: 1rem;
-    margin: 3rem 0;
+    margin: 1rem 0;
+    margin-bottom: 0;
   }
   .home-teacher-text{
     padding-left: 0px;
@@ -135,13 +139,17 @@
   .home-teacher-name{
     font-size: 1.5rem;
     text-align: center;
+    margin-top: 2rem;
   }
   .home-teacher-paragraph{
     width: 100%;
     text-align: center;
+    font-size: 1rem;
+    padding: 1rem 20px;
+    padding-bottom: 0;
   }
   .home-teacher-image{
-    height: 15rem;
+    height: 19rem;
   }
   
   .teacher-footer{
@@ -154,7 +162,7 @@
   .home-teacher-content{
     flex-direction: column;
     /* align-items: center; */
-    margin: 1rem 0;
+    margin: 0.7rem 0;
     margin-bottom: 0;
     padding: 0;
   }
@@ -185,6 +193,7 @@
   .home-teacher-title{
     font-size: 1.7rem;
     padding: 20px;
+    white-space: nowrap;
   }
   .home-teacher-moto {
     font-size: 0.8rem;

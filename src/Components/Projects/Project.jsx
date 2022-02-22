@@ -1,9 +1,10 @@
 import React from "react";
-import pic1 from "../../Assets/project1.jpg"
-import pic2 from "../../Assets/project2.jpg"
-import pic3 from "../../Assets/project3.jpg"
+// // import pic1 from "../../Assets/project1.jpg"
+// import pic2 from "../../Assets/project2.jpg"
+// import pic3 from "../../Assets/project3.jpg"
 import { NavLink } from "react-router-dom";
 import "./Project.css";
+import projectList from "../../Data/project-list.js"
 
 
 function project() {
@@ -20,23 +21,37 @@ function project() {
         </div>
 
       </div>
-      <div className="projects-container">
-        <div className="individual-project-container">
-          <img className="project-image" src={pic1} alt="Rome" />
-          <h1 className="project-title">AUTONOMOUS QUADRUPLED ROBOT</h1>
-          <div className="project-decoration-line" />
+      <div className="projects-container">{
+        projectList.map(card => {
+          return (
+            <>
+              <div className="individual-project-container">
+                <img className="project-image" src={card.imgURL} alt="Rome" />
+                <h1 className="project-title">{card.project_name}</h1>
+                <div className="project-decoration-line" />
 
-          <p className="project-description">Development of 3 Dimensional Printed Autonomous four-legged robot with Servo Motors for actuation.</p>
-          <div className="home-links-container">
-            <div className="view-more-container">
-              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
-            </div>
-            <div className="youtube-link-container">
-              <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
+                <p className="project-description">{card.project_content}</p>
+                <div className="home-links-container">
+                  <div className="view-more-container">
+                    <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
+                  </div>
+                  <div className="youtube-link-container">
+                    <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
 
-            </div>
-          </div>
-        </div>
+                  </div>
+                </div>
+              </div>
+
+            </>
+          )
+        })
+      }
+
+
+
+
+
+{/* 
         <div className="individual-project-container">
           <img className="project-image" src={pic2} alt="Rome" />
           <h1 className="project-title">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
@@ -70,7 +85,7 @@ function project() {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
 
