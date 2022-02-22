@@ -104,7 +104,7 @@ padding-left: 4rem ;
     z-index: 100;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .mech-department-moto {
@@ -334,6 +334,7 @@ padding-left: 4rem ;
 
     .mech-department-image {
         padding: 0;
+        margin: 3rem 0;
     }
 
     .mech-department-moto {

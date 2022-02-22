@@ -74,6 +74,8 @@
   text-align: center;
   margin: auto;
   flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 40px;
 }
 
 /* @media (max-width: 800px) {
@@ -97,10 +99,11 @@
   background-color: #17202e;
   z-index: 2;
   padding: 10px;
-  margin: 10px;
+  /* margin: 10px 10px; */
   margin: auto;
+  margin-bottom: 60px;
   /* border: 2px solid; */
-  width: 28%;
+  width: 26%;
   /* border-color: aliceblue; */
   border-radius: 20px;
 }
@@ -186,8 +189,8 @@
     flex-direction: column;
   }
   .individual-project-container {
-    margin: 10px;
-    width: auto;
+    /* margin: 10px; */
+    width: 100%;
   }
   .project-image {
     width: 60%;
@@ -200,30 +203,36 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 720px) {
+  .projects-container{
+    margin: 0 50px;
+  }
   .project-moto {
-    font-size: 0.8rem;
-    letter-spacing: 3px;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    padding-top: 10px;
+    margin:0.4rem;
   }
   .project-page-title {
     font-size: 1.7rem;
+    white-space: nowrap;
   }
   .project-line1 {
-    width: 15%;
+    width: 100%;
   }
   .project-line2 {
-    width: 15%;
+    width: 100%;
   }
   .individual-project-container {
-    margin: 40px;
+    /* margin: 40px; */
     margin-top: 0;
   }
   .project-image {
     width: 100%;
   }
   .project-title {
-    font-size: 1.4rem;
-    padding: 10px 0;
+    font-size: 1rem;
+    padding: 0;
   }
   .project-page {
     padding-bottom: 20px;

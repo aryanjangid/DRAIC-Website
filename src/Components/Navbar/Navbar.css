@@ -150,18 +150,21 @@ li {
     border: 7px solid black;
   }
   .nav-link:hover:after {
-    transform: translate(-39px, -18px);
+    transform: translate(-39px, -15px);
     opacity: 1;
   }
+
   .active:after {
     transform: translate(-39px, -18px);
     opacity: 1;
   }
   .active .icon {
-    top: -26px;
+    top: -23px;
     right: 3px;
     font-size: 35px;
   }
+
+  
 
   
 }

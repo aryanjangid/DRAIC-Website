@@ -50,7 +50,7 @@
 /* CONTACT FULL FORM */
 
 .contact_form_details {
-  margin: 4vw 8vw;
+  margin: 4vw 10vw;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -125,7 +125,7 @@ form {
 .contact_information_div {
   display: flex;
   flex-direction: column;
-  margin-right: -40px;
+  /* margin-right: -10px; */
   /* justify-content: space-between; */
 }
 .contact_info_email_div,
@@ -191,9 +191,15 @@ img {
     justify-content: center;
     margin-top: 30px;
   }
+
   .contact_form_name, .contact_form_email {
     width: 72vw;
     margin: 5px 0px;
+
+  .contact_form_name {
+    position: relative;
+    width: 100%;
+
   }
   .contact_info_subhead{
     font-weight: 800;
@@ -203,8 +209,10 @@ img {
     margin-bottom: 10px;
   }
   .contact_headline {
-    font-size: 0.8rem;
-    letter-spacing: 3px;
+    font-size: 12px;
+    padding-top: 20px;
+    letter-spacing: 0.2rem;
+    margin: 0.4rem;
   }
 
   .contact_information_div {

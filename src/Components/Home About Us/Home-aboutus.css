@@ -57,12 +57,14 @@
   display: flex;
   flex-direction: row;
   padding: 30px;
+  margin:0 50px;
 }
 
 .secondrowcol1 {
   width: 50%;
   height: 500px;
   margin: 20px;
+  margin-left: 0;
 }
 
 .secondrowcol2 {
@@ -117,6 +119,7 @@
   text-align: left;
   padding: 20px;
   padding-bottom: 40px;
+  margin: 0 50px;
 }
 .divs1 {
   margin: auto;
@@ -142,16 +145,19 @@
 @media (max-width: 768px) {
   .wheredowe{
     font-size: 0.8rem;
+    letter-spacing: 0.2rem;
   }
 
   .aboutusheading{
     font-size: 1.7rem;
+
+    white-space: nowrap;
   }
   .lineaboutus1{
-    width: 25%;
+    width: 100%;
   }
   .lineaboutus2{
-    width: 25%;
+    width: 100%;
   }
 
   .thirdrow {
@@ -174,6 +180,9 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    margin:0 20px
   }
   .secondrowcol1 {
     width: auto;
@@ -188,25 +197,21 @@
   .ourcollegeimg {
     height: auto;
   }
-  .secondrow {
-    justify-content: center;
-    align-items: center;
-  }
   .divs1 {
     padding-bottom: 5px;
     border-bottom: 2px solid white;
     border-right: 0;
     padding-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
   }
   .divs2{
     padding-bottom: 5px;
     /* border-bottom: 2px solid white; */
     border-right: 0;
     padding-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
   }
 
   .title1 {
@@ -214,5 +219,9 @@
   }
   .paragraph1 {
     text-align: center;
+  }
+  .thirdrow{
+    margin: 0 20px;
+    /* padding: 0; */
   }
 }
