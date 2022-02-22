@@ -145,7 +145,7 @@ form {
   font-size: 15px;
   color: white;
   text-align: left;
-  margin-left: 8px
+  margin-left: 8px;
 }
 .contact_info_headline {
   font-family: "Rowdies", cursive;
@@ -176,10 +176,11 @@ img {
 /* MEDIA QUERIES */
 @media (max-width: 940px) {
   .contact_fillform_div {
-      width: 81vw;
+    width: 81vw;
   }
-  input[type="text"], input[type="email"]{
-      width: 100%;
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
   }
   .contact_name_email_div {
     flex-direction: column;
@@ -192,16 +193,16 @@ img {
     margin-top: 30px;
   }
 
-  .contact_form_name, .contact_form_email {
+  .contact_form_name,
+  .contact_form_email {
     width: 72vw;
     margin: 5px 0px;
-
+  }
   .contact_form_name {
     position: relative;
-    width: 100%;
-
+    /* width: 100%; */
   }
-  .contact_info_subhead{
+  .contact_info_subhead {
     font-weight: 800;
   }
   .contact_form_email {
@@ -216,11 +217,11 @@ img {
   }
 
   .contact_information_div {
-      margin: 75px 0px;
-      margin-bottom: 50px;
+    margin: 75px 0px;
+    margin-bottom: 50px;
   }
-  .contact_info_headline{
-      margin-bottom: 2vh;
+  .contact_info_headline {
+    margin-bottom: 2vh;
   }
   .contactusheading {
     font-size: 1.7rem;
@@ -233,7 +234,7 @@ img {
   .contact_textarea {
     width: 100%;
   }
-  .contact_form_textarea_div{
+  .contact_form_textarea_div {
     width: 90%;
     align-items: center;
     margin: 0px;
@@ -247,13 +248,12 @@ img {
   .contact_info_headline {
     font-size: 1.3rem;
   }
-  form{
+  form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-
 @media (max-width: 850px) and (min-width: 800px) {
   .contact_information_div {
     margin-left: 1vw;
