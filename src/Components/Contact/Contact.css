@@ -10,7 +10,7 @@
 }
 .contact_headline_div {
   text-align: center;
-  margin-top: 14px;
+  margin-top: 2rem;
   padding-bottom: 1px;
 }
 .contact_headline {
@@ -177,6 +177,9 @@ img {
 @media (max-width: 940px) {
   .contact_fillform_div {
     width: 81vw;
+  }
+  .contact_headline_div{
+    margin-top: 1.3rem;
   }
   input[type="text"],
   input[type="email"] {

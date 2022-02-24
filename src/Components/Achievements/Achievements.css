@@ -7,8 +7,11 @@
   margin-top: -10rem;
 }
 .achievements_header {
-  padding-top: 190px;
+  padding-top: 10.4rem;
   text-align: center;
+}
+.achievements_headline_div{
+    margin-top: 2rem;
 }
 .achievements_thought {
   font-family: "Roboto Condensed", sans-serif;

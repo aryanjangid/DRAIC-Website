@@ -20,7 +20,9 @@ const Main = () => {
     <div className="achievements_section">
 
       <div className="achievements_header">
+        <div className="achievements_headline_div">
         <h1 data-aos={"zoom-in-up"} className="achievements_thought">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
+        </div>
         <div data-aos={"zoom-in-up"} data-aos-delay={'1000'} className="achievements_heading">
           <div className="achievements_line_1"></div>
           <div>

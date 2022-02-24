@@ -11,7 +11,9 @@ function project() {
   return (
     <div className="project-page">
       <div className="project-header">
-        <h1 className="project-moto">A GLIMPSE OF THE JOURNEY, WE MADE</h1>
+        <div className="project_headline_div">
+          <h1 className="project-moto">A GLIMPSE OF THE JOURNEY, WE MADE</h1>
+        </div>
         <div className="project-seperator">
           <div className="project-line1"></div>
           <div>
