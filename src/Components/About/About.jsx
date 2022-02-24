@@ -16,10 +16,10 @@ function About() {
           </div>
 
         </div>
-        
+
         <div className="about-content">
-          <article className="about-content-grid flow bg-secondary-400 text-neutral-100 content-grid-width">
-            <div className="about-content-grid-box">
+          <article className="about-who-we-are content-grid-width">
+            <div className="abuot-card-title">
               <div className='about-content-iconbox'>
                 <img className='about-content-icon' src="https://img.icons8.com/external-sbts2018-solid-sbts2018/58/ffffff/external-group-social-media-sbts2018-solid-sbts2018.png" alt="who we are" />
               </div>
@@ -31,8 +31,8 @@ function About() {
               D. Y. Patil Robotics & AI Club is a group of highly dedicated individuals, from all engineering disciplines, working passionately in the field of Robotics & AI to take the college (DYPCOE, Pune) to new heights in this field. The Club focuses on the development of students through working on various robotic projects and also participating in National as well as International level Competitions.
             </p>
           </article>
-          <article className="about-content-grid flow bg-secondary-400 text-neutral-100">
-            <div className="about-content-grid-box">
+          <article className="about-mission">
+            <div className="abuot-card-title">
               <div className='about-content-iconbox'>
                 <img className='about-content-icon' src="https://img.icons8.com/ios-filled/50/ffffff/mission-of-a-company.png" alt="mission" />
               </div>
@@ -46,8 +46,8 @@ function About() {
           </article>
         </div>
         <div className="about-content-grid-row2">
-          <article className="about-content-grid row1 about-grid-span2 flow bg-secondary-400 text-neutral-100 content-grid-width">
-            <div className="about-content-grid-box">
+          <article className="about-vision">
+            <div className="abuot-card-title">
               <div className='about-content-iconbox'>
                 <img className='about-content-icon' src="https://img.icons8.com/android/48/ffffff/rocket.png" alt="vission" />
               </div>
@@ -61,56 +61,56 @@ function About() {
           </article>
           <div className="about_row2">
             <div className="memberalumni">
-          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
-            <div className="about-content-grid-box">
-              <div>
-                <h2 className="about-content-count-main"><strong>50+</strong></h2>
-                <p className="about-content-count-sub">Members</p>
-              </div>
+              <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
+                <div className="about-card-title">
+                  <div>
+                    <h2 className="about-content-count-main"><strong>50+</strong></h2>
+                    <p className="about-content-count-sub">Members</p>
+                  </div>
+                </div>
+              </article>
+              <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
+                <div className="about-content-grid-box">
+                  <div>
+                    <h2 className="about-content-count-main"><strong>50+</strong></h2>
+                    <p className="about-content-count-sub">Alumni</p>
+                  </div>
+                </div>
+              </article>
             </div>
-          </article>
-          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
-            <div className="about-content-grid-box">
-              <div>
-                <h2 className="about-content-count-main"><strong>50+</strong></h2>
-                  <p className="about-content-count-sub">Alumni</p>                
-              </div>
+            <div className="projectachieve">
+              <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
+                <div className="about-content-grid-box">
+                  <div>
+                    <h2 className="about-content-count-main"><strong>50+</strong></h2>
+                    <p className="about-content-count-sub">Projects</p>
+                  </div>
+                </div>
+              </article>
+              <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100 about-content-width">
+                <div className="about-content-grid-box">
+                  <div>
+                    <h2 className="about-content-count-main"><strong>50+</strong></h2>
+                    <p className="about-content-count-sub achieve">Achievements</p>
+                  </div>
+                </div>
+              </article>
             </div>
-          </article>
-          </div>
-          <div className="projectachieve">
-          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100">
-            <div className="about-content-grid-box">
-              <div>
-                <h2 className="about-content-count-main"><strong>50+</strong></h2>
-                <p className="about-content-count-sub">Projects</p> 
-              </div>
-            </div>
-          </article>
-          <article className="about-content-grid-boxes flow bg-secondary-500 text-neutral-100 about-content-width">
-            <div className="about-content-grid-box">
-              <div>
-                <h2 className="about-content-count-main"><strong>50+</strong></h2>
-                <p className="about-content-count-sub achieve">Achievements</p>
-              </div>
-            </div>
-          </article>
           </div>
         </div>
-        </div>
-     
-        <div className="about-department">
-        <div className="about-title-body">
-          <h1 className="about-subheading about-subheading2">WHO WE ARE AND WHY WE ARE DOING THIS</h1>
-          <div className="about-seperator">
-            <div className="about-title-line1"></div>
-            <div>
-              <h1 className="about-heading about-heading2">OUR DEPARTMENTS</h1>
-            </div>
-            <div className="about-title-line2"></div>
-          </div>
 
-        </div>
+        <div className="about-department">
+          <div className="about-title-body">
+            <h1 className="about-subheading about-subheading2">WHO WE ARE AND WHY WE ARE DOING THIS</h1>
+            <div className="about-seperator">
+              <div className="about-title-line1"></div>
+              <div>
+                <h1 className="about-heading about-heading2">OUR DEPARTMENTS</h1>
+              </div>
+              <div className="about-title-line2"></div>
+            </div>
+
+          </div>
           <div className="about-department-grid">
 
             <NavLink activeClassName="active" className="about-department-link" aria-current="page" to="/progammingDepartment">

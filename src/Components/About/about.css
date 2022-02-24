@@ -24,6 +24,112 @@ textarea,
 select {
   font: inherit;
 }
+.about-content {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.about-content-grid-row2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  
+  /* padding: 10px; */
+}
+
+.about-who-we-are{
+  color: white;
+  flex: 1;
+  margin: 0 1rem;
+  z-index: 1;
+  width: 90%;
+  background-color: #17202E;
+  height: 100%;
+  padding: 1rem;
+
+}
+
+.about-mission{
+  color: white;
+  flex: 1;
+  margin: 0 1rem;
+  z-index: 1;
+  width: 90%;
+  background-color: #17202E;
+  height: 100%;
+  padding: 1rem;
+}
+
+
+.abuot-card-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.about-vision{
+  color: white;
+  flex: 0.96;
+  margin: 0 1rem;
+  z-index: 1;
+  width: 50%;
+  background-color: #17202E;
+  height: 100%;
+  padding: 1rem;
+}
+
+.about_row2{
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin: 0 1rem;
+  z-index: 1;
+  height: fit-content;
+  flex: 2;
+  /* flex-wrap: wrap; */
+}
+
+.memberalumni{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.projectachieve{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+.about-content-grid-boxes{
+  width: 95%;
+  height: 50%;
+  padding: 1.6rem;
+  border-radius: 0.5rem;
+  z-index: 1;
+}
+
+.memberalumni :first-child{
+  margin-bottom: 1rem;
+}
+
+.projectachieve :first-child{
+  margin-bottom: 1rem;
+}
+
+.projectachieve .about-content-grid-boxes{
+  width: 100%;
+}
+
+.about-department-text p{
+  padding: 1rem;
+}
 
 
 @media (prefers-reduced-motion: reduce) {
@@ -173,48 +279,18 @@ select {
     margin-right: 0;
   }
 
-.about-content {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 1;
-}
 
-.about-content-grid-row2{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* padding: 10px; */
-}
+
+
 .row1{
     width: 70%;
     height: 50%;
 }
 
-.about-content-grid-boxes{
-  width: 90%;
-  height: 50%;
-  margin-right: 1.5rem;
-  padding: 1.6rem;
-  border-radius: 0.5rem;
-  z-index: 1;
-  margin-bottom: 15px;
-}
-.about_row2{
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-}
 
-.about-content-grid {
-  height: 100%;
-  margin-right: 1.5rem;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  z-index: 1;
-}
+
+
+
 
 .about-content-grid.quote {
   background-repeat: no-repeat;
@@ -223,7 +299,7 @@ select {
 }
 
 
-.about-content-grid .about-content-title {
+.about-content-title {
   margin-top: 1%;
   font-size: 2rem;
   font-weight: var(--fw-400);
@@ -350,8 +426,12 @@ z-index: 1;
         display: flex;
        flex-wrap: wrap;
       }
-    .about-content-grid-box{
+    .abuot-card-title{
       width: 40%;
+    }
+    .about-who-we-are{
+      width: 100%;
+      margin: aut;
     }
 }
 
