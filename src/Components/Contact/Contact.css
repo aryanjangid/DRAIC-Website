@@ -30,17 +30,11 @@
 .contact_topic {
   text-align: center;
 }
-.contactusline1 {
+.contactusline1, .contactusline2 {
   height: 3px;
   width: 29.5%;
   margin-top: 40px;
-  background-color: white;
-}
-.contactusline2 {
-  height: 3px;
-  width: 29.5%;
-  margin-top: 40px;
-  background-color: white;
+  background-color: azure;
 }
 .contactus_seperator {
   display: flex;

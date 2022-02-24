@@ -23,17 +23,17 @@
 .achievements_heading {
   display: flex;
   margin: auto;
+  justify-content: center;
 }
 
 .achievements_line_1,
 .achievements_line_2 {
   height: 3px;
-  width: 26%;
+  width: 29%;
   color: white;
-  z-index: 30000;
+  /* z-index: 30000; */
   margin: auto;
   background-color: azure;
-  text-align: left;
   margin-left: 0;
 }
 

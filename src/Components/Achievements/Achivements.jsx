@@ -31,12 +31,7 @@ const Main = () => {
           <div className="achievements_line_2"></div>
         </div>
       </div>
-
-
       <div className="achievements_timeline">
-
-
-
         <div data-aos-delay={'1000'} data-aos={"fade-left"} className="achievement_container left">
           <div className="achievement_content_container">
             <div className="achievements_contents">
