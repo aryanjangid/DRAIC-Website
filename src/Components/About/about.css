@@ -22,6 +22,114 @@ textarea,
 select {
   font: inherit;
 }
+.about-content {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.about-content-grid-row2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  
+  /* padding: 10px; */
+}
+
+.about-who-we-are{
+  color: white;
+  flex: 1;
+  margin: 0 1rem;
+  z-index: 1;
+  width: 90%;
+  background-color: #17202E;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.about-mission{
+  color: white;
+  flex: 1;
+  margin: 0 1rem;
+  z-index: 1;
+  width: 90%;
+  background-color: #17202E;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+
+.abuot-card-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.about-vision{
+  color: white;
+  flex: 0.96;
+  margin: 0 1rem;
+  z-index: 1;
+  width: 50%;
+  background-color: #17202E;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.about_row2{
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin: 0 1rem;
+  z-index: 1;
+  height: fit-content;
+  flex: 2;
+  /* flex-wrap: wrap; */
+}
+
+.memberalumni{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.projectachieve{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+.about-content-grid-boxes{
+  width: 95%;
+  height: 50%;
+  padding: 1.6rem;
+  border-radius: 0.5rem;
+  z-index: 1;
+}
+
+.memberalumni :first-child{
+  margin-bottom: 1rem;
+}
+
+.projectachieve :first-child{
+  margin-bottom: 1rem;
+}
+
+.projectachieve .about-content-grid-boxes{
+  width: 100%;
+}
+
+.about-department-text p{
+  padding: 1rem;
+}
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -159,15 +267,8 @@ select {
   margin-right: 0;
 }
 
-.about-content {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 1;
-}
 
+<<<<<<< HEAD
 .about-content-grid-row2 {
   display: flex;
   flex-direction: row;
@@ -193,14 +294,19 @@ select {
   flex-direction: row;
   /* flex-wrap: wrap; */
 }
+=======
 
-.about-content-grid {
-  height: 100%;
-  margin-right: 1.5rem;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  z-index: 1;
+
+.row1{
+    width: 70%;
+    height: 50%;
 }
+
+>>>>>>> ab18f7f610c4eba2d001c09ea34c9aafff133047
+
+
+
+
 
 .about-content-grid.quote {
   background-repeat: no-repeat;
@@ -208,20 +314,34 @@ select {
   z-index: 1;
 }
 
+<<<<<<< HEAD
 .about-content-grid .about-content-title {
+=======
+
+.about-content-title {
+>>>>>>> ab18f7f610c4eba2d001c09ea34c9aafff133047
   margin-top: 1%;
   font-size: 2rem;
   font-weight: var(--fw-400);
   line-height: 1;
-  color: #719fb0;
+  color: #56b6fc;
   font-family: "Rowdies", cursive;
   margin-left: 20px;
 }
+<<<<<<< HEAD
 .about-content-text {
   font-size: 25px;
   opacity: 0.5;
 }
 .about-content-count-sub {
+=======
+.about-content-text{
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.about-content-count-sub{
+>>>>>>> ab18f7f610c4eba2d001c09ea34c9aafff133047
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-size: 1.6rem;
@@ -260,7 +380,7 @@ select {
   margin: 10px;
   font-family: "Rowdies", cursive;
   font-size: 1.6rem;
-  color: #38eaf7;
+  color: #56b6fc;
 }
 
 .about-department-title-body {
@@ -286,10 +406,16 @@ select {
 .about-department-grid-box {
   width: 100%;
   height: 100%;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1.2rem;
   border-style: solid 4px;
+<<<<<<< HEAD
   border-color: rgb(89, 233, 238);
+=======
+  border-color: #56b6fc;
+  /* border-color: rgb(89, 233, 238); */
+
+>>>>>>> ab18f7f610c4eba2d001c09ea34c9aafff133047
 }
 
 .about-department-text {
@@ -309,8 +435,40 @@ select {
   margin-top: -3rem;
 }
 
+<<<<<<< HEAD
 @media (max-width: 780px) {
   .about-content {
+=======
+@media(max-width: 780px)
+{
+    .about-content{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .content-grid-width{
+      width: 100%;
+      word-wrap: break-word;
+    }
+    .about-content-grid{
+      margin-top: 10px;
+    }
+    .about-content-grid-row2{
+        display: flex;
+       flex-wrap: wrap;
+      }
+    .abuot-card-title{
+      width: 40%;
+    }
+    .about-who-we-are{
+      width: 100%;
+      margin: aut;
+    }
+}
+
+@media(max-width: 900px)
+{
+  .about-department-grid{
+>>>>>>> ab18f7f610c4eba2d001c09ea34c9aafff133047
     display: flex;
     flex-wrap: wrap;
   }
@@ -371,8 +529,13 @@ select {
   }
 }
 
+<<<<<<< HEAD
 .about-subheading2 {
   margin-top: 80px;
+=======
+.about-subheading2{
+  margin-top: 150px;
+>>>>>>> ab18f7f610c4eba2d001c09ea34c9aafff133047
 }
 
 @media (max-width: 400px) {
