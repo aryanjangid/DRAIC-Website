@@ -14,11 +14,16 @@ const Main = () => {
       duration: 1000
     });
   }, [])
+  // const fade = (name) => {
+  //   let delay = 1000
+  //   name.map((e,i)=> {
+  //     return <span data-aos-delay={`${delay=delay-50}`}>{e}</span>
+  //   } )
+  // }
 
 
   return (
     <div className="achievements_section">
-
       <div className="achievements_header">
         <div className="achievements_headline_div">
         <h1 data-aos={"zoom-in-up"} className="achievements_thought">OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
