@@ -110,10 +110,6 @@
   }
 } */
 
-.link-active {
-  text-decoration: none;
-}
-
 .home-links-container {
   display: flex;
   justify-content: center;
@@ -145,7 +141,7 @@
   margin-top: 10px;
 }
 
-.view-more-container {
+/* .view-more-container {
   position: relative;
   text-align: left;
   width: 150px;
@@ -157,6 +153,19 @@
   left: 20px;
   text-align: center;
   margin: auto;
+}
+.link-active {
+  text-decoration: none;
+} */
+
+.view-more-container,
+.youtube-link-container {
+  position: relative;
+  text-align: left;
+  width: 150px;
+  text-align: center;
+}
+.project-card-btn {
 }
 .home-project-card-btn {
   text-decoration: none;
@@ -178,8 +187,8 @@
 .home-project-card-btn span {
   transition: 0.2s;
 }
-.home-project-card-btn:hover span{
-    background-color: #17202e;
+.home-project-card-btn:hover span {
+  background-color: #17202e;
 }
 .home-project-card-btn:active span {
   margin-left: 1rem;

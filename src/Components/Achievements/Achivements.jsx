@@ -6,7 +6,7 @@ import Achievements3 from "../../Assets/Achievements3.webp"
 import Achievements4 from "../../Assets/Achievements4.webp"
 import Achievements5 from "../../Assets/Achievements5.webp"
 import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import 'aos/dist/aos.css';
 
 const Main = () => {
   useEffect(() => {
