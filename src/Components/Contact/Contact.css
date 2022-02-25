@@ -241,7 +241,7 @@ img {
   }
   .contact_sendbtn {
     margin-top: 18px;
-    padding: 8px;
+    /* padding: 8px; */
     border-radius: 10px;
     width: 30vw;
   }

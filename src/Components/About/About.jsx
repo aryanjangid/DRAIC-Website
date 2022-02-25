@@ -56,7 +56,7 @@ function About() {
               </div>
             </div>
             <p className="about-content-text">
-              To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation.
+              To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation. To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation.
             </p>
           </article>
           <div className="about_row2">

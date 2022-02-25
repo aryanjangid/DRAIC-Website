@@ -52,8 +52,8 @@ select {
   width: 90%;
   background-color: #17202E;
   height: 100%;
-  padding: 1rem;
-
+  padding: 2rem;
+  border-radius: 20px;
 }
 
 .about-mission{
@@ -64,7 +64,8 @@ select {
   width: 90%;
   background-color: #17202E;
   height: 100%;
-  padding: 1rem;
+  padding: 2rem;
+  border-radius: 20px;
 }
 
 
@@ -82,7 +83,8 @@ select {
   width: 50%;
   background-color: #17202E;
   height: 100%;
-  padding: 1rem;
+  padding: 2rem;
+  border-radius: 20px;
 }
 
 .about_row2{
@@ -304,14 +306,15 @@ select {
   font-size: 2rem;
   font-weight: var(--fw-400);
   line-height: 1;
-  color: #719fb0;
+  color: #56b6fc;
   font-family: "Rowdies", cursive;
   margin-left: 20px;
 }
 .about-content-text{
-  font-size: 25px;
-  opacity: 0.5;
+  font-size: 1.1rem;
+  opacity: 0.8;
 }
+
 .about-content-count-sub{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
@@ -354,7 +357,7 @@ z-index: 1;
   margin:10px;
   font-family: "Rowdies", cursive;
   font-size: 1.6rem;
-  color: #38eaf7;
+  color: #56b6fc;
 }
 
 .about-department-title-body{
@@ -382,10 +385,11 @@ z-index: 1;
   
   width: 100%;
   height: 100%;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1.2rem;
   border-style: solid 4px;
-  border-color: rgb(89, 233, 238);
+  border-color: #56b6fc;
+  /* border-color: rgb(89, 233, 238); */
 
 }
 
@@ -484,7 +488,7 @@ z-index: 1;
 }
 
 .about-subheading2{
-  margin-top: 80px;
+  margin-top: 150px;
 }
 
 @media(max-width: 400px)
