@@ -32,60 +32,59 @@ select {
   margin: 0 auto;
 }
 
-.about-content-grid-row2{
+.about-content-grid-row2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 95%;
   margin: 0 auto;
-  
+
   /* padding: 10px; */
 }
 
-.about-who-we-are{
+.about-who-we-are {
   color: white;
   flex: 1;
   margin: 0 1rem;
   z-index: 1;
   width: 90%;
-  background-color: #17202E;
+  background-color: #17202e;
   height: 100%;
   padding: 2rem;
   border-radius: 20px;
 }
 
-.about-mission{
+.about-mission {
   color: white;
   flex: 1;
   margin: 0 1rem;
   z-index: 1;
   width: 90%;
-  background-color: #17202E;
+  background-color: #17202e;
   height: 100%;
   padding: 2rem;
   border-radius: 20px;
 }
 
-
-.abuot-card-title{
+.abuot-card-title {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.about-vision{
+.about-vision {
   color: white;
   flex: 0.96;
   margin: 0 1rem;
   z-index: 1;
   width: 50%;
-  background-color: #17202E;
+  background-color: #17202e;
   height: 100%;
   padding: 2rem;
   border-radius: 20px;
 }
 
-.about_row2{
+.about_row2 {
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -96,18 +95,18 @@ select {
   /* flex-wrap: wrap; */
 }
 
-.memberalumni{
+.memberalumni {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-.projectachieve{
+.projectachieve {
   display: flex;
   flex-direction: column;
   flex: 1;
   width: 100%;
 }
-.about-content-grid-boxes{
+.about-content-grid-boxes {
   width: 95%;
   height: 50%;
   padding: 1.6rem;
@@ -115,19 +114,19 @@ select {
   z-index: 1;
 }
 
-.memberalumni :first-child{
+.memberalumni :first-child {
   margin-bottom: 1rem;
 }
 
-.projectachieve :first-child{
+.projectachieve :first-child {
   margin-bottom: 1rem;
 }
 
-.projectachieve .about-content-grid-boxes{
+.projectachieve .about-content-grid-boxes {
   width: 100%;
 }
 
-.about-department-text p{
+.about-department-text p {
   padding: 1rem;
 }
 
@@ -267,25 +266,16 @@ select {
   margin-right: 0;
 }
 
-
-
-
-.row1{
-    width: 70%;
-    height: 50%;
+.row1 {
+  width: 70%;
+  height: 50%;
 }
-
-
-
-
-
 
 .about-content-grid.quote {
   background-repeat: no-repeat;
   background-position: top right 10%;
   z-index: 1;
 }
-
 
 .about-content-title {
   margin-top: 1%;
@@ -296,12 +286,12 @@ select {
   font-family: "Rowdies", cursive;
   margin-left: 20px;
 }
-.about-content-text{
+.about-content-text {
   font-size: 1.1rem;
   opacity: 0.8;
 }
 
-.about-content-count-sub{
+.about-content-count-sub {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-size: 1.6rem;
@@ -371,7 +361,6 @@ select {
   border-style: solid 4px;
   border-color: #56b6fc;
   /* border-color: rgb(89, 233, 238); */
-
 }
 
 .about-department-text {
@@ -391,35 +380,33 @@ select {
   margin-top: -3rem;
 }
 
-@media(max-width: 780px)
-{
-    .about-content{
-       display: flex;
-       flex-wrap: wrap;
-    }
-    .content-grid-width{
-      width: 100%;
-      word-wrap: break-word;
-    }
-    .about-content-grid{
-      margin-top: 10px;
-    }
-    .about-content-grid-row2{
-        display: flex;
-       flex-wrap: wrap;
-      }
-    .abuot-card-title{
-      width: 40%;
-    }
-    .about-who-we-are{
-      width: 100%;
-      margin: aut;
-    }
+@media (max-width: 780px) {
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-grid-width {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .about-content-grid {
+    margin-top: 10px;
+  }
+  .about-content-grid-row2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .abuot-card-title {
+    width: 40%;
+  }
+  .about-who-we-are {
+    width: 100%;
+    margin: aut;
+  }
 }
 
-@media(max-width: 900px)
-{
-  .about-department-grid{
+@media (max-width: 900px) {
+  .about-department-grid {
     display: flex;
     flex-wrap: wrap;
   }
@@ -480,7 +467,7 @@ select {
   }
 }
 
-.about-subheading2{
+.about-subheading2 {
   margin-top: 150px;
 }
 
