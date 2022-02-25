@@ -10,7 +10,7 @@ const projects = [
         imgURL: pic1,
         project_content: "Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.",
         githubURL: "https://www.linkedin.com/in/prathisupadhyay/",
-        youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/",
+        youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/"
     },
     {
         id: 2,
