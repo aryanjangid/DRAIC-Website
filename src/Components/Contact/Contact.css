@@ -10,7 +10,7 @@
 }
 .contact_headline_div {
   text-align: center;
-  margin-top: 14px;
+  margin-top: 2rem;
   padding-bottom: 1px;
 }
 .contact_headline {
@@ -30,17 +30,11 @@
 .contact_topic {
   text-align: center;
 }
-.contactusline1 {
+.contactusline1, .contactusline2 {
   height: 3px;
   width: 29.5%;
   margin-top: 40px;
-  background-color: white;
-}
-.contactusline2 {
-  height: 3px;
-  width: 29.5%;
-  margin-top: 40px;
-  background-color: white;
+  background-color: azure;
 }
 .contactus_seperator {
   display: flex;
@@ -177,6 +171,9 @@ img {
 @media (max-width: 940px) {
   .contact_fillform_div {
     width: 81vw;
+  }
+  .contact_headline_div{
+    margin-top: 1.3rem;
   }
   input[type="text"],
   input[type="email"] {
