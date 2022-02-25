@@ -95,9 +95,9 @@ padding-left: 4rem ;
     margin: auto;
     height: 400px;
     position: relative;
-    top: 0rem;
+    top: -4rem;
     width: auto;
-    padding-left: 7rem;
+    /* padding-left: 7rem; */
 }
 
 .mech-department-header-container {
@@ -317,6 +317,7 @@ padding-left: 4rem ;
 
     .mech-department-image {
         height: 200px;
+        top: 0;
     }
 
     .mech-department-image-container {
