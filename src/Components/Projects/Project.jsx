@@ -34,12 +34,11 @@ function project() {
 
                 <p className="project-description">{card.project_content}</p>
                 <div className="home-links-container">
-                  <div className="view-more-container">
-                    <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
+                  <div className="project-link-container">
+                    <NavLink activeClassName="active" className="project-link" aria-current="page" to="/project"><button className="project-button">View More<span className="arrow">&rarr;</span></button></NavLink>
                   </div>
-                  <div className="youtube-link-container">
-                    <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
-
+                  <div className="project-link-container">
+                      <NavLink activeClassName="active" className="project-link" aria-current="page" to={card.youtubeURl}><button className="project-button">Youtube Link<span className="arrow">&rarr;</span></button></NavLink>
                   </div>
                 </div>
               </div>
