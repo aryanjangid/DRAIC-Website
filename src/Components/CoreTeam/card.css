@@ -39,10 +39,26 @@
   z-index: 300000;
   left: 7rem;
   width: 50px;
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
 }
 
 @media screen and (max-width: 412px) {
   .card {
     width: 20px;
+  }
+}
+
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
