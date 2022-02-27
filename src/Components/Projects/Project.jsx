@@ -31,10 +31,10 @@ const Project=()=> {
 
       </div>
       <div className="projects-container">{
-        projectList.map(card => {
+        projectList.map((card,i) => {
           return (
             <>
-              <div data-aos={"zoom-in-up"}  className="individual-project-container">
+              <div data-aos={"zoom-in-up"} data-aos-delay={`${i>2 ? "0":"700"}`}  className="individual-project-container">
                 <img className="project-image" src={card.imgURL} alt="Rome" />
                 <h1 className="project-title">{card.project_name}</h1>
                 <div className="project-decoration-line" />
