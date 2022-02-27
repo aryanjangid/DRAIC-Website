@@ -1,25 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 // // import pic1 from "../../Assets/project1.jpg"
 // import pic2 from "../../Assets/project2.jpg"
 // import pic3 from "../../Assets/project3.jpg"
 import { NavLink } from "react-router-dom";
 import "./Project.css";
 import projectList from "../../Data/project-list.js"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+const Project=()=> {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+  }, [])
 
-function project() {
   return (
     <div className="project-page">
       <div className="project-header">
         <div className="project_headline_div">
-          <h1 className="project-moto">A GLIMPSE OF THE JOURNEY, WE MADE</h1>
+          <h1 data-aos={"zoom-in-up"} className="project-moto">A GLIMPSE OF THE JOURNEY, WE MADE</h1>
         </div>
         <div className="project-seperator">
-          <div className="project-line1"></div>
+          <div data-aos={"fade-right"}  data-aos-delay={'700'} className="project-line1"></div>
           <div>
-            <h1 className="project-page-title">OUR PROJECTS</h1>
+            <h1 data-aos={"zoom-out"}  data-aos-delay={'1200'} className="project-page-title">OUR PROJECTS</h1>
           </div>
-          <div className="project-line2"></div>
+          <div data-aos={"fade-left"}  data-aos-delay={'700'} className="project-line2"></div>
         </div>
 
       </div>
@@ -27,7 +34,7 @@ function project() {
         projectList.map(card => {
           return (
             <>
-              <div className="individual-project-container">
+              <div data-aos={"zoom-in-up"}  className="individual-project-container">
                 <img className="project-image" src={card.imgURL} alt="Rome" />
                 <h1 className="project-title">{card.project_name}</h1>
                 <div className="project-decoration-line" />
@@ -93,5 +100,5 @@ function project() {
     </div>
   )
 }
-export default project
+export default Project
 
