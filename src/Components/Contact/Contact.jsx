@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <div className='contact_main_body'>
       <div className="contact_headline_div">
-        <h1 data-aos={"zoom-in-up"} className="contact_headline">OPPORTUNITIES DON'T HAPPEN, YOU CREATE THEM</h1>
+        <h1 data-aos={"zoom-in-up"} className="contact_headline">LET'S HAVE A CHAT OR SPONSOR US!</h1>
       </div>
       <div className="contactus_seperator">
         <div data-aos={"fade-right"}  data-aos-delay={'700'} className="contactusline1"></div>
