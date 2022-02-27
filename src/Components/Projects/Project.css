@@ -62,7 +62,7 @@
   text-align: left;
   margin-left: 0;
 }
-.project_headline_div{
+.project_headline_div {
   margin-top: 2rem;
 }
 .firstrowourproject {
@@ -206,7 +206,7 @@
 }
 
 @media screen and (max-width: 720px) {
-  .projects-container{
+  .projects-container {
     margin: 0 50px;
   }
 
@@ -214,7 +214,7 @@
     font-size: 12px;
     letter-spacing: 0.2rem;
     padding-top: 10px;
-    margin:0.4rem;
+    margin: 0.4rem;
   }
   .project-page-title {
     font-size: 1.7rem;
