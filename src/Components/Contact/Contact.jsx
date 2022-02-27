@@ -41,7 +41,9 @@ const Contact = () => {
               <textarea className="contact_textarea" id="subject" name="message" placeholder="Message" required></textarea>
             </div>
             <div className="contact_sendbtn_div">
+
               <button className='contact_sendbtn'>Send</button>
+              
             </div>
           </form>
         </div>
