@@ -1,47 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@800&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@800&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
 
-.maincard{
-    z-index: 18;
+.maincard {
+  z-index: 18;
 }
-.namee{
-    font-family: 'Montserrat', sans-serif;
-    padding: 0.3rem;
-    font-size:1.7rem;
-    z-index: 5;
-    position: relative;
-    top: -100px;
-    text-align: left;
-    padding-left: 20px;
+.namee {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.3rem;
+  font-size: 1.7rem;
+  z-index: 5;
+  position: relative;
+  top: -100px;
+  text-align: left;
+  padding-left: 20px;
 }
-.ll{
-    height: 4px;
-    width: 30px;
-    background-color: #0A1931;
-    position: relative;
-    top: -185px;
-    left: 21px;
+.ll {
+  height: 4px;
+  width: 30px;
+  background-color: #0a1931;
+  position: relative;
+  top: -185px;
+  left: 21px;
 }
-.pos{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size:1.1rem;
-    padding: 0.3rem;
-    position: relative;
-    top: -220px;
-    text-align: left;
-    padding-left: 20px;
-    color:white;
-}
-
-.core_team_social_img{
-    position: relative;
-    top: -12rem;
-    /* top: -32rem; */
-    z-index: 300000;
-    left: 7rem;
+.pos {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.1rem;
+  padding: 0.3rem;
+  position: relative;
+  top: -220px;
+  text-align: left;
+  padding-left: 20px;
+  color: white;
 }
 
-@media screen and (max-width:412px) {
-    .card{
-        width: 20px;
-    }
+.core_team_social_img {
+  position: relative;
+  top: -12rem;
+  /* top: -32rem; */
+  z-index: 300000;
+  left: 7rem;
+  width: 50px;
+}
+
+@media screen and (max-width: 412px) {
+  .card {
+    width: 20px;
+  }
 }
