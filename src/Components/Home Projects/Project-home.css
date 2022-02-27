@@ -293,7 +293,7 @@
   color: #57b8ff;
   transition: all 0.3s ease;
   padding: 5px 10px;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 .arrow {
   opacity: 0;
