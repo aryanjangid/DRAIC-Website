@@ -203,6 +203,9 @@
   .project-description {
     font-size: 0.8rem;
   }
+  .project-button {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 720px) {
