@@ -131,7 +131,6 @@
 
 /*//////////////  Profile Card  ///////////////*/
 .profile-card {
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
     background-color: #17202e;
 
     display: inline-flex;
@@ -142,16 +141,17 @@
     margin: 1rem 1rem;
     height: 380px;
     max-width: 50%;
-    /* z-index: 6; */
+    padding: 0 1rem;
 }
 .profile-card:hover {
-    background-color: #2760a0;
+    background-color: #121623;
     box-shadow: 0px 0px 10px 0px #3869a0;
     z-index: 3;
     backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(4.5px);
     border-radius: 10px;
     max-width: 50%;
+
 }
 
 .profile-card .text {

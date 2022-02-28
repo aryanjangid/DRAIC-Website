@@ -16,7 +16,7 @@ const card3Text = 'To achieve an excellence in the field of robotics and AI, Thu
 const card3Icon = 'https://img.icons8.com/android/48/ffffff/rocket.png'
 const card3Title = 'VISION'
 
-const NAbout = () => {
+const About = () => {
     return (
         <div className='about-body'>
             <div className="aboutmain">
@@ -122,4 +122,4 @@ const NAbout = () => {
     )
 }
 
-export default NAbout
+export default About
