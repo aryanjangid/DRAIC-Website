@@ -112,7 +112,7 @@
 
 .home-links-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   margin-top: 10px;
@@ -165,8 +165,8 @@
   width: 150px;
   text-align: center;
 }
-.project-card-btn {
-}
+/* .project-card-btn {
+} */
 .home-project-card-btn {
   text-decoration: none;
   margin-left: auto;
@@ -285,4 +285,25 @@
     padding: 10px 0px;
     font-size: 1.4rem;
   }
+}
+
+.project-button {
+  background-color: transparent;
+  border: none;
+  color: #57b8ff;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.arrow {
+  opacity: 0;
+  transition: all 0.3s ease;
+  margin-left: 8px;
+}
+.project-button:hover {
+  color: #ffffff;
+  background-color: #0e131b;
+}
+.project-button:hover .arrow {
+  opacity: 1;
 }

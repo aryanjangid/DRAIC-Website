@@ -172,6 +172,9 @@ img {
   .contact_fillform_div {
     width: 81vw;
   }
+  [data-aos-delay] {
+      transition-delay: 0s !important;
+    }
   .contact_headline_div{
     margin-top: 1.3rem;
   }
