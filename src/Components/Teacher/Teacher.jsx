@@ -1,16 +1,25 @@
-import React from 'react'
+
+import React, { useEffect } from "react";
 import './Teacher.css'
 import { Link } from 'react-router-dom';
 import mentorinfo from '../../Data/home-mentor';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-function Teacher() {
+const Main = () => {
+    useEffect(() => {
+      AOS.init({
+        duration: 1000
+      });
+    }, [])
+
     return (
         <>
             <div className='home-teacher-component'>
                 {/* <div className="seperator"> */}
                 <div className="home-teacher-header">
-                    <h1 className="home-teacher-moto">THE FACE THAT GUIDES US</h1>
-                    <div className="home-teacher-seperator">
+                    <h1 data-aos={"zoom-in-up"} className="home-teacher-moto">THE FACE THAT GUIDES US</h1>
+                    <div data-aos={"zoom-in-up"} data-aos-delay={'1000'} className="home-teacher-seperator">
                         <div className="home-teacher-decoration-line1"></div>
                         <div>
                             <h1 className="home-teacher-title">OUR MENTOR</h1>
@@ -44,4 +53,4 @@ function Teacher() {
         </>
     );
 }
-export default Teacher;
+export default Main;
