@@ -9,7 +9,7 @@
 }
 
 .project-header {
-  padding-top: 190px;
+  padding-top: 10.4rem;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -43,7 +43,7 @@
 
 .project-line1 {
   height: 3px;
-  width: 32%;
+  width: 29.5%;
   color: white;
   z-index: 30000;
   margin: auto;
@@ -62,7 +62,9 @@
   text-align: left;
   margin-left: 0;
 }
-
+.project_headline_div {
+  margin-top: 2rem;
+}
 .firstrowourproject {
   z-index: 100;
   text-align: center;
@@ -201,17 +203,21 @@
   .project-description {
     font-size: 0.8rem;
   }
+  .project-button {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 720px) {
-  .projects-container{
+  .projects-container {
     margin: 0 50px;
   }
+
   .project-moto {
     font-size: 12px;
     letter-spacing: 0.2rem;
     padding-top: 10px;
-    margin:0.4rem;
+    margin: 0.4rem;
   }
   .project-page-title {
     font-size: 1.7rem;

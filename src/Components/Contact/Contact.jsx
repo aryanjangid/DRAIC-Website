@@ -1,21 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Contact.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+  }, [])
+
   return (
     <div className='contact_main_body'>
       <div className="contact_headline_div">
-        <h1 className="contact_headline">OPPORTUNITIES DON'T HAPPEN, YOU CREATE THEM</h1>
+        <h1 data-aos={"zoom-in-up"} className="contact_headline">LET'S HAVE A CHAT OR SPONSOR US!</h1>
       </div>
       <div className="contactus_seperator">
-        <div className="contactusline1"></div>
+        <div data-aos={"fade-right"}  data-aos-delay={'700'} className="contactusline1"></div>
         <div className='contact_topic'>
-          <h1 className="contactusheading">GET IN TOUCH</h1>
+          <h1 data-aos={"zoom-out"}  data-aos-delay={'1200'} className="contactusheading">GET IN TOUCH</h1>
         </div>
-        <div className="contactusline2"></div>
+        <div data-aos={"fade-left"}  data-aos-delay={'700'} className="contactusline2"></div>
       </div>
       <div className="contact_form_details">
-        <div>
+        <div data-aos={"fade-right"}  data-aos-delay={'1800'}>
           <div className="contact_fillform_div">
             <h3 className="contact_fillform">Please fill out the form below to connect.</h3>
           </div>
@@ -32,11 +41,13 @@ const Contact = () => {
               <textarea className="contact_textarea" id="subject" name="message" placeholder="Message" required></textarea>
             </div>
             <div className="contact_sendbtn_div">
+
               <button className='contact_sendbtn'>Send</button>
+
             </div>
           </form>
         </div>
-        <div className="contact_information_div">
+        <div data-aos={"fade-left"}  data-aos-delay={'1800'} className="contact_information_div">
           <h1 className="contact_info_headline">CONTACT INFORMATION</h1>
           <div className="contact_info_email_div">
             <img className="contact_icons" alt="email" src="https://img.icons8.com/material-rounded/24/ffffff/new-post.png" />
