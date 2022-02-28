@@ -1,0 +1,10 @@
+.neumeric-card-body{
+    background-color: #303747;
+    padding: 1.2rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.neumeric-card-title{
+    color: white;
+    opacity: 0.8;
+}

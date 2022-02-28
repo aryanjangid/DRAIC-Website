@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './Components/Home.jsx';
 import Contact from './Components/Contact/Contact';
 import Achivement from './Components/Achievements/Achivements';
-import About from './Components/About/About.jsx';
+// import About from './Components/About/About.jsx';
 import Project from './Components/Projects/Project'
 import Navbar from "./Components/Navbar/Navbar.jsx"
 import Footer from "./Components/Footer/Footer"
@@ -16,6 +16,7 @@ import Elecdep from './Components/Department/Elecdep';
 
 import { useLocation } from "react-router-dom";
 import { useEffect } from 'react';
+import About from './Components/About/About';
 
 
 
@@ -31,7 +32,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
+        {/* <Route exact path="/about" element={<About />} /> */}
+        <Route exact path="/About" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/achievements" element={<Achivement />} />
         <Route exact path="/project" element={<Project />} />
