@@ -1,13 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { NavLink } from 'react-router-dom';
 import "../../App.css"
 import "./Navbar.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // import logo from "../../Assets/logo_white.png"
 
 function Navbar() {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000
+        });
+      }, [])
 
     return (<>
-
         <div className="navbar">
             <div className="nav-container">
                 <ul className="nav">
@@ -36,7 +42,6 @@ function Navbar() {
                     <li className="nav-item">
                         <NavLink className="nav-link " activeClassName="active" aria-current="page" to="/contact"><div className="title">Contact</div><span className='icon'><ion-icon name="chatboxes"></ion-icon></span> </NavLink>
                     </li>
-
                 </ul>
             </div>
         </div>
