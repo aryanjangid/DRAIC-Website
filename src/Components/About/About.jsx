@@ -74,7 +74,7 @@ const About = () => {
                                 </div>
 
                                 <div className="about-department-text">
-                                    <p>
+                                    <p className='dep_para'>
                                         I received a job offer mid-course, and the subjects I learned were current, if not more so,
                                         in the company I joined. I honestly feel I got every penny,s worth.
                                     </p>
@@ -91,7 +91,7 @@ const About = () => {
                                 </div>
 
                                 <div className="about-department-text">
-                                    <p>
+                                    <p className='dep_para'>
                                         I received a job offer mid-course, and the subjects I learned were current, if not more so,
                                         in the company I joined. I honestly feel I got every penny's worth.
                                     </p>
@@ -107,7 +107,7 @@ const About = () => {
                                     <p className="about-department-heading">ELECTRICAL</p>
                                 </div>
                                 <div className="about-department-text">
-                                    <p>
+                                    <p className='dep_para'>
                                         I received a job offer mid-course, and the subjects I learned were current, if not more so,
                                         in the company I joined. I honestly feel I got every penny’s worth.
                                     </p>

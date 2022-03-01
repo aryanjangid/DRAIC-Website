@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import linkedin from "../../Assets/linkedin.svg"
 
 function Card(props) {
+    const linkedIcon = (props.display==='show')?'core_team_social_img show':'core_team_social_img'
     return (
             <div className="maincard" style={{
                 ...styles.card,
@@ -15,6 +16,7 @@ function Card(props) {
                 opacity: props.opacity,
                 transform: `translate(-50%,-50%) scale(${props.scale})`,
                 borderRadius: `${props.borderRadius}px`,
+                // display:'${props.new_display}';
 
 
             }}>
@@ -25,7 +27,7 @@ function Card(props) {
                     <div className="ll"></div>
                     <h4 className="pos">{props.dep} </h4>   
                     <Link className='footer_social_links' to='//www.linkedin.com/company/d-y-patil-robotics-ai-club' target="_blank" >
-                        <img className="core_team_social_img" src={linkedin} alt="" />
+                        <img className={linkedIcon} src={linkedin} alt="" />
                     </Link>
                     </div>
 

@@ -35,11 +35,22 @@
 .core_team_social_img {
   position: relative;
   top: -12rem;
+  display: none;
   /* top: -32rem; */
   z-index: 300000;
   left: 7rem;
   width: 50px;
-  animation: pulsate-bck 0.5s ease-in-out infinite both;
+  /* animation: pulsate-bck 0.5s ease-in-out infinite both; */
+}
+
+.core_team_social_img.show{
+  display: inline;
+  position: relative;
+  top: -12rem;
+  /* top: -32rem; */
+  z-index: 300000;
+  left: 7rem;
+  width: 50px;
 }
 
 @media screen and (max-width: 412px) {
