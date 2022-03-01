@@ -11,7 +11,7 @@
 .contact_main_body2{
     background-color: rgba(10, 25, 49, 0.8);
     height: auto;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.1rem;
 }
 .contact_headline_div {
   text-align: center;
@@ -99,6 +99,7 @@ input[type="email"] {
   border: 2px solid #2196f3;
   border-radius: 20px;
   width: 30%;
+  font-size: 1rem;
   transition: all 0.3s ease;
 }
 .contact_joinnowbtn{
@@ -106,6 +107,7 @@ input[type="email"] {
   background-color: #0d8bf1;
   padding: 10px;
   color: white;
+  font-size: 1.1rem;
   border: 2px solid #0d8bf1;
   border-radius: 20px;
   width: 30%;
@@ -147,6 +149,9 @@ form {
   align-items: center;
   height: 10vh;
 }
+.forces2{
+    margin-top: 0px;
+}
 .contact_infoemail,
 .contact_infophone,
 .contact_infolink {
@@ -173,6 +178,9 @@ img {
   font-family: "Rowdies", cursive;
   font-size: 2.5rem;
   padding: 20px;
+}
+.fillform2{
+  font-size: 1.3rem;
 }
 .contact_info_subhead {
   font-family: "Raleway", sans-serif;
@@ -258,12 +266,15 @@ img {
   .contact_textarea {
     width: 100%;
   }
+  .forces2{
+    margin-top: -6px;
+  }
   .contact_form_textarea_div {
     width: 90%;
     align-items: center;
     margin: 0px;
   }
-  .contact_sendbtn {
+  .contact_sendbtn,.contact_joinnowbtn {
     margin-top: 18px;
     /* padding: 8px; */
     border-radius: 10px;
@@ -271,6 +282,14 @@ img {
   }
   .contact_info_headline {
     font-size: 1.3rem;
+  }
+  .join_team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fillform2{
+    font-size: 17px;
   }
   form {
     display: flex;

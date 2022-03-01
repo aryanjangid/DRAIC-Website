@@ -43,7 +43,7 @@ const Contact = () => {
               <textarea className="contact_textarea" id="subject" name="message" placeholder="Message" required></textarea>
             </div>
             <div className="contact_sendbtn_div">
-              <button className='contact_sendbtn'>Send</button>
+              <button className='contact_sendbtn'>SEND</button>
             </div>
           </form>
         </div>
@@ -77,17 +77,20 @@ const Contact = () => {
 
     {/* New Section */}
     <div className='contact_main_body2'>
+    <div className="contact_headline_div forces2">
+        <h1 data-aos={"zoom-in-up"} data-aos-delay={'100'} className="contact_headline">LET'S JOIN FORCES</h1>
+      </div>
       <div className="contactus_seperator">
-        <div data-aos={"fade-right"} className="contactusline1"></div>
+        <div data-aos={"fade-right"} data-aos-delay={'400'} className="contactusline1"></div>
         <div className='contact_topic'>
-          <h1 data-aos={"zoom-out"}  data-aos-delay={'300'} className="contactusheading">Want To Join Us</h1>
+          <h1 data-aos={"zoom-out"}  data-aos-delay={'700'} className="contactusheading">WANT TO JOIN US</h1>
         </div>
-        <div data-aos={"fade-left"} className="contactusline2"></div>
+        <div data-aos={"fade-left"} data-aos-delay={'400'} className="contactusline2"></div>
       </div>
       <div className="contact_form_details">
-        <div data-aos={"fade-right"}  data-aos-delay={'600'}>
+        <div className='join_team' data-aos={"fade-right"}  data-aos-delay={'600'}>
           <div className="contact_fillform_div">
-            <h3 className="contact_fillform">Please fill the form to Join the Team </h3>
+            <h3 className="contact_fillform fillform2">Please fill the form to Join the Team </h3>
           </div>
           <div>
               <div className="contact_para">
@@ -95,7 +98,7 @@ const Contact = () => {
               </div>
           </div>
           <div className="contact_joinnow_div">
-              <button className='contact_joinnowbtn'>Join Now</button>
+              <button className='contact_joinnowbtn'>JOIN NOW</button>
           </div>
         </div>
         <div data-aos={"fade-left"}  data-aos-delay={'600'} className="contact_information_div">
