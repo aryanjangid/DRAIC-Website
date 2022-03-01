@@ -18,7 +18,7 @@ import { useLocation } from "react-router-dom";
 import { useEffect } from 'react';
 import About from './Components/About/About';
 import Contact2 from './Components/Contact2/contact2';
-
+import Team from './Components/Team/team.jsx';
 
 function App() {
 
@@ -34,7 +34,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         {/* <Route exact path="/about" element={<About />} /> */}
-        <Route exact path="/About" element={<About />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/team" element={<Team />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/achievements" element={<Achivement />} />
         <Route exact path="/project" element={<Project />} />

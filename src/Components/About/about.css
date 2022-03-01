@@ -62,14 +62,12 @@
     white-space: nowrap;
 }
 .about-content {
-    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     z-index: 1;
-    margin: 0 auto;
-    /* padding: 0 5rem; */
+    margin:0 8rem;
 }
 
 .about-content-first-row,.about-content-second-row{
@@ -106,6 +104,8 @@
 .neumeric-info-row-1 :nth-child(1){
     margin-top: 0.1rem;
 }
+
+
 
 .neumeric-info-row-2{
     margin-left: 1rem;
@@ -231,6 +231,9 @@
 
     .about-department-icon {
         max-width: 30px;
+    }
+    .about-content{
+        margin: 0;
     }
 
 }
