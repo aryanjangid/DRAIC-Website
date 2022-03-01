@@ -1,20 +1,26 @@
-import React from "react";
+import React, {useEffect} from "react";
 import aboutusinfo from "../../Data/home-about-us";
 import "./Home-aboutus.css";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function HomeAbout() {
+    useEffect(() => {
+        AOS.init({
+          duration: 2000
+        });
+      }, [])
     return (
         <div className="aboutsection1">
             <div className="firstrow">
-                <h1 className="wheredowe">WHERE DO WE COME FROM</h1>
+                <h1 data-aos={"zoom-out"} className="wheredowe">WHERE DO WE COME FROM</h1>
                 <div className="seperator">
-                    <div className="lineaboutus1"></div>
+                    <div data-aos={"fade-right"}  data-aos-delay={'700'} className="lineaboutus1"></div>
                     <div>
-                        <h1 className="aboutusheading">ABOUT US</h1>
+                        <h1 data-aos={"zoom-out"} data-aos-delay={'700'} className="aboutusheading">ABOUT US</h1>
                     </div>
-                    <div className="lineaboutus2"></div>
+                    <div data-aos={"fade-left"}  data-aos-delay={'700'} className="lineaboutus2"></div>
                 </div>
             </div>
             {
@@ -39,7 +45,7 @@ function HomeAbout() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="thirdrow">
+                            <div  className="thirdrow">
                                 <div className="divs1">
                                     <h1 className="title1">WHO WE ARE</h1>
                                     <p className="paragraph1">{card.whoweare}</p>

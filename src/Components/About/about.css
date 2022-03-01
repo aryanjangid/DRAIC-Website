@@ -5,6 +5,7 @@
     margin-top: -16rem;
     height: fit-content;
     padding: 5rem 0;
+    /* margin:0; */
 }
 .about-title-body {
     z-index: 100;
@@ -61,13 +62,12 @@
     white-space: nowrap;
 }
 .about-content {
-    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     z-index: 1;
-    margin: 0 auto;
+    margin:0 8rem;
 }
 
 .about-content-first-row,.about-content-second-row{
@@ -83,13 +83,46 @@
     flex-direction: row;
 }
 
-.neumeric-info-row-1{
+.neumeric-info-boxes :nth-child(1){
     flex: 1;
 }
+.neumeric-info-boxes :nth-child(2){
+    flex: 1;
+}
+
+.neumeric-info-row-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    /* justify-content: center; */
+}
+
+.neumeric-info-row-1 :nth-child(1),.neumeric-info-row-1 :nth-child(2){
+    flex: 1;
+}
+.neumeric-info-row-1 :nth-child(1){
+    margin-top: 0.1rem;
+}
+
+
+
 .neumeric-info-row-2{
     margin-left: 1rem;
     flex: 1;
+    display: flex; 
+    flex-direction: column;
+    height: 95%;
+    /* justify-content: center; */
 }
+
+.neumeric-info-row-2 :nth-child(1),.neumeric-info-row-2 :nth-child(2){
+    flex: 1;
+}
+.neumeric-info-row-2 :nth-child(1){
+    margin-top: 0.1rem;
+}
+
 
 .about-department-grid{
     display: grid;
@@ -114,8 +147,9 @@
 }
 
 
-.about-department-title-body{
-    padding-left:16px;
+.dep_para{
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .about-department-icon{
@@ -143,6 +177,7 @@
 .about-department-grid-box{
     border: 2px solid #56b6fc;
     transition: all 0.3s ease;
+
 }
 
 .about-department-grid-box:hover{
@@ -196,6 +231,9 @@
 
     .about-department-icon {
         max-width: 30px;
+    }
+    .about-content{
+        margin: 0;
     }
 
 }

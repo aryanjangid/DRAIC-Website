@@ -33,7 +33,7 @@ function Navbar() {
                         <NavLink className="nav-link" activeClassName="active" aria-current="page" to="/achievements"><div className="title achievements">Achievements</div><span className='icon'><ion-icon name="medal"></ion-icon></span> </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link " activeClassName="active" aria-current="page" to="/contact"><div className="title">Contact</div><span className='icon'><ion-icon name="chatboxes"></ion-icon></span> </NavLink>
+                        <NavLink className="nav-link " activeClassName="active" aria-current="page" to="/team"><div className="title">Team</div><span className='icon'><ion-icon name="body"></ion-icon></span> </NavLink>
                     </li>
                     
                 </ul>

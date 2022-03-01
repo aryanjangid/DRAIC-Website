@@ -160,4 +160,8 @@ button:hover::after {
     width: 25%;
     height: 2.8px;
   }
+  .button1::after {
+    content: "\2192";
+  }
+  
 }

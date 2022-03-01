@@ -18,7 +18,7 @@ class Deck extends Component {
       x: parseFloat(this.deck.style.width) / 2,
       y: parseFloat(this.deck.style.width) / 2,
     }
-    let total_number_of_cards = 5;
+    let total_number_of_cards = 7;
     let middle_card_index = Math.floor(total_number_of_cards / 2)
     let new_x = 0;
     let new_y = 0;
@@ -26,15 +26,18 @@ class Deck extends Component {
     let new_scale = 0;
     let new_borderRadius = 30;
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 7; i++) {
       if (i < middle_card_index) {
-        new_x = center.x - (390 * (middle_card_index - i));
+        new_x = center.x - (350 * (middle_card_index - i));
         new_y = center.y;
         if (i === 0) {
           new_x = new_x + ((0.333 * 280) * (middle_card_index - i + 0.5));
         }
+        else if(i===1){
+          new_x = new_x + ((0.333 * 250) * (middle_card_index - i));
+        }
         else {
-          new_x = new_x + ((0.333 * 280) * (middle_card_index - i));
+          new_x = new_x + ((0.333 * 150) * (middle_card_index - i));
         }
 
         new_zindex = i;
@@ -44,11 +47,14 @@ class Deck extends Component {
         new_x = center.x + (390 * (i - middle_card_index));
         new_y = center.y;
 
-        if (i === 4) {
-          new_x = new_x - ((0.333 * 280) * (i + 0.5 - middle_card_index));
+        if (i === 6) {
+          new_x = new_x - ((0.333 * 380) * (i + 0.5 - middle_card_index));
+        }
+        else if(i===5){
+          new_x = new_x - ((0.333 * 360) * (i - middle_card_index));
         }
         else {
-          new_x = new_x - ((0.333 * 280) * (i - middle_card_index));
+          new_x = new_x - ((0.333 * 260) * (i - middle_card_index));
         }
 
 
@@ -63,6 +69,7 @@ class Deck extends Component {
           z_index={i === middle_card_index ? 100 : new_zindex}
           opacity={i === middle_card_index ? 1 : 1}
           scale={new_scale}
+          display={middle_card_index ? 'show' : 'not-show'}
           //picsum_img={imgarray[i]}
           name={name[i]}
           surname={surname[i]}
@@ -71,7 +78,9 @@ class Deck extends Component {
         />
       )
     }
+
     this.setState({ cards: new_cards })
+
 
   }
 
@@ -81,12 +90,14 @@ class Deck extends Component {
       let last_card_left = this.deck.children[this.deck.children.length - 1].style.left;
       let last_card_zIndex = this.deck.children[this.deck.children.length - 1].style.zIndex;
       let last_card_transform = this.deck.children[this.deck.children.length - 1].style.transform;
+      // let last_mid_logo = this.deck.children[this.deck.children.length - 1].style.display;
 
       for (let i = this.deck.children.length - 1; i > 0; i--) {
         this.deck.children[i].style.transitionDuration = '1.0s';
         this.deck.children[i].style.left = this.deck.children[i - 1].style.left;
         this.deck.children[i].style.transform = this.deck.children[i - 1].style.transform;
         this.deck.children[i].style.zIndex = this.deck.children[i - 1].style.zIndex;
+        // this.deck.children[i].style.display = this.deck.children[i - 1].style.display;
       }
 
       this.deck.children[0].style.transitionDuration = '0.2s';
@@ -96,6 +107,7 @@ class Deck extends Component {
         this.deck.children[0].style.transitionDuration = '0.0s';
         this.deck.children[0].style.left = last_card_left;
         this.deck.children[0].style.zIndex = last_card_zIndex;
+        // this.deck.children[0].style.display=last_mid_logo;
 
         this.deck.appendChild(this.deck.children[0]);
 
@@ -201,6 +213,8 @@ const name = [
   'SAGAR',
   'AXASUSAN',
   'ABHISHEK',
+  'CHARU',
+  'SARTHAK'
 ]
 
 const surname = [
@@ -209,6 +223,8 @@ const surname = [
   'WARUNGASE',
   'MATHEW',
   'BORSE',
+  'CHARU',
+  'SARTHAK'
 ]
 
 const dep = [
@@ -216,7 +232,9 @@ const dep = [
   'CAPTAIN',
   'MECHANICAL HEAD',
   'ELECTRICAL HEAD',
-  'VICE_CAPTAIN',
+  'VICE CAPTAIN',
+  'TEAM MANAGER',
+  'DESIGN HEAD'
 ]
 
 const styles = {
