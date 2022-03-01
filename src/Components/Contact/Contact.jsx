@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import "./Contact.css"
+import download from '../Contact/download.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,6 +13,7 @@ const Contact = () => {
   }, [])
 
   return (
+    <>
     <div className='contact_main_body'>
       <div className="contact_headline_div">
         <h1 data-aos={"zoom-in-up"} className="contact_headline">LET'S HAVE A CHAT OR SPONSOR US!</h1>
@@ -41,9 +43,7 @@ const Contact = () => {
               <textarea className="contact_textarea" id="subject" name="message" placeholder="Message" required></textarea>
             </div>
             <div className="contact_sendbtn_div">
-
               <button className='contact_sendbtn'>Send</button>
-
             </div>
           </form>
         </div>
@@ -74,6 +74,36 @@ const Contact = () => {
       </div>
     </div>
 
+
+    {/* New Section */}
+    <div className='contact_main_body2'>
+      <div className="contactus_seperator">
+        <div data-aos={"fade-right"} className="contactusline1"></div>
+        <div className='contact_topic'>
+          <h1 data-aos={"zoom-out"}  data-aos-delay={'300'} className="contactusheading">Want To Join Us</h1>
+        </div>
+        <div data-aos={"fade-left"} className="contactusline2"></div>
+      </div>
+      <div className="contact_form_details">
+        <div data-aos={"fade-right"}  data-aos-delay={'600'}>
+          <div className="contact_fillform_div">
+            <h3 className="contact_fillform">Please fill the form to Join the Team </h3>
+          </div>
+          <div>
+              <div className="contact_para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, repellendus excepturi. Architecto porro rem fuga ipsum vero earum inventore nemo delectus ducimus est. Harum optio dolore ea nostrum tempora at?</p>
+              </div>
+          </div>
+          <div className="contact_joinnow_div">
+              <button className='contact_joinnowbtn'>Join Now</button>
+          </div>
+        </div>
+        <div data-aos={"fade-left"}  data-aos-delay={'600'} className="contact_information_div">
+          <img src={download} alt="" />
+        </div>
+      </div>
+    </div>
+  </>
   );
 }
 
