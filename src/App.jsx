@@ -17,7 +17,7 @@ import Elecdep from './Components/Department/Elecdep';
 import { useLocation } from "react-router-dom";
 import { useEffect } from 'react';
 import About from './Components/About/About';
-
+import Contact2 from './Components/Contact2/contact2';
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Contact2 />
       <Routes>
         <Route exact path="/" element={<Home />} />
         {/* <Route exact path="/about" element={<About />} /> */}

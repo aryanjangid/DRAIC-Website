@@ -1,0 +1,10 @@
+.contact_btn_home{
+    position: fixed;
+    margin-top: 20px;
+    right: 0;
+    background-color: #00a0ff;
+    z-index: 100000;
+    height: 200px;
+    width: 40px;
+    border-radius:10px 0px 0 10px;
+}
