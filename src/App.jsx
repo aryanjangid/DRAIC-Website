@@ -1,27 +1,27 @@
-import './App.css';
-import React from 'react';
-import Home from './Components/Home.jsx';
-import Contact from './Components/Contact/Contact';
-import Achivement from './Components/Achievements/Achivements';
+import "./App.css";
+import React from "react";
+import Home from "./Components/Home.jsx";
+import Contact from "./Components/Contact/Contact";
+import Achivement from "./Components/Achievements/Achivements";
 // import About from './Components/About/About.jsx';
-import Project from './Components/Projects/Project'
-import Navbar from "./Components/Navbar/Navbar.jsx"
-import Footer from "./Components/Footer/Footer"
-import { Route, Navigate } from 'react-router-dom';
+import Project from "./Components/Projects/Project";
+import Navbar from "./Components/Navbar/Navbar.jsx";
+import Footer from "./Components/Footer/Footer";
+import { Route, Navigate } from "react-router-dom";
 import { Routes } from "react-router-dom";
-import Background from './Components/Background';
-import Progdep from './Components/Department/progdep';
-import Mechdep from './Components/Department/mechanicaldep';
-import Elecdep from './Components/Department/Elecdep';
+import Background from "./Components/Background";
+import Progdep from "./Components/Department/progdep";
+import Mechdep from "./Components/Department/mechanicaldep";
+import Elecdep from "./Components/Department/Elecdep";
 
 import { useLocation } from "react-router-dom";
-import { useEffect } from 'react';
-import About from './Components/About/About';
-import Contact2 from './Components/Contact2/contact2';
-import Team from './Components/Team/team.jsx';
+import { useEffect } from "react";
+import About from "./Components/About/About";
+import Contact2 from "./Components/Contact2/contact2";
+import Team from "./Components/Team/team.jsx";
+import Testimonials from "./Components/Testimonials/Testimonials";
 
-function App() {
-
+const App = () => {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -46,8 +46,9 @@ function App() {
       </Routes>
       <Background className="particles" />
       <Footer />
+      <Testimonials />
     </div>
   );
-}
+};
 
 export default App;
