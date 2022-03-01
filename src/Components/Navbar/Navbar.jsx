@@ -5,7 +5,6 @@ import "./Navbar.css"
 // import logo from "../../Assets/logo_white.png"
 
 function Navbar() {
-
     return (<>
 
         <div className="navbar">
@@ -36,7 +35,7 @@ function Navbar() {
                     <li className="nav-item">
                         <NavLink className="nav-link " activeClassName="active" aria-current="page" to="/team"><div className="title">Team</div><span className='icon'><ion-icon name="body"></ion-icon></span> </NavLink>
                     </li>
-
+                    
                 </ul>
             </div>
         </div>
