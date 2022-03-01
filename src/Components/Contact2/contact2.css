@@ -5,8 +5,12 @@
     background-color: #00a0ff;
     z-index: 100000;
     height: 200px;
-    width: 40px;
+    width: 45px;
     border-radius:10px 0px 0 10px;
+}
+
+.contact-btn-container{
+    position: relative;
 }
 
 .contact-us-btn-text{
@@ -23,7 +27,7 @@
 
 .contact-btn-all:hover .contact_btn_home{
     background-color: white;
-    border: 3px solid #00a0ff;
+    border: 2px solid #00a0ff;
     border-right: none;
 }
 .contact-btn-all:hover .contact-us-btn-text{
