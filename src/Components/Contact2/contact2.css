@@ -5,6 +5,31 @@
     background-color: #00a0ff;
     z-index: 100000;
     height: 200px;
-    width: 40px;
+    width: 45px;
     border-radius:10px 0px 0 10px;
+}
+
+.contact-btn-container{
+    position: relative;
+}
+
+.contact-us-btn-text{
+    color: white;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1.9rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-btn-all:hover .contact_btn_home{
+    background-color: white;
+    border: 2px solid #00a0ff;
+    border-right: none;
+}
+.contact-btn-all:hover .contact-us-btn-text{
+    color: #00a0ff;
 }
