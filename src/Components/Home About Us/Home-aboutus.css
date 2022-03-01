@@ -114,8 +114,8 @@
 }
 
 .thirdrow {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   text-align: left;
   padding: 20px;
   padding-bottom: 40px;
