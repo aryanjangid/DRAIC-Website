@@ -1,60 +1,84 @@
 import React, { useEffect } from "react";
-import "./Achievements.css"
-import Achievements1 from "../../Assets/Achievements1.jpg"
-import Achievements2 from "../../Assets/Achievements2.webp"
-import Achievements3 from "../../Assets/Achievements3.webp"
-import Achievements4 from "../../Assets/Achievements4.webp"
-import Achievements5 from "../../Assets/Achievements5.webp"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import "./Achievements.css";
+import Achievements1 from "../../Assets/Achievements1.jpg";
+import Achievements2 from "../../Assets/Achievements2.webp";
+import Achievements3 from "../../Assets/Achievements3.webp";
+import Achievements4 from "../../Assets/Achievements4.webp";
+import Achievements5 from "../../Assets/Achievements5.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Main = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      once: true,
+      duration: 1000,
     });
-  }, [])
+  }, []);
   // const fade = (name) => {
   //   let delay = 1000
   //   name.map((e,i)=> {
   //     return <span data-aos-delay={`${delay=delay-50}`}>{e}</span>
   //   } )
   // }
-  
-
 
   return (
     <div className="achievements_section">
       <div className="achievements_header">
         <div className="achievements_headline_div">
-        <h1 data-aos={"zoom-in-up"} className="achievements_thought">  OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM</h1>
+          <h1 data-aos={"zoom-in-up"} className="achievements_thought">
+            {" "}
+            OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM
+          </h1>
         </div>
         <div className="achievements_heading">
-          <div data-aos={"fade-right"}  data-aos-delay={'700'}  className="achievements_line_1"></div>
+          <div
+            data-aos={"fade-right"}
+            data-aos-delay={"700"}
+            className="achievements_line_1"
+          ></div>
           <div>
-            <h1 data-aos={"zoom-out"}  data-aos-delay={'1200'} className="achievements_title">OUR ACHIEVEMENTS</h1>
+            <h1
+              data-aos={"zoom-out"}
+              data-aos-delay={"1200"}
+              className="achievements_title"
+            >
+              OUR ACHIEVEMENTS
+            </h1>
           </div>
-          <div data-aos={"fade-left"}  data-aos-delay={'700'} className="achievements_line_2"></div>
+          <div
+            data-aos={"fade-left"}
+            data-aos-delay={"700"}
+            className="achievements_line_2"
+          ></div>
         </div>
       </div>
       <div className="achievements_timeline">
-        <div data-aos-delay={'1000'} data-aos={"fade-left"} className="achievement_container left">
-          <div className="achievement_content_container">
+        <div className="achievement_container left">
+          <div
+            data-aos-delay={"1000"}
+            data-aos={"fade-left"}
+            className="achievement_content_container"
+          >
             <div className="achievements_contents">
               <h2>Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav</h2>
               <div className="achievement_devicer"></div>
               <p>
-                Second Runner-up at Innovate for Smart Pimpri Chinchwad, innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.
+                Second Runner-up at Innovate for Smart Pimpri Chinchwad,
+                innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.
               </p>
             </div>
             <div className="achievement_image_conainer">
               <img className="achievement_image" src={Achievements1} alt="" />
-
             </div>
           </div>
         </div>
-        <div data-aos-delay={'1000'} data-aos={"fade-right"} className="achievement_container right">
-          <div className="achievement_content_container">
+        <div className="achievement_container right">
+          <div
+            data-aos-delay={"1000"}
+            data-aos={"fade-right"}
+            className="achievement_content_container"
+          >
             <div className="achievement_image_conainer">
               <img className="achievement_image" src={Achievements2} alt="" />
             </div>
@@ -62,18 +86,24 @@ const Main = () => {
               <h2> Sagar Warungase</h2>
               <div className="achievement_devicer"></div>
               <p>
-                First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
+                First Position at Techtatva Electronics Competition Organised by
+                EnTC Dept, DYPCOE, Pune.
               </p>
             </div>
           </div>
         </div>
-        <div data-aos-delay={'0'} data-aos={"fade-left"} className="achievement_container left">
+        <div
+          data-aos-delay={"0"}
+          data-aos={"fade-left"}
+          className="achievement_container left"
+        >
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Samiksha Bhokare & Dibyanshu Sharma</h2>
               <div className="achievement_devicer"></div>
               <p>
-                Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.
+                Second Position at Techtatva Electronics Competition Organised
+                by EnTC Dept, DYPCOE, Pune.
               </p>
             </div>
             <div className="achievement_image_conainer">
@@ -81,7 +111,11 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div data-aos-delay={'0'} data-aos={"fade-right"} className="achievement_container right">
+        <div
+          data-aos-delay={"0"}
+          data-aos={"fade-right"}
+          className="achievement_container right"
+        >
           <div className="achievement_content_container">
             <div className="achievement_image_conainer">
               <img className="achievement_image" src={Achievements4} alt="" />
@@ -90,18 +124,24 @@ const Main = () => {
               <h2> Arvind Patel</h2>
               <div className="achievement_devicer"></div>
               <p>
-                Second Runner-up at COEP Mindspark-19 Search & Destroy, organised by COEP, Pune.
+                Second Runner-up at COEP Mindspark-19 Search & Destroy,
+                organised by COEP, Pune.
               </p>
             </div>
           </div>
         </div>
-        <div data-aos-delay={'0'} data-aos={"fade-left"} className="achievement_container left">
+        <div
+          data-aos-delay={"0"}
+          data-aos={"fade-left"}
+          className="achievement_container left"
+        >
           <div className="achievement_content_container">
             <div className="achievements_contents">
               <h2>Arvind Patel</h2>
               <div className="achievement_devicer"></div>
               <p>
-                First Position at Bro Code & Code Capture Competition organised by PCCOE, Ravet.
+                First Position at Bro Code & Code Capture Competition organised
+                by PCCOE, Ravet.
               </p>
             </div>
             <div className="achievement_image_conainer">
@@ -109,17 +149,21 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div data-aos-delay={'0'} data-aos={"fade-right"} className="achievement_container right">
+        <div
+          data-aos-delay={"0"}
+          data-aos={"fade-right"}
+          className="achievement_container right"
+        >
           <div className="achievement_content_container">
             <div className="achievement_image_conainer">
               <img className="achievement_image" src={Achievements1} alt="" />
             </div>
             <div className="achievements_contents">
-
               <h2>Lorem ipsum dolor sit amet</h2>
               <div className="achievement_devicer"></div>
               <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non
               </p>
             </div>
           </div>
@@ -127,6 +171,6 @@ const Main = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Main;
