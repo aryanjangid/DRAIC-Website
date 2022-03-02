@@ -7,6 +7,25 @@
   position: relative;
   z-index: 1;
 }
+/* .midline{
+  position: absolute;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  left:27rem;
+  top:34rem;
+  width:5rem;
+} */
+
+
+.proj_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
 
 .project-header {
   padding-top: 10.4rem;
@@ -50,6 +69,11 @@
   background-color: azure;
   text-align: left;
   margin-right: 0;
+}
+.projectsupcomingcontainer{
+  margin-top: 5rem;
+  display: flex;
+  align-items: left;
 }
 
 .project-line2 {
