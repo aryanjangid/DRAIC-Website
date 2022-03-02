@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Card from './card';
 import './deck.css';
+
+import Prathis from '../../Assets/Prathis.jfif'
+import Axa from '../../Assets/Axa.jpeg'
+import Darshan from '../../Assets/Darshan.jpeg'
 // import ourteaminfo from '../../Data/home-our-team';
 class Deck extends Component {
   constructor(props) {
@@ -70,7 +74,7 @@ class Deck extends Component {
           opacity={i === middle_card_index ? 1 : 1}
           scale={new_scale}
           display={middle_card_index ? 'show' : 'not-show'}
-          //picsum_img={imgarray[i]}
+          picsum_img={imgarray[i]}
           name={name[i]}
           surname={surname[i]}
           dep={dep[i]}
@@ -198,13 +202,13 @@ class Deck extends Component {
 
 
 
-// const imgarray = [
-//   'https://picsum.photos/200/300',
-//   'https://picsum.photos/200/300',
-//   'https://picsum.photos/200/300',
-//   'https://picsum.photos/200/300',
-//   'https://picsum.photos/200/300',
-// ]
+const imgarray = [
+  Prathis,
+  Darshan,
+  Prathis,
+  Prathis,
+  Axa,
+]
 
 
 const name = [
@@ -229,6 +233,10 @@ const dep = [
   'TEAM CAPTAIN',
   'VICE CAPTAIN',
   'TEAM MANAGER',
+]
+
+const img=[
+  ''
 ]
 
 const styles = {

@@ -3,6 +3,7 @@ import "./Teacher.css";
 import { Link } from "react-router-dom";
 import mentorinfo from "../../Data/home-mentor";
 import AOS from "aos";
+
 // import 'aos/dist/aos.css';
 
 const Main = () => {

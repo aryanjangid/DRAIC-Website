@@ -294,6 +294,7 @@
   transition: all 0.3s ease;
   padding: 5px 10px;
   border-radius: 20px;
+  cursor: pointer;
 }
 .arrow {
   opacity: 0;

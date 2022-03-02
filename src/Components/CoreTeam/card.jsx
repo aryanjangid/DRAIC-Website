@@ -21,7 +21,7 @@ function Card(props) {
 
             }}>
 
-                <img style={styles.image} src={immg} alt='reactjs'></img>
+                <img style={styles.image} src={props.picsum_img} alt='reactjs'></img>
 
                     <h1 className="namee">{props.name}<br></br>{props.surname}</h1>
                     <div className="ll"></div>
@@ -51,10 +51,11 @@ const styles = {
         borderRadius: '10px',
     },
     image: {
-        width: '100%',
-        height: '100%',
+        width: '300px',
+        height: '400px',
         borderRadius: '5px',
         zIndex:'3',
+        objectFit: 'cover',
     },
     department: {
         color: 'white',
