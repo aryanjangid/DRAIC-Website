@@ -120,3 +120,49 @@
   .dep-button:hover .arrow {
     opacity: 1;
   }
+
+.img1, .img2, .img3
+{
+    width: 60%;
+    z-index: 100;
+    height: 60%;
+}
+.about-seperator3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92.5%;
+    margin: auto;
+}
+.roboheading, .workheading, .robosuperheading{
+    color: rgb(181 220 248);;
+    font-style: italic;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.team_pic_robocon, .team_pic_workshop, .team_pic_robosuper
+{
+    width: 155vw;
+    padding: 3%;
+}
+.mainbody_team{
+    margin-top: -6rem;
+    background-color: rgba(10, 25, 49, 0.8);
+}
+
+@media(max-width: 600px)
+{
+    .roboheading, .workheading, .robosuperheading{
+        font-size: 22px;
+    }
+    .about-department-grid{
+        grid-template-columns: auto;
+    }
+    .about-heading{
+        font-size: 2rem;
+    }
+}
