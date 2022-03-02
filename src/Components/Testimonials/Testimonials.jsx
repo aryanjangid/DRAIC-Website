@@ -49,7 +49,7 @@ const Testimonials = () => {
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}
-          autoPlay={true}
+          autoPlay={false}
           interval={6100}
         >
           {testimonials.map((test, i) => (
