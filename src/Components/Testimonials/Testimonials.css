@@ -171,7 +171,7 @@
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 934px) {
+@media only screen and (max-width: 768px) {
   .carousel-root {
     outline: 0;
     width: 93% !important;
@@ -192,7 +192,7 @@
     padding-left: 5%;
     padding-right: 5%;
     /* border: 1px solid #ddd; */
-    height: 269px;
+    height: 300px;
   }
 
   .carousel .slide img {
