@@ -4,6 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
 
+/* Fonts */
+
+@font-face {
+  font-family: SansationBold;
+  src: url(./Assets/fonts/Sansation_Bold.ttf);
+}
+@font-face {
+  font-family: SansationLight;
+  src: url(./Assets/fonts/Sansation_Light.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
