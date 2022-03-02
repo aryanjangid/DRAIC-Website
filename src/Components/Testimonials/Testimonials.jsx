@@ -35,10 +35,39 @@ const Testimonials = () => {
   return (
     <>
       <div className="testimonial-section-container">
+        <div className="testimonial_header">
+          <div className="testimonial_headline_div">
+            <h1 data-aos={"zoom-in-up"} className="testimonial_thought">
+              {" "}
+              WHY SHOULD YOU JOIN US?
+            </h1>
+          </div>
+          <div className="testimonial_heading">
+            <div
+              data-aos={"fade-right"}
+              data-aos-delay={"700"}
+              className="testimonial_line_1"
+            ></div>
+            <div>
+              <h1
+                data-aos={"zoom-out"}
+                data-aos-delay={"1200"}
+                className="testimonial_title"
+              >
+                TESTIMONIALS
+              </h1>
+            </div>
+            <div
+              data-aos={"fade-left"}
+              data-aos-delay={"700"}
+              className="testimonial_line_2"
+            ></div>
+          </div>
+        </div>
         <div className="testimonial-section">
-          <h1 className="testimonial-heading">
+          {/* <h1 className="testimonial-heading">
             <span className="underline"></span>Why our members ❤️ us
-          </h1>
+          </h1> */}
           {/* <p className="testimonial-para">
             Our client send us bunch of smiles with our services and we love
             them
@@ -54,7 +83,7 @@ const Testimonials = () => {
         >
           {testimonials.map((test, i) => (
             <div className="testimonial-card-container">
-              <img src={test.image} />
+              <img src={test.image} alt="loading" />
               <div className="myCarousel">
                 <h3>{test.name}</h3>
                 <h4>{test.position}</h4>
