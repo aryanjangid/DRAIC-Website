@@ -18,7 +18,7 @@ class Deck extends Component {
       x: parseFloat(this.deck.style.width) / 2,
       y: parseFloat(this.deck.style.width) / 2,
     }
-    let total_number_of_cards = 7;
+    let total_number_of_cards = 5;
     let middle_card_index = Math.floor(total_number_of_cards / 2)
     let new_x = 0;
     let new_y = 0;
@@ -26,16 +26,16 @@ class Deck extends Component {
     let new_scale = 0;
     let new_borderRadius = 30;
 
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 5; i++) {
       if (i < middle_card_index) {
         new_x = center.x - (350 * (middle_card_index - i));
         new_y = center.y;
         if (i === 0) {
-          new_x = new_x + ((0.333 * 280) * (middle_card_index - i + 0.5));
+          new_x = new_x + ((0.333 * 180) * (middle_card_index - i + 0.5));
         }
-        else if(i===1){
-          new_x = new_x + ((0.333 * 250) * (middle_card_index - i));
-        }
+        // else if(i===1){
+        //   new_x = new_x + ((0.333 * 250) * (middle_card_index - i));
+        // }
         else {
           new_x = new_x + ((0.333 * 150) * (middle_card_index - i));
         }
@@ -47,12 +47,12 @@ class Deck extends Component {
         new_x = center.x + (390 * (i - middle_card_index));
         new_y = center.y;
 
-        if (i === 6) {
-          new_x = new_x - ((0.333 * 380) * (i + 0.5 - middle_card_index));
+        if (i === 4) {
+          new_x = new_x - ((0.333 * 280) * (i + 0.5 - middle_card_index));
         }
-        else if(i===5){
-          new_x = new_x - ((0.333 * 360) * (i - middle_card_index));
-        }
+        // else if(i===5){
+        //   new_x = new_x - ((0.333 * 360) * (i - middle_card_index));
+        // }
         else {
           new_x = new_x - ((0.333 * 260) * (i - middle_card_index));
         }
@@ -209,32 +209,26 @@ class Deck extends Component {
 
 const name = [
   'PRATHIS',
+  'DARSHAN',
   'SUMEDH',
   'SAGAR',
   'AXASUSAN',
-  'ABHISHEK',
-  'CHARU',
-  'SARTHAK'
 ]
 
 const surname = [
   'UPADHYAY',
+  'KADAM',
   'SALVEKAR',
   'WARUNGASE',
   'MATHEW',
-  'BORSE',
-  'CHARU',
-  'SARTHAK'
 ]
 
 const dep = [
   'PROGRAMING HEAD',
-  'CAPTAIN',
-  'MECHANICAL HEAD',
-  'ELECTRICAL HEAD',
+  'R & D HEAD',
+  'TEAM CAPTAIN',
   'VICE CAPTAIN',
   'TEAM MANAGER',
-  'DESIGN HEAD'
 ]
 
 const styles = {
