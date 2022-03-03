@@ -1,8 +1,10 @@
 import React from "react";
 import Avatar from "./Avatar";
 import SocialMedia from "./Socialmedia";
-import ProfDepList from "./ProgDepList"
+import members from "./ProgDepList"
 import './programming-department.css'
+
+const ProfDepList = members.filter(member => member[3] === 'Programming')
 
 function Progdep() {
     return (
@@ -33,13 +35,16 @@ function Progdep() {
                     {
                         ProfDepList.map(card => {
                             return (
-                                <div className="profile-card">
-                                    <div className="text">
-                                        <Avatar img={card.imgURL} />
-                                        <h3>{card.name}</h3>
-                                        <p>{card.branch}</p>
-                                        <div className="links">
-                                            <SocialMedia linkedin={card.linkedinURL} instagram={card.instagramURl} />
+                                <div className='profile-card'>
+                                    <div className='text'>
+                                        <Avatar img={card[4]} />
+                                        <h3>{card[2]}</h3>
+                                        <p>{card[5]}</p>
+                                        <div className='links'>
+                                            <SocialMedia
+                                                linkedin={card[7]}
+                                                instagram={card[8]}
+                                            />
                                         </div>
                                     </div>
                                 </div>
