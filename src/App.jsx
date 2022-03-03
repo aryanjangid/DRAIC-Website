@@ -19,7 +19,6 @@ import { useEffect } from "react";
 import About from "./Components/About/About";
 import Contact2 from "./Components/Contact2/contact2";
 import Team from "./Components/Team/team.jsx";
-import Testimonials from "./Components/Testimonials/Testimonials";
 
 const App = () => {
   const location = useLocation();
@@ -46,7 +45,6 @@ const App = () => {
       </Routes>
       <Background className="particles" />
       <Footer />
-      <Testimonials />
     </div>
   );
 };
