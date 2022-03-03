@@ -199,6 +199,16 @@ img {
   font-size: medium;
 }
 
+.jointeam_img{
+  box-sizing: border-box;
+  width:350px;
+  height: 250px;
+  margin-right: 3rem;
+  margin-top: -6rem;
+}
+
+
+
 /* MEDIA QUERIES */
 @media (max-width: 940px) {
   .contact_fillform_div {
@@ -280,6 +290,7 @@ img {
     border-radius: 10px;
     width: 30vw;
   }
+
   .contact_info_headline {
     font-size: 1.3rem;
   }
