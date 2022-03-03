@@ -214,6 +214,9 @@ img {
   input[type="email"] {
     width: 100%;
   }
+  .contact-para{
+    width: 55vw;
+  }
   .contact_name_email_div {
     flex-direction: column;
     margin-bottom: 8px;
