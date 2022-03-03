@@ -179,6 +179,7 @@
   border-radius: 20px;
   background-size: cover;
   opacity: 0.8;
+  object-fit: cover;
   /* box-shadow: 0 0 10px 0.3px #fff; */
 }
 .achievements_achievement_content_containers {

@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 10rem;
-  margin-bottom: 13.6rem;
+  margin-top: 5rem;
+  margin-bottom: 9rem;
   padding: 0 8rem;
 }
 
@@ -11,9 +11,9 @@
   height: 35vh;
 }
 
-.draic-logo:hover {
-  animation: logoAnimHover 0.8s both;
-}
+/* .draic-logo:hover {
+  /* animation: logoAnimHover 0.8s both; 
+} */
 
 .text {
   font-weight: 500;
@@ -30,6 +30,9 @@
   .text {
     font-size: 3rem;
   }
+  .svg {
+    width: 300px;
+  }
 }
 @media (max-width: 768px) {
   .landing-slide {
@@ -40,6 +43,9 @@
   }
   .draic-logo {
     height: 15vh;
+  }
+  .svg {
+    width: 300px;
   }
   .text {
     font-size: 2.5rem;
@@ -77,5 +83,52 @@
   75% {
     -webkit-transform: translateX(-6px) rotate(-1.2deg);
     transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+/* .SVG animations */
+.cls-1 {
+  fill: rgba(240, 248, 255, 0);
+}
+.cls-2 {
+  fill: white;
+}
+.svg {
+  width: 480px;
+}
+.animation:hover #main_head,
+.animation:hover #eye2,
+.animation:hover #eye1 {
+  animation: logoAnimHover 0.8s both 1;
+}
+#right_arm {
+  transition: translate 0.5s ease;
+}
+.animation:hover #right_arm {
+  transform-origin: center;
+  transform: translate(45px, -140px) scaleY(-1);
+  /* animation: logoAnimHover 0.8s both 2; */
+}
+/* translate(45px, -140px) rotateX(180deg)  */
+/* #D {
+  fill: #000fff;
+} */
+/* .animation:hover #D,
+.animation:hover #R,
+.animation:hover #A,
+.animation:hover #I,
+.animation:hover #C {
+  animation: effect 0.8s both infinit;
+} */
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(#008000, #00ff00);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(#3ce7d7, #000fff);
+    -webkit-background-clip: text;
   }
 }

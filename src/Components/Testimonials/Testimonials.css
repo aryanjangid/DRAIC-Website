@@ -1,7 +1,9 @@
 .testimonial-section-container {
-  background-color: #454545;
-  height: auto;
-  padding-bottom: 50px;
+  background: rgba(20, 24, 32, 0.9);
+
+  position: relative;
+  z-index: 100;
+  padding-bottom: 160px;
 }
 .testimonial_header {
   /* padding-top: 10.4rem; */
@@ -44,10 +46,11 @@
 }
 
 .testimonial_title {
-  font-family: "Rowdies", cursive;
+  /* font-family: "Rowdies", cursive; */
   font-size: 2.5rem;
   padding: 20px;
   white-space: nowrap;
+  font-family: SansationBold;
 }
 .testimonial-section {
   display: flex;
@@ -123,7 +126,7 @@
 }
 
 .myCarousel h3 {
-  color: rgb(255, 255, 255);
+  color: #57b8ff;
   font-weight: 100;
   letter-spacing: 0.2px;
   margin-bottom: 4px;
@@ -136,13 +139,15 @@
 
 .myCarousel h4 {
   text-transform: uppercase;
-  margin-top: 0;
-  padding-top: 0;
+  /* margin-top: 0; */
+  /* padding-top: 0; */
   font-weight: 500;
   color: rgb(255, 255, 255);
   font-size: 14px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: "Rowdies", cursive;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 3px;
 }
 
 .myCarousel p {
@@ -151,13 +156,15 @@
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-family: "Rowdies", cursive;
-  max-height: 67px;
+  font-family: SansationLight;
+  /* max-height: 67px; */
+
   position: relative;
-  margin-top: 50px;
-  width: 100%;
+  margin: 25px auto;
+  /* width: 50%; */
 }
 
-.myCarousel p:before {
+/* .myCarousel p:before {
   content: "“";
   color: #aaaaaa5d;
   font-size: 260px;
@@ -178,7 +185,7 @@
   position: absolute;
   right: -30px;
   top: 150px;
-}
+} */
 
 .carousel .control-dots .dot {
   box-shadow: none !important;
@@ -221,11 +228,20 @@
   font-size: 22px;
 }
 .testimonial-card-container {
-  background-color: #222;
+  background: rgba(20, 24, 32, 0.9);
   border-radius: 20px;
+  position: relative;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 768px) {
+  .testimonial-section-container {
+    padding-bottom: 120px;
+  }
+  .myCarousel p {
+    line-height: 15.6px !important;
+    width: auto;
+  }
   .carousel-root {
     outline: 0;
     width: 93% !important;
@@ -246,7 +262,7 @@
     padding-left: 5%;
     padding-right: 5%;
     /* border: 1px solid #ddd; */
-    height: 300px;
+    height: 390px;
   }
 
   .carousel .slide img {
