@@ -1,6 +1,7 @@
 .creators_section {
   width: 100vw;
   height: 50px;
+  background-color: #ffffff;
 }
 .creators_header {
   /* padding-top: 10.4rem; */
@@ -60,7 +61,7 @@
 .creator_box {
   position: relative;
   min-width: 250px;
-  background-color: rgb(255, 255, 255);
+  background-color: #12485f;
   box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
