@@ -46,10 +46,11 @@
 }
 
 .testimonial_title {
-  font-family: "Rowdies", cursive;
+  /* font-family: "Rowdies", cursive; */
   font-size: 2.5rem;
   padding: 20px;
   white-space: nowrap;
+  font-family: SansationBold;
 }
 .testimonial-section {
   display: flex;

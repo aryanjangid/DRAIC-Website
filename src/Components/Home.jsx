@@ -18,7 +18,7 @@ function Home() {
       <Dec2 />
       <Testimonials />
       <HomeProject />
-      {/* <Creators /> */}
+      <Creators />
     </div>
   );
 }
