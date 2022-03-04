@@ -97,16 +97,26 @@ const Creators = () => {
               <div className="creator_box">
                 <div className="creator_top_bar"></div>
                 <div className="creator_content">
-                  <img src={creator.img} alt="" />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src={creator.img}
+                    alt=""
+                  />
                   <strong>{creator.name}</strong>
                   <p>{creator.position}</p>
                 </div>
                 <div className="creator_btn">
                   <a href="/">
-                    <img src={linkedin} alt="" />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src={linkedin}
+                      alt=""
+                    />
                   </a>
                   <a href="/">
-                    <img src={github} alt="" />
+                    <img loading="lazy" decoding="async" src={github} alt="" />
                   </a>
                 </div>
               </div>

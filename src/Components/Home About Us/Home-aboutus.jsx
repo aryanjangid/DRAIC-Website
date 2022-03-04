@@ -44,6 +44,8 @@ function HomeAbout() {
             <div className="secondrow">
               <div className="secondrowcol1">
                 <img
+                  loading="lazy"
+                  decoding="async"
                   className="ourcollegeimg"
                   src={card.ourcollegeimage}
                   alt="collegepic"
@@ -53,6 +55,8 @@ function HomeAbout() {
               <div className="secondrowcol2">
                 <div className="div1">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     className="ourteamimg"
                     src={card.ourteamimage}
                     alt="collegepic"
@@ -61,6 +65,8 @@ function HomeAbout() {
                 </div>
                 <div className="div2">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     className="ourworkshopimg"
                     src={card.ourworkshopimage}
                     alt="collegepic"

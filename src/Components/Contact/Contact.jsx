@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Contact.css";
 
+
 import AOS from "aos";
 // import 'aos/dist/aos.css';
 
@@ -41,7 +42,9 @@ const Contact = () => {
           ></div>
         </div>
         <div className="contact_form_details">
+
         <div  className="join_team"  data-aos={"fade-right"}  data-aos-delay={"1500"}>
+
             <div className="contact_fillform_div">
               <h3 className="contact_fillform fillform2">
                 Please fill the form to Join the Team{" "}
@@ -61,10 +64,14 @@ const Contact = () => {
               <button className="contact_joinnowbtn">JOIN NOW</button>
             </div>
           </div>
+
           <div  data-aos={"fade-left"}  data-aos-delay={"1500"}  className="contact_information_div">
+
             <h1 className="contact_info_headline">CONTACT INFORMATION</h1>
             <div className="contact_info_email_div">
               <img
+                loading="lazy"
+                decoding="async"
                 className="contact_icons"
                 alt="email"
                 src="https://img.icons8.com/material-rounded/24/ffffff/new-post.png"
@@ -78,6 +85,8 @@ const Contact = () => {
             </div>
             <div className="contact_info_phone_div">
               <img
+                loading="lazy"
+                decoding="async"
                 className="contact_icons"
                 alt="phone"
                 src="https://img.icons8.com/ios-glyphs/30/ffffff/phone--v1.png"
@@ -89,6 +98,8 @@ const Contact = () => {
             </div>
             <div className="contact_info_linkedin_div">
               <img
+                loading="lazy"
+                decoding="async"
                 className="contact_icons"
                 alt="linkedin"
                 src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"
@@ -103,7 +114,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
 
       {/* New Section */}
        {/* <div className="contact_main_body2">
@@ -160,11 +170,24 @@ const Contact = () => {
             className="contact_information_div"
           > */}
             {/* <iframe className="jointeam_img" src="https://giphy.com/embed/g2RNvrGx6bffjE6hgt"  frameBorder="0" ></iframe><p></p> */}
+
             {/* <img className="jointeam_img" src={jointeam} alt="" />
           </div>
         </div>
       </div>  */}
 
+
+
+            <img
+              loading="lazy"
+              decoding="async"
+              className="jointeam_img"
+              src={jointeam}
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
 
     </>
   );

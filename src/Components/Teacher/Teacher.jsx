@@ -40,6 +40,8 @@ const Main = () => {
               <>
                 <div className="home-teacher-image-container">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     className="home-teacher-image"
                     src={card.imgURL}
                     alt="imgx"
@@ -55,6 +57,8 @@ const Main = () => {
                       target="_blank"
                     >
                       <img
+                        loading="lazy"
+                        decoding="async"
                         className="teacher_social_img"
                         src="https://img.icons8.com/color/48/000000/linkedin.png"
                         alt="Linkedin"
@@ -66,6 +70,8 @@ const Main = () => {
                       target="_blank"
                     >
                       <img
+                        loading="lazy"
+                        decoding="async"
                         className="teacher_social_img"
                         src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
                         alt="Linkedin"
@@ -77,6 +83,8 @@ const Main = () => {
                       target="_blank"
                     >
                       <img
+                        loading="lazy"
+                        decoding="async"
                         className="teacher_social_img"
                         src="https://img.icons8.com/color/48/000000/twitter-squared.png"
                         alt="Linkedin"

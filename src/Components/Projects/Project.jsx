@@ -86,7 +86,7 @@ const Project = () => {
                 data-aos-delay={`${i > 2 ? "0" : "700"}`}
                 className="individual-project-container"
               >
-                {/* <img className="project-image" src={card.imgURL} alt="Rome" /> */}
+                {/* <img loading='lazy' decoding='async' className="project-image" src={card.imgURL} alt="Rome" /> */}
                 <h1 className="project-title">{card.project_name}</h1>
                 <div className="project-decoration-line" />
 
@@ -142,7 +142,13 @@ const Project = () => {
                 data-aos-delay={`${i > 2 ? "0" : "700"}`}
                 className="individual-project-container"
               >
-                <img className="project-image" src={card.imgURL} alt="Rome" />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  className="project-image"
+                  src={card.imgURL}
+                  alt="Rome"
+                />
                 <h1 className="project-title">{card.project_name}</h1>
                 <div className="project-decoration-line" />
 
