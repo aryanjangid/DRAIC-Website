@@ -18,23 +18,18 @@ export default function Team() {
                         </div>
                         <div className="about-title-line2"></div>
                     </div>
-                    <div className="about-department-grid">
-
-                        <NavLink className="about-department-link" aria-current="page" to="/progammingDepartment">
-                            <article className="about-department-grid-box flow bg-black text-neutral-100 border-primary-400">
-
-                                <div className='about-department-title-body'>
-                                    <img className='about-department-icon' alt="progdep" src="https://img.icons8.com/ios-filled/50/ffffff/code.png" />
-                                    <p className="about-department-heading">PROGRAMMING</p>
+                <div className="about-department-grid">
+                    <NavLink className="about-department-link" aria-current="page" to="/progammingDepartment">
+                        <article className="about-department-grid-box flow bg-black text-neutral-100 border-primary-400">
+                            <div className='about-department-title-body'>
+                                <img className='about-department-icon' alt="progdep" src="https://img.icons8.com/ios-filled/50/ffffff/code.png" />
+                                <p className="about-department-heading">PROGRAMMING</p>
+                            </div>
+                            <div className="about-department-text">
+                                <p className='dep_para'>
+                                    I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny,s worth.
+                                </p>
                                 </div>
-
-                                <div className="about-department-text">
-                                    <p className='dep_para'>
-                                        I received a job offer mid-course, and the subjects I learned were current, if not more so,
-                                        in the company I joined. I honestly feel I got every penny,s worth.
-                                    </p>
-                                </div>
-
                             </article>
                         </NavLink>
                         <NavLink className="about-department-link" aria-current="page" to="/MechenicalDepartment">
@@ -81,20 +76,26 @@ export default function Team() {
                     <div className="about-title-line2"></div>
             </div>
             <div className="container">
-                <div className="team_pic_robocon">
+                <div className="team_robocon">
                     <h3 className='roboheading'>ROBOCON PARTICIPATIONS</h3>
                     <br />
-                    <img className='img1' src={download2} alt=""/>
+                    <div className="team_robo_pic">
+                        <img className='img1' src={download2} alt=""/>
+                    </div>
                 </div>
-                <div className="team_pic_workshop">
+                <div className="team_workshop">
                     <h3 className='workheading'>WORKSHOPS AND SEMINARS</h3>
                     <br />
-                    <img className='img2' src={download1} alt=""/>
+                    <div className="team_work_pic">
+                        <img className='img2' src={download1} alt=""/>
+                    </div>
                 </div>
-                <div className="team_pic_robosuper">
+                <div className="team_robosuper">
                     <h3 className='robosuperheading'>ROBO SUPER LEAGUE</h3>
                     <br />
-                    <img className='img3' src={download} alt=""/>
+                    <div className="team_robosuper_pic">
+                        <img className='img3' src={download} alt=""/>
+                    </div>
                 </div>
             </div>
         </div>

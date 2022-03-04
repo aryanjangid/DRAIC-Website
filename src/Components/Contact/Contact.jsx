@@ -42,56 +42,27 @@ const Contact = () => {
           ></div>
         </div>
         <div className="contact_form_details">
-          <div data-aos={"fade-right"} data-aos-delay={"1800"}>
+        <div  className="join_team"  data-aos={"fade-right"}  data-aos-delay={"600"}>
             <div className="contact_fillform_div">
-              <h3 className="contact_fillform">
-                Please fill out the form below to connect.
+              <h3 className="contact_fillform fillform2">
+                Please fill the form to Join the Team{" "}
               </h3>
             </div>
-            <form
-              action="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
-              className="leftform"
-              method="POST"
-            >
-              <div className="contact_name_email_div">
-                <div className="contact_form_name">
-                  <input
-                    type="text"
-                    id="fname"
-                    name="fname"
-                    placeholder="Name"
-                    required
-                  />
-                </div>
-                <div className="contact_form_email">
-                  <input
-                    type="email"
-                    id="lname"
-                    name="email"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
+            <div>
+              <div className="contact_para">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, repellendus excepturi. Architecto porro rem fuga ipsum
+                  vero earum inventore nemo delectus ducimus est. Harum optio
+                  dolore ea nostrum tempora at?
+                </p>
               </div>
-              <div className="contact_form_textarea_div">
-                <textarea
-                  className="contact_textarea"
-                  id="subject"
-                  name="message"
-                  placeholder="Message"
-                  required
-                ></textarea>
-              </div>
-              <div className="contact_sendbtn_div">
-                <button className="contact_sendbtn">SEND</button>
-              </div>
-            </form>
+            </div>
+            <div className="contact_joinnow_div">
+              <button className="contact_joinnowbtn">JOIN NOW</button>
+            </div>
           </div>
-          <div
-            data-aos={"fade-left"}
-            data-aos-delay={"1800"}
-            className="contact_information_div"
-          >
+          <div  data-aos={"fade-left"}  data-aos-delay={"1800"}  className="contact_information_div">
             <h1 className="contact_info_headline">CONTACT INFORMATION</h1>
             <div className="contact_info_email_div">
               <img
@@ -133,6 +104,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
 
       {/* New Section */}
       <div className="contact_main_body2">
@@ -201,6 +173,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+
     </>
   );
 };
