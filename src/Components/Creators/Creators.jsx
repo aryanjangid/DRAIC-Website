@@ -3,7 +3,7 @@ import classes from "./Creators.css";
 import img from "../../Assets/image.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import linkedin from "../../Assets/linkedin.svg";
 import github from "../../Assets/github.png";
 
@@ -102,10 +102,10 @@ const Creators = () => {
                   <p>{creator.position}</p>
                 </div>
                 <div className="creator_btn">
-                  <a>
+                  <a href="/">
                     <img src={linkedin} alt="" />
                   </a>
-                  <a>
+                  <a href="/">
                     <img src={github} alt="" />
                   </a>
                 </div>

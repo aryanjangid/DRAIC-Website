@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import draicimage from "../../Assets/logo_white.png";
+// import draicimage from "../../Assets/logo_white.png";
 // import svg from "../../Assets/draic_logo.svg";
 import "./LandingSlide.css";
 import AOS from "aos";
