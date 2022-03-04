@@ -42,7 +42,7 @@ const Contact = () => {
           ></div>
         </div>
         <div className="contact_form_details">
-        <div  className="join_team"  data-aos={"fade-right"}  data-aos-delay={"600"}>
+        <div  className="join_team"  data-aos={"fade-right"}  data-aos-delay={"1500"}>
             <div className="contact_fillform_div">
               <h3 className="contact_fillform fillform2">
                 Please fill the form to Join the Team{" "}
@@ -62,7 +62,7 @@ const Contact = () => {
               <button className="contact_joinnowbtn">JOIN NOW</button>
             </div>
           </div>
-          <div  data-aos={"fade-left"}  data-aos-delay={"1800"}  className="contact_information_div">
+          <div  data-aos={"fade-left"}  data-aos-delay={"1500"}  className="contact_information_div">
             <h1 className="contact_info_headline">CONTACT INFORMATION</h1>
             <div className="contact_info_email_div">
               <img
@@ -107,17 +107,13 @@ const Contact = () => {
 
 
       {/* New Section */}
-      <div className="contact_main_body2">
+       {/* <div className="contact_main_body2">
         <div className="contact_headline_div forces2">
-          <h1
-            data-aos={"zoom-in-up"}
-            data-aos-delay={"100"}
-            className="contact_headline"
-          >
+          <h1 data-aos={"zoom-in-up"}  data-aos-delay={"100"}  className="contact_headline" >
             LET'S JOIN FORCES
           </h1>
-        </div>
-        <div className="contactus_seperator">
+        </div> */}
+        {/* <div className="contactus_seperator">
           <div
             data-aos={"fade-right"}
             data-aos-delay={"400"}
@@ -136,14 +132,10 @@ const Contact = () => {
             data-aos={"fade-left"}
             data-aos-delay={"400"}
             className="contactusline2"
-          ></div>
-        </div>
+          ></div> */}
+        {/* </div>
         <div className="contact_form_details">
-          <div
-            className="join_team"
-            data-aos={"fade-right"}
-            data-aos-delay={"600"}
-          >
+          <div className="join_team"  data-aos={"fade-right"}  data-aos-delay={"1500"}>
             <div className="contact_fillform_div">
               <h3 className="contact_fillform fillform2">
                 Please fill the form to Join the Team{" "}
@@ -157,8 +149,8 @@ const Contact = () => {
                   vero earum inventore nemo delectus ducimus est. Harum optio
                   dolore ea nostrum tempora at?
                 </p>
-              </div>
-            </div>
+              </div> */}
+            {/* </div>
             <div className="contact_joinnow_div">
               <button className="contact_joinnowbtn">JOIN NOW</button>
             </div>
@@ -167,12 +159,12 @@ const Contact = () => {
             data-aos={"fade-left"}
             data-aos-delay={"600"}
             className="contact_information_div"
-          >
+          > */}
             {/* <iframe className="jointeam_img" src="https://giphy.com/embed/g2RNvrGx6bffjE6hgt"  frameBorder="0" ></iframe><p></p> */}
-            <img className="jointeam_img" src={jointeam} alt="" />
+            {/* <img className="jointeam_img" src={jointeam} alt="" />
           </div>
         </div>
-      </div>
+      </div>  */}
 
 
     </>
