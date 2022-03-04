@@ -9,55 +9,56 @@
   text-align: center;
 }
 
-  .firstrow {
-    z-index: 100;
-    text-align: center;
-  }
+.firstrow {
+  z-index: 100;
+  text-align: center;
+}
 
-  .wheredowe {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 1rem;
-    padding-top: 40px;
-    color: #57b8ff;
-    letter-spacing: 0.5em;
-  }
-  .aboutusheading {
-    font-family: "Rowdies", cursive;
-    font-size: 2.5rem;
-    padding: 20px;
-  }
-  .seperator {
-    display: flex;
-    margin: auto;
-  }
+.wheredowe {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
+  color: #57b8ff;
+  letter-spacing: 0.5em;
+}
+.aboutusheading {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+  font-family: SansationBold;
+  padding: 20px;
+}
+.seperator {
+  display: flex;
+  margin: auto;
+}
 
-  .lineaboutus2 {
-    height: 3px;
-    width: 35%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-left: 0;
-  }
+.lineaboutus2 {
+  height: 3px;
+  width: 35%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-left: 0;
+}
 
-  .lineaboutus1 {
-    height: 3px;
-    width: 35%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-right: 0;
-  }
+.lineaboutus1 {
+  height: 3px;
+  width: 35%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-right: 0;
+}
 
 .secondrow {
   display: flex;
   flex-direction: row;
   padding: 30px;
-  margin:0 50px;
+  margin: 0 50px;
 }
 
 .secondrowcol1 {
@@ -143,20 +144,20 @@
   padding: 20px 0;
 }
 @media (max-width: 768px) {
-  .wheredowe{
+  .wheredowe {
     font-size: 0.8rem;
     letter-spacing: 0.2rem;
   }
 
-  .aboutusheading{
+  .aboutusheading {
     font-size: 1.7rem;
 
     white-space: nowrap;
   }
-  .lineaboutus1{
+  .lineaboutus1 {
     width: 100%;
   }
-  .lineaboutus2{
+  .lineaboutus2 {
     width: 100%;
   }
 
@@ -168,7 +169,7 @@
     padding-bottom: 40px;
   }
 
-  .imagetext{
+  .imagetext {
     font-size: 1.5rem;
   }
 }
@@ -182,7 +183,7 @@
     padding-bottom: 10px;
     justify-content: center;
     align-items: center;
-    margin:0 20px
+    margin: 0 20px;
   }
   .secondrowcol1 {
     width: auto;
@@ -205,7 +206,7 @@
     /* margin-left: 30px;
     margin-right: 30px; */
   }
-  .divs2{
+  .divs2 {
     padding-bottom: 5px;
     /* border-bottom: 2px solid white; */
     border-right: 0;
@@ -220,7 +221,7 @@
   .paragraph1 {
     text-align: center;
   }
-  .thirdrow{
+  .thirdrow {
     margin: 0 20px;
     /* padding: 0; */
   }

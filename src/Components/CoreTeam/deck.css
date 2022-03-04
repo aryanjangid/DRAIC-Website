@@ -24,6 +24,7 @@
   font-size: 2.5rem;
   padding: 20px;
   white-space: nowrap;
+  font-family: SansationBold;
 }
 .seperator {
   display: flex;
@@ -163,5 +164,4 @@ button:hover::after {
   .button1::after {
     content: "\2192";
   }
-  
 }

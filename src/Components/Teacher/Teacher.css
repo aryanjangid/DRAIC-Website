@@ -1,136 +1,135 @@
 .home-teacher-component {
-    background: rgba(20, 24, 32, 0.9);
+  background: rgba(20, 24, 32, 0.9);
 
-    position: relative;
-    z-index: 100;
+  position: relative;
+  z-index: 100;
 }
 
 .home-teacher-header {
-    z-index: 100;
-    text-align: center;
-  }
-
-  .home-teacher-moto {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 1rem;
-    padding-top: 40px;
-    color: #57b8ff;
-    letter-spacing: 0.5em;
-  }
-  .home-teacher-title {
-    font-family: "Rowdies", cursive;
-    font-size: 2.5em;
-    padding: 20px;
-    white-space: nowrap;
-  }
-  .home-teacher-seperator {
-    display: flex;
-    margin: auto;
-  }
-
-  .home-teacher-decoration-line2 {
-    height: 3px;
-    width: 32%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-left: 0;
-  }
-
-  .home-teacher-decoration-line1 {
-    height: 3px;
-    width: 32%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-right: 0;
-  }
-
-.home-teacher-content{
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    padding: 5rem;
-    /* margin: auto; */
-    /* height: 80vh; */
-    /* column-gap: 6rem; */
+  z-index: 100;
+  text-align: center;
 }
 
-.home-teacher-text{
-    width: 50%;
-    padding-left: 130px;
+.home-teacher-moto {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
+  color: #57b8ff;
+  letter-spacing: 0.5em;
 }
-.home-teacher-name{
+.home-teacher-title {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5em;
+  padding: 20px;
+  white-space: nowrap;
+  font-family: SansationBold;
+}
+.home-teacher-seperator {
+  display: flex;
+  margin: auto;
+}
+
+.home-teacher-decoration-line2 {
+  height: 3px;
+  width: 32%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-left: 0;
+}
+
+.home-teacher-decoration-line1 {
+  height: 3px;
+  width: 32%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-right: 0;
+}
+
+.home-teacher-content {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 5rem;
+  /* margin: auto; */
+  /* height: 80vh; */
+  /* column-gap: 6rem; */
+}
+
+.home-teacher-text {
+  width: 50%;
+  padding-left: 130px;
+}
+.home-teacher-name {
   font-family: "Rowdies", cursive;
   color: #57b8ff;
   font-size: 1.8rem;
 }
 
-.home-teacher-image{
-    height: 22rem;
-    border-radius: 20px;
-    /* padding-left: 15rem; */
+.home-teacher-image {
+  height: 22rem;
+  border-radius: 20px;
+  /* padding-left: 15rem; */
 }
 
-.home-teacher-image-container{
-    padding-left: 15rem;
+.home-teacher-image-container {
+  padding-left: 15rem;
 }
-.home-teacher-paragraph{
+.home-teacher-paragraph {
   color: #e7f2f8;
   font-size: 1.2rem;
   padding: 20px 0;
   /* margin-top: -3.5rem; */
 }
 
-.teacher-footer{
+.teacher-footer {
   display: flex;
   margin: auto;
   justify-content: flex-start;
   column-gap: 1.3rem;
 }
 
-.teacher_social_img{
-  margin-left:-15px;
-  transition: all 0.5s ease;  
+.teacher_social_img {
+  margin-left: -15px;
+  transition: all 0.5s ease;
 }
 
-.teacher_social_img:hover{
+.teacher_social_img:hover {
   transform: scale(1.2);
 }
 
-
-@media screen and (max-width:1200px) and (min-width:750px) {
-  .home-teacher-image-container{
+@media screen and (max-width: 1200px) and (min-width: 750px) {
+  .home-teacher-image-container {
     padding-left: 5rem;
   }
-  .home-teacher-paragraph{
+  .home-teacher-paragraph {
     width: 100%;
   }
-  .home-teacher-image{
+  .home-teacher-image {
     height: 20rem;
   }
 }
-@media screen and (max-width:750px) and (min-width:414px) {
-
-.home-teacher-moto{
+@media screen and (max-width: 750px) and (min-width: 414px) {
+  .home-teacher-moto {
     font-size: 0.8rem;
     margin-bottom: 0;
     letter-spacing: 0.2rem;
-}
+  }
 
-.home-teacher-title{
+  .home-teacher-title {
     font-size: 1.7rem;
     white-space: nowrap;
-}
+  }
 
-  .home-teacher-image-container{
+  .home-teacher-image-container {
     padding-left: 0rem;
   }
-  .home-teacher-content{
+  .home-teacher-content {
     flex-direction: column;
     align-items: center;
     padding: 10px;
@@ -138,65 +137,65 @@
     margin: 1rem 0;
     margin-bottom: 0;
   }
-  .home-teacher-text{
+  .home-teacher-text {
     padding-left: 0px;
     width: 100%;
   }
-  .home-teacher-name{
+  .home-teacher-name {
     font-size: 1.5rem;
     text-align: center;
     margin-top: 2rem;
   }
-  .home-teacher-paragraph{
+  .home-teacher-paragraph {
     width: 100%;
     text-align: center;
     font-size: 1rem;
     padding: 1rem 20px;
     padding-bottom: 0;
   }
-  .home-teacher-image{
+  .home-teacher-image {
     height: 19rem;
   }
-  
-  .teacher{
+
+  .teacher {
     display: flex;
     margin: auto;
     justify-content: center;
   }
 }
-@media screen and (max-width:412px) {
-  .home-teacher-content{
+@media screen and (max-width: 412px) {
+  .home-teacher-content {
     flex-direction: column;
     /* align-items: center; */
     margin: 0.7rem 0;
     margin-bottom: 0;
     padding: 0;
   }
-  .home-teacher-text{
+  .home-teacher-text {
     padding: 10px;
     width: 100%;
     margin-bottom: 30px;
   }
-  .home-teacher-paragraph{
+  .home-teacher-paragraph {
     /* width: 100%; */
     width: auto;
     text-align: center;
     font-size: 1rem;
     padding: 10px 20px;
   }
-  .home-teacher-name{
+  .home-teacher-name {
     font-size: 1.5rem;
     text-align: center;
     width: 100%;
     padding: 10px;
   }
-  .home-teacher-image{
+  .home-teacher-image {
     height: 15rem;
   }
-  .home-teacher-image-container{
+  .home-teacher-image-container {
     padding-left: 0;
   }
-  .home-teacher-title{
+  .home-teacher-title {
     font-size: 1.7rem;
     padding: 20px;
     white-space: nowrap;
@@ -204,16 +203,15 @@
   .home-teacher-moto {
     font-size: 0.8rem;
   }
-  .home-teacher-decoration-line1{
+  .home-teacher-decoration-line1 {
     width: 17%;
     height: 2.8px;
   }
-  .home-teacher-decoration-line2{
-      width: 17%;
+  .home-teacher-decoration-line2 {
+    width: 17%;
     height: 2.8px;
-
   }
-  .teacher-footer{
+  .teacher-footer {
     display: flex;
     margin: auto;
     justify-content: center;
