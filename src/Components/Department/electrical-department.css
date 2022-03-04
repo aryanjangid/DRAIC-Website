@@ -4,335 +4,336 @@
 
 .dep-head-title,
 .dep-head-des {
-    color: white;
+  color: white;
 }
 
 .prog-img,
 .elec-img,
 .mech-img {
-    height: 250px;
+  height: 250px;
 }
 
 .elec-department-page {
-    background-color: rgba(18, 21, 33, 0.9);
+  background-color: rgba(18, 21, 33, 0.9);
 
-    z-index: 1;
-    position: relative;
-    margin-top: -5rem;
+  z-index: 1;
+  position: relative;
+  margin-top: -5rem;
 }
 
 .elec-department-hero-container {
-    display: flex;
-    margin: auto;
-    text-align: center;
-    padding-top: 10rem;
-    z-index: 1;
-    position: relative;
-    background-color: #1b3955;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding-top: 10rem;
+  z-index: 1;
+  position: relative;
+  background-color: #1b3955;
 }
 
 .elec-department-text-container {
-    width: 50%;
-    text-align: left;
-    padding-left: 11rem;
+  width: 50%;
+  text-align: left;
+  padding-left: 11rem;
 }
 
 .elec-department-image-container {
-    width: 50%;
+  width: 50%;
 }
 .elec-department-title {
-    font-family: 'Rowdies', cursive;
-    font-size: 2.5rem;
-    color: #57b8ff;
-    padding-bottom: 2rem;
-    padding-top: 40px;
-    width: 700px;
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+  color: #57b8ff;
+  padding-bottom: 2rem;
+  padding-top: 40px;
+  font-family: SansationBold;
+  width: 700px;
 }
 .elec-department-description {
-    color: white;
-    width: 500px;
+  color: white;
+  width: 500px;
 }
 
 .elec-department-image {
-    margin: auto;
-    height: 400px;
-    position: relative;
-    top: 0rem;
-    width: auto;
-    padding-left: 7rem;
+  margin: auto;
+  height: 400px;
+  position: relative;
+  top: 0rem;
+  width: auto;
+  padding-left: 7rem;
 }
 
 .elec-department-header-container {
-    z-index: 100;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+  z-index: 100;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .elec-department-moto {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1rem;
-    padding-top: 40px;
-    color: #57b8ff;
-    letter-spacing: 0.5em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
+  color: #57b8ff;
+  letter-spacing: 0.5em;
 }
 .elec-department-name {
-    font-family: 'Rowdies', cursive;
-    font-size: 2.5rem;
-    padding: 20px;
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+  font-family: SansationBold;
+  padding: 20px;
 }
 .seperator {
-    display: flex;
-    margin: auto;
+  display: flex;
+  margin: auto;
 }
 
 .depline2 {
-    height: 3px;
-    width: 28%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-left: 0;
+  height: 3px;
+  width: 28%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-left: 0;
 }
 
 .depline1 {
-    height: 3px;
-    width: 28%;
-    color: white;
-    z-index: 30000;
-    margin: auto;
-    background-color: azure;
-    text-align: left;
-    margin-right: 0;
+  height: 3px;
+  width: 28%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-right: 0;
 }
 
 .elec-department-members-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    flex-wrap: wrap;
-    /* margin: 5rem 0 10rem 0; */
-    z-index: 6;
-    padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  flex-wrap: wrap;
+  /* margin: 5rem 0 10rem 0; */
+  z-index: 6;
+  padding-bottom: 5rem;
 }
 
 @media screen and (max-width: 800px) {
-    .prog-img,
-    .elec-img,
-    .mech-img {
-        height: 180px;
-    }
+  .prog-img,
+  .elec-img,
+  .mech-img {
+    height: 180px;
+  }
 }
 
 /*//////////////  Profile Card  ///////////////*/
 .profile-card {
-    background-color: #17202e;
+  background-color: #17202e;
 
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    flex: 0 0 22%;
-    margin: 1rem 1rem;
-    height: 380px;
-    max-width: 50%;
-    padding: 0 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  flex: 0 0 22%;
+  margin: 1rem 1rem;
+  height: 380px;
+  max-width: 50%;
+  padding: 0 1rem;
 }
 .profile-card:hover {
-    background-color: #121623;
-    box-shadow: 0px 0px 10px 0px #3869a0;
-    z-index: 3;
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 10px;
-    max-width: 50%;
-
+  background-color: #121623;
+  box-shadow: 0px 0px 10px 0px #3869a0;
+  z-index: 3;
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  max-width: 50%;
 }
 
 .profile-card .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: stretch;
-    height: 100%;
-    width: 100%;
-    /* margin: 2rem 0; */
-    z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  height: 100%;
+  width: 100%;
+  /* margin: 2rem 0; */
+  z-index: 6;
 }
 
 .profile-card .text img {
-    min-height: 150px;
-    min-width: 150px;
-    max-height: 150px;
-    max-width: 150px;
-    
-    border-radius: 50%;
-    margin-bottom: 10px;
-    position: relative;
-    top: 0px;
-    z-index: 6;
-    margin-bottom: 2rem;
-    margin-top: 1.5rem;
-    background-size: cover;
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 150px;
+  max-width: 150px;
+
+  border-radius: 50%;
+  margin-bottom: 10px;
+  position: relative;
+  top: 0px;
+  z-index: 6;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  background-size: cover;
 }
 
 .profile-card .text h3 {
-    color: white;
-    font-size: 20px;
-    font-weight: 1000;
+  color: white;
+  font-size: 20px;
+  font-weight: 1000;
 }
 
 .profile-card .text p {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    padding: 20px 0 10px 0;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0 10px 0;
 }
 
 .profile-card .links {
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 10px;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
 }
 
 .profile-card .links .ul {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
 .profile-card .links .li {
-    list-style: none;
-    margin-left: 5px;
-    margin-right: 5px;
+  list-style: none;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .profile-card .links .fa {
-    width: 45px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background: transparent;
-    color: #fff;
-    text-decoration: none;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transition: 0.5s;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.5s;
 }
 
 .profile-card .links .fa:hover {
-    background: #03a9f4;
-    color: #fff;
+  background: #03a9f4;
+  color: #fff;
 }
 
 @media screen and (max-width: 1200px) and (min-width: 800px) {
-    .profile-card .text img {
-        height: 120px;
-    }
-    .elec-department-container {
-        width: 60%;
-    }
+  .profile-card .text img {
+    height: 120px;
+  }
+  .elec-department-container {
+    width: 60%;
+  }
 
-    .profile-card {
-        flex: 0 0 40%;
-        height: 400px;
-    }
+  .profile-card {
+    flex: 0 0 40%;
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 800px) and (min-width: 450px) {
-    .elec-department-container {
-        width: 90%;
-    }
+  .elec-department-container {
+    width: 90%;
+  }
 
-    .profile-card {
-        flex: 0 0 40%;
-        width: 50%;
-        height: 400px;
-    }
+  .profile-card {
+    flex: 0 0 40%;
+    width: 50%;
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .elec-department-text-container {
-        width: 90%;
-        margin: auto;
-    }
-    .elec-department-title {
-        font-size: 1.4rem;
-        width: 100%;
-        margin: auto;
-        white-space: nowrap;
-        text-align: center;
-    }
+  .elec-department-text-container {
+    width: 90%;
+    margin: auto;
+  }
+  .elec-department-title {
+    font-size: 1.4rem;
+    width: 100%;
+    margin: auto;
+    white-space: nowrap;
+    text-align: center;
+  }
 
-    .elec-department-container {
-        width: 100%;
-    }
+  .elec-department-container {
+    width: 100%;
+  }
 
-    .elec-department-description {
-        font-size: 9px;
-        margin: auto;
-        margin-bottom: 2rem;
-        width: 90%;
-        text-align: center;
-    }
+  .elec-department-description {
+    font-size: 9px;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 90%;
+    text-align: center;
+  }
 
-    .elec-department-image {
-        height: 200px;
-    }
+  .elec-department-image {
+    height: 200px;
+  }
 
-    .elec-department-image-container {
-        width: 100%;
-    }
+  .elec-department-image-container {
+    width: 100%;
+  }
 
-    .elec-department-hero-container {
-        flex-direction: column;
-        padding-top: 5rem;
-    }
+  .elec-department-hero-container {
+    flex-direction: column;
+    padding-top: 5rem;
+  }
 
-    .elec-department-text-container {
-        padding: 0;
-    }
+  .elec-department-text-container {
+    padding: 0;
+  }
 
-    .elec-department-image {
-        padding: 0;
-        margin: 3rem 0;
-    }
+  .elec-department-image {
+    padding: 0;
+    margin: 3rem 0;
+  }
 
-    .elec-department-moto {
-        font-size: 12px;
-        letter-spacing: 3px;
-        margin: 1rem;
-    }
+  .elec-department-moto {
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin: 1rem;
+  }
 
-    .elec-department-name {
-        font-size: 1.4rem;
-        white-space: nowrap;
-    }
+  .elec-department-name {
+    font-size: 1.4rem;
+    white-space: nowrap;
+  }
 
-    .profile-card .text img {
-        height: 110px;
-    }
+  .profile-card .text img {
+    height: 110px;
+  }
 
-    .elec-department-container {
-        width: 100%;
-    }
-    .profile-card {
-        flex: 0 0 50%;
-        height: 350px;
-    }
-    .profile-card .text img {
-        height: 110px;
-    }
-    .elec-department-members-container {
-        width: 120%;
-    }
-    .profile-card .text {
-        margin-top: 0;
-    }
+  .elec-department-container {
+    width: 100%;
+  }
+  .profile-card {
+    flex: 0 0 50%;
+    height: 350px;
+  }
+  .profile-card .text img {
+    height: 110px;
+  }
+  .elec-department-members-container {
+    width: 120%;
+  }
+  .profile-card .text {
+    margin-top: 0;
+  }
 }
