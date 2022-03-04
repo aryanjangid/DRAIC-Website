@@ -248,6 +248,10 @@ img {
     position: relative;
     /* width: 100%; */
   }
+  .contact_para{
+      width: 72vw;
+      text-align: center;
+  }
   .contact_info_subhead {
     font-weight: 800;
   }
