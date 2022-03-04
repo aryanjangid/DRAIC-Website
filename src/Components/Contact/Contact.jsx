@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Contact.css";
-import download from "../Contact/download.png";
+import jointeam from "../Contact/jointeam1.gif"
+
 import AOS from "aos";
 // import 'aos/dist/aos.css';
 
@@ -195,7 +196,8 @@ const Contact = () => {
             data-aos-delay={"600"}
             className="contact_information_div"
           >
-            <img src={download} alt="" />
+            {/* <iframe className="jointeam_img" src="https://giphy.com/embed/g2RNvrGx6bffjE6hgt"  frameBorder="0" ></iframe><p></p> */}
+            <img className="jointeam_img" src={jointeam} alt="" />
           </div>
         </div>
       </div>
