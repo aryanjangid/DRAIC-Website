@@ -6,6 +6,7 @@
 }
 .about-department-link {
   text-decoration: none;
+    z-index: 100;
 }
 .about-department-grid-box {
   width: 100%;
