@@ -83,7 +83,12 @@ const Testimonials = () => {
         >
           {testimonials.map((test, i) => (
             <div className="testimonial-card-container">
-              <img src={test.image} alt="loading" />
+              <img
+                loading="lazy"
+                decoding="async"
+                src={test.image}
+                alt="loading"
+              />
               <div className="myCarousel">
                 <h3>{test.name}</h3>
                 <h4>{test.position}</h4>

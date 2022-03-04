@@ -53,7 +53,7 @@ const Landingslide = () => {
           {/* D.Y. Patil Robotics & AI Club */}
           {headline()}
         </h1>
-        {/* <img
+        {/* <img loading='lazy' decoding='async'
           data-aos={"flip-left"}
           className="draic-logo"
           src={draicimage}

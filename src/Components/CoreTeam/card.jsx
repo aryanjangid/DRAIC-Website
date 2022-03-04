@@ -24,7 +24,13 @@ function Card(props) {
         // display:'${props.new_display}';
       }}
     >
-      <img style={styles.image} src={props.picsum_img} alt="reactjs"></img>
+      <img
+        loading="lazy"
+        decoding="async"
+        style={styles.image}
+        src={props.picsum_img}
+        alt="reactjs"
+      ></img>
 
       <h1 className="namee">
         {props.name}
@@ -38,7 +44,13 @@ function Card(props) {
         to="//www.linkedin.com/company/d-y-patil-robotics-ai-club"
         target="_blank"
       >
-        <img className={linkedIcon} src={linkedin} alt="" />
+        <img
+          loading="lazy"
+          decoding="async"
+          className={linkedIcon}
+          src={linkedin}
+          alt=""
+        />
       </Link>
     </div>
   );

@@ -63,7 +63,13 @@ const Main = () => {
               </p>
             </div>
             <div className="achievement_image_conainer">
-              <img className="achievement_image" src={Achievements1} alt="" />
+              <img
+                loading="lazy"
+                decoding="async"
+                className="achievement_image"
+                src={Achievements1}
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -74,7 +80,13 @@ const Main = () => {
             className="achievement_content_container"
           >
             <div className="achievement_image_conainer">
-              <img className="achievement_image" src={Achievements2} alt="" />
+              <img
+                loading="lazy"
+                decoding="async"
+                className="achievement_image"
+                src={Achievements2}
+                alt=""
+              />
             </div>
             <div className="achievements_contents">
               <h2> Sagar Warungase</h2>
@@ -101,7 +113,13 @@ const Main = () => {
               </p>
             </div>
             <div className="achievement_image_conainer">
-              <img className="achievement_image" src={Achievements3} alt="" />
+              <img
+                loading="lazy"
+                decoding="async"
+                className="achievement_image"
+                src={Achievements3}
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -112,7 +130,13 @@ const Main = () => {
         >
           <div className="achievement_content_container">
             <div className="achievement_image_conainer">
-              <img className="achievement_image" src={Achievements4} alt="" />
+              <img
+                loading="lazy"
+                decoding="async"
+                className="achievement_image"
+                src={Achievements4}
+                alt=""
+              />
             </div>
             <div className="achievements_contents">
               <h2> Arvind Patel</h2>
@@ -139,7 +163,13 @@ const Main = () => {
               </p>
             </div>
             <div className="achievement_image_conainer">
-              <img className="achievement_image" src={Achievements5} alt="" />
+              <img
+                loading="lazy"
+                decoding="async"
+                className="achievement_image"
+                src={Achievements5}
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -150,7 +180,13 @@ const Main = () => {
         >
           <div className="achievement_content_container">
             <div className="achievement_image_conainer">
-              <img className="achievement_image" src={Achievements1} alt="" />
+              <img
+                loading="lazy"
+                decoding="async"
+                className="achievement_image"
+                src={Achievements1}
+                alt=""
+              />
             </div>
             <div className="achievements_contents">
               <h2>Lorem ipsum dolor sit amet</h2>
