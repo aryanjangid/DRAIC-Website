@@ -8,6 +8,44 @@ import Achievements5 from "../../Assets/Achievements5.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+const achievements = [
+  {
+    name: "Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav",
+    description:
+      "Second Runner-up at Innovate for Smart Pimpri Chinchwad, innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.",
+    img: Achievements1,
+    align: 0,
+  },
+  {
+    name: "Sagar Warungase",
+    description:
+      "First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.",
+    img: Achievements2,
+    align: 1,
+  },
+  {
+    name: "Samiksha Bhokare & Dibyanshu Sharma",
+    description:
+      "Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.",
+    img: Achievements3,
+    align: 0,
+  },
+  {
+    name: "Arvind Patel",
+    description:
+      "Second Runner-up at COEP Mindspark-19 Search & Destroy, organised by COEP, Pune.",
+    img: Achievements4,
+    align: 1,
+  },
+  {
+    name: "Arvind Patel",
+    description:
+      " First Position at Bro Code & Code Capture Competition organised by PCCOE, Ravet.",
+    img: Achievements5,
+    align: 0,
+  },
+];
+
 const Main = () => {
   useEffect(() => {
     AOS.init({
@@ -48,148 +86,55 @@ const Main = () => {
         </div>
       </div>
       <div className="achievements_timeline">
-        <div className="achievement_container left">
-          <div
-            data-aos-delay={"1000"}
-            data-aos={"fade-right"}
-            className="achievement_content_container"
-          >
-            <div className="achievements_contents">
-              <h2>Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                Second Runner-up at Innovate for Smart Pimpri Chinchwad,
-                innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.
-              </p>
-            </div>
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements1}
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div className="achievement_container right">
-          <div
-            data-aos-delay={"1000"}
-            data-aos={"fade-left"}
-            className="achievement_content_container"
-          >
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements2}
-                alt=""
-              />
-            </div>
-            <div className="achievements_contents">
-              <h2> Sagar Warungase</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                First Position at Techtatva Electronics Competition Organised by
-                EnTC Dept, DYPCOE, Pune.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="achievement_container left">
-          <div data-aos-delay={"0"} data-aos={"fade-right"}>
-            <div className="achievement_content_container">
-              <div className="achievements_contents">
-                <h2>Samiksha Bhokare & Dibyanshu Sharma</h2>
-                <div className="achievement_devicer"></div>
-                <p>
-                  Second Position at Techtatva Electronics Competition Organised
-                  by EnTC Dept, DYPCOE, Pune.
-                </p>
-              </div>
-              <div className="achievement_image_conainer">
-                <img
-                  loading="lazy"
-                  decoding="async"
-                  className="achievement_image"
-                  src={Achievements3}
-                  alt=""
-                />
+        {achievements.map((a, i) => {
+          return a.align === 0 ? (
+            <div className="achievement_container left">
+              <div
+                data-aos-delay={"1000"}
+                data-aos={"fade-right"}
+                className="achievement_content_container"
+              >
+                <div className="achievements_contents">
+                  <h2>{a.name}</h2>
+                  <div className="achievement_devicer"></div>
+                  <p>{a.description}</p>
+                </div>
+                <div className="achievement_image_conainer">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    className="achievement_image"
+                    src={a.img}
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="achievement_container right">
-          <div data-aos-delay={"0"} data-aos={"fade-left"}>
-            <div className="achievement_content_container">
-              <div className="achievement_image_conainer">
-                <img
-                  loading="lazy"
-                  decoding="async"
-                  className="achievement_image"
-                  src={Achievements4}
-                  alt=""
-                />
-              </div>
-              <div className="achievements_contents">
-                <h2> Arvind Patel</h2>
-                <div className="achievement_devicer"></div>
-                <p>
-                  Second Runner-up at COEP Mindspark-19 Search & Destroy,
-                  organised by COEP, Pune.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="achievement_container left">
-          <div data-aos-delay={"0"} data-aos={"fade-right"}>
-            <div className="achievement_content_container">
-              <div className="achievements_contents">
-                <h2>Arvind Patel</h2>
-                <div className="achievement_devicer"></div>
-                <p>
-                  First Position at Bro Code & Code Capture Competition
-                  organised by PCCOE, Ravet.
-                </p>
-              </div>
-              <div className="achievement_image_conainer">
-                <img
-                  loading="lazy"
-                  decoding="async"
-                  className="achievement_image"
-                  src={Achievements5}
-                  alt=""
-                />
+          ) : (
+            <div className="achievement_container right">
+              <div
+                data-aos-delay={"1000"}
+                data-aos={"fade-left"}
+                className="achievement_content_container"
+              >
+                <div className="achievement_image_conainer">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    className="achievement_image"
+                    src={a.img}
+                    alt=""
+                  />
+                </div>
+                <div className="achievements_contents">
+                  <h2>{a.name}</h2>
+                  <div className="achievement_devicer"></div>
+                  <p>{a.description}</p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="achievement_container right">
-          <div data-aos-delay={"0"} data-aos={"fade-left"}>
-            <div className="achievement_content_container">
-              <div className="achievement_image_conainer">
-                <img
-                  loading="lazy"
-                  decoding="async"
-                  className="achievement_image"
-                  src={Achievements1}
-                  alt=""
-                />
-              </div>
-              <div className="achievements_contents">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <div className="achievement_devicer"></div>
-                <p>
-                  Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
-                  erat sagittis non
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </div>
   );
