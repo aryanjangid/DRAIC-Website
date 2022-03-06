@@ -202,6 +202,16 @@
 }
 
 @media (max-width: 600px) {
+  .about-department-heading{
+    padding: 0;
+    font-size: 1.4rem;
+  }
+  .about-department-grid-box{
+    padding: 30px;
+  }
+  .dep_para{
+    font-size: 0.8rem;
+  }
   .imageheading {
     font-size: 22px;
   }
@@ -212,9 +222,19 @@
     font-size: 2rem;
   }
   .imageheading{
-    left: 0;
+    text-align: left;
+    left: 120px;
     top: -40px;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
+  .team_robo_pic{
+    width: 140vw;
+    padding: 20px 0;;
+  }
+  
+.about-department{
+  padding-top: 6.5rem;
+  padding-bottom: 7]60px;
+}
 
 }
