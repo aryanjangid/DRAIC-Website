@@ -9,16 +9,27 @@ export default function Team() {
     <div className="mainbody_team">
       <div className="about-department">
         <div className="about-title-body">
-          <h1 className="about-subheading about-subheading2">
-            WHO WE ARE AND WHY WE ARE DOING THIS
-          </h1>
-          <div className="about-seperator2">
-            <div className="about-title-line1"></div>
-            <div>
-              <h1 className="about-heading about-heading2">OUR DEPARTMENTS</h1>
+          <div className="firstrow">
+            <h1 className="wheredowe">
+              WHERE DO WE COME FROM
+            </h1>
+            <div className="seperator">
+              <div
+                className="lineaboutus1"
+              ></div>
+              <div>
+                <h1
+                  className="aboutusheading"
+                >
+                  OUR DEPARTMENT
+                </h1>
+              </div>
+              <div
+                className="lineaboutus2"
+              ></div>
             </div>
-            <div className="about-title-line2"></div>
           </div>
+
           <div className="about-department-grid">
 
             {department_contnet.map((card) => {
@@ -46,17 +57,17 @@ export default function Team() {
                       </p>
                     </div>
                     <NavLink
-                    activeClassName="active"
-                    className="dep-link"
-                    aria-current="page"
-                    to="/project"
-                  >
-                    <button className="dep-button">
-                      View Department<span className="arrow">&rarr;</span>
-                    </button>
-                  </NavLink>
+                      activeClassName="active"
+                      className="dep-link"
+                      aria-current="page"
+                      to="/project"
+                    >
+                      <button className="dep-button">
+                        View Department<span className="arrow">&rarr;</span>
+                      </button>
+                    </NavLink>
                   </article>
-                  
+
                 </NavLink>
               );
             }
@@ -68,37 +79,45 @@ export default function Team() {
 
 
       <div className="gallery-section">
-      <h1 className="dep-subheading">
-            WHO WE ARE AND WHY WE ARE DOING THIS
-      </h1>
-        <div className="about-seperator3">
-          <div className="about-title-line1">
-          
+      <div className="firstrow">
+            <h1 className="wheredowe">
+              WHERE DO WE COME FROM
+            </h1>
+            <div className="seperator">
+              <div
+                className="lineaboutus1"
+              ></div>
+              <div>
+                <h1
+                  className="aboutusheading"
+                >
+                  OUR MEMORIES
+                </h1>
+              </div>
+              <div
+                className="lineaboutus2"
+              ></div>
+            </div>
           </div>
-          <div>
-            <h1 className="about-heading about-heading3">OUR MEMORIES</h1>
-          </div>
-          <div className="about-title-line2"></div>
-        </div>
 
 
         <div className="container">
-        {gallery_contnet.map((card2) => {
-              return (
-                <div className="image_main_container">
-            
-            <div className="team_robo_pic">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="img1"
-                src={card2.imgURL}
-                alt=""
-              />
-              <h3 className="imageheading">{card2.photo_name}</h3>
-            </div>
-          </div>
-              )})}
+          {gallery_contnet.map((card2) => {
+            return (
+              <div className="image_main_container">
+                <div className="team_robo_pic">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    className="img1"
+                    src={card2.imgURL}
+                    alt=""
+                  />
+                  <h3 className="imageheading">{card2.photo_name}</h3>
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>
