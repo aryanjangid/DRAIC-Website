@@ -175,16 +175,14 @@ const Contact = () => {
           </div>
         </div>
       </div>  */}
-
-
-
+{/* 
       <img
         loading="lazy"
         decoding="async"
         className="jointeam_img"
         src={jointeam}
         alt=""
-      />
+      /> */}
     </>
   );
 };
