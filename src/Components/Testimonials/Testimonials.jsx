@@ -34,10 +34,11 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <>
+
       <div className="testimonial-section-container">
         <div className="testimonial_header">
           <div className="testimonial_headline_div">
-            <h1 data-aos={"zoom-in-up"} className="testimonial_thought">
+            <h1 data-aos={"zoom-in-up"} className="wheredowe">
               {" "}
               WHY SHOULD YOU JOIN US?
             </h1>
@@ -52,7 +53,7 @@ const Testimonials = () => {
               <h1
                 data-aos={"zoom-out"}
                 data-aos-delay={"1200"}
-                className="testimonial_title"
+                className="aboutusheading"
               >
                 TESTIMONIALS
               </h1>

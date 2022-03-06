@@ -60,7 +60,7 @@ export default function Team() {
                       activeClassName="active"
                       className="dep-link"
                       aria-current="page"
-                      to="/project"
+                      to={card.topage}
                     >
                       <button className="dep-button">
                         View Department<span className="arrow">&rarr;</span>
