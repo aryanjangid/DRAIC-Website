@@ -104,7 +104,7 @@
 }
 .achievement_container::after {
   content: "";
-  background: url("https://img.icons8.com/glyph-neue/64/57b8ff/graduation-cap.png");
+  background: url("../../Assets/trophy.png");
   background-size: 40px;
   background-repeat: no-repeat;
   background-position: center;
