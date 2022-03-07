@@ -1,50 +1,8 @@
 import React, { useEffect } from "react";
 import "./Achievements.css";
-import Achievements1 from "../../Assets/Achievements1.jpg";
-import Achievements2 from "../../Assets/Achievements2.webp";
-import Achievements3 from "../../Assets/Achievements3.webp";
-import Achievements4 from "../../Assets/Achievements4.webp";
-import Achievements5 from "../../Assets/Achievements5.webp";
+import achievements from "../../Data/achievements";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-const achievements = [
-  {
-    name: "Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav",
-    description:
-      "Second Runner-up at Innovate for Smart Pimpri Chinchwad, innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.",
-    img: Achievements1,
-    align: 0,
-  },
-  {
-    name: "Sagar Warungase",
-    description:
-      "First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.",
-    img: Achievements2,
-    align: 1,
-  },
-  {
-    name: "Samiksha Bhokare & Dibyanshu Sharma",
-    description:
-      "Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.",
-    img: Achievements3,
-    align: 0,
-  },
-  {
-    name: "Arvind Patel",
-    description:
-      "Second Runner-up at COEP Mindspark-19 Search & Destroy, organised by COEP, Pune.",
-    img: Achievements4,
-    align: 1,
-  },
-  {
-    name: "Arvind Patel",
-    description:
-      " First Position at Bro Code & Code Capture Competition organised by PCCOE, Ravet.",
-    img: Achievements5,
-    align: 0,
-  },
-];
 
 const Main = () => {
   useEffect(() => {
@@ -90,7 +48,7 @@ const Main = () => {
           return a.align === 0 ? (
             <div className="achievement_container left">
               <div
-                data-aos-delay={"1000"}
+                data-aos-delay={"0"}
                 data-aos={"fade-right"}
                 className="achievement_content_container"
               >
@@ -113,7 +71,7 @@ const Main = () => {
           ) : (
             <div className="achievement_container right">
               <div
-                data-aos-delay={"1000"}
+                data-aos-delay={"0"}
                 data-aos={"fade-left"}
                 className="achievement_content_container"
               >
