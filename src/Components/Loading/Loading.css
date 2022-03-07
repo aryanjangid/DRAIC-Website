@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: Gradient 1s ease infinite;
+  animation: Gradient 8s ease infinite;
 }
 #load_head {
   /* transform: translateY(-3000px); */

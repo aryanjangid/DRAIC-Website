@@ -7,24 +7,43 @@ import { NavLink } from "react-router-dom";
 import homeProjectlist from "../../Data/home-project-list";
 // import "../style.css";
 
-function Project() {
+const Project = () => {
   return (
     <div className="project-component-home">
       <div className="home-project-header">
-        <h1 className="home-project-moto">SEE WHAT WE HAVE DONE SO FAR</h1>
+        <h1 data-aos={"zoom-in-up"} className="home-project-moto">
+          SEE WHAT WE HAVE DONE SO FAR
+        </h1>
         <div className="home-project-seperator">
-          <div className="seperator-decoration-line1"></div>
+          <div
+            data-aos={"fade-right"}
+            data-aos-delay={"700"}
+            className="seperator-decoration-line1"
+          ></div>
           <div>
-            <h1 className="home-project-title-our-project">OUR PROJECTS</h1>
+            <h1
+              data-aos={"zoom-out"}
+              data-aos-delay={"1200"}
+              className="home-project-title-our-project"
+            >
+              OUR PROJECTS
+            </h1>
           </div>
-          <div className="seperator-decoration-line2"></div>
+          <div
+            data-aos={"fade-left"}
+            data-aos-delay={"700"}
+            className="seperator-decoration-line2"
+          ></div>
         </div>
       </div>
       <div className="home-projects-container">
         {homeProjectlist.map((card) => {
           return (
             <>
-              <div className="home-individual-project-container">
+              <div
+                data-aos={"zoom-in-up"}
+                className="home-individual-project-container"
+              >
                 <img
                   loading="lazy"
                   decoding="async"
@@ -125,5 +144,5 @@ function Project() {
       </div>
     </div>
   );
-}
+};
 export default Project;

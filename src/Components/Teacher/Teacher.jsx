@@ -21,16 +21,26 @@ const Main = () => {
           <h1 data-aos={"zoom-in-up"} className="home-teacher-moto">
             THE FACE THAT GUIDES US
           </h1>
-          <div
-            data-aos={"zoom-in-up"}
-            data-aos-delay={"1000"}
-            className="home-teacher-seperator"
-          >
-            <div className="home-teacher-decoration-line1"></div>
+          <div className="home-teacher-seperator">
+            <div
+              data-aos={"fade-right"}
+              data-aos-delay={"700"}
+              className="home-teacher-decoration-line1"
+            ></div>
             <div>
-              <h1 className="home-teacher-title">OUR MENTOR</h1>
+              <h1
+                data-aos={"zoom-out"}
+                data-aos-delay={"1200"}
+                className="home-teacher-title"
+              >
+                OUR MENTOR
+              </h1>
             </div>
-            <div className="home-teacher-decoration-line2"></div>
+            <div
+              data-aos={"fade-left"}
+              data-aos-delay={"700"}
+              className="home-teacher-decoration-line2"
+            ></div>
           </div>
         </div>
         {/* </div> */}
@@ -38,7 +48,11 @@ const Main = () => {
           {mentorinfo.map((card) => {
             return (
               <>
-                <div className="home-teacher-image-container">
+                <div
+                  data-aos={"flip-left"}
+                  data-aos-delay={"900"}
+                  className="home-teacher-image-container"
+                >
                   <img
                     loading="lazy"
                     decoding="async"
@@ -48,10 +62,24 @@ const Main = () => {
                   ></img>
                 </div>
                 <div className="home-teacher-text">
-                  <h1 className="home-teacher-name">{card.mentor_name}</h1>
-                  <p className="home-teacher-paragraph">{card.content}</p>
+                  <h1
+                    data-aos={"fade-down-right"}
+                    data-aos-delay={"1000"}
+                    className="home-teacher-name"
+                  >
+                    {card.mentor_name}
+                  </h1>
+                  <p
+                    data-aos={"fade-down-right"}
+                    data-aos-delay={"1100"}
+                    className="home-teacher-paragraph"
+                  >
+                    {card.content}
+                  </p>
                   <div className="teacher-footer">
                     <Link
+                      data-aos={"zoom-in"}
+                      data-aos-delay={"1150"}
                       className="footer_social_links"
                       to={card.linkedURL}
                       target="_blank"
@@ -65,6 +93,8 @@ const Main = () => {
                       />
                     </Link>
                     <Link
+                      data-aos={"zoom-in"}
+                      data-aos-delay={"1150"}
                       className="footer_social_links"
                       to={card.instagramURl}
                       target="_blank"
@@ -78,6 +108,8 @@ const Main = () => {
                       />
                     </Link>
                     <Link
+                      data-aos={"zoom-in"}
+                      data-aos-delay={"1150"}
                       className="footer_social_links"
                       to={card.twitterURL}
                       target="_blank"

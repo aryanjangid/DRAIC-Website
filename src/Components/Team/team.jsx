@@ -10,31 +10,19 @@ export default function Team() {
       <div className="about-department">
         <div className="about-title-body">
           <div className="firstrow">
-            <h1 className="wheredowe">
-              WHERE DO WE COME FROM
-            </h1>
+            <h1 className="wheredowe">WHERE DO WE COME FROM</h1>
             <div className="seperator">
-              <div
-                className="lineaboutus1"
-              ></div>
+              <div className="lineaboutus1"></div>
               <div>
-                <h1
-                  className="aboutusheading"
-                >
-                  OUR DEPARTMENT
-                </h1>
+                <h1 className="aboutusheading">OUR DEPARTMENT</h1>
               </div>
-              <div
-                className="lineaboutus2"
-              ></div>
+              <div className="lineaboutus2"></div>
             </div>
           </div>
 
           <div className="about-department-grid">
-
             {department_contnet.map((card) => {
               return (
-
                 <NavLink
                   className="about-department-link"
                   aria-current="page"
@@ -49,12 +37,12 @@ export default function Team() {
                         alt="progdep"
                         src={card.imgURL}
                       />
-                      <p className="about-department-heading">{card.dep_name}</p>
+                      <p className="about-department-heading">
+                        {card.dep_name}
+                      </p>
                     </div>
                     <div className="about-department-text">
-                      <p className="dep_para">
-                        {card.content}
-                      </p>
+                      <p className="dep_para">{card.content}</p>
                     </div>
                     <NavLink
                       activeClassName="active"
@@ -67,39 +55,24 @@ export default function Team() {
                       </button>
                     </NavLink>
                   </article>
-
                 </NavLink>
               );
-            }
-            )
-            }
+            })}
           </div>
         </div>
       </div>
 
-
       <div className="gallery-section">
-      <div className="firstrow">
-            <h1 className="wheredowe">
-              WHERE DO WE COME FROM
-            </h1>
-            <div className="seperator">
-              <div
-                className="lineaboutus1"
-              ></div>
-              <div>
-                <h1
-                  className="aboutusheading"
-                >
-                  OUR MEMORIES
-                </h1>
-              </div>
-              <div
-                className="lineaboutus2"
-              ></div>
+        <div className="firstrow">
+          <h1 className="wheredowe">WHERE DO WE COME FROM</h1>
+          <div className="seperator">
+            <div className="lineaboutus1"></div>
+            <div>
+              <h1 className="aboutusheading">OUR MEMORIES</h1>
             </div>
+            <div className="lineaboutus2"></div>
           </div>
-
+        </div>
 
         <div className="container">
           {gallery_contnet.map((card2) => {
@@ -116,7 +89,7 @@ export default function Team() {
                   <h3 className="imageheading">{card2.photo_name}</h3>
                 </div>
               </div>
-            )
+            );
           })}
         </div>
       </div>
