@@ -27,7 +27,7 @@ const App = () => {
     window.scrollTo(0, 0);
   }, [location]);
 
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   setTimeout(() => setLoading(false), 3500);
 
