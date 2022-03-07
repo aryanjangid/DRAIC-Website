@@ -1,10 +1,6 @@
 import React, { useEffect } from "react";
 import "./Achievements.css";
-import Achievements1 from "../../Assets/Achievements1.jpg";
-import Achievements2 from "../../Assets/Achievements2.webp";
-import Achievements3 from "../../Assets/Achievements3.webp";
-import Achievements4 from "../../Assets/Achievements4.webp";
-import Achievements5 from "../../Assets/Achievements5.webp";
+import achievements from "../../Data/achievements";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -48,156 +44,55 @@ const Main = () => {
         </div>
       </div>
       <div className="achievements_timeline">
-        <div className="achievement_container left">
-          <div
-            data-aos-delay={"1000"}
-            data-aos={"fade-left"}
-            className="achievement_content_container"
-          >
-            <div className="achievements_contents">
-              <h2>Shreyash Choppawar, Amit Prasad & Vedansh Shrivastav</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                Second Runner-up at Innovate for Smart Pimpri Chinchwad,
-                innovation Challenge organised by PCSCL, PCMC & PCCOE, Pune.
-              </p>
+        {achievements.map((a, i) => {
+          return a.align === 0 ? (
+            <div className="achievement_container left">
+              <div
+                data-aos-delay={"0"}
+                data-aos={"fade-right"}
+                className="achievement_content_container"
+              >
+                <div className="achievements_contents">
+                  <h2>{a.name}</h2>
+                  <div className="achievement_devicer"></div>
+                  <p>{a.description}</p>
+                </div>
+                <div className="achievement_image_conainer">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    className="achievement_image"
+                    src={a.img}
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements1}
-                alt=""
-              />
+          ) : (
+            <div className="achievement_container right">
+              <div
+                data-aos-delay={"0"}
+                data-aos={"fade-left"}
+                className="achievement_content_container"
+              >
+                <div className="achievement_image_conainer">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    className="achievement_image"
+                    src={a.img}
+                    alt=""
+                  />
+                </div>
+                <div className="achievements_contents">
+                  <h2>{a.name}</h2>
+                  <div className="achievement_devicer"></div>
+                  <p>{a.description}</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="achievement_container right">
-          <div
-            data-aos-delay={"1000"}
-            data-aos={"fade-right"}
-            className="achievement_content_container"
-          >
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements2}
-                alt=""
-              />
-            </div>
-            <div className="achievements_contents">
-              <h2> Sagar Warungase</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                First Position at Techtatva Electronics Competition Organised by
-                EnTC Dept, DYPCOE, Pune.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          data-aos-delay={"0"}
-          data-aos={"fade-left"}
-          className="achievement_container left"
-        >
-          <div className="achievement_content_container">
-            <div className="achievements_contents">
-              <h2>Samiksha Bhokare & Dibyanshu Sharma</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                Second Position at Techtatva Electronics Competition Organised
-                by EnTC Dept, DYPCOE, Pune.
-              </p>
-            </div>
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements3}
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          data-aos-delay={"0"}
-          data-aos={"fade-right"}
-          className="achievement_container right"
-        >
-          <div className="achievement_content_container">
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements4}
-                alt=""
-              />
-            </div>
-            <div className="achievements_contents">
-              <h2> Arvind Patel</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                Second Runner-up at COEP Mindspark-19 Search & Destroy,
-                organised by COEP, Pune.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          data-aos-delay={"0"}
-          data-aos={"fade-left"}
-          className="achievement_container left"
-        >
-          <div className="achievement_content_container">
-            <div className="achievements_contents">
-              <h2>Arvind Patel</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                First Position at Bro Code & Code Capture Competition organised
-                by PCCOE, Ravet.
-              </p>
-            </div>
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements5}
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          data-aos-delay={"0"}
-          data-aos={"fade-right"}
-          className="achievement_container right"
-        >
-          <div className="achievement_content_container">
-            <div className="achievement_image_conainer">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="achievement_image"
-                src={Achievements1}
-                alt=""
-              />
-            </div>
-            <div className="achievements_contents">
-              <h2>Lorem ipsum dolor sit amet</h2>
-              <div className="achievement_devicer"></div>
-              <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
-                erat sagittis non
-              </p>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </div>
   );
