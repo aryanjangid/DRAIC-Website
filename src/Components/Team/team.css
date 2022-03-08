@@ -6,7 +6,7 @@
 }
 .about-department-link {
   text-decoration: none;
-    z-index: 100;
+  z-index: 100;
 }
 .about-department-grid-box {
   width: 100%;
@@ -43,7 +43,6 @@
   padding-bottom: 75px;
   z-index: 1;
   /* margin-bottom: 25px; */
-
 }
 .dep_para {
   /* padding-left: 10px; */
@@ -131,14 +130,14 @@
   opacity: 1;
 }
 
-.gallery-section{
+.gallery-section {
   background: rgba(20, 20, 20, 0.9);
 
   position: relative;
   z-index: 100;
 }
 
-.dep-subheading{
+.dep-subheading {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
@@ -147,7 +146,7 @@
   letter-spacing: 0.5em;
 }
 
-.imageheading{
+.imageheading {
   position: relative;
   top: -100px;
   /* text-align: left; */
@@ -159,7 +158,6 @@
   text-shadow: 2px 2px 20px #000000;
 }
 
-
 .team_robo_pic {
   width: 120vw;
   text-align: center;
@@ -167,7 +165,7 @@
   transition: transform 0.2s;
 }
 
-.team_robo_pic:hover{
+.team_robo_pic:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.2);
@@ -202,6 +200,16 @@
 }
 
 @media (max-width: 600px) {
+  .about-department-heading {
+    padding: 0;
+    font-size: 1.4rem;
+  }
+  .about-department-grid-box {
+    padding: 30px;
+  }
+  .dep_para {
+    font-size: 0.8rem;
+  }
   .imageheading {
     font-size: 22px;
   }
@@ -211,10 +219,19 @@
   .about-heading {
     font-size: 2rem;
   }
-  .imageheading{
-    left: 0;
+  .imageheading {
+    text-align: left;
+    left: 120px;
     top: -40px;
-    font-size: 0.9rem;
+    font-size: 1rem;
+  }
+  .team_robo_pic {
+    width: 140vw;
+    padding: 20px 0;
   }
 
+  .about-department {
+    padding-top: 6.5rem;
+    padding-bottom: 60px;
+  }
 }

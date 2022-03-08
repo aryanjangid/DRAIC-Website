@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Contact.css";
-import jointeam from './jointeam1.gif'
+// import jointeam from './jointeam1.gif'
 
 import AOS from "aos";
 // import 'aos/dist/aos.css';
@@ -42,9 +42,11 @@ const Contact = () => {
           ></div>
         </div>
         <div className="contact_form_details">
-
-          <div className="join_team" data-aos={"fade-right"} data-aos-delay={"1500"}>
-
+          <div
+            className="join_team"
+            data-aos={"fade-right"}
+            data-aos-delay={"1500"}
+          >
             <div className="contact_fillform_div">
               <h3 className="contact_fillform fillform2">
                 Please fill the form to Join the Team{" "}
@@ -65,8 +67,11 @@ const Contact = () => {
             </div>
           </div>
 
-          <div data-aos={"fade-left"} data-aos-delay={"1500"} className="contact_information_div">
-
+          <div
+            data-aos={"fade-left"}
+            data-aos-delay={"1500"}
+            className="contact_information_div"
+          >
             <h1 className="contact_info_headline">CONTACT INFORMATION</h1>
             <div className="contact_info_email_div">
               <img
@@ -175,16 +180,14 @@ const Contact = () => {
           </div>
         </div>
       </div>  */}
-
-
-
+      {/* 
       <img
         loading="lazy"
         decoding="async"
         className="jointeam_img"
         src={jointeam}
         alt=""
-      />
+      /> */}
     </>
   );
 };

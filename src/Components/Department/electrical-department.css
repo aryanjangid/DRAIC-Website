@@ -15,7 +15,6 @@
 
 .elec-department-page {
   background-color: rgba(18, 21, 33, 0.9);
-
   z-index: 1;
   position: relative;
   margin-top: -5rem;
@@ -28,7 +27,7 @@
   padding-top: 10rem;
   z-index: 1;
   position: relative;
-  background-color: #1b3955;
+  background-color: #0B1E26;
 }
 
 .elec-department-text-container {

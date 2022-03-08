@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Card from "./card";
 import "./deck.css";
-
 import Prathis from "../../Assets/Prathis.jfif";
 import Axa from "../../Assets/Axa.jpeg";
 import Darshan from "../../Assets/Darshan.jpeg";
@@ -182,13 +181,29 @@ class Deck extends Component {
       <div>
         <div className="space"></div>
         <div className="core-firstrow">
-          <h1 className="core-subheading">FINDING INSPIRATION IN EVERY TURN</h1>
+          <h1 data-aos={"zoom-in-up"} className="core-subheading">
+            FINDING INSPIRATION IN EVERY TURN
+          </h1>
           <div className="seperator">
-            <div className="core-line1"></div>
+            <div
+              data-aos={"fade-right"}
+              data-aos-delay={"700"}
+              className="core-line1"
+            ></div>
             <div>
-              <h1 className="core-heading">OUR TEAM</h1>
+              <h1
+                data-aos={"zoom-out"}
+                data-aos-delay={"1000"}
+                className="core-heading"
+              >
+                OUR TEAM
+              </h1>
             </div>
-            <div className="core-line2"></div>
+            <div
+              data-aos={"fade-left"}
+              data-aos-delay={"700"}
+              className="core-line2"
+            ></div>
           </div>
         </div>
 
@@ -196,8 +211,18 @@ class Deck extends Component {
           {this.state.cards}
         </div>
         <div className="deck-button">
-          <button className="button2" onClick={this.handle_previous}></button>
-          <button className="button1" onClick={this.handle_next}></button>
+          <button
+            data-aos={"zoom-out"}
+            data-aos-delay={"1500"}
+            className="button2"
+            onClick={this.handle_previous}
+          ></button>
+          <button
+            data-aos={"zoom-out"}
+            data-aos-delay={"1500"}
+            className="button1"
+            onClick={this.handle_next}
+          ></button>
         </div>
       </div>
     );
