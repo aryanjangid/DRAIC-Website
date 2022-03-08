@@ -1,15 +1,36 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import aboutusinfo from "../../Data/home-about-us";
 import "./Home-aboutus.css";
 import AOS from "aos";
 // import 'aos/dist/aos.css';
 
 function HomeAbout() {
+
+  const [activeindex, setActiveIndex] = useState(0)
+  const [previndex, setPrevIndex] = useState()
+
   useEffect(() => {
     AOS.init({
       duration: 2000,
     });
-  }, []);
+  }, [activeindex]);
+
+  // setTimeout(() => {
+  //   setPrevIndex(activeindex)
+  //   setActiveIndex((activeindex + 1) % 3)
+  // }, 5000)
+
+  const handlenext = () => {
+    setPrevIndex(activeindex)
+    setActiveIndex((activeindex + 1) % 3)
+  }
+  const handleprev = () => {
+    setPrevIndex(activeindex)
+    setActiveIndex((activeindex - 1 < 0) ? 2 : activeindex - 1)
+  }
+
+
+
   return (
     <div className="aboutsection1">
       <div className="firstrow">
@@ -43,34 +64,52 @@ function HomeAbout() {
           <>
             <div className="secondrow">
               <div className="secondrowcol1">
-                <img
-                  loading="lazy"
-                  decoding="async"
-                  className="ourcollegeimg"
-                  src={card.ourcollegeimage}
-                  alt="collegepic"
-                ></img>
+                <div className="our-college-slider">
+                  <i className="home-about-arrow left" onClick={handleprev} />
+                  {card.ourcollegeimages.map((image, index) => (
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      className={`ourcollegeimg ${index === activeindex ? 'active' : index === previndex ? 'prev' : ''}`}
+                      src={image}
+                      alt="collegepic"
+                      key={index}
+                    />
+                  ))}
+                  <i className="home-about-arrow right" onClick={handlenext} />
+                </div>
                 <h1 className="imagetext">OUR COLLEGE</h1>
               </div>
               <div className="secondrowcol2">
                 <div className="div1">
-                  <img
-                    loading="lazy"
-                    decoding="async"
-                    className="ourteamimg"
-                    src={card.ourteamimage}
-                    alt="collegepic"
-                  ></img>
+                  <div className="our-team-slider">
+                    {card.ourteamimages.map((image, index) => (
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        className={`ourteamimg ${index === activeindex ? 'active' : index === previndex ? 'prev' : ''}`}
+                        src={image}
+                        alt="collegepic"
+                        key={index}
+                      ></img>
+                    ))}
+                  </div>
                   <h1 className="imagetext">OUR TEAM</h1>
                 </div>
                 <div className="div2">
-                  <img
-                    loading="lazy"
-                    decoding="async"
-                    className="ourworkshopimg"
-                    src={card.ourworkshopimage}
-                    alt="collegepic"
-                  ></img>
+                  <div className="our-workshop-slider">
+                    {card.ourworkshopimages.map((image, index) => (
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        className={`ourworkshopimg ${index === activeindex ? 'active' : index === previndex ? 'prev' : ''}`}
+                        src={image}
+                        alt="collegepic"
+                        key={index}
+                      ></img>
+                    ))}
+                  </div>
+
                   <h1 className="imagetext">OUR WORKSHOP</h1>
                 </div>
               </div>
