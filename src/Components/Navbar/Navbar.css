@@ -112,7 +112,7 @@ li {
   z-index: 22;
 }
 @media (max-width: 768px) {
-  .nav{
+  .nav {
     height: 4.4rem;
   }
 
@@ -163,8 +163,4 @@ li {
     right: 3px;
     font-size: 35px;
   }
-
-  
-
-  
 }
