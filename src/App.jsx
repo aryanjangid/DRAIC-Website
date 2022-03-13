@@ -20,7 +20,7 @@ import About from "./Components/About/About";
 import Contact2 from "./Components/Contact2/contact2";
 import Team from "./Components/Team/team.jsx";
 import Loading from "./Components/Loading/Loading";
-
+import Event from "./Components/Events/Event";
 const App = () => {
   const location = useLocation();
   useEffect(() => {
@@ -54,6 +54,7 @@ const App = () => {
           </Routes>
           <Background className="particles" />
           <Footer />
+          <Event />
         </div>
       )}
     </>

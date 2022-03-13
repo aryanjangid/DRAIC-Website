@@ -1,0 +1,18 @@
+.event_container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.event_image_container {
+  width: 450px;
+}
+.event_img {
+  object-fit: cover;
+}
+.event_content_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
