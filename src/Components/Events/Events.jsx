@@ -45,7 +45,34 @@ const Events = ({ children }) => {
   });
 
   return (
+    <div className="outer-event">    <div className="firstrow">
+        <h1 data-aos={"zoom-out"} className="wheredowe">
+          WHERE DO WE COME FROM
+        </h1>
+        <div className="seperator">
+          <div
+            data-aos={"fade-right"}
+            data-aos-delay={"700"}
+            className="lineaboutus1"
+          ></div>
+          <div>
+            <h1
+              data-aos={"zoom-out"}
+              data-aos-delay={"700"}
+              className="aboutusheading"
+            >
+              UPCOMING EVENTS 
+            </h1>
+          </div>
+          <div
+            data-aos={"fade-left"}
+            data-aos-delay={"700"}
+            className="lineaboutus2"
+          ></div>
+        </div>
+      </div>
     <div className="carousel_container">
+      
       <div
         {...handlers}
         className="carousel"
@@ -61,7 +88,7 @@ const Events = ({ children }) => {
           })}
         </div>
         <div className="indicators">
-          <button
+          <button className="left-btn"
             onClick={() => {
               updateIndex(activeIndex - 1);
             }}
@@ -80,7 +107,7 @@ const Events = ({ children }) => {
               </button>
             );
           })}
-          <button
+          <button className="left-btn"
             onClick={() => {
               updateIndex(activeIndex + 1);
             }}
@@ -89,6 +116,7 @@ const Events = ({ children }) => {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 };

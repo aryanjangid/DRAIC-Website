@@ -1,7 +1,14 @@
+.outer-event{
+  position: relative;
+    /* background-color: #0a1931; */
+    background-color: rgba(10, 25, 49, 0.9);
+    z-index: 100;
+}
 .carousel_container {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .carousel {
   overflow: hidden;
@@ -17,7 +24,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  /* height: 200px; */
+  margin: 50px 0;
   background-color: transparent;
   color: #fff;
 }
@@ -25,13 +33,44 @@
 .indicators {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .indicators > button {
   margin: 5px;
+  padding: 5px 12.5px;
+  background-color: #141824;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+  border-radius: 300px;
+  cursor: pointer;
 }
 
-.indicators > button.active {
-  background-color: red;
-  color: #fff;
+button:hover{
+  color: white;
+  border-color: white;
+  background-color: #141824;
 }
+
+
+
+.indicators > button.active {
+  background-color: #141824;
+  border-color: white;
+}
+
+.indicators > .left-btn{
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #00a0ff;
+  border: 2px solid #00a0ff;
+  padding: 1px 15px;
+  color: white;
+  border-radius: 7px;
+}
+
+.indicators > .left-btn:hover{
+  background-color: #141824;
+}
+
