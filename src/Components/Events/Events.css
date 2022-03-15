@@ -73,7 +73,7 @@ button:hover {
 @media screen and (max-width: 768px) {
   .event_description {
     white-space: normal;
-    font-size: 0.4rem;
+    font-size: 0.9rem;
     padding: 20px 0;
   }
 }

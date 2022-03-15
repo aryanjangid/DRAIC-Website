@@ -76,7 +76,7 @@ function Navbar() {
               >
                 <div className="title">Team</div>
                 <span className="icon">
-                  <ion-icon name="body"></ion-icon>
+                  <ion-icon name="people"></ion-icon>
                 </span>{" "}
               </NavLink>
             </li>

@@ -35,22 +35,23 @@
     width: 300px;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .landing-slide {
     padding: 0;
     flex-direction: column-reverse;
     margin-bottom: 9rem;
-    margin-top: 9rem;
+    margin-top: 0rem;
   }
   .draic-logo {
     height: 15vh;
   }
   .svg {
-    width: 300px;
+    width: 400px;
   }
   .text {
     font-size: 2.5rem;
-    margin: 40px 0px;
+    /* margin: 40px 0px; */
+    margin-bottom: 80px;
     width: 70%;
     /* margin-top: 20px; */
     text-align: center;
