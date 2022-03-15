@@ -55,11 +55,12 @@
 
 .elec-department-image {
   margin: auto;
-  height: 400px;
+  height: 500px;
   position: relative;
   top: 0rem;
   width: auto;
-  padding-left: 7rem;
+  padding-left: 0rem;
+  /* top: -8rem; */
 }
 
 .elec-department-header-container {
@@ -72,7 +73,7 @@
 .elec-department-moto {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   color: #57b8ff;
   letter-spacing: 0.5em;
 }
@@ -183,7 +184,7 @@
 
 .profile-card .text h3 {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 1000;
 }
 
@@ -302,6 +303,7 @@
   .elec-department-image {
     padding: 0;
     margin: 3rem 0;
+    top: 0;
   }
 
   .elec-department-moto {
@@ -324,7 +326,7 @@
   }
   .profile-card {
     flex: 0 0 50%;
-    height: 350px;
+    /* height: 350px; */
   }
   .profile-card .text img {
     height: 110px;
