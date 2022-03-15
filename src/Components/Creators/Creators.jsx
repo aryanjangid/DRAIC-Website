@@ -64,7 +64,7 @@ const Creators = () => {
       <div className={classes.creator_section}>
         <div className="creators_header">
           <div className="creators_headline_div">
-            <h1 data-aos={"zoom-in-up"} className="creators_thought">
+            <h1 data-aos={"zoom-out"} className="creators_thought">
               {" "}
               DEVELOPERS OF THIS SITE!
             </h1>

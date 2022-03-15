@@ -11,7 +11,7 @@ const Project = () => {
   return (
     <div className="project-component-home">
       <div className="home-project-header">
-        <h1 data-aos={"zoom-in-up"} className="home-project-moto">
+        <h1 data-aos={"zoom-out"} className="home-project-moto">
           SEE WHAT WE HAVE DONE SO FAR
         </h1>
         <div className="home-project-seperator">
