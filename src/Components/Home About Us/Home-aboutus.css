@@ -128,6 +128,7 @@
   left: 1rem;
   animation: arrowleft 2s forwards;
   transition: 2s ease;
+  cursor: pointer;
 }
 
 @keyframes arrowleft {
@@ -148,6 +149,7 @@
   right: 1rem;
   animation: arrowright 2s forwards;
   transition: 2s ease;
+  cursor: pointer;
 }
 
 @keyframes arrowright {
@@ -167,30 +169,55 @@
   transition: 5s ease;
 }
 
-.ourcollegeimg.prev{
+.ourcollegeimg.prev.right{
   display: block;
   position: absolute;
   transition: all 0.5s ease;
-  animation: slideOut 2s forwards;
+  animation: slideOutLeft 2s forwards;
   z-index: 1;
 }
 
-.ourcollegeimg.active{
+.ourcollegeimg.active.right{
   display: block;
   position: absolute;
   transition: all 0.5s ease;
-  animation: slideIn 2s forwards;
+  animation: slideInLeft 2s forwards;
   z-index: 2;
 }
-@keyframes slideOut {
+.ourcollegeimg.next.left{
+  display: block;
+  position: absolute;
+  transition: all 0.5s ease;
+  animation: slideOutRight 2s forwards;
+  z-index: 1;
+}
+
+.ourcollegeimg.active.left{
+  display: block;
+  position: absolute;
+  transition: all 0.5s ease;
+  animation: slideInRight 2s forwards;
+  z-index: 2;
+}
+@keyframes slideOutLeft {
   0%{transform: translate(0,0);}
   100%{transform: translate(-100%,0);}
 }
 
 
-@keyframes slideIn {
+@keyframes slideInLeft {
   0%{transform: translate(100%,0)}
   100%{transform: translate(0,0)}
+}
+
+@keyframes slideInRight{
+  0%{transform: translate(-100%,0);}
+  100%{transform: translate(0,0);}
+}
+
+@keyframes slideOutRight{
+  0%{transform: translate(0,0)}
+  100%{transform: translate(100%,0)}
 }
 
 .ourteamimg {
@@ -203,19 +230,34 @@
   display: none;
 }
 
-.ourteamimg.active{
+.ourteamimg.active.right{
   display: block;
   position: absolute;
   transition: all 0.5s ease;
-  animation: slideIn 2s forwards;
+  animation: slideInLeft 2s forwards;
   z-index: 2;
 }
 
-.ourteamimg.prev{
+.ourteamimg.prev.right{
   display: block;
   position: absolute;
   transition: all 0.5s ease;
-  animation: slideOut 2s forwards;
+  animation: slideOutLeft 2s forwards;
+  z-index: 1;
+}
+.ourteamimg.active.left{
+  display: block;
+  position: absolute;
+  transition: all 0.5s ease;
+  animation: slideInRight 2s forwards;
+  z-index: 2;
+}
+
+.ourteamimg.next.left{
+  display: block;
+  position: absolute;
+  transition: all 0.5s ease;
+  animation: slideOutRight 2s forwards;
   z-index: 1;
 }
 
@@ -228,22 +270,37 @@
   display: none;
 }
 
-.ourworkshopimg.active{
+.ourworkshopimg.active.right{
   display: block;
   position: absolute;
   transition: all 0.5s ease;
-  animation: slideIn 2s forwards;
+  animation: slideInLeft 2s forwards;
   z-index: 2;
 }
 
-.ourworkshopimg.prev{
+.ourworkshopimg.prev.right{
   display: block;
   position: absolute;
   transition: all 0.5s ease;
-  animation: slideOut 2s forwards;
+  animation: slideOutLeft 2s forwards;
   z-index: 1;
 }
 
+.ourworkshopimg.active.left{
+  display: block;
+  position: absolute;
+  transition: all 0.5s ease;
+  animation: slideInRight 2s forwards;
+  z-index: 2;
+}
+
+.ourworkshopimg.next.left{
+  display: block;
+  position: absolute;
+  transition: all 0.5s ease;
+  animation: slideOutRight 2s forwards;
+  z-index: 1;
+}
 
 .imagetext {
   position: relative;
@@ -327,10 +384,9 @@
     margin: 0 20px;
   }
   .secondrowcol1 {
-    width: auto;
-    background-size: 300px;
-    height: auto;
+    width: 100%;
     margin: 0;
+    height: fit-content;
   }
   .secondrowcol2 {
     width: 100%;
