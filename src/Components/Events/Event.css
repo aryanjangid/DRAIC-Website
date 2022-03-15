@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 .event_image_container {
   width: 850px;
@@ -22,18 +21,17 @@
   width: 30%;
 }
 
-.event_name{
+.event_name {
   font-family: "Rowdies", cursive;
 }
 
-
-.event_description{
+.event_description {
   white-space: normal;
   font-size: 0.9rem;
   padding: 20px 0;
 }
 
-.event_btn{
+.event_btn {
   padding: 10px 15px;
   background-color: #00a0ff;
   color: white;
@@ -45,7 +43,19 @@
   cursor: pointer;
 }
 
-.event_btn:hover{
+.event_btn:hover {
   color: white;
   border-color: #00a0ff;
+}
+@media screen and (max-width: 768px) {
+  .event_container {
+    /* width: 90vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .event_content_container {
+    width: 50%;
+  }
 }
