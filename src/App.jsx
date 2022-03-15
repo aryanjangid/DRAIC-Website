@@ -29,7 +29,7 @@ const App = () => {
 
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => setLoading(false), 1);
+  setTimeout(() => setLoading(false), 3300);
 
   return (
     <>
@@ -54,7 +54,6 @@ const App = () => {
           </Routes>
           <Background className="particles" />
           <Footer />
-          
         </div>
       )}
     </>
