@@ -16,13 +16,29 @@ const Creators = () => {
   }, []);
   return (
     <>
-      <div>
-        <div className={classes.creator_section}>
-          <div className="creators_header">
-            <div className="creators_headline_div">
-              <h1 data-aos={"zoom-in-up"} className="creators_thought">
-                {" "}
-                DEVELOPERS OF THIS SITE!
+
+      <div className={classes.creator_section}>
+        <div className="creators_header">
+          <div className="creators_headline_div">
+            <h1 data-aos={"zoom-out"} className="creators_thought">
+              {" "}
+              DEVELOPERS OF THIS SITE!
+            </h1>
+          </div>
+          <div className="creators_heading">
+            <div
+              data-aos={"fade-right"}
+              data-aos-delay={"700"}
+              className="creators_line_1"
+            ></div>
+            <div>
+              <h1
+                data-aos={"zoom-out"}
+                data-aos-delay={"1200"}
+                className="creators_title"
+              >
+                CREATORS
+
               </h1>
             </div>
             <div className="creators_heading">
