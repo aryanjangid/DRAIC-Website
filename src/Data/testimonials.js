@@ -1,11 +1,11 @@
 import test from "../Assets/image.jpg";
-import Vedansh from "../Assets/Testimonials/vedansh_shrivastava.jpg";
-import Shreyash from "../Assets/Testimonials/Shreyash_Choppawar.jpg";
-import Aparna from "../Assets/Testimonials/Aparna Agrawal.jpg";
-import Ansh from "../Assets/Testimonials/Ansh_Goyal.jpg";
-import Samiksha from "../Assets/Testimonials/Samiksha_Bhokare.jpg";
-import Amit from "../Assets/Testimonials/Amit_Prasad.jpg";
-import Dibyanshu from "../Assets/Testimonials/Dibyanshu_Sharma.jpg";
+import Vedansh from "../Assets/Testimonials/vedansh_shrivastava.jpg"
+import Shreyash from "../Assets/Testimonials/Shreyash_Choppawar.jpg"
+import Aparna from "../Assets/Testimonials/Aparna Agrawal.jpg"
+import Ansh from "../Assets/Testimonials/Ansh_Goyal.jpg"
+import Samiksha from "../Assets/Testimonials/Samiksha_Bhokare.jpg"
+import Amit from "../Assets/Testimonials/Amit_Prasad.jpg"
+import Dibyanshu from "../Assets/Testimonials/Dibyanshu_Sharma.jpg"
 
 const testimonials = [
   {
@@ -17,7 +17,7 @@ const testimonials = [
   {
     name: "Vedansh Shrivastava",
     position: "Programming Department",
-    test: " The journey of commenced in my second year with the selection process. Amongst a few I was the one. With the passage of time a feeling of worthlessness engulfed me which gave me second thoughts about leaving the club. But, something held on and the year of first IIT Delhi Robocon came to end with a bitterness of failing and sweetness of making a 3D printer from scratch. The leadership changed from Tanmay and Siddhesh bhaiya to Gaurav bhaiya, which in turn brought DRAIC into existence. It was a time to become a senior and shoulder responsibilities of learning AI which we did amazingly! As we entered the pandemic, we had a 3D printer and AIR 4 in our bags of achievements!! The virtual world gave programming head more that he could ever ask for, a talented Jr. team an understanding cabinet of SAYDRSS. Might not be the best but we were awesome. We Came together, Laughed together, Agonized together, Achieved together. That's how a journey of 3 years ended virtually.",
+    test: "DRAIC's journey commenced in my 2nd year. I was selected amongst the few. But, something held on and the year of first IIT Delhi Robocon came to end with a bitterness of failure and sweetness of making a 3D printer from scratch. The leadership changed from Tanmay and Siddhesh bhaiya to Gaurav bhaiya, which in turn brought DRAIC into existence. It was a time to become a senior. As we entered the pandemic, we had a 3D printer and AIR 4 in our bags of achievements!! The virtual world gave the programming head , a talented Jr. team an understanding cabinet of SAYDRSS, not the best but we were awesome. We Came, Achieved and Laughed together. That's how a journey of 3 years ended virtually.",
     image: Vedansh,
   },
   {
@@ -59,7 +59,7 @@ const testimonials = [
   {
     name: "Siddhesh Padhatre",
     position: "Mechanical Department",
-    test: "Joining DRC in 2016 was one of my best decisions in life. I was in second year, I had no idea what robotics is or what this club does. Like any other person, I also used to think robotics as something very high tech thing and I had a very low confidence that I would be able to cope up with this. I was selected as an external member wherein I was not eligible for any certificate but would guarantee my place in the team the next year. But my seniors liked my work and dedication and included me in the core team that same year. This club has it's biggest trait as honoring and appreciating your hard work, dedication and talent. Participating in National level Robotics competitions and an opportunity to represent India at International level gave us the chills. I feel very proud to be selected as a part of this team of just 30 members out approximately 3000 students in the college. We organized Events, Workshops and participated in different college level competitions as well. DRC is not just a club, it's a family. I used to spend most of my time at DRC than in lectures and practicals. I consider myself lucky to be a part of this family for 3 years and managing the team for a couple of years.",
+    test: "Joining DRC in 2016 was one of my best decisions in life.Like any other person, I used to think robotics as something very high tech thing and feared it. I was selected as an external member wherein I was not eligible for any certificate but would guarantee my place in the team the next year.But due to my dedication I was included in the core team the same year. I used to spend most of my time at DRC than in lectures and practicals. This club has it's biggest trait as honoring and appreciating your hard work, dedication and talent. Participating in National level Robotics competitions and an opportunity to represent India at International level gave us the chills. I feel very proud to be selected as a part of this small team that became a family. We organized Events, Workshops and participated in different college level competitions as well. I consider myself lucky to be a part of such a wonderful family.",
     image: test,
   },
   {
