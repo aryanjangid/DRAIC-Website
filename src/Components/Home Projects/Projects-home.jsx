@@ -60,7 +60,7 @@ const Project = () => {
                   {card.project_content}
                 </p>
                 <div className="home-links-container">
-                  <div className="project-link-container">
+                  {/* <div className="project-link-container">
                     <NavLink
                       activeClassName="active"
                       className="project-link"
@@ -71,8 +71,8 @@ const Project = () => {
                         View More<span className="arrow">&rarr;</span>
                       </button>
                     </NavLink>
-                  </div>
-                  <div className="project-link-container">
+                  </div> */}
+                  {/* <div className="project-link-container">
                     <NavLink
                       activeClassName="active"
                       className="project-link"
@@ -83,7 +83,7 @@ const Project = () => {
                         Youtube Link<span className="arrow">&rarr;</span>
                       </button>
                     </NavLink>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </>

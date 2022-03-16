@@ -1,11 +1,11 @@
 import test from "../Assets/image.jpg";
-import Vedansh from "../Assets/Testimonials/vedansh_shrivastava.jpg"
-import Shreyash from "../Assets/Testimonials/Shreyash_Choppawar.jpg"
-import Aparna from "../Assets/Testimonials/Aparna Agrawal.jpg"
-import Ansh from "../Assets/Testimonials/Ansh_Goyal.jpg"
-import Samiksha from "../Assets/Testimonials/Samiksha_Bhokare.jpg"
-import Amit from "../Assets/Testimonials/Amit_Prasad.jpg"
-import Dibyanshu from "../Assets/Testimonials/Dibyanshu_Sharma.jpg"
+import Vedansh from "../Assets/Testimonials/vedansh_shrivastava.jpg";
+import Shreyash from "../Assets/Testimonials/Shreyash_Choppawar.jpg";
+import Aparna from "../Assets/Testimonials/Aparna Agrawal.jpg";
+import Ansh from "../Assets/Testimonials/Ansh_Goyal.jpg";
+import Samiksha from "../Assets/Testimonials/Samiksha_Bhokare.jpg";
+import Amit from "../Assets/Testimonials/Amit_Prasad.jpg";
+import Dibyanshu from "../Assets/Testimonials/Dibyanshu_Sharma.jpg";
 
 const testimonials = [
   {
