@@ -1,3 +1,9 @@
+.creater-main-body{
+  background-color: rgba(10, 25, 49, 0.8);
+  z-index: 1;
+  position: relative;
+  margin-top: -5rem;
+}
 .creators_section {
   width: 100vw;
   height: 50px;
@@ -16,6 +22,7 @@
   padding-top: 40px;
   color: #57b8ff;
   letter-spacing: 0.5em;
+  padding-top: 8rem;
 }
 .creators_heading {
   display: flex;

@@ -60,7 +60,7 @@ const Creators = () => {
     });
   }, []);
   return (
-    <>
+    <div className="creater-main-body">
       <div className={classes.creator_section}>
         <div className="creators_header">
           <div className="creators_headline_div">
@@ -124,7 +124,7 @@ const Creators = () => {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
