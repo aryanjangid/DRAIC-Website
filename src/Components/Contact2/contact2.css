@@ -37,9 +37,11 @@
 
 @media(max-width: 600px) {
     .contact_btn_home{
+        /*  */
         height: 19vh;
     }
     .contact-us-btn-text{
+      margin-top: 10px;
         font-size: 17px;
     }
 }
