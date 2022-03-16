@@ -95,6 +95,9 @@
   transform: translateX(-50%);
   border-radius: 0px 0px 10px 10px;
 }
+.creator_box:hover .creator_top_bar {
+  background: #ffffff;
+}
 
 .creator_top {
   display: flex;
