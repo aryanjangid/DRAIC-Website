@@ -2,11 +2,12 @@
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to right top, rgb(0, 1, 88), rgb(0, 0, 0));
-  background-size: 400% 400%;
+  /* background-size: 400% 400%; */
   display: flex;
   justify-content: center;
   align-items: center;
   animation: Gradient 8s ease infinite;
+  overflow: hidden;
 }
 #load_head {
   /* transform: translateY(-3000px); */
