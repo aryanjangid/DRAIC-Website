@@ -28,7 +28,9 @@
   background-color: transparent;
   color: #fff;
 }
-
+.events-upcoming-events{
+    white-space: nowrap;
+}
 .indicators {
   display: flex;
   justify-content: center;
