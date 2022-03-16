@@ -37,30 +37,13 @@ const Creators = () => {
                 className="creators_title"
               >
                 CREATORS
-
               </h1>
             </div>
-            <div className="creators_heading">
-              <div
-                data-aos={"fade-right"}
-                data-aos-delay={"700"}
-                className="creators_line_1"
-              ></div>
-              <div>
-                <h1
-                  data-aos={"zoom-out"}
-                  data-aos-delay={"1200"}
-                  className="creators_title"
-                >
-                  CREATORS
-                </h1>
-              </div>
               <div
                 data-aos={"fade-left"}
                 data-aos-delay={"700"}
                 className="creators_line_2"
               ></div>
-            </div>
           </div>
           <div className="creator_container">
             {creatorsData.map((creator, index) => {
