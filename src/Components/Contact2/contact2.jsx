@@ -11,7 +11,6 @@ export default function contact2() {
           </div>
         </div>
       </Link>
-      {/* <button className='contact_btn_home'>Send</button> */}
     </div>
   );
 }
