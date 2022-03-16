@@ -46,14 +46,7 @@ const Testimonials = () => {
             them
           </p> */}
         </div>
-        <Carousel
-          showArrows={true}
-          infiniteLoop={true}
-          showThumbs={false}
-          showStatus={false}
-          autoPlay={false}
-          interval={3100}
-        >
+        <Carousel showIndicators={false} showArrows={true}  infiniteLoop={true}  showThumbs={false}  showStatus={false}  autoPlay={false}  interval={3100}>
           {testimonials.map((test, i) => (
             <div className="testimonial-card-container">
               <img
