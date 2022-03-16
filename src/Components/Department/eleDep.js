@@ -159,7 +159,7 @@ const members = [
         "Parag kale",
         "Electronics",
         "https://drive.google.com/uc?id=1boRYRprCJ_AcHzFZAB-cU8uPCS6OUiGQ",
-        "Instrumentation and Control",
+        "INTC",
         "Second Year",
         "https://www.linkedin.com/in/parag-kale-79294021a/",
         "."
