@@ -39,44 +39,46 @@ const Creators = () => {
                 CREATORS
               </h1>
             </div>
-              <div
-                data-aos={"fade-left"}
-                data-aos-delay={"700"}
-                className="creators_line_2"
-              ></div>
+            <div
+              data-aos={"fade-left"}
+              data-aos-delay={"700"}
+              className="creators_line_2"
+            ></div>
           </div>
           <div className="creator_container">
             {creatorsData.map((creator, index) => {
               return (
-                <div className="creator_box">
-                  <div className="creator_top_bar"></div>
-                  <div className="creator_content">
-                    <img
-                      loading="lazy"
-                      decoding="async"
-                      src={creator.img}
-                      alt=""
-                    />
-                    <strong>{creator.name}</strong>
-                    <p>{creator.position}</p>
-                  </div>
-                  <div className="creator_btn">
-                    <a href="/">
+                <div className="creator-outer-box">
+                  <div className="creator_box">
+                    <div className="creator_top_bar"></div>
+                    <div className="creator_content">
                       <img
                         loading="lazy"
                         decoding="async"
-                        src={linkedin}
+                        src={creator.img}
                         alt=""
                       />
-                    </a>
-                    <a href="/">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        src={github}
-                        alt=""
-                      />
-                    </a>
+                      <strong>{creator.name}</strong>
+                      <p>{creator.position}</p>
+                    </div>
+                    <div className="creator_btn">
+                      <a href="/">
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          src={linkedin}
+                          alt=""
+                        />
+                      </a>
+                      <a href="/">
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          src={github}
+                          alt=""
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               );
