@@ -28,32 +28,6 @@ const projects = [
         project_content: "Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.",
         githubURL: "https://www.linkedin.com/in/prathisupadhyay/",
         youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/",
-    },
-    {
-        id: 4,
-        project_name: "CUSTOMIZED 3 DIMENSIONAL PRINTER",
-        imgURL: pic1,
-        project_content: "Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.",
-        githubURL: "https://www.linkedin.com/in/prathisupadhyay/",
-        youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/",
-    },
-    {
-        id: 5,
-        project_name: "AUTONOMOUS PATH FINDER ROBOT",
-        imgURL:pic2,
-        project_content: "Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.",
-        githubURL: "https://www.linkedin.com/in/prathisupadhyay/",
-        youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/",
-    },
-    
-    {
-        id: 6,
-        project_name: "CUSTOMIZED 3 DIMENSIONAL PRINTER",
-        imgURL: pic3,
-        project_content: "Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.",
-        githubURL: "https://www.linkedin.com/in/prathisupadhyay/",
-        youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/",
-    },
-
+    }
 ]
 export default projects
