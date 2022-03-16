@@ -57,6 +57,9 @@
     /* margin-top: 20px; */
     text-align: center;
   }
+  .animation {
+    height: 400px;
+  }
 }
 
 @keyframes logoAnimHover {
