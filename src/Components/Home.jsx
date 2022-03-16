@@ -7,7 +7,6 @@ import Dec2 from "./CoreTeam/deck2";
 
 import Teacher from "./Teacher/Teacher";
 import Testimonials from "./Testimonials/Testimonials";
-import Creators from "./Creators/Creators";
 import Event from "./Events/Event";
 function Home() {
   return (
