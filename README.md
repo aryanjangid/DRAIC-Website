@@ -12,7 +12,7 @@
   <a href="https://www.npmjs.com/package/npm/v/8.3.1"><img alt="NPM" src="https://img.shields.io/badge/npm-8.3.1-61DAFB?style=flat-square" /></a>
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
   <br/>
-  <a href="https://app.netlify.com/sites/awesomeshapes/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/eb7f832f-44d6-4460-af97-fab64038b91c/deploy-status" /></a>
+  <a href="https://app.netlify.com/sites/draic-official/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/6e9f52c3-fc89-47c8-9b81-b6bc97c499b2/deploy-status" /></a>
   <a href="https://github.com/ashutosh1919/react-awesome-shapes/blob/main/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://github.com/ashutosh1919/react-awesome-shapes/commits/main"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="https://awesomeshapes.netlify.app/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
