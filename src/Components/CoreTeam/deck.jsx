@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import Card from "./card";
 import "./deck.css";
 import Prathis from "../../Assets/Prathis.jfif";
@@ -176,6 +176,7 @@ class Deck extends Component {
       return;
     }
   };
+
   render() {
     return (
       <div>
@@ -213,16 +214,18 @@ class Deck extends Component {
         <div className="deck-button">
           <button
             data-aos={"zoom-out"}
-            data-aos-delay={"1500"}
             className="button2"
             onClick={this.handle_previous}
-          ></button>
+          >
+            &#9001;&nbsp;&nbsp;
+          </button>
           <button
             data-aos={"zoom-out"}
-            data-aos-delay={"1500"}
             className="button1"
             onClick={this.handle_next}
-          ></button>
+          >
+            &nbsp;&nbsp;&nbsp;&#9002;
+          </button>
         </div>
       </div>
     );

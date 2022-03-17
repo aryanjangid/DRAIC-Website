@@ -8,6 +8,7 @@ import Dec2 from "./CoreTeam/deck2";
 import Teacher from "./Teacher/Teacher";
 import Testimonials from "./Testimonials/Testimonials";
 import Event from "./Events/Event";
+import Test from "./Test/Test";
 function Home() {
   return (
     <div>
@@ -16,7 +17,8 @@ function Home() {
       <HomeAbout />
       <Teacher />
       <Dec2 />
-      <Testimonials />
+      {/* <Testimonials /> */}
+      <Test />
       <HomeProject />
       {/* <Creators /> */}
     </div>
