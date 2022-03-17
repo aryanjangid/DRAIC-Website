@@ -158,4 +158,8 @@
     white-space: nowrap;
     padding: 20px;
   }
+  .footer_links_name {
+    font-size: 1.1rem;
+    font-weight: 0;
+  }
 }

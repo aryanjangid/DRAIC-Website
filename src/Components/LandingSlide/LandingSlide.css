@@ -39,8 +39,8 @@
   .landing-slide {
     padding: 0;
     flex-direction: column-reverse;
-    margin-bottom: 9rem;
-    margin-top: 0rem;
+    margin-bottom: 3rem;
+    margin-top: -4rem;
   }
   .draic-logo {
     height: 15vh;
