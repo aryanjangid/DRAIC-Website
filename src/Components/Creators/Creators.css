@@ -96,9 +96,14 @@
   text-align: center;
   transition: 0.6s;
 }
+.creator_github:hover,
+.creator_linkedin:hover,
+.creator_instagram:hover {
+  transform: translateY(-7px);
+}
 .fab {
   font-size: 25px;
-  margin-top: 5.2px;
+  margin-top: 4px;
   transition: 0.3s;
   color: #000;
 }
@@ -187,15 +192,16 @@
 
 @media (max-width: 500px) {
   .creator_box {
-    width: 200px;
+    width: 270px;
   }
   .creator_github,
   .creator_linkedin,
   .creator_instagram {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
   }
   .fab {
-    font-size: 16px;
+    font-size: 25px;
+    margin-top: 0px;
   }
 }
