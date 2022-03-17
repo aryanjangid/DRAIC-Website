@@ -3,7 +3,7 @@ import "./Contact.css";
 // import jointeam from './jointeam1.gif'
 
 import AOS from "aos";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   useEffect(() => {
