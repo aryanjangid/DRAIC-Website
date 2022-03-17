@@ -100,10 +100,11 @@
   transition: all 0.3s ease;
   margin-left: 20px;
   margin-right: 20px;
+  color: #fff;
 }
 
 .button1::after {
-  content: "\2192";
+  /* content: "\2192"; */
   font-size: 18px;
   color: white;
   transition: all 0.3s ease;
@@ -118,10 +119,11 @@
   transition: all 0.3s ease;
   margin-left: 20px;
   margin-right: 20px;
+  color: #fff;
 }
 
 .button2::after {
-  content: "\2190";
+  /* content: "\2190"; */
   font-size: 18px;
   color: white;
   transition: all 0s ease;
@@ -161,7 +163,7 @@ button:hover::after {
     width: 25%;
     height: 2.8px;
   }
-  .button1::after {
+  /* .button1::after {
     content: "\2192";
-  }
+  } */
 }
