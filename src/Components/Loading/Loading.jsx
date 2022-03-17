@@ -5,7 +5,7 @@ const Loading = () => {
   return (
     <>
       <div className="loader_section">
-        <div className="animation">
+        <div className="animation2">
           <svg
             className="svg"
             xmlns="http://www.w3.org/2000/svg"
