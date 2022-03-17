@@ -6,8 +6,8 @@ import "aos/dist/aos.css";
 // import linkedin from "../../Assets/linkedin.svg";
 // import github from "../../Assets/github.png";
 import { creatorsData } from "../../Data/Creators";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Creators = () => {
   useEffect(() => {

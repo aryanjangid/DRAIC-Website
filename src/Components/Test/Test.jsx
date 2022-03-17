@@ -1,7 +1,6 @@
 import React from "react";
 import "./Event.css";
 import Events, { CarouselItem } from "./Tests";
-import a from "../../Assets/Gallery/download.jpg";
 import testimonials from "../../Data/testimonials";
 
 const Event = () => {
