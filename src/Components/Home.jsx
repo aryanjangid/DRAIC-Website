@@ -3,8 +3,8 @@ import HomeProject from "./Home Projects/Projects-home";
 
 import Landingslide from "../Components/LandingSlide/Landingslide";
 import HomeAbout from "./Home About Us/Home-aboutus.jsx";
-import Dec2 from "./CoreTeam/deck2";
-
+import Dec2 from "./CoreTeam/deck2"
+import Acc from "./accordian/accordian"
 import Teacher from "./Teacher/Teacher";
 import Testimonials from "./Testimonials/Testimonials";
 import Event from "./Events/Event";
@@ -18,6 +18,7 @@ function Home() {
       <Dec2 />
       <Testimonials />
       <HomeProject />
+      <Acc />
       {/* <Creators /> */}
     </div>
   );
