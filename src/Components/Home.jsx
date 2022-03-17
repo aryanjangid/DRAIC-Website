@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HomeProject from "./Home Projects/Projects-home";
 
 import Landingslide from "../Components/LandingSlide/Landingslide";
@@ -9,7 +9,15 @@ import Teacher from "./Teacher/Teacher";
 import Testimonials from "./Testimonials/Testimonials";
 import Event from "./Events/Event";
 import Test from "./Test/Test";
-function Home() {
+import AOS from "aos";
+import "aos/dist/aos.css";
+const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 1000,
+    });
+  }, []);
   return (
     <div>
       <Landingslide />
@@ -23,6 +31,6 @@ function Home() {
       {/* <Creators /> */}
     </div>
   );
-}
+};
 
 export default Home;

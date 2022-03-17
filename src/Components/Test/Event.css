@@ -3,7 +3,7 @@
   background: rgba(20, 24, 32, 0.9);
   position: relative;
   z-index: 100;
-  padding-bottom: 160px;
+  /* padding-bottom: 160px; */
 }
 .test_container {
   /* width: 90vw; */
