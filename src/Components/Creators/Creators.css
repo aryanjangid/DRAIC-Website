@@ -13,6 +13,7 @@
   /* padding-top: 10.4rem; */
   text-align: center;
 }
+
 /* .creators_headline_div {
     margin-top: 2rem;
   } */
@@ -122,13 +123,14 @@
   margin-top: 40px;
 }
 .creator_content strong {
-  font-weight: 500;
-  color: #141414;
-  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 1000;
+  color: whitesmoke;
+  margin-top: 18px;
 }
 .creator_content p {
   font-size: 0.9rem;
-  color: #7a7a7a;
+  color: #dddbdb;
   margin: 4px 0px 10px 0px;
 }
 .creator_btn {
