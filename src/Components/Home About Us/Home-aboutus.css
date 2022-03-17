@@ -64,7 +64,6 @@
 
 .secondrowcol1 {
   width: 50%;
-  height: 500px;
   margin: 20px;
   margin-left: 0;
   overflow: hidden;
@@ -341,6 +340,11 @@
   font-size: 1rem;
   padding: 20px 0;
 }
+
+.slider-content{
+  height: 220px;
+}
+
 @media (max-width: 768px) {
   .wheredowe {
     font-size: 0.8rem;
@@ -370,6 +374,10 @@
   .imagetext {
     font-size: 1.5rem;
   }
+  .our-college-slider{
+    height: 100%;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -384,6 +392,7 @@
     margin: 0 20px;
   }
   .secondrowcol1 {
+    display: block;
     width: 100%;
     margin: 0;
     height: fit-content;
