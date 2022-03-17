@@ -62,7 +62,7 @@ const About = () => {
 
         <div className="about-content">
           <div
-            data-aos={"flip-up"}
+            data-aos={"zoom-out"}
             data-aos-delay={"1000"}
             className="about-content-first-row"
           >
@@ -80,7 +80,7 @@ const About = () => {
             />
           </div>
           <div
-            data-aos={"flip-up"}
+            data-aos={"zoom-out"}
             data-aos-delay={"1400"}
             className="about-content-second-row"
           >

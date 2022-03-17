@@ -59,8 +59,10 @@
 }
 
 .creator_container {
+  padding: 50px;
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -141,3 +143,12 @@
 .creator_btn img {
   width: 30px;
 }
+/* .creator-btn-github{
+  background-color: white;
+
+} */
+/* [nam]{
+  color: #ff1616;
+  font-size: 35px;
+  border-radius: 50%;
+} */

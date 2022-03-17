@@ -43,4 +43,10 @@ export const creatorsData = [
     linkedin: "",
     img: img,
   },
+  {
+    name: "Spidey",
+    position: "Developer",
+    linkedin: "",
+    img: img,
+  },
 ];
