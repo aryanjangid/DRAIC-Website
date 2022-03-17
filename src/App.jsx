@@ -26,11 +26,12 @@ const App = () => {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
+    // console.log(location);
   }, [location]);
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
-  setTimeout(() => setLoading(false), 350000000000);
+  setTimeout(() => setLoading(false), 3500);
 
   return (
     <>
@@ -39,7 +40,7 @@ const App = () => {
       ) : (
         <div className="App">
           <Navbar />
-          <Contact2 />
+          <Contact2 show={location.pathname === "/contact"} />
           <Routes>
             <Route exact path="/" element={<Home />} />
             {/* <Route exact path="/about" element={<About />} /> */}

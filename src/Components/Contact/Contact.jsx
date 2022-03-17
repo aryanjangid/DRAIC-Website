@@ -3,7 +3,7 @@ import "./Contact.css";
 // import jointeam from './jointeam1.gif'
 
 import AOS from "aos";
-// import 'aos/dist/aos.css';
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   useEffect(() => {
@@ -84,7 +84,7 @@ const Contact = () => {
               <div className="contact_infoemail">
                 <h1 className="contact_info_subhead">Email</h1>
                 <h1 className="contact_all_information">
-                  daricdypcoe@gmail.com
+                  draicdypcoe@gmail.com
                 </h1>
               </div>
             </div>
@@ -98,22 +98,7 @@ const Contact = () => {
               />
               <div className="contact_infophone">
                 <h1 className="contact_info_subhead">Phone</h1>
-                <h1 className="contact_all_information">+919856324566</h1>
-              </div>
-            </div>
-            <div className="contact_info_linkedin_div">
-              <img
-                loading="lazy"
-                decoding="async"
-                className="contact_icons"
-                alt="linkedin"
-                src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"
-              />
-              <div className="contact_infolink">
-                <h1 className="contact_info_subhead">linkedin</h1>
-                <h1 className="contact_all_information">
-                  daricdypcoe@gmail.com
-                </h1>
+                <h1 className="contact_all_information">+91 7007889803</h1>
               </div>
             </div>
           </div>

@@ -11,17 +11,13 @@ const Footer = () => {
     <>
       <div className="footer_section">
         <div className="footer">
+          <Link className="creator_link" to="/creators">
           <div className="footer_intro">
-            <img
-              loading="lazy"
-              decoding="async"
-              src={logo}
-              className="footer_image"
-              alt="draicimg"
-            />
+            <img  loading="lazy"  decoding="async"  src={logo}  className="footer_image"  alt="draicimg"/>
             <h1>DRAIC DYPCOE</h1>
             <p>Let's ready to dive into Robotics</p>
           </div>
+          </Link>
           <div className="footer_links_section">
             <div className="footer_links">
               <h1 className="footer_links_name">LINKS</h1>
