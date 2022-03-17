@@ -70,7 +70,7 @@
   white-space: nowrap;
 }
 
-.our-college-slider{
+.our-college-slider {
   height: 100%;
   position: relative;
 }
@@ -92,7 +92,7 @@
   position: relative;
 }
 
-.our-team-slider{
+.our-team-slider {
   height: 100%;
   width: 100%;
   position: relative;
@@ -108,14 +108,14 @@
   position: relative;
 }
 
-.our-workshop-slider{
+.our-workshop-slider {
   height: 100%;
   width: 100%;
   position: relative;
   top: 0;
 }
 
-.home-about-arrow.left{
+.home-about-arrow.left {
   border: solid #ffffff;
   border-width: 0 0.2rem 0.2rem 0;
   display: inline-block;
@@ -131,12 +131,18 @@
 }
 
 @keyframes arrowleft {
-  0%{transform: translate(0,0) rotate(135deg);}
-  50%{transform: translate(-10%,0) rotate(135deg)}
-  100%{transform:translate(10%,0) rotate(135deg)}
+  0% {
+    transform: translate(0, 0) rotate(135deg);
+  }
+  50% {
+    transform: translate(-10%, 0) rotate(135deg);
+  }
+  100% {
+    transform: translate(10%, 0) rotate(135deg);
+  }
 }
 
-.home-about-arrow.right{
+.home-about-arrow.right {
   border: solid #ffffff;
   border-width: 0 0.2rem 0.2rem 0;
   display: inline-block;
@@ -152,12 +158,18 @@
 }
 
 @keyframes arrowright {
-  0%{transform: translate(0,0) rotate(-45deg);}
-  50%{transform:translate(10%,0) rotate(-45deg)}
-  100%{transform: translate(-10%,0) rotate(-45deg)}
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  50% {
+    transform: translate(10%, 0) rotate(-45deg);
+  }
+  100% {
+    transform: translate(-10%, 0) rotate(-45deg);
+  }
 }
 
-.ourcollegeimg{
+.ourcollegeimg {
   position: absolute;
   object-fit: cover;
   height: 100%;
@@ -168,7 +180,7 @@
   transition: 5s ease;
 }
 
-.ourcollegeimg.prev.right{
+.ourcollegeimg.prev.right {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -176,14 +188,14 @@
   z-index: 1;
 }
 
-.ourcollegeimg.active.right{
+.ourcollegeimg.active.right {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
   animation: slideInLeft 2s forwards;
   z-index: 2;
 }
-.ourcollegeimg.next.left{
+.ourcollegeimg.next.left {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -191,7 +203,7 @@
   z-index: 1;
 }
 
-.ourcollegeimg.active.left{
+.ourcollegeimg.active.left {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -199,24 +211,39 @@
   z-index: 2;
 }
 @keyframes slideOutLeft {
-  0%{transform: translate(0,0);}
-  100%{transform: translate(-100%,0);}
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
-
 
 @keyframes slideInLeft {
-  0%{transform: translate(100%,0)}
-  100%{transform: translate(0,0)}
+  0% {
+    transform: translate(100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
-@keyframes slideInRight{
-  0%{transform: translate(-100%,0);}
-  100%{transform: translate(0,0);}
+@keyframes slideInRight {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
-@keyframes slideOutRight{
-  0%{transform: translate(0,0)}
-  100%{transform: translate(100%,0)}
+@keyframes slideOutRight {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100%, 0);
+  }
 }
 
 .ourteamimg {
@@ -229,7 +256,7 @@
   display: none;
 }
 
-.ourteamimg.active.right{
+.ourteamimg.active.right {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -237,14 +264,14 @@
   z-index: 2;
 }
 
-.ourteamimg.prev.right{
+.ourteamimg.prev.right {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
   animation: slideOutLeft 2s forwards;
   z-index: 1;
 }
-.ourteamimg.active.left{
+.ourteamimg.active.left {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -252,7 +279,7 @@
   z-index: 2;
 }
 
-.ourteamimg.next.left{
+.ourteamimg.next.left {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -269,7 +296,7 @@
   display: none;
 }
 
-.ourworkshopimg.active.right{
+.ourworkshopimg.active.right {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -277,7 +304,7 @@
   z-index: 2;
 }
 
-.ourworkshopimg.prev.right{
+.ourworkshopimg.prev.right {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -285,7 +312,7 @@
   z-index: 1;
 }
 
-.ourworkshopimg.active.left{
+.ourworkshopimg.active.left {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -293,7 +320,7 @@
   z-index: 2;
 }
 
-.ourworkshopimg.next.left{
+.ourworkshopimg.next.left {
   display: block;
   position: absolute;
   transition: all 0.5s ease;
@@ -341,7 +368,7 @@
   padding: 20px 0;
 }
 
-.slider-content{
+.slider-content {
   height: 220px;
 }
 
@@ -374,10 +401,9 @@
   .imagetext {
     font-size: 1.5rem;
   }
-  .our-college-slider{
+  .our-college-slider {
     height: 100%;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -431,4 +457,8 @@
     margin: 0 20px;
     /* padding: 0; */
   }
+}
+a {
+  all: unset;
+  cursor: pointer;
 }
