@@ -135,7 +135,7 @@
   padding: 10px;
   /* margin: 10px 10px; */
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   /* border: 2px solid; */
   width: 26%;
   /* border-color: aliceblue; */
@@ -207,6 +207,7 @@
 .project-description {
   color: white;
   padding: 10px 20px;
+  padding-bottom: 0;
 }
 
 .project-image {
@@ -243,7 +244,7 @@
 
 @media screen and (max-width: 720px) {
   .projects-container {
-    margin: 0 50px;
+    margin: 0 30px;
   }
 
   .project-moto {

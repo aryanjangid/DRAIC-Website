@@ -24,12 +24,12 @@
   align-items: center;
   justify-content: center;
   /* height: 200px; */
-  margin: 50px 0;
+  margin: 20px 0;
   background-color: transparent;
   color: #fff;
 }
-.events-upcoming-events{
-    white-space: nowrap;
+.events-upcoming-events {
+  white-space: nowrap;
 }
 .indicators {
   display: flex;

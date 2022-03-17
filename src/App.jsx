@@ -29,7 +29,7 @@ const App = () => {
     // console.log(location);
   }, [location]);
 
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   setTimeout(() => setLoading(false), 3500);
 
