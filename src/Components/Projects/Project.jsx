@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import pic1 from "../../Assets/Projects Images/project1.jpg";
 import pic2 from "../../Assets/Projects Images/project2.jpg";
 import pic3 from "../../Assets/Projects Images/project3.jpg";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import "./Project.css";
 import projectList from "../../Data/project-list.js";
 import AOS from "aos";

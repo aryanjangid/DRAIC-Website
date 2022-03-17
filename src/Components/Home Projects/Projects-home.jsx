@@ -3,7 +3,7 @@ import React from "react";
 // import pic2 from "../../Assets/Projects Images/project2.jpg"
 // import pic3 from "../../Assets/Projects Images/project3.jpg"
 import "./Project-home.css";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import homeProjectlist from "../../Data/home-project-list";
 // import "../style.css";
 
