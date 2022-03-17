@@ -108,6 +108,10 @@ function HomeAbout() {
                   <i className="home-about-arrow left" onClick={handleprev} />
                   <div className="slider-content">
                     {card.ourcollegeimages.map((image, index) => (
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          className={`ourcollegeimg 
                         ${
                           index === activeindex
                             ? "active"
@@ -125,10 +129,16 @@ function HomeAbout() {
                             : ""
                         }
                       `}
+                          src={image}
+                          alt="collegepic"
+                          key={index}
+                        />
                     ))}
                   </div>
                   <i className="home-about-arrow right" onClick={handlenext} />
                 </div>
+                <Link to="//www.dypcoeakurdi.ac.in"  target="_blank" className="home-about-slider-image-container" > 
+                <h1 className="imagetext">OUR COLLEGE</h1>
                 </Link>
               </div>
               <div className="secondrowcol2">
@@ -139,6 +149,10 @@ function HomeAbout() {
                       onClick={handleprev2}
                     />
                     {card.ourteamimages.map((image, index) => (
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          className={`ourteamimg 
                         ${
                           index === activeindex2
                             ? "active"
@@ -156,12 +170,18 @@ function HomeAbout() {
                             : ""
                         }
                         `}
+                          src={image}
+                          alt="collegepic"
+                          key={index}
+                        ></img>
                     ))}
                     <i
                       className="home-about-arrow right"
                       onClick={handlenext2}
                     />
                   </div>
+                  <Link to="/team" className="home-about-slider-image-container" >
+                  <h1 className="imagetext">OUR TEAM</h1>
                   </Link>
                 </div>
                 <div className="div2">
@@ -171,6 +191,10 @@ function HomeAbout() {
                       onClick={handleprev3}
                     />
                     {card.ourworkshopimages.map((image, index) => (
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          className={`ourworkshopimg
                         ${
                           index === activeindex3
                             ? "active"
@@ -188,15 +212,18 @@ function HomeAbout() {
                             : ""
                         }
                           `}
+                          src={image}
+                          alt="collegepic"
+                          key={index}
+                        ></img>
                     ))}
                     <i
                       className="home-about-arrow right"
                       onClick={handlenext3}
                     />
                   </div>
-                  <Link to="//www.dypcoeakurdi.ac.in" target="_blank">
-                    <h1 className="imagetext">OUR WORKSHOP</h1>
-                  </Link>
+
+                  <h1 className="imagetext">OUR WORKSHOP</h1>
                 </div>
               </div>
             </div>
