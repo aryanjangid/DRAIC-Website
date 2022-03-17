@@ -3,8 +3,8 @@ import HomeProject from "./Home Projects/Projects-home";
 
 import Landingslide from "../Components/LandingSlide/Landingslide";
 import HomeAbout from "./Home About Us/Home-aboutus.jsx";
-import Dec2 from "./CoreTeam/deck2";
-
+import Dec2 from "./CoreTeam/deck2"
+import Acc from "./accordian/accordian"
 import Teacher from "./Teacher/Teacher";
 import Event from "./Events/Event";
 import Test from "./Test/Test";
@@ -27,6 +27,7 @@ const Home = () => {
       {/* <Testimonials /> */}
       <Test />
       <HomeProject />
+      <Acc />
       {/* <Creators /> */}
     </div>
   );
