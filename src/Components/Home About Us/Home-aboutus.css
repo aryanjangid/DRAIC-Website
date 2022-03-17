@@ -83,7 +83,9 @@
   margin: 20px 0;
   position: relative;
 }
-
+.home-about-slider-image-container{
+    text-decoration: none;
+}
 .div1 {
   height: 250px;
   padding-bottom: 10px;

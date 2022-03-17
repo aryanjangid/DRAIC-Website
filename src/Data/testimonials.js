@@ -56,10 +56,10 @@ const testimonials = [
     test: " It has been an amazing 3 years with DRAIC. It started with learning a completely new technology with awesome team - mates, knowing each other even better as the time passed. From free - attendance to sleepless nights at workshop during Robocon and Ecobotics, I can proudly say that I have had the best days of my college life with Team DRAIC. The team snacks time, going out for birthday parties, those days will surely be remembered. I made some very beautiful memories of my life while being a part of this family.Thank you for everything! ❤️",
     image: Amit,
   },
-  {
+  { 
     name: "Siddhesh Padhatre",
     position: "Mechanical Department",
-    test: "Joining DRC in 2016 was one of my best decisions in life.Like any other person, I used to think robotics as something very high tech thing and feared it. I was selected as an external member wherein I was not eligible for any certificate but would guarantee my place in the team the next year.But due to my dedication I was included in the core team the same year. I used to spend most of my time at DRC than in lectures and practicals. This club has it's biggest trait as honoring and appreciating your hard work, dedication and talent. Participating in National level Robotics competitions and an opportunity to represent India at International level gave us the chills. I feel very proud to be selected as a part of this small team that became a family. We organized Events, Workshops and participated in different college level competitions as well. I consider myself lucky to be a part of such a wonderful family.",
+    test: "Joining DRC was one of my best decisions in my life. Like any other person, I used to think robotics as something a high tech thing and feared it. I was selected as an external member. But due to my dedication I was included in the core team the same year.I used to spend most of my time at DRC. Participating in National level Robotics competitions and an opportunity to represent India at International level gave us the chills.I feel very proud to be selected as a part of this small team that became a family. We organized Events, Workshops and participated in different college level competitions as well.I consider myself lucky to be a part of such a wonderful family.",
     image: test,
   },
   {
