@@ -11,7 +11,7 @@ const Project = () => {
   return (
     <div className="project-component-home">
       <div className="home-project-header">
-        <h1 data-aos={"zoom-in-up"} className="home-project-moto">
+        <h1 data-aos={"zoom-out"} className="home-project-moto">
           SEE WHAT WE HAVE DONE SO FAR
         </h1>
         <div className="home-project-seperator">
@@ -60,7 +60,7 @@ const Project = () => {
                   {card.project_content}
                 </p>
                 <div className="home-links-container">
-                  <div className="project-link-container">
+                  {/* <div className="project-link-container">
                     <NavLink
                       activeClassName="active"
                       className="project-link"
@@ -71,8 +71,8 @@ const Project = () => {
                         View More<span className="arrow">&rarr;</span>
                       </button>
                     </NavLink>
-                  </div>
-                  <div className="project-link-container">
+                  </div> */}
+                  {/* <div className="project-link-container">
                     <NavLink
                       activeClassName="active"
                       className="project-link"
@@ -83,7 +83,7 @@ const Project = () => {
                         Youtube Link<span className="arrow">&rarr;</span>
                       </button>
                     </NavLink>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </>

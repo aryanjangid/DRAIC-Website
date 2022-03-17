@@ -56,10 +56,17 @@ const Footer = () => {
                     Contact{" "}
                   </NavLink>
                 </li>
+                <li className="footer_link">
+                  <NavLink className="footer_link" to="/team">
+                    {" "}
+                    Team{" "}
+                  </NavLink>
+                </li>
+                
               </ul>
             </div>
             <div className="footer_links">
-              <h1 className="footer_links_name">TEAMS</h1>
+              <h1 className="footer_links_name">DEPARTMENTS</h1>
               <ul>
                 <li className="footer_link">
                   <NavLink className="footer_link" to="/progammingDepartment">
@@ -74,6 +81,11 @@ const Footer = () => {
                 <li className="footer_link">
                   <NavLink className="footer_link" to="/ElectricalDepartment">
                     Electrical
+                  </NavLink>
+                </li>
+                <li className="footer_link">
+                  <NavLink className="footer_link" to="/Creators">
+                    Creators
                   </NavLink>
                 </li>
               </ul>

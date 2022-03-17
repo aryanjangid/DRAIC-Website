@@ -1,7 +1,13 @@
+.creater-main-body {
+  background-color: rgba(10, 25, 49, 0.8);
+  z-index: 1;
+  position: relative;
+  margin-top: -5rem;
+}
 .creators_section {
   width: 100vw;
   height: 50px;
-  background-color: #ffffff;
+  background-color: #ff0000;
 }
 .creators_header {
   /* padding-top: 10.4rem; */
@@ -16,6 +22,7 @@
   padding-top: 40px;
   color: #57b8ff;
   letter-spacing: 0.5em;
+  padding-top: 8rem;
 }
 .creators_heading {
   display: flex;
@@ -60,9 +67,8 @@
 }
 
 .creator_box {
-  position: relative;
   min-width: 250px;
-  background-color: #12485f;
+  background-color: #17202e;
   box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
@@ -72,6 +78,11 @@
   margin: 20px;
   position: relative;
   border-radius: 10px;
+}
+
+.creator_box:hover {
+  background-color: #121623;
+  box-shadow: 0px 0px 10px 0px #3869a0;
 }
 
 .creator_top_bar {
@@ -84,39 +95,15 @@
   transform: translateX(-50%);
   border-radius: 0px 0px 10px 10px;
 }
+.creator_box:hover .creator_top_bar {
+  background: #ffffff;
+}
 
 .creator_top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
-
-.fa-check-circle {
-  color: #17b667;
-}
-
-/* creating heart */
-.creator_heart {
-  color: rgba(155, 155, 155);
-}
-.creator_heart::before {
-  content: "\f004";
-  font-family: fontawesome;
-  line-height: 30px;
-  cursor: pointer;
-  z-index: 1;
-  transition: all 0.3s;
-}
-.creator_box .creator_heart_btn:checked ~ .creator_heart::before {
-  color: #e41934;
-}
-.creator_heart_btn {
-  position: absolute;
-  top: 25px;
-  right: 20px;
-  padding: 1rem;
-  display: none;
 }
 
 .creator_content img {

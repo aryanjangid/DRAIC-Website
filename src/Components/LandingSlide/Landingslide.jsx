@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import draicimage from "../../Assets/logo_white.png";
 // import svg from "../../Assets/draic_logo.svg";
 import "./LandingSlide.css";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 // import 'aos/dist/aos.css';
 
@@ -60,6 +61,7 @@ const Landingslide = () => {
           alt="draic"
         ></img> */}
         <div className="animation">
+        <Link to="/Creators">
           <svg
             className="svg"
             xmlns="http://www.w3.org/2000/svg"
@@ -136,6 +138,7 @@ const Landingslide = () => {
               />
             </g>
           </svg>
+          </Link>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const Main = () => {
       <div className="home-teacher-component">
         {/* <div className="seperator"> */}
         <div className="home-teacher-header">
-          <h1 data-aos={"zoom-in-up"} className="home-teacher-moto">
+          <h1 data-aos={"zoom-out"} className="home-teacher-moto">
             THE FACE THAT GUIDES US
           </h1>
           <div className="home-teacher-seperator">
@@ -49,7 +49,7 @@ const Main = () => {
             return (
               <>
                 <div
-                  data-aos={"flip-left"}
+                  data-aos={"zoom-out"}
                   data-aos-delay={"900"}
                   className="home-teacher-image-container"
                 >
@@ -63,14 +63,14 @@ const Main = () => {
                 </div>
                 <div className="home-teacher-text">
                   <h1
-                    data-aos={"fade-down-right"}
+                    data-aos={"zoom-out"}
                     data-aos-delay={"1000"}
                     className="home-teacher-name"
                   >
                     {card.mentor_name}
                   </h1>
                   <p
-                    data-aos={"fade-down-right"}
+                    data-aos={"zoom-out"}
                     data-aos-delay={"1100"}
                     className="home-teacher-paragraph"
                   >

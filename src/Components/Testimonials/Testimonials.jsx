@@ -10,7 +10,7 @@ const Testimonials = () => {
       <div className="testimonial-section-container">
         <div className="testimonial_header">
           <div className="testimonial_headline_div">
-            <h1 data-aos={"zoom-in-up"} className="wheredowe">
+            <h1 data-aos={"zoom-out"} className="wheredowe">
               {" "}
               WHY SHOULD YOU JOIN US?
             </h1>
@@ -46,14 +46,7 @@ const Testimonials = () => {
             them
           </p> */}
         </div>
-        <Carousel
-          showArrows={true}
-          infiniteLoop={true}
-          showThumbs={false}
-          showStatus={false}
-          autoPlay={false}
-          interval={3100}
-        >
+        <Carousel showIndicators={false} showArrows={true}  infiniteLoop={true}  showThumbs={false}  showStatus={false}  autoPlay={false}  interval={3100}>
           {testimonials.map((test, i) => (
             <div className="testimonial-card-container">
               <img

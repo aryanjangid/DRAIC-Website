@@ -1,18 +1,61 @@
 .event_container {
-  width: 90vw;
+  /* width: 90vw; */
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .event_image_container {
-  width: 450px;
+  width: 850px;
+  padding-right: 30px;
 }
 .event_img {
   object-fit: cover;
+  /* height: 500px; */
+  width: 100%;
 }
 .event_content_container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  width: 30%;
+}
+
+.event_name {
+  font-family: "Rowdies", cursive;
+}
+
+.event_description {
+  white-space: normal;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+
+.event_btn {
+  padding: 10px 15px;
+  background-color: #00a0ff;
+  color: white;
+  border: 2px solid #00a0ff;
+  transition: all 0.3s ease;
+
+  /* border-color: #00a0ff; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event_btn:hover {
+  color: white;
+  border-color: #00a0ff;
+}
+@media screen and (max-width: 768px) {
+  .event_container {
+    /* width: 90vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .event_content_container {
+    width: 38%;
+  }
 }
