@@ -181,7 +181,7 @@ class Deck extends Component {
       <div>
         <div className="space"></div>
         <div className="core-firstrow">
-          <h1 data-aos={"zoom-in-up"} className="core-subheading">
+          <h1 data-aos={"zoom-out"} className="core-subheading">
             FINDING INSPIRATION IN EVERY TURN
           </h1>
           <div className="seperator">

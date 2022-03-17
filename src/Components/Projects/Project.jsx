@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import pic1 from "../../Assets/Projects Images/project1.jpg";
 import pic2 from "../../Assets/Projects Images/project2.jpg";
 import pic3 from "../../Assets/Projects Images/project3.jpg";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import "./Project.css";
 import projectList from "../../Data/project-list.js";
 import AOS from "aos";
@@ -154,7 +154,7 @@ const Project = () => {
 
                 <p className="project-description">{card.project_content}</p>
                 <div className="home-links-container">
-                  <div className="project-link-container">
+                  {/* <div className="project-link-container">
                     <NavLink
                       activeClassName="active"
                       className="project-link"
@@ -165,8 +165,8 @@ const Project = () => {
                         View More<span className="arrow">&rarr;</span>
                       </button>
                     </NavLink>
-                  </div>
-                  <div className="project-link-container">
+                  </div> */}
+                  {/* <div className="project-link-container">
                     <NavLink
                       activeClassName="active"
                       className="project-link"
@@ -177,7 +177,7 @@ const Project = () => {
                         Youtube Link<span className="arrow">&rarr;</span>
                       </button>
                     </NavLink>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </>

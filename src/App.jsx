@@ -13,6 +13,7 @@ import Background from "./Components/Background";
 import Progdep from "./Components/Department/progdep";
 import Mechdep from "./Components/Department/mechanicaldep";
 import Elecdep from "./Components/Department/Elecdep";
+import Creators from "./Components/Creators/Creators";
 
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -29,7 +30,7 @@ const App = () => {
 
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => setLoading(false), 3300);
+  setTimeout(() => setLoading(false), 100);
 
   return (
     <>
@@ -50,6 +51,7 @@ const App = () => {
             <Route exact path="/progammingDepartment" element={<Progdep />} />
             <Route exact path="/MechenicalDepartment" element={<Mechdep />} />
             <Route exact path="/ElectricalDepartment" element={<Elecdep />} />
+            <Route exact path="/Creators" element={<Creators />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Background className="particles" />

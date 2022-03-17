@@ -305,6 +305,7 @@
 .project-button:hover {
   color: #ffffff;
   background-color: #0e131b;
+  box-shadow: 0 0 0 9px #0e131b;
 }
 .project-button:hover .arrow {
   opacity: 1;
