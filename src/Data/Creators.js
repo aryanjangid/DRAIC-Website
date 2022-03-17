@@ -43,4 +43,10 @@ export const creatorsData = [
     linkedin: "",
     img: img,
   },
+  {
+    name: "Anubhav Prabhkar",
+    position: " CSE ",
+    linkedin: "",
+    img: img,
+  },
 ];
