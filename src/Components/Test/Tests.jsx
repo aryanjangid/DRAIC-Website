@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
-
-import "./Events.css";
+import arrow from "../../Assets/arrow.png";
+import "./Tests.css";
 
 export const CarouselItem = ({ children, width }) => {
   return (
@@ -96,7 +96,12 @@ const Events = ({ children }) => {
                   updateIndex(activeIndex - 1);
                 }}
               >
-                &#9001;&nbsp;&nbsp;
+                {/* &#9001;&nbsp;&nbsp; */}
+                <img
+                  style={{ transform: "rotate(180deg)" }}
+                  src={arrow}
+                  alt=""
+                />
               </button>
               {/* {React.Children.map(children, (child, index) => {
               return (
@@ -116,7 +121,8 @@ const Events = ({ children }) => {
                   updateIndex(activeIndex + 1);
                 }}
               >
-                &nbsp;&nbsp;&nbsp;&#9002;
+                {/* &nbsp;&nbsp;&nbsp;&#9002; */}
+                <img src={arrow} alt="" />
               </button>
             </div>
           </div>
