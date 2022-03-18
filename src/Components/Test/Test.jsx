@@ -1,5 +1,5 @@
 import React from "react";
-import "./Event.css";
+import "./Test.css";
 import Events, { CarouselItem } from "./Tests";
 import testimonials from "../../Data/testimonials";
 

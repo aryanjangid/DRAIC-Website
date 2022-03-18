@@ -4,6 +4,8 @@ import "./deck.css";
 import Prathis from "../../Assets/Prathis.jfif";
 import Axa from "../../Assets/Axa.jpeg";
 import Darshan from "../../Assets/Darshan.jpeg";
+import arrow from "../../Assets/arrow.png";
+
 // import ourteaminfo from '../../Data/home-our-team';
 class Deck extends Component {
   constructor(props) {
@@ -217,14 +219,16 @@ class Deck extends Component {
             className="button2"
             onClick={this.handle_previous}
           >
-            &#9001;&nbsp;&nbsp;
+            {/* &#9001;&nbsp;&nbsp; */}
+            <img style={{ transform: "rotate(180deg)" }} src={arrow} alt="" />
           </button>
           <button
             data-aos={"zoom-out"}
             className="button1"
             onClick={this.handle_next}
           >
-            &nbsp;&nbsp;&nbsp;&#9002;
+            {/* &nbsp;&nbsp;&nbsp;&#9002; */}
+            <img src={arrow} alt="" />
           </button>
         </div>
       </div>
