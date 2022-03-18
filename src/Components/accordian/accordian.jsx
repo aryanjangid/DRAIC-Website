@@ -43,7 +43,7 @@ const Accordian = () => {
           <div className="accordion">
             {data.map((item, i) => (
               <div className="item">
-                <div className="title" onClick={() => toggle(i)}>
+                <div className="ac_title" onClick={() => toggle(i)}>
                   <h2 className="faq_question">{item.question}</h2>
                   <span>{selected === i ? "-" : "+"}</span>
                 </div>
