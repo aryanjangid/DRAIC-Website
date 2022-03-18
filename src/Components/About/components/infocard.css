@@ -12,7 +12,7 @@
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
-  /* margin-right: 1rem; */
+  margin-right: 1rem;
 }
 
 .about-card-title {
@@ -29,4 +29,9 @@
   color: #56b6fc;
   font-family: "Rowdies", cursive;
   margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .about-info-card {
+    margin-right: 0rem;
+  }
 }
