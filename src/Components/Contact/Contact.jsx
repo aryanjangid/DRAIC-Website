@@ -63,7 +63,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact_joinnow_div">
-              <a href="https://ajnqezbftep.typeform.com/to/YBODLpU2" target="_blank">
+              <a href="https://ajnqezbftep.typeform.com/to/YBODLpU2">
               <button className="contact_joinnowbtn">JOIN NOW</button>
               </a>
             </div>
