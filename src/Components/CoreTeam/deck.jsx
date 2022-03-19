@@ -4,7 +4,7 @@ import "./deck.css";
 import Prathis from "../../Assets/Prathis.jfif";
 import Axa from "../../Assets/Axa.jpeg";
 import Darshan from "../../Assets/Darshan.jpeg";
-import arrow from "../../Assets/arrow.png";
+// import arrow from "../../Assets/arrow.png";
 
 // import ourteaminfo from '../../Data/home-our-team';
 class Deck extends Component {

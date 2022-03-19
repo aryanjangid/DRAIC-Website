@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
-import arrow from "../../Assets/arrow.png";
+// import arrow from "../../Assets/arrow.png";
 import "./Tests.css";
 
 export const CarouselItem = ({ children, width }) => {
