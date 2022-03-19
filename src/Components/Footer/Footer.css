@@ -13,9 +13,9 @@
   z-index: 1;
   backdrop-filter: blur(0 rem);
 }
-.creator_link{
-    all: unset;
-    cursor: pointer;
+.creator_link {
+  all: unset;
+  cursor: pointer;
 }
 .footer {
   color: aliceblue;
@@ -35,7 +35,8 @@
 }
 .footer_intro h1 {
   font-size: 2.5rem;
-  font-family: "Rowdies", cursive;
+  /* font-family: "Rowdies", cursive; */
+  font-family: SansationBold;
   margin: 0.5 rem;
   white-space: nowrap;
 }
@@ -66,7 +67,9 @@
 }
 .footer_links_name {
   font-size: 1.5rem;
-  font-family: "Rowdies", cursive;
+  /* font-family: "Rowdies", cursive; */
+  font-family: SansationBold;
+
   font-weight: 300;
 }
 .footer_locateus {

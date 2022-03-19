@@ -220,7 +220,8 @@ class Deck extends Component {
             onClick={this.handle_previous}
           >
             {/* &#9001;&nbsp;&nbsp; */}
-            <img style={{ transform: "rotate(180deg)" }} src={arrow} alt="" />
+            {/* <img style={{ transform: "rotate(180deg)" }} src={arrow} alt="" /> */}
+            &larr;
           </button>
           <button
             data-aos={"zoom-out"}
@@ -228,7 +229,8 @@ class Deck extends Component {
             onClick={this.handle_next}
           >
             {/* &nbsp;&nbsp;&nbsp;&#9002; */}
-            <img src={arrow} alt="" />
+            {/* <img src={arrow} alt="" /> */}
+            &rarr;
           </button>
         </div>
       </div>
