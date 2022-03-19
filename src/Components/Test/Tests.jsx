@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
-import arrow from "../../Assets/arrow.png";
+// import arrow from "../../Assets/arrow.png";
 import "./Tests.css";
 
 export const CarouselItem = ({ children, width }) => {
@@ -96,33 +96,16 @@ const Events = ({ children }) => {
                   updateIndex(activeIndex - 1);
                 }}
               >
-                {/* &#9001;&nbsp;&nbsp; */}
-                <img
-                  style={{ transform: "rotate(180deg)" }}
-                  src={arrow}
-                  alt=""
-                />
+                Prev
               </button>
-              {/* {React.Children.map(children, (child, index) => {
-              return (
-                <button
-                  className={`${index === activeIndex ? "active" : ""}`}
-                  onClick={() => {
-                    updateIndex(index);
-                  }}
-                >
-                  {index + 1}
-                </button>
-              );
-            })} */}
+
               <button
                 className="left-btn right"
                 onClick={() => {
                   updateIndex(activeIndex + 1);
                 }}
               >
-                {/* &nbsp;&nbsp;&nbsp;&#9002; */}
-                <img src={arrow} alt="" />
+                Next
               </button>
             </div>
           </div>
