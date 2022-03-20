@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import Card from "./card";
 import "./deck.css";
-import Prathis from "../../Assets/Prathis.jfif";
-import Axa from "../../Assets/Axa.jpeg";
-import Darshan from "../../Assets/Darshan.jpeg";
+import Prathis from "../../Assets/Core Team/Prahis.jpeg";
+import Axa from "../../Assets/Core Team/Axa.jpeg";
+import darshan from "../../Assets/Core Team/darshan.jpeg";
+import sumedh from "../../Assets/Core Team/Sumedh.jpeg";
+import sagar from "../../Assets/Core Team/Sagar.jpeg";
 // import arrow from "../../Assets/arrow.png";
 
 // import ourteaminfo from '../../Data/home-our-team';
@@ -238,7 +240,7 @@ class Deck extends Component {
   }
 }
 
-const imgarray = [Prathis, Darshan, Prathis, Prathis, Axa];
+const imgarray = [Prathis, darshan, sumedh, sagar, Axa];
 
 const name = ["PRATHIS", "DARSHAN", "SUMEDH", "SAGAR", "AXASUSAN"];
 
