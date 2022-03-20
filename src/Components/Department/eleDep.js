@@ -1,10 +1,13 @@
+import aryan from '../../Assets/Departments/Programming/Aryan.jpeg'
+
+
 const members = [
     [
         "3/2/2022 17:31:16",
         "bhushankale1025@gmail.com",
         "Bhushan Kale",
-        "Programming",
-        "https://drive.google.com/uc?id=173JMdBDXgL9mbXErPSzO7EFAdcRkK4h6",
+        "Electronics",
+        aryan,
         "Computer Engineering",
         "Second Year",
         "https://www.linkedin.com/in/bhushan-kale-53493b203/",
@@ -15,7 +18,7 @@ const members = [
         "kunalawari2709@gmail.com ",
         "Kunal Awari ",
         "Programming",
-        "https://drive.google.com/open?id=1wZOnmcDSrxb3WqAjTJYV7HgHP_xHmsB6",
+        aryan,
         "Computer Engineering ",
         "Second Year",
         "https://www.linkedin.com/in/kunal-awari-756875203",
@@ -26,7 +29,7 @@ const members = [
         "singh2309prashant@gmail.com",
         "Prashant Singh",
         "Programming",
-        "https://drive.google.com/uc?id=19AzweuQna_PIRXSdxSEcD2aQVDnQZCcY",
+        aryan,
         "Computer Engineering",
         "Second Year",
         "https://www.linkedin.com/in/prashant-singh-4a3750206",
@@ -62,7 +65,8 @@ const members = [
         "https://drive.google.com/uc?id=1_F5re9yFE2ogRSZv35yG1aOVdNvnLS2L",
         "Mechanical Engineering",
         "Second Year",
-        "Riitaj Thakur.       https://www.linkedin.com/in/riitaj-thakur-755b5a219",
+        "Riitaj Thakur",
+        "https://www.linkedin.com/in/riitaj-thakur-755b5a219",
         "ral4ck_19"
     ],
     [
