@@ -63,7 +63,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact_joinnow_div">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform" rel="noreferrer" target="_blank">
               {/* <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform?usp=sf_link" > */}
               <button className="contact_joinnowbtn">JOIN NOW</button>
               {/* </NavLink> */}
