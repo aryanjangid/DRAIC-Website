@@ -63,8 +63,10 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact_joinnow_div">
-              <a href="https://ajnqezbftep.typeform.com/to/YBODLpU2">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform">
+              {/* <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform?usp=sf_link" > */}
               <button className="contact_joinnowbtn">JOIN NOW</button>
+              {/* </NavLink> */}
               </a>
             </div>
           </div>
