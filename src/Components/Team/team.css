@@ -2,7 +2,8 @@
   display: grid;
   gap: 2em;
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 200px;
 }
 .about-department-link {
   text-decoration: none;
@@ -59,11 +60,12 @@
   position: relative;
   top: -10px;
   padding-left: 1rem;
-  margin: 10px;
+  /* margin: 10px; */
   font-family: "Rowdies", cursive;
-  font-size: 1.6rem;
+  font-size: 1.45rem;
   color: #56b6fc;
   font-family: SansationBold;
+  white-space: nowrap;
 }
 
 .about-department-text {
@@ -94,6 +96,7 @@
 .about-department-grid {
   width: 93%;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
 .dep-link {

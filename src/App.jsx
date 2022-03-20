@@ -21,6 +21,7 @@ import About from "./Components/About/About";
 import Contact2 from "./Components/Contact2/contact2";
 import Team from "./Components/Team/team.jsx";
 import Loading from "./Components/Loading/Loading";
+import Prdep from "./Components/Department/Prdep";
 // import Event from "./Components/Events/Event";
 const App = () => {
   const location = useLocation();
@@ -52,6 +53,7 @@ const App = () => {
             <Route exact path="/progammingDepartment" element={<Progdep />} />
             <Route exact path="/MechenicalDepartment" element={<Mechdep />} />
             <Route exact path="/ElectricalDepartment" element={<Elecdep />} />
+            <Route exact path="/PublicRelations" element={<Prdep />} />
             <Route exact path="/Creators" element={<Creators />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
