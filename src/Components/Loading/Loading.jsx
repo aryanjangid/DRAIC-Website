@@ -84,6 +84,22 @@ const Loading = () => {
             </g>
           </svg>
         </div>
+        <h1 className="loading_text">
+          <span>C</span>
+          <span>O</span>
+          <span>M</span>
+          <span>I</span>
+          <span>N</span>
+          <span>G</span>
+          <span> </span>
+          <span>S</span>
+          <span>O</span>
+          <span>O</span>
+          <span>N</span>
+          <span>.</span>
+          <span>.</span>
+          <span>.</span>
+        </h1>
       </div>
     </>
   );
