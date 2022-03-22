@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
 // import immg from './photos/picc.jpg'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import linkedin from "../../Assets/linkedin.svg";
 
 function Card(props) {
@@ -41,9 +41,10 @@ function Card(props) {
       </h1>
       <div className="ll"></div>
       <h4 className="pos">{props.dep} </h4>
-      <Link
+      <a
         className="footer_social_links"
-        to="//www.linkedin.com/company/d-y-patil-robotics-ai-club"
+        href={props.linkedin}
+        rel="noreferrer"
         target="_blank"
       >
         <img
@@ -53,7 +54,7 @@ function Card(props) {
           src={linkedin}
           alt=""
         />
-      </Link>
+      </a>
     </div>
   );
 }

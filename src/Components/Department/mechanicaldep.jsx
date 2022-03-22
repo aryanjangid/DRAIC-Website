@@ -4,7 +4,7 @@ import SocialMedia from "./Socialmedia";
 import members from "./mechDep";
 import "./mechanical-department.css";
 
-const ProfDepList = members.filter((member) => member[3] === "Mechanical");
+// const ProfDepList = members.filter((member) => member[3] === "Mechanical");
 
 function mechdep() {
   return (
@@ -48,15 +48,20 @@ function mechdep() {
           </div>
         </div>
         <div className="mech-department-members-container">
-          {ProfDepList.map((card) => {
+          {members.map((card) => {
             return (
               <div className="profile-card">
                 <div className="text">
-                  <Avatar img={card[4]} />
-                  <h3>{card[2]}</h3>
-                  <p>{card[5]}</p>
+                  <Avatar img={card.imgurl} />
+                  <h3>{card.name}</h3>
+
+                  <div className="card--text">
+                    <p>{card.branch}</p>
+                    <p className="double-or" style={{color:"#03a9f4"}}> &nbsp; || &nbsp;</p>
+                    <p>{card.year}</p>
+                  </div>
                   <div className="links">
-                    <SocialMedia linkedin={card[7]} instagram={card[8]} />
+                    <SocialMedia linkedin={card.linkedin} instagram={card.instagram} />
                   </div>
                 </div>
               </div>
