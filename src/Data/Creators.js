@@ -8,7 +8,7 @@ export const creatorsData = [
     name: "Aryan Jangid",
     position: " AI & DS ",
     linkedin: "https://www.linkedin.com/in/aryan-jangid-9641a2207/",
-    instagram: "https://www.instagram.com/_s_p_i_d_e_r_9480/",
+    instagram: "https://www.instagram.com/aj_aryan0007/",
     github: "https://github.com/aryanjangid",
     img: aryan,
   },

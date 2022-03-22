@@ -8,6 +8,13 @@
   position: relative;
   margin-top: -5rem;
 }
+.doubl-or{
+  color: #03a9f4;
+  font-size: medium;
+}
+.card--text{
+  display: flex;
+}
 
 .prog-department-hero-container {
   display: flex;
