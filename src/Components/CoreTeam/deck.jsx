@@ -240,18 +240,18 @@ class Deck extends Component {
   }
 }
 
-const imgarray = [Prathis, darshan, sumedh, sagar, Axa];
+const imgarray = [Prathis, Axa, sumedh, sagar, darshan];
 
-const name = ["PRATHIS", "DARSHAN", "SUMEDH", "SAGAR", "AXASUSAN"];
+const name = ["PRATHIS", "AXASUSAN", "SUMEDH", "SAGAR", "DARSHAN"];
 
-const surname = ["UPADHYAY", "KADAM", "SALVEKAR", "WARUNGASE", "MATHEW"];
+const surname = ["UPADHYAY", "MATHEW", "SALVEKAR", "WARUNGASE", "KADAM"];
 
 const dep = [
   "PROGRAMING HEAD",
-  "R & D HEAD",
+  "TEAM MANAGER",
   "TEAM CAPTAIN",
   "VICE CAPTAIN",
-  "TEAM MANAGER",
+  "R & D HEAD",
 ];
 
 // const img=[
