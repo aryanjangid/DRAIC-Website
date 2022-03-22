@@ -4,7 +4,7 @@ import "./contact2.css";
 export default function contact2({ show }) {
   return (
     <div
-      style={{ display: show ? "none" : "block" }}
+      style={{ display: !show ? "none" : "block" }}
       className="contact-btn-container"
     >
       <Link to="/contact" className="contact-btn-all">
