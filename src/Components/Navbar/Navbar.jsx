@@ -7,7 +7,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-      <div style={{ display: "none" }} className="navbar">
+      <div className="navbar">
         <div className="nav-container">
           <ul className="nav">
             <li className="nav-item">

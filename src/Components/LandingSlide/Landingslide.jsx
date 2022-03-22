@@ -48,9 +48,9 @@ const Landingslide = () => {
   );
 
   return (
-    <div style={{ height: "100vh" }} className="landingmain">
+    <div className="landingmain">
       <div className="landing-slide">
-        <h1 style={{ display: "none", width: "100vw" }} className="text">
+        <h1 className="text">
           {/* D.Y. Patil Robotics & AI Club */}
           {headline()}
         </h1>
@@ -60,7 +60,7 @@ const Landingslide = () => {
           src={draicimage}
           alt="draic"
         ></img> */}
-        <div style={{ display: "none" }} className="animation">
+        <div className="animation">
           <Link to="/Creators">
             <svg
               className="svg"
