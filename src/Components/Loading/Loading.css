@@ -212,23 +212,23 @@
     flicker 0.3s ease-in infinite forwards;
 }
 .loading_text span:nth-child(12) {
-  animation: glow 0.4s ease-in 4.1s forwards,
+  animation: glow 0.9s ease-in 4.1s infinite forwards,
     flicker 0.3s ease-in infinite forwards;
 }
 .loading_text span:nth-child(13) {
-  animation: glow 0.4s ease-in 4.2s forwards,
+  animation: glow 0.9s ease-in 4.2s infinite forwards,
     flicker 0.3s ease-in infinite forwards;
 }
 .loading_text span:nth-child(14) {
-  animation: glow 0.4s ease-in 4.3s forwards,
+  animation: glow 0.9s ease-in 4.3s infinite forwards,
     flicker 0.3s ease-in infinite forwards;
 }
 .loading_text span:nth-child(15) {
-  animation: glow 0.4s ease-in 4.4s forwards,
+  animation: glow 0.9s ease-in 4.4s infinite forwards,
     flicker 0.3s ease-in infinite forwards;
 }
 .loading_text span:nth-child(16) {
-  animation: glow 0.4s ease-in 4.5s forwards,
+  animation: glow 0.9s ease-in 4.5s infinite forwards,
     flicker 0.3s ease-in infinite forwards;
 }
 @keyframes glow {
