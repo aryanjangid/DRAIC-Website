@@ -14,7 +14,7 @@ const members = [
         branch: "INSTRU",
         year: "4th Year",
         linkedin: "http://www.linkedin.com/in/axasusan-mathew-08067b1b0",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "https://www.instagram.com/axasusanmathew/",
     },
 
     {
@@ -23,7 +23,7 @@ const members = [
         branch: "ENTC",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/sumeet-jadhav-62309421b",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "",
     },
     
     {
@@ -41,7 +41,7 @@ const members = [
         branch: "ENTC",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/sarthak-gupta-9b8082220/",
-        instagram: "https://www.instagram.com/nikhilmotagi/",
+        instagram: "",
     },
 
 

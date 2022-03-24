@@ -39,7 +39,7 @@ const members = [
         branch: "MECH",
         year: "3rd Year",
         linkedin: "https://www.linkedin.com/in/mohini-kulkarni-39239a199",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "",
     },
     {
         name: "Vedant Dashmukhe",
@@ -47,7 +47,7 @@ const members = [
         branch: "MECH",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/vedant-dashmukhe-8772a2214",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "",
     },
     {
         name: "Nayana Dhote ",
@@ -55,14 +55,14 @@ const members = [
         branch: "MECH",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/nayana-dhote-9a63761b8",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "",
     }, {
         name: "Mayur Wagh",
         imgurl: mayur,
         branch: "MECH",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/mayurgwagh",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "",
     },
     {
         name: "Aditya Magdum",
@@ -70,7 +70,7 @@ const members = [
         branch: "MECH",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/vedant-dashmukhe-8772a2214",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "",
     },
     {
         name: "Riitaj Thakur",
@@ -78,7 +78,7 @@ const members = [
         branch: "MECH",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/mwlite/in/riitaj-thakur-755b5a219",
-        instagram: "https://www.instagram.com/aj_aryan0007/",
+        instagram: "",
     },
     
     
@@ -88,7 +88,7 @@ const members = [
         branch: "MECH",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/sanchit-kasar-642b031b9",
-        instagram: "https://www.instagram.com/mr_sanchit_.sk_/?utm_medium=copy_link",
+        instagram: "https://www.instagram.com/mr_sanchit_.sk_/",
     },
     
     
