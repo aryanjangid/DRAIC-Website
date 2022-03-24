@@ -9,9 +9,10 @@ function SocialMedia(pro) {
             <li className="li">
                 <a className="fa" href={pro.linkedin} rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a>
             </li>
-            <li className="li">
+            {pro.instagram? (<li className="li">
             <a className="fa" href={pro.instagram} rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
-            </li>
+            </li>) : (<div></div>)}
+            
         </ul>
     )
 }

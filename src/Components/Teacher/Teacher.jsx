@@ -92,11 +92,12 @@ const Main = () => {
                         alt="Linkedin"
                       />
                     </Link>
-                    <Link
+                    <a
                       data-aos={"zoom-in"}
                       data-aos-delay={"1150"}
                       className="footer_social_links"
-                      to={card.instagramURl}
+                      to="https://www.instagram.com/vipinvibhute/" 
+                      rel=""
                       target="_blank"
                     >
                       <img
@@ -106,7 +107,7 @@ const Main = () => {
                         src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
                         alt="Linkedin"
                       />
-                    </Link>
+                    </a>
                     <Link
                       data-aos={"zoom-in"}
                       data-aos-delay={"1150"}
