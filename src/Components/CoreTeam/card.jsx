@@ -26,7 +26,7 @@ function Card(props) {
     >
       <img
         data-aos={"zoom-out"}
-        data-aos-delay={"500"}
+        data-aos-delay={"100"}
         loading="lazy"
         decoding="async"
         style={styles.image}
