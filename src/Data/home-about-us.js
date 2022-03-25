@@ -1,16 +1,16 @@
-import ourcollege from "../../src/Assets/Home About Us Images/college.jpg";
-import ourteam from "../../src/Assets/Home About Us Images/college1.jpg";
-import ourworkshop from "../../src/Assets/Home About Us Images/college2.jpg";
-import team1 from "../Assets/Home About Us Images/team1.JPG";
-import team2 from "../Assets/Home About Us Images/team2.JPG";
-import team3 from "../Assets/Home About Us Images/team3.JPG";
+// import college1 from '../Assets/Home About Us Images/college/college1.jpeg'
+import college1 from '../Assets/Home About Us Images/college/college1.jpg'
+import college2 from '../Assets/Home About Us Images/college/college2.jpeg'
+import college3 from '../Assets/Home About Us Images/college/college3.jpg'
+import team1 from '../Assets/Home About Us Images/team/team1.JPG'
+import workshop1 from '../Assets/Home About Us Images/workshop/workshop1.JPG'
+import workshop2 from '../Assets/Home About Us Images/workshop/workshop2.JPG'
 
 const aboutusinfo = [
   {
-    id: 1,
-    ourcollegeimages: [ourcollege, ourteam, ourworkshop],
-    ourteamimages: [ourcollege, ourteam, ourworkshop],
-    ourworkshopimages: [team2, team3, team1],
+    ourcollegeimages: [college1,college2,college3],
+    ourteamimages: [team1],
+    ourworkshopimages: [workshop1,workshop2],
     whoweare:
       " The Club focuses on the development of students through working on various robotic projects and also participating in National as well as International level Competitions.",
     whatwedo:

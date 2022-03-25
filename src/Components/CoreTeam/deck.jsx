@@ -79,6 +79,7 @@ class Deck extends Component {
           surname={surname[i]}
           dep={dep[i]}
           borderRadius={new_borderRadius}
+          linkedin={link[i]}
         />
       );
     }
@@ -242,17 +243,27 @@ class Deck extends Component {
 
 const imgarray = [Prathis, Axa, sumedh, sagar, darshan];
 
-const name = ["PRATHIS", "AXASUSAN", "SUMEDH", "SAGAR", "DARSHAN"];
+const name = ["PRATHIS","AXASUSAN", "SUMEDH", "SAGAR", "DARSHAN"];
 
-const surname = ["UPADHYAY", "MATHEW", "SALVEKAR", "WARUNGASE", "KADAM"];
+const surname = ["UPADHYAY", "MATHEW","SALVEKAR", "WARUNGASE","KADAM" ];
+
 
 const dep = [
   "PROGRAMING HEAD",
   "TEAM MANAGER",
+
   "TEAM CAPTAIN",
   "VICE CAPTAIN",
   "R & D HEAD",
 ];
+
+const link=[
+  "https://www.linkedin.com/in/prathisupadhyay/",
+  "http://www.linkedin.com/in/axasusan-mathew-08067b1b0",
+  "https://www.linkedin.com/in/sumedhsalvekar",
+  "https://www.linkedin.com/in/sagar-warungase-58321b183/",
+  "https://www.linkedin.com/in/darshankadam15/"
+]
 
 // const img=[
 //   ''

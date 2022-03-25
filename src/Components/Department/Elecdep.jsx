@@ -5,7 +5,7 @@ import members from "./eleDep";
 import "./electrical-department.css";
 import imx from  "../../Assets/2011.i402.063.Electricity_and_lighting_flat_background-removebg-preview.png"
 
-const ProfDepList = members.filter((member) => member[3] === "Electronics");
+// const ProfDepList = members.filter((member) => member[3] === "Electronics");
 
 function Elecdep() {
   return (
@@ -52,15 +52,20 @@ function Elecdep() {
           </div>
         </div>
         <div className="elec-department-members-container">
-          {ProfDepList.map((card) => {
+          {members.map((card) => {
             return (
               <div className="profile-card">
                 <div className="text">
-                  <Avatar img={card[4]} />
-                  <h3>{card[2]}</h3>
-                  <p>{card[5]}</p>
+                  <Avatar img={card.imgurl} />
+                  <h3>{card.name}</h3>
+
+                  <div className="card--text">
+                    <p>{card.branch}</p>
+                    <p className="double-or" style={{color:"#03a9f4"}}> &nbsp; || &nbsp;</p>
+                    <p>{card.year}</p>
+                  </div>
                   <div className="links">
-                    <SocialMedia linkedin={card[7]} instagram={card[8]} />
+                    <SocialMedia linkedin={card.linkedin} instagram={card.instagram} />
                   </div>
                 </div>
               </div>

@@ -20,7 +20,7 @@ const progdep=[
         branch:"MECH",
         year:"3rd Year",
         linkedin:"https://www.linkedin.com/in/prathisupadhyay/",
-        instagram:"https://www.linkedin.com/in/prathisupadhyay/",
+        instagram:"https://www.instagram.com/whoisprathis/",
     },
     {
         name:"Abhishek Borase",
@@ -55,14 +55,6 @@ const progdep=[
         instagram:"https://www.instagram.com/_s_p_i_d_e_r_9480/",
     },
     {
-        name:"Bhushan Kale",
-        imgurl:bhushan,
-        branch:"CSE",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/bhushan-kale-53493b203/",
-        instagram:"https://www.instagram.com/bk_bhushan__/",
-    },
-    {
         name:"Palash Rambhia",
         imgurl:palash,
         branch:"IT",
@@ -70,6 +62,15 @@ const progdep=[
         linkedin:"https://www.linkedin.com/in/palash-rambhia-bb5b66214/",
         instagram:"https://www.instagram.com/palash_2911/",
     },
+    {
+        name:"Bhushan Kale",
+        imgurl:bhushan,
+        branch:"CSE",
+        year:"2nd Year",
+        linkedin:"https://www.linkedin.com/in/bhushan-kale-53493b203/",
+        instagram:"https://www.instagram.com/bk_bhushan__/",
+    },
+    
     {
         name:"Princeton D'souza",
         imgurl:princeton,
@@ -84,7 +85,7 @@ const progdep=[
         branch:"CSE",
         year:"2nd Year",
         linkedin:"http://www.linkedin.com/in/shorya-jain-81402721b",
-        instagram:"https://www.instagram.com/invites/contact/?i=1tyfudu0d5boz&utm_content=3hnzqib",
+        instagram:"https://www.instagram.com/shoryajain300/",
     },
     {
         name:"Kunal Awari",
@@ -108,7 +109,7 @@ const progdep=[
         branch:"AI & DS",
         year:"2nd Year",
         linkedin:"https://www.linkedin.com/in/arya-g-a4a1b4205/",
-        instagram:"https://www.instagram.com/invites/contact/?i=1tyfudu0d5boz&utm_content=3hnzqib",
+        instagram:"https://www.instagram.com/_ari_2702/",
     },
     {
         name:"Shreshtha Somawar",
@@ -116,7 +117,7 @@ const progdep=[
         branch:"AI & DS",
         year:"2nd Year",
         linkedin:"https://www.linkedin.com/in/shreshtha-somawar-a8bab0219",
-        instagram:"https://www.instagram.com/invites/contact/?i=1tyfudu0d5boz&utm_content=3hnzqib",
+        instagram:"https://www.instagram.com/shreshthasomawar/",
     },
     {
         name:"Pranav Joshi",
