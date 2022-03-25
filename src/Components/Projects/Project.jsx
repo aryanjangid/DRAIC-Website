@@ -48,7 +48,7 @@ const Project = () => {
 
   return (
     <div className="project-page">
-      <div className="project-headerupcoming">
+      <div style={{ display: "none" }} className="project-headerupcoming">
         <div className="project_headline_div">
           <h1 data-aos={"zoom-in-up"} className="project-moto">
             A GLIMPSE OF THE JOURNEY, WE MADE
@@ -77,7 +77,7 @@ const Project = () => {
           ></div>
         </div>
       </div>
-      <div className="projectsupcomingcontainer">
+      <div style={{ display: "none " }} className="projectsupcomingcontainer">
         {projectupcomingList.map((card, i) => {
           return (
             <>

@@ -247,12 +247,14 @@ const name = ["PRATHIS","AXASUSAN", "SUMEDH", "SAGAR", "DARSHAN"];
 
 const surname = ["UPADHYAY", "MATHEW","SALVEKAR", "WARUNGASE","KADAM" ];
 
+
 const dep = [
   "PROGRAMING HEAD",
   "TEAM MANAGER",
-  "R & D HEAD",
+
   "TEAM CAPTAIN",
   "VICE CAPTAIN",
+  "R & D HEAD",
 ];
 
 const link=[
