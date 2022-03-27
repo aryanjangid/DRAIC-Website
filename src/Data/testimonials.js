@@ -14,12 +14,7 @@ const testimonials = [
     test: "DRAIC's journey commenced in my 2nd year. I was selected amongst the few. But, something held on and the year of first IIT Delhi Robocon came to end with a bitterness of failure and sweetness of making a 3D printer from scratch. The leadership changed from Tanmay and Siddhesh bhaiya to Gaurav bhaiya, which in turn brought DRAIC into existence. It was a time to become a senior. As we entered the pandemic, we had a 3D printer and AIR 4 in our bags of achievements!! The virtual world gave the programming head , a talented Jr. team an understanding cabinet of SAYDRSS, not the best but we were awesome. We Came, Achieved and Laughed together. That's how a journey of 3 years ended virtually.",
     image: Vedansh,
   },
-  {
-    name: "Yash Bhagwat",
-    position: "Mechanical Department",
-    test:" Experience with Draic is not something that can be expressed in few words. Because it has given not only knowledge but also memories and most importantly a family. Starting from the first day of the recruitment test to the interview and then getting selected in team was very unexpected. Because I thought I won't get selected. But still they selected me. And I am really thankful to all. Experience with juniors also was great. One of the best people I have ever met. . With constant support of my seniors I've performed my best in every project assigned.The journey has been explicit and I'm truly thankful for being a part of something so amazing.",
-    image: test,
-  },
+  
   
   {
     name: "Shreyas Choppawar",
@@ -44,6 +39,12 @@ const testimonials = [
     position: "Programming Department",
     test:" I've been part of the club from my second year of Engineering, I was always found in college workshop rather than department. I've not only learnt technical stuffs in the club but also grown up as a better human, right from time management, discipline, public speaking to team playing. Conducting and organizing events, seminars and participating in many competition along with team have given alot of experience to me. Many a times it was difficult to manage academics and club together, but with the most supportive team everything was simple. I would always cherish the time spent at the club.",
     image: Ansh,
+  },
+  {
+    name: "Yash Bhagwat",
+    position: "Mechanical Department",
+    test:" Experience with Draic is not something that can be expressed in few words. Because it has given not only knowledge but also memories and most importantly a family. Starting from the first day of the recruitment test to the interview and then getting selected in team was very unexpected. Because I thought I won't get selected. But still they selected me. And I am really thankful to all. Experience with juniors also was great. One of the best people I have ever met. . With constant support of my seniors I've performed my best in every project assigned.The journey has been explicit and I'm truly thankful for being a part of something so amazing.",
+    image: test,
   },
   {
     name: "Samiksha Bokare",
