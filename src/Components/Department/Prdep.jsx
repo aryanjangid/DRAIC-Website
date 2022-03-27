@@ -17,12 +17,9 @@ const Prdep = () => {
           <div className="mech-department-text-container">
             <h1 className="mech-department-title">PUBLIC RELATIONS</h1>
             <p className="mech-department-description">
-              A random paragraph generator is a tool provided by various
-              websites that provides you as many random paragraphs as you want.
-              Be it for any work purpose of yours, effortlessly. A random
-              paragraph generator is a tool provided by various websites that
-              provides you as many random paragraphs as you want. Be it for any
-              work purpose of yours, effortlessly.
+            We as Public Relations Team Maintain and Manage the vox-pop of the team. We publicize what DRAIC as a team do. We design the outlook of the team.
+ we work with team collaboration and interpersonal skills. We create thoughful, data-backed pitches, engage with social media, send swag, mainatain relevant
+media list, and manage all follow-through. we constantly aim to maximize reach and impact of DRAIC.
             </p>
           </div>
           <div className="mech-department-image-container">

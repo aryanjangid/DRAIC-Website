@@ -3,7 +3,7 @@ import Avatar from "./Avatar";
 import SocialMedia from "./Socialmedia";
 import members from "./eleDep";
 import "./electrical-department.css";
-import imx from  "../../Assets/2011.i402.063.Electricity_and_lighting_flat_background-removebg-preview.png"
+import imx from "../../Assets/2011.i402.063.Electricity_and_lighting_flat_background-removebg-preview.png"
 
 // const ProfDepList = members.filter((member) => member[3] === "Electronics");
 
@@ -15,17 +15,8 @@ function Elecdep() {
           <div className="elec-department-text-container">
             <h1 className="elec-department-title">ELECTRICAL DEPARTMENT</h1>
             <p className="elec-department-description">
-              A random paragraph generator is a tool provided by various
-              websites that provides you as many random paragraphs as you want.
-              Be it for any work purpose of yours, effortlessly. A random
-              paragraph generator is a tool provided by various websites that
-              provides you as many random paragraphs as you want. Be it for any
-              work purpose of yours, effortlessly.A random paragraph generator is a tool provided by various
-              websites that provides you as many random paragraphs as you want.
-              Be it for any work purpose of yours, effortlessly. A random
-              paragraph generator is a tool provided by various websites that
-              provides you as many random paragraphs as you want. Be it for any
-              work purpose of yours, effortlessly.
+              We as Electical Team are responsible for design and implementation of electrical system. we work alongside Programming and Mechanical Team. We install what is
+              built by mechanical team and digitalize what is programed.
             </p>
           </div>
           <div className="elec-department-image-container">
@@ -61,7 +52,7 @@ function Elecdep() {
 
                   <div className="card--text">
                     <p>{card.branch}</p>
-                    <p className="double-or" style={{color:"#03a9f4"}}> &nbsp; || &nbsp;</p>
+                    <p className="double-or" style={{ color: "#03a9f4" }}> &nbsp; || &nbsp;</p>
                     <p>{card.year}</p>
                   </div>
                   <div className="links">
