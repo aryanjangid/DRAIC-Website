@@ -36,7 +36,7 @@ media list, and manage all follow-through. we constantly aim to maximize reach a
 
         <div className="mech-department-header-container">
           <h1 className="mech-department-moto">
-            OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM
+          FINDING INSPIRATION IN EVERY TURN
           </h1>
           <div className="seperator">
             <div className="depline1"></div>

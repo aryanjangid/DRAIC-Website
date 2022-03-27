@@ -13,9 +13,9 @@ function Elecdep() {
       <div className="elec-department-page">
         <div className="elec-department-hero-container">
           <div className="elec-department-text-container">
-            <h1 className="elec-department-title">ELECTRICAL DEPARTMENT</h1>
+            <h1 className="elec-department-title">ELECTRONICS DEPARTMENT</h1>
             <p className="elec-department-description">
-              We as Electical Team are responsible for design and implementation of electrical system. we work alongside Programming and Mechanical Team. We install what is
+              We as Electronics Team are responsible for design and implementation of electrical system. we work alongside Programming and Mechanical Team. We install what is
               built by mechanical team and digitalize what is programed.
             </p>
           </div>
@@ -32,12 +32,12 @@ function Elecdep() {
 
         <div className="elec-department-header-container">
           <h1 className="elec-department-moto">
-            OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM
+          FINDING INSPIRATION IN EVERY TURN
           </h1>
           <div className="seperator">
             <div className="depline1"></div>
             <div>
-              <h1 className="elec-department-name">ELECTRICAL TEAM</h1>
+              <h1 className="elec-department-name">ELECTRONICS TEAM</h1>
             </div>
             <div className="depline2"></div>
           </div>
