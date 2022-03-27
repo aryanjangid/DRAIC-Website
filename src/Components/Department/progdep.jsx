@@ -31,7 +31,7 @@ function Progdep() {
 
         <div className="prog-department-header-container">
           <h1 className="prog-department-moto">
-            OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM
+          FINDING INSPIRATION IN EVERY TURN
           </h1>
           <div className="seperator">
             <div className="depline1"></div>

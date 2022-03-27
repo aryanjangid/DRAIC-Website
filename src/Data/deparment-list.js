@@ -23,7 +23,7 @@ const department_contnet = [
 
   {
     id: 1,
-    dep_name: "ELECTRICAL",
+    dep_name: "ELECTRONICS",
     imgURL: elect,
     topage: "/ElectricalDepartment",
     content: "WE digitalize what is static",
