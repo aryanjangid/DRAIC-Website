@@ -81,7 +81,7 @@ const Footer = () => {
                 </li>
                 <li className="footer_link">
                   <NavLink className="footer_link" to="/ElectricalDepartment">
-                    Electrical
+                    Electronics
                   </NavLink>
                 </li>
                 <li className="footer_link">
