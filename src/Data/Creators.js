@@ -1,8 +1,8 @@
-import aryan from '../Assets/Departments/Programming/Aryan.jpeg'
-import om from '../Assets/Departments/Programming/om.jpeg'
-import bhushan from '../Assets/Departments/Programming/Bhushan.jpeg'
-import palash from '../Assets/Departments/Programming/Palash.jpeg'
-import prince from '../Assets/Departments/Programming/Princeton.jpeg'
+import aryan from "../Assets/Departments/Programming/Aryan.jpeg";
+import om from "../Assets/Departments/Programming/om.jpeg";
+import bhushan from "../Assets/Departments/Programming/Bhushan.jpeg";
+import palash from "../Assets/Departments/Programming/Palash.jpeg";
+import prince from "../Assets/Departments/Programming/Princeton.jpeg";
 
 export const creatorsData = [
   {

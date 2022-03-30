@@ -48,6 +48,7 @@
 .dep_para {
   /* padding-left: 10px; */
   padding-top: 10px;
+  text-align: center;
 }
 
 .about-department-icon {
@@ -118,6 +119,7 @@
   letter-spacing: 0.1rem;
   margin-top: 20px;
   cursor: pointer;
+  text-align: center;
 }
 
 .arrow {

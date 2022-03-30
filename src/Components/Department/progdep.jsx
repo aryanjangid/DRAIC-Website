@@ -14,8 +14,13 @@ function Progdep() {
           <div className="prog-department-text-container">
             <h1 className="prog-department-title">PROGRAMMING DEPARTMENT</h1>
             <p className="prog-department-description">
-              We as programming team develop new programs, test and update existing once, identify and correct those errors and work on all the technical stuff. we believe that any problem
-              that exist can be solved by a logical approach that's why we as a team develop . We address every new innovative idea from fresh minds and always keep room for innovative ideas.
+              We as Public Relations Team Maintain and Manage the vox-pop of the
+              team. We publicize what DRAIC as a team does. We design the
+              outlook of the team. we work with team collaboration and
+              interpersonal skills. We create thoughtful, data-backed pitches,
+              engage with social media, send swag, maintain relevant media
+              lists, and manage all follow-through. we constantly aim to
+              maximize the reach and impact of DRAIC.
             </p>
           </div>
           <div className="prog-department-image-container">
@@ -31,7 +36,7 @@ function Progdep() {
 
         <div className="prog-department-header-container">
           <h1 className="prog-department-moto">
-          FINDING INSPIRATION IN EVERY TURN
+            A BUNCH OF GEEKS WHO LOVE CODING..!
           </h1>
           <div className="seperator">
             <div className="depline1"></div>
@@ -52,11 +57,17 @@ function Progdep() {
 
                   <div className="card--text">
                     <p>{card.branch}</p>
-                    <p className="double-or" style={{ color: "#03a9f4" }}> &nbsp; || &nbsp;</p>
+                    <p className="double-or" style={{ color: "#03a9f4" }}>
+                      {" "}
+                      &nbsp; || &nbsp;
+                    </p>
                     <p>{card.year}</p>
                   </div>
                   <div className="links">
-                    <SocialMedia linkedin={card.linkedin} instagram={card.instagram} />
+                    <SocialMedia
+                      linkedin={card.linkedin}
+                      instagram={card.instagram}
+                    />
                   </div>
                 </div>
               </div>

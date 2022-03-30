@@ -1,138 +1,134 @@
-import prathis from '../../Assets/Departments/Programming/Prahis.jpeg'
-import darshan from '../../Assets/Departments/Programming/darshan.jpeg'
-import abhishek from '../../Assets/Departments/Programming/Abhishek.jpeg'
-import aryan from '../../Assets/Departments/Programming/Aryan.jpeg'
-import arya from '../../Assets/Departments/Programming/Arya.jpeg'
-import pranav from '../../Assets/Departments/Programming/Pranav.jpeg'
-import shreshtha from '../../Assets/Departments/Programming/Shreshtha.jpeg'
-import shorya from '../../Assets/Departments/Programming/Shorya.jpeg'
-import kunal from '../../Assets/Departments/Programming/kunal.jpeg'
-import yash from '../../Assets/Departments/Programming/Yash Pame.jpeg'
-import princeton from '../../Assets/Departments/Programming/Princeton.jpeg'
-import palash from '../../Assets/Departments/Programming/Palash.jpeg'
-import bhushan from '../../Assets/Departments/Programming/Bhushan.jpeg'
-import om from '../../Assets/Departments/Programming/om.jpeg'
+import prathis from "../../Assets/Departments/Programming/Prahis.jpeg";
+import darshan from "../../Assets/Departments/Programming/darshan.jpeg";
+import abhishek from "../../Assets/Departments/Programming/Abhishek.jpeg";
+import aryan from "../../Assets/Departments/Programming/Aryan.jpeg";
+import arya from "../../Assets/Departments/Programming/Arya.jpeg";
+import pranav from "../../Assets/Departments/Programming/Pranav.jpeg";
+import shreshtha from "../../Assets/Departments/Programming/Shreshtha.jpeg";
+import shorya from "../../Assets/Departments/Programming/Shorya.jpeg";
+import kunal from "../../Assets/Departments/Programming/Kunal.jpg";
+import yash from "../../Assets/Departments/Programming/Yash Pame.jpeg";
+import princeton from "../../Assets/Departments/Programming/Princeton.jpeg";
+import palash from "../../Assets/Departments/Programming/Palash.jpeg";
+import bhushan from "../../Assets/Departments/Programming/Bhushan.jpeg";
+import om from "../../Assets/Departments/Programming/om.jpeg";
 
-const progdep=[
-    {
-        name:"Prathis Upadhyay",
-        imgurl:prathis,
-        branch:"MECH",
-        year:"3rd Year",
-        linkedin:"https://www.linkedin.com/in/prathisupadhyay/",
-        instagram:"https://www.instagram.com/whoisprathis/",
-    },
-    {
-        name:"Abhishek Borase",
-        imgurl:abhishek,
-        branch:"CSE",
-        year:"3rd Year",
-        linkedin:"https://www.linkedin.com/in/abhishekborase/",
-        instagram:"https://www.instagram.com/abhishek_7890/",
-    },
-    {
-        name:"Darshan Kadam",
-        imgurl:darshan,
-        branch:"CSE",
-        year:"3rd Year",
-        linkedin:"https://www.linkedin.com/in/darshankadam15/",
-        instagram:"https://www.instagram.com/darshan.kadam15/",
-    },
-    {
-        name:"Aryan Jangid",
-        imgurl:aryan,
-        branch:"AI & DS",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/aryan-jangid-9641a2207/",
-        instagram:"https://www.instagram.com/aj_aryan0007/",
-    },
-    {
-        name:"Om Gawande",
-        imgurl:om,
-        branch:"CSE",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/om-gawande",
-        instagram:"https://www.instagram.com/_s_p_i_d_e_r_9480/",
-    },
-    {
-        name:"Palash Rambhia",
-        imgurl:palash,
-        branch:"IT",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/palash-rambhia-bb5b66214/",
-        instagram:"https://www.instagram.com/palash_2911/",
-    },
-    {
-        name:"Bhushan Kale",
-        imgurl:bhushan,
-        branch:"CSE",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/bhushan-kale-53493b203/",
-        instagram:"https://www.instagram.com/bk_bhushan__/",
-    },
-    
-    {
-        name:"Princeton D'souza",
-        imgurl:princeton,
-        branch:"CSE",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/princeton-dsouza/",
-        instagram:"https://www.instagram.com/princeton2102/",
-    },
-    {
-        name:"Shorya Jain",
-        imgurl:shorya,
-        branch:"CSE",
-        year:"2nd Year",
-        linkedin:"http://www.linkedin.com/in/shorya-jain-81402721b",
-        instagram:"https://www.instagram.com/shoryajain300/",
-    },
-    {
-        name:"Kunal Awari",
-        imgurl:kunal,
-        branch:"CSE",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/kunal-awari-756875203",
-        instagram:"https://www.instagram.com/das_ist_kunal/",
-    },
-    {
-        name:"Yash Pame",
-        imgurl:yash,
-        branch:"AI & DS",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/yashpame/",
-        instagram:"https://www.instagram.com/alwaysyashpame/",
-    },
-    {
-        name:"Arya Gaikwad",
-        imgurl:arya,
-        branch:"AI & DS",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/arya-g-a4a1b4205/",
-        instagram:"https://www.instagram.com/_ari_2702/",
-    },
-    {
-        name:"Shreshtha Somawar",
-        imgurl:shreshtha,
-        branch:"AI & DS",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/shreshtha-somawar-a8bab0219",
-        instagram:"https://www.instagram.com/shreshthasomawar/",
-    },
-    {
-        name:"Pranav Joshi",
-        imgurl:pranav,
-        branch:"AI & DS",
-        year:"2nd Year",
-        linkedin:"https://www.linkedin.com/in/pranav-joshi-20a50821a",
-        instagram:"https://www.instagram.com/pranavsjoshi.29/",
-    },
+const progdep = [
+  {
+    name: "Prathis Upadhyay",
+    imgurl: prathis,
+    branch: "MECH",
+    year: "3rd Year",
+    linkedin: "https://www.linkedin.com/in/prathisupadhyay/",
+    instagram: "https://www.instagram.com/whoisprathis/",
+  },
+  {
+    name: "Abhishek Borase",
+    imgurl: abhishek,
+    branch: "CSE",
+    year: "3rd Year",
+    linkedin: "https://www.linkedin.com/in/abhishekborase/",
+    instagram: "https://www.instagram.com/abhishek_7890/",
+  },
+  {
+    name: "Darshan Kadam",
+    imgurl: darshan,
+    branch: "CSE",
+    year: "3rd Year",
+    linkedin: "https://www.linkedin.com/in/darshankadam15/",
+    instagram: "https://www.instagram.com/darshan.kadam15/",
+  },
+  {
+    name: "Aryan Jangid",
+    imgurl: aryan,
+    branch: "AI & DS",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/aryan-jangid-9641a2207/",
+    instagram: "https://www.instagram.com/aj_aryan0007/",
+  },
+  {
+    name: "Om Gawande",
+    imgurl: om,
+    branch: "CSE",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/om-gawande",
+    instagram: "https://www.instagram.com/_s_p_i_d_e_r_9480/",
+  },
+  {
+    name: "Palash Rambhia",
+    imgurl: palash,
+    branch: "IT",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/palash-rambhia-bb5b66214/",
+    instagram: "https://www.instagram.com/palash_2911/",
+  },
+  {
+    name: "Bhushan Kale",
+    imgurl: bhushan,
+    branch: "CSE",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/bhushan-kale-53493b203/",
+    instagram: "https://www.instagram.com/bk_bhushan__/",
+  },
 
-
-    
-
-]
-export default progdep
+  {
+    name: "Princeton D'souza",
+    imgurl: princeton,
+    branch: "CSE",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/princeton-dsouza/",
+    instagram: "https://www.instagram.com/princeton2102/",
+  },
+  {
+    name: "Shorya Jain",
+    imgurl: shorya,
+    branch: "CSE",
+    year: "2nd Year",
+    linkedin: "http://www.linkedin.com/in/shorya-jain-81402721b",
+    instagram: "https://www.instagram.com/shoryajain300/",
+  },
+  {
+    name: "Kunal Awari",
+    imgurl: kunal,
+    branch: "CSE",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/kunal-awari-756875203",
+    instagram: "https://www.instagram.com/das_ist_kunal/",
+  },
+  {
+    name: "Yash Pame",
+    imgurl: yash,
+    branch: "AI & DS",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/yashpame/",
+    instagram: "https://www.instagram.com/alwaysyashpame/",
+  },
+  {
+    name: "Arya Gaikwad",
+    imgurl: arya,
+    branch: "AI & DS",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/arya-g-a4a1b4205/",
+    instagram: "https://www.instagram.com/_ari_2702/",
+  },
+  {
+    name: "Shreshtha Somawar",
+    imgurl: shreshtha,
+    branch: "AI & DS",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/shreshtha-somawar-a8bab0219",
+    instagram: "https://www.instagram.com/shreshthasomawar/",
+  },
+  {
+    name: "Pranav Joshi",
+    imgurl: pranav,
+    branch: "AI & DS",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/pranav-joshi-20a50821a",
+    instagram: "https://www.instagram.com/pranavsjoshi.29/",
+  },
+];
+export default progdep;
 
 // const members = [
 //   [
