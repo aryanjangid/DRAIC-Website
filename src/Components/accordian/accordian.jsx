@@ -10,7 +10,7 @@ const data = [
   {
     question: "Who can join DRAIC?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+      "Any student of DYPCOE college with an aptitude for learning and applying those skills in the field of robotics and AI, can join us, irrespective of the branch or year they are studying in!",
   },
   {
     question: "How to join DRAIC?",
@@ -19,7 +19,7 @@ const data = [
   {
     question: "What can you expect from DRAIC?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+      "You’ll learn technical and personal skills, get experience of working as team, get freedom and support to explore new projects and much more!",
   },
   {
     question: "What are our working hours?",
