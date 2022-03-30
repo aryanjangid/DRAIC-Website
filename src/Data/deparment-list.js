@@ -11,14 +11,14 @@ const department_contnet = [
     dep_name: "PROGRAMMING",
     imgURL: prog,
     topage: "/progammingDepartment",
-    content: "A bunch of Geeks, who love coding!!!",
+    content: "A bunch of Geeks, who love coding.",
   },
   {
     id: 1,
     dep_name: "MECHANICAL",
     imgURL: mech,
     topage: "/MechenicalDepartment",
-    content: "Our work begins when the code ends",
+    content: "Our work begins when the code ends.",
   },
 
   {
@@ -26,14 +26,14 @@ const department_contnet = [
     dep_name: "ELECTRONICS",
     imgURL: elect,
     topage: "/ElectricalDepartment",
-    content: "WE digitalize what is static",
+    content: "Our brains are wired to deliver the best.",
   },
   {
     id: 1,
     dep_name: "PR",
     imgURL: pr,
     topage: "/PublicRelations",
-    content: "We publicize whats designed",
+    content: "Getting attention to the right place!!.",
   },
 ];
 export default department_contnet;

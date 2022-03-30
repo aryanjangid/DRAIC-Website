@@ -2,24 +2,25 @@ import { React, useState } from "react";
 import "./accordian.css";
 
 const data = [
-  {
-    question: "What is DRAIC-DYPCOE?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
-  },
+  // {
+  //   question: "What is DRAIC-DYPCOE?",
+  //   answer:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+  // },
   {
     question: "Who can join DRAIC?",
     answer:
-      "Any student of DYPCOE college with an aptitude for learning and applying those skills in the field of robotics and AI, can join us, irrespective of the branch or year they are studying in!",
+      "Any student of DYPCOE college with an aptitude for learning and applying those skills in the field of robotics and AI can join us, irrespective of the branch or year they are studying in! ",
   },
   {
     question: "How to join DRAIC?",
-    answer: "Starts strictly at 5pm and ends usually around 8pm",
+    answer:
+      "We as a club conduct recruitment for all the departments annually. By having basic knowledge and skills about the department you want to get in, you can clear the recruitment rounds and join us! Again, it’s not a compulsion to be in a particular branch to get into a department!!",
   },
   {
     question: "What can you expect from DRAIC?",
     answer:
-      "You’ll learn technical and personal skills, get experience of working as team, get freedom and support to explore new projects and much more!",
+      "You’ll learn technical and personal skills, get the experience of working as a team, get freedom and support to explore new projects, and much more!",
   },
   {
     question: "What are our working hours?",

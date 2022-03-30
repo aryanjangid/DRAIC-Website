@@ -32,7 +32,7 @@ const App = () => {
 
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => setLoading(true), 3000);
+  setTimeout(() => setLoading(true), 3100);
 
   return (
     <>

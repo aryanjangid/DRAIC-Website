@@ -15,8 +15,14 @@ function mechdep() {
           <div className="mech-department-text-container">
             <h1 className="mech-department-title">MECHANICAL DEPARTMENT</h1>
             <p className="mech-department-description">
-              We as Mechanical Team support the technical team as their backbone. Our team are characterized by personal creativity, breadth of knowledge, and versatility.
-              We create what is programed. We as a team build what's just a idea.
+              We as a Programming team develop new programs, test and update
+              existing ones, identify and correct those errors and work on all
+              the technical stuff you can think of. We believe that any problem
+              that exists, can be solved by having a clear perspective and using
+              a logical approach to solve it. We keep this principle in our
+              minds while working on a project. Innovation and creativity are
+              always welcome in our workspace. No Idea is too small for us. If
+              it can be coded, we will code it!
             </p>
           </div>
           <div className="mech-department-image-container">
@@ -33,7 +39,7 @@ function mechdep() {
 
         <div className="mech-department-header-container">
           <h1 className="mech-department-moto">
-          FINDING INSPIRATION IN EVERY TURN
+            OUR WORK BEGINS WHEN THE CODE ENDS..!
           </h1>
           <div className="seperator">
             <div className="depline1"></div>
@@ -53,11 +59,17 @@ function mechdep() {
 
                   <div className="card--text">
                     <p>{card.branch}</p>
-                    <p className="double-or" style={{ color: "#03a9f4" }}> &nbsp; || &nbsp;</p>
+                    <p className="double-or" style={{ color: "#03a9f4" }}>
+                      {" "}
+                      &nbsp; || &nbsp;
+                    </p>
                     <p>{card.year}</p>
                   </div>
                   <div className="links">
-                    <SocialMedia linkedin={card.linkedin} instagram={card.instagram} />
+                    <SocialMedia
+                      linkedin={card.linkedin}
+                      instagram={card.instagram}
+                    />
                   </div>
                 </div>
               </div>

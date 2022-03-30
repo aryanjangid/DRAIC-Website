@@ -3,13 +3,12 @@ import pic2 from "../Assets/Projects Images/project2.jpg";
 import pic3 from "../Assets/Projects Images/project3.jpg";
 
 const projects = [
-  
   {
     id: 2,
     project_name: "CUSTOMIZED 3 DIMENSIONAL PRINTER",
     imgURL: pic2,
     project_content:
-      "Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.",
+      "It is a customized printer made from scratch in our workshop. It develops a Layered 3D model, replicating a CAD file, by using PLA as a filament by utilizing some open-source resources like solid works.",
     githubURL: "https://www.linkedin.com/in/prathisupadhyay/",
     youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/",
   },
@@ -28,7 +27,7 @@ const projects = [
     project_name: "AUTONOMOUS QUADRUPLED ROBOT",
     imgURL: pic1,
     project_content:
-      "Development of 3D Printed Autonomous four-legged robot with Servo Motors for actuation.",
+      "Sheru is 3D Printed Autonomous four-legged robot with Servo Motors for actuation. It was simulated on MAT LAB before assembling. Its main purpose is to navigate the path and it is small enough to be used indoors.",
     githubURL: "https://www.linkedin.com/in/prathisupadhyay/",
     youtubeURl: "https://www.linkedin.com/in/prathisupadhyay/",
   },

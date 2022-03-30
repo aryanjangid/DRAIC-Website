@@ -13,13 +13,13 @@ const card1Icon =
 const card1Title = "WHO WE ARE";
 
 const card2Text =
-  "Team DRAIC seeks to inspire the next generation of bright minds, to cultivate an appreciation for the present technology and develop a cognitive thinking towards the solutions to present scenario by engaging in competition and building innovative projects.";
+  "Team DRAIC seeks to inspire the next generation of bright minds, cultivate an appreciation for the present technology and develop cognitive thinking toward the solutions to the present scenario by engaging in competition and building innovative projects.";
 const card2Icon =
   "https://img.icons8.com/ios-filled/50/ffffff/mission-of-a-company.png";
 const card2Title = "MISSION";
 
 const card3Text =
-  "To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation. To achieve an excellence in the field of robotics and AI, Thus contributing towards the development of the nation.";
+  "To achieve excellence in the field of robotics and AI, Thus contributing to the development of the nation. To achieve excellence in the field of robotics and AI, Thus contributing to the development of the nation.";
 const card3Icon = "https://img.icons8.com/android/48/ffffff/rocket.png";
 const card3Title = "VISION";
 

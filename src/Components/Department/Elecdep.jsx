@@ -16,10 +16,14 @@ function Elecdep() {
           <div className="elec-department-text-container">
             <h1 className="elec-department-title">ELECTRONICS DEPARTMENT</h1>
             <p className="elec-department-description">
-              We as Electronics Team are responsible for design and
-              implementation of electrical system. we work alongside Programming
-              and Mechanical Team. We install what is built by mechanical team
-              and digitalize what is programed.
+              We as Electrical Team are responsible for the design and
+              implementation of electrical systems used in projects. As a
+              connecting link between the programming and mechanical team, we
+              integrate the club, receive feedback, transmit information,
+              transform ideas and work without delays. We believe in optimizing,
+              therefore no project is declared finished under our supervision.
+              There’s always room for improvement and improving what already
+              exists is our duty
             </p>
           </div>
           <div className="elec-department-image-container">
@@ -36,7 +40,7 @@ function Elecdep() {
 
         <div className="elec-department-header-container">
           <h1 className="elec-department-moto">
-            FINDING INSPIRATION IN EVERY TURN
+            OUR BRAINS ARE WIRED TO DELIVER THE BEST..!
           </h1>
           <div className="seperator">
             <div className="depline1"></div>
