@@ -9,7 +9,7 @@ import shorya from "../../Assets/Departments/Programming/Shorya.jpeg";
 import kunal from "../../Assets/Departments/Programming/Kunal.jpg";
 import yash from "../../Assets/Departments/Programming/Yash Pame.jpeg";
 import princeton from "../../Assets/Departments/Programming/Princeton.jpeg";
-import palash from "../../Assets/Departments/Programming/Palash.jpeg";
+import palash from "../../Assets/Departments/Palash.jpg";
 import bhushan from "../../Assets/Departments/Programming/Bhushan.jpeg";
 import om from "../../Assets/Departments/Programming/om.jpeg";
 
@@ -88,20 +88,20 @@ const progdep = [
     instagram: "https://www.instagram.com/pranavsjoshi.29/",
   },
   {
-    name: "Kunal Awari",
-    imgurl: kunal,
-    branch: "CSE",
-    year: "2nd Year",
-    linkedin: "https://www.linkedin.com/in/kunal-awari-756875203",
-    instagram: "https://www.instagram.com/das_ist_kunal/",
-  },
-  {
     name: "Yash Pame",
     imgurl: yash,
     branch: "AI & DS",
     year: "2nd Year",
     linkedin: "https://www.linkedin.com/in/yashpame/",
     instagram: "https://www.instagram.com/alwaysyashpame/",
+  },
+  {
+    name: "Kunal Awari",
+    imgurl: kunal,
+    branch: "CSE",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/kunal-awari-756875203",
+    instagram: "https://www.instagram.com/das_ist_kunal/",
   },
   {
     name: "Arya Gaikwad",
