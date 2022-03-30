@@ -1,7 +1,7 @@
 import aryan from "../Assets/Departments/Programming/Aryan.jpeg";
 import om from "../Assets/Departments/Programming/om.jpeg";
 import bhushan from "../Assets/Departments/Programming/Bhushan.jpeg";
-import palash from "../Assets/Departments/Programming/Palash.jpeg";
+import palash from "../Assets/Departments/Programming/Palash.jpg";
 import prince from "../Assets/Departments/Programming/Princeton.jpeg";
 import sarthak from "../Assets/Sarthakp.jpeg";
 
