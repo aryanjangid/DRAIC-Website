@@ -3,6 +3,7 @@ import om from "../Assets/Departments/Programming/om.jpeg";
 import bhushan from "../Assets/Departments/Programming/Bhushan.jpeg";
 import palash from "../Assets/Departments/Programming/Palash.jpeg";
 import prince from "../Assets/Departments/Programming/Princeton.jpeg";
+import sarthak from "../Assets/Sarthakp.jpeg";
 
 export const creatorsData = [
   {
@@ -59,7 +60,7 @@ export const creatorsData = [
     linkedin: "https://www.linkedin.com/in/sarthak-pawar-b679481a9/",
     instagram: "",
     github: "https://github.com/Grumppie",
-    img: aryan,
+    img: sarthak,
   },
   {
     name: "Anubhav Prabhkar",
