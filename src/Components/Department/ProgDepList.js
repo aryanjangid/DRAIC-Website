@@ -80,12 +80,12 @@ const progdep = [
     instagram: "https://www.instagram.com/princeton2102/",
   },
   {
-    name: "Shorya Jain",
-    imgurl: shorya,
-    branch: "CSE",
+    name: "Pranav Joshi",
+    imgurl: pranav,
+    branch: "AI & DS",
     year: "2nd Year",
-    linkedin: "http://www.linkedin.com/in/shorya-jain-81402721b",
-    instagram: "https://www.instagram.com/shoryajain300/",
+    linkedin: "https://www.linkedin.com/in/pranav-joshi-20a50821a",
+    instagram: "https://www.instagram.com/pranavsjoshi.29/",
   },
   {
     name: "Kunal Awari",
@@ -120,12 +120,12 @@ const progdep = [
     instagram: "https://www.instagram.com/shreshthasomawar/",
   },
   {
-    name: "Pranav Joshi",
-    imgurl: pranav,
-    branch: "AI & DS",
+    name: "Shorya Jain",
+    imgurl: shorya,
+    branch: "CSE",
     year: "2nd Year",
-    linkedin: "https://www.linkedin.com/in/pranav-joshi-20a50821a",
-    instagram: "https://www.instagram.com/pranavsjoshi.29/",
+    linkedin: "http://www.linkedin.com/in/shorya-jain-81402721b",
+    instagram: "https://www.instagram.com/shoryajain300/",
   },
 ];
 export default progdep;
