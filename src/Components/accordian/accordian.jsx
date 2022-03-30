@@ -2,11 +2,11 @@ import { React, useState } from "react";
 import "./accordian.css";
 
 const data = [
-  {
-    question: "What is DRAIC-DYPCOE?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
-  },
+  // {
+  //   question: "What is DRAIC-DYPCOE?",
+  //   answer:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+  // },
   {
     question: "Who can join DRAIC?",
     answer:
