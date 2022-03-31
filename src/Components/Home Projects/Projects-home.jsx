@@ -90,57 +90,7 @@ const Project = () => {
           );
         })}
 
-        {/* <div className="home-individual-project-container">
-                    <img loading='lazy' decoding='async' className="home-project-image" src={pic1} alt="Rome" />
-                    <h1 className="home-project-title-heading">AUTONOMOUS QUADRUPLED ROBOT</h1>
-                    <div className="home-project-decoration-line" />
-
-                    <p className="home-project-description">Development of 3 Dimensional Printed Autonomous four-legged robot with Servo Motors for actuation.</p>
-                    <div className="home-links-container">
-                        <div className="view-more-container">
-                            <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
-                        </div>
-                        <div className="youtube-link-container">
-                            <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div className="home-individual-project-container">
-                    <img loading='lazy' decoding='async' className="home-project-image" src={pic2} alt="Rome" />
-                    <h1 className="home-project-title-heading">CUSTOMIZED 3 DIMENSIONAL PRINTER</h1>
-                    <div className="home-project-decoration-line">
-
-                    </div>
-                    <p className="home-project-description">Developed a customized 3D Printer, with PLA as a filament by utilizing some open source resources.</p>
-                    <div className="home-links-container">
-                        <div className="view-more-container">
-                            <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
-                        </div>
-                        <div className="youtube-link-container">
-                            <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
-
-                        </div>
-                    </div>
-                </div>
-                <div className="home-individual-project-container">
-                    <img loading='lazy' decoding='async' className="home-project-image" src={pic3} alt="Rome" />
-                    <h1 className="home-project-title-heading">AUTONOMOUS PATH FINDER ROBOT</h1>
-                    <div className="home-project-decoration-line">
-
-                    </div>
-                    <p className="home-project-description">Made an Autonomous Obstacle avoider and Path finder robot with Omni Wheel drive and Ultrasonic Sensor.</p>
-                    <div className="home-links-container">
-                        <div className="view-more-container">
-                            <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">View More<span>&rarr;</span></button></NavLink>
-                        </div>
-                        <div className="youtube-link-container">
-                            <NavLink activeClassName="active" className="link-active" aria-current="page" to="/project"><button className="project-card-btn">Youtube Link<span>&rarr;</span></button></NavLink>
-
-                        </div>
-                    </div>
-                </div> */}
+        
       </div>
     </div>
   );

@@ -55,10 +55,7 @@ const Contact = () => {
             <div>
               <div className="contact_para">
                 <p>
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Harum, repellendus excepturi. Architecto porro rem fuga ipsum
-                  vero earum inventore nemo delectus ducimus est. Harum optio
-                  dolore ea nostrum tempora at? */}
+                  If you're interested in what we do and wanna join us,or have some queries, feel free to contact us by filling the form below!
                 </p>
               </div>
             </div>

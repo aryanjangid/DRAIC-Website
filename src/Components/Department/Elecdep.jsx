@@ -23,7 +23,7 @@ function Elecdep() {
               transform ideas and work without delays. We believe in optimizing,
               therefore no project is declared finished under our supervision.
               There’s always room for improvement and improving what already
-              exists is our duty
+              exists is our duty.
             </p>
           </div>
           <div className="elec-department-image-container">
