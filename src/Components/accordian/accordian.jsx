@@ -25,13 +25,13 @@ const data = [
   {
     question: "What are our working hours?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+      "DRAIC has flexible working hours usually after college",
   },
-  {
-    question: "Is there a fee requirement?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
-  },
+  // {
+  //   question: "Is there a fee requirement?",
+  //   answer:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+  // },
 ];
 
 const Accordian = () => {

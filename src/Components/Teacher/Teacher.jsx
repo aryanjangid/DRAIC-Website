@@ -96,7 +96,7 @@ const Main = () => {
                       data-aos={"zoom-in"}
                       data-aos-delay={"1150"}
                       className="footer_social_links"
-                      href="https://www.instagram.com/vipinvibhute/" 
+                      href={card.instagramURl}
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -108,11 +108,12 @@ const Main = () => {
                         alt="Linkedin"
                       />
                     </a>
-                    <Link
+                    <a
                       data-aos={"zoom-in"}
                       data-aos-delay={"1150"}
                       className="footer_social_links"
-                      to={card.twitterURL}
+                      href={card.twitterURL}
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <img
@@ -122,7 +123,7 @@ const Main = () => {
                         src="https://img.icons8.com/color/48/000000/twitter-squared.png"
                         alt="Linkedin"
                       />
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </>
