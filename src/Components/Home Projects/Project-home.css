@@ -133,6 +133,10 @@
   /* border-color: aliceblue; */
   border-radius: 20px;
 }
+.home-individual-project-container:hover{
+  background-color: #121623;
+  box-shadow: 0px 0px 10px 0px #3869a0;
+}
 
 .projectline {
   height: 2px;
