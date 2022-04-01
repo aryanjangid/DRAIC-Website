@@ -4,6 +4,7 @@ import bhushan from "../Assets/Departments/Programming/Bhushan.jpeg";
 import palash from "../Assets/Departments/Programming/Palash.jpg";
 import prince from "../Assets/Departments/Programming/Princeton.jpeg";
 import sarthak from "../Assets/Sarthakp.jpeg";
+import anubahv from "../Assets/anubhav.jpg";
 
 export const creatorsData = [
   {
@@ -68,6 +69,6 @@ export const creatorsData = [
     linkedin: "https://www.linkedin.com/in/anubhav-prabhakar-4395001a0/",
     instagram: "https://www.instagram.com/thisanubhav/",
     github: "https://github.com/anubhavprabhakar",
-    img: aryan,
+    img: anubahv,
   },
 ];

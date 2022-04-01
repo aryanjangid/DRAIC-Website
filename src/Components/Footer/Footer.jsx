@@ -135,9 +135,9 @@ const Footer = () => {
                 alt="Linkedin"
               />
             </Link>
-            <Link
+            <a
               className="footer_social_links"
-              to="//www.linkedin.com/company/d-y-patil-robotics-ai-club"
+              href="https://www.instagram.com/draicdypcoe/"
               target="_blank"
             >
               <img
@@ -147,10 +147,10 @@ const Footer = () => {
                 src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
                 alt="Instagram"
               />
-            </Link>
-            <Link
+            </a>
+            <a
               className="footer_social_links"
-              to="//www.linkedin.com/company/d-y-patil-robotics-ai-club"
+              href="https://twitter.com/DraicDypcoe"
               target="_blank"
             >
               <img
@@ -160,7 +160,7 @@ const Footer = () => {
                 src="https://img.icons8.com/color/48/000000/twitter-squared.png"
                 alt="Twitter"
               />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="footer_copyrights">
