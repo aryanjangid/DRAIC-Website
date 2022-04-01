@@ -89,8 +89,6 @@ const Project = () => {
             </>
           );
         })}
-
-        
       </div>
     </div>
   );
