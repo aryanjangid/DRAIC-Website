@@ -12,8 +12,19 @@ import princeton from "../../Assets/Departments/Programming/Princeton.jpeg";
 import palash from "../../Assets/Departments/Palash.jpg";
 import bhushan from "../../Assets/Departments/Programming/Bhushan.jpeg";
 import om from "../../Assets/Departments/Programming/om.jpeg";
+import kushal from "../../Assets/Departments/Programming/koushal.jpeg";
+import akansha from "../../Assets/Departments/Programming/Akansha.jpeg";
+
 
 const progdep = [
+  {
+    name: "Prathis Upadhyay",
+    imgurl: kushal,
+    branch: "CSE",
+    year: "4th Year",
+    linkedin: "https://www.linkedin.com/in/kushal-therokar/",
+    instagram: "https://www.instagram.com/whoisprathis/",
+  },
   {
     name: "Prathis Upadhyay",
     imgurl: prathis,
@@ -126,6 +137,14 @@ const progdep = [
     year: "2nd Year",
     linkedin: "http://www.linkedin.com/in/shorya-jain-81402721b",
     instagram: "https://www.instagram.com/shoryajain300/",
+  },
+  {
+    name: "Akansha Jadhav",
+    imgurl: akansha,
+    branch: "CSE",
+    year: "2nd Year",
+    linkedin: "https://www.linkedin.com/in/akanksha-jadhav-81846421a",
+    instagram: "http://www.instagram.com/akanksha_jadhav__",
   },
 ];
 export default progdep;

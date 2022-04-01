@@ -3,6 +3,9 @@ import sarthak from '../../Assets/Departments/Electronics/Sarthak Gupta.jpeg'
 import nikhil from '../../Assets/Departments/Electronics/NIkhil.jpeg'
 import sumeet from '../../Assets/Departments/Electronics/Sumeet Jadhav.jpeg'
 import sagar from '../../Assets/Departments/Electronics/Sagar.jpeg'
+import parag from '../../Assets/Departments/Electronics/Parag.jpeg'
+import Hrishikesh from '../../Assets/Departments/Electronics/Hrishikesh.jpeg'
+
 
 
 
@@ -21,7 +24,7 @@ const members = [
     {
         name: "Sagar Warungase ",
         imgurl: sagar,
-        branch: "INSTRU",
+        branch: "ENTC",
         year: "4th Year",
         linkedin: "http://www.linkedin.com/in/axasusan-mathew-08067b1b0",
         instagram: "https://www.instagram.com/axasusanmathew/",
@@ -55,7 +58,7 @@ const members = [
     },
     {
         name: "Hrishikesh Kshetramade",
-        imgurl: sarthak,
+        imgurl: Hrishikesh,
         branch: "ENTC",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/hrishikesh-kshetramade-764565233/",
@@ -63,7 +66,7 @@ const members = [
     },
     {
         name: "Parag Kale",
-        imgurl: sarthak,
+        imgurl: parag,
         branch: "INSTRU",
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/parag-kale-79294021a",

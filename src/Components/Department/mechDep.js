@@ -18,6 +18,14 @@ const members = [
         instagram: "https://www.instagram.com/sumedh2326/",
     },
     {
+        name: "Mayur Wagh",
+        imgurl: mayur,
+        branch: "MECH",
+        year: "4th Year",
+        linkedin: "https://www.linkedin.com/in/mayurgwagh",
+        instagram: "",
+    },
+    {
         name: "Ganesh Deshmukh",
         imgurl: ganesh,
         branch: "MECH",
@@ -56,14 +64,7 @@ const members = [
         year: "2nd Year",
         linkedin: "https://www.linkedin.com/in/nayana-dhote-9a63761b8",
         instagram: "",
-    }, {
-        name: "Mayur Wagh",
-        imgurl: mayur,
-        branch: "MECH",
-        year: "2nd Year",
-        linkedin: "https://www.linkedin.com/in/mayurgwagh",
-        instagram: "",
-    },
+    }, 
     {
         name: "Aditya Magdum",
         imgurl: aditya,
