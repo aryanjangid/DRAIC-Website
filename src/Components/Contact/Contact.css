@@ -296,7 +296,9 @@ img {
     align-items: center;
     margin: 0px;
   }
-  .contact_sendbtn,
+  .contact_sendbtn{
+    white-space: nowrap;
+  }
   .contact_joinnowbtn {
     margin-top: 18px;
     /* padding: 8px; */

@@ -17,14 +17,7 @@ const Prdep = () => {
           <div className="mech-department-text-container">
             <h1 className="mech-department-title">PUBLIC RELATIONS</h1>
             <p className="mech-department-description">
-              We as a Programming team develop new programs, test and update
-              existing ones, identify and correct those errors and work on all
-              the technical stuff you can think of. We believe that any problem
-              that exists, can be solved by having a clear perspective and using
-              a logical approach to solve it. We keep this principle in our
-              minds while working on a project. Innovation and creativity are
-              always welcome in our workspace. No Idea is too small for us. If
-              it can be coded, we will code it!
+            We as Public Relations Team Maintain and Manage the vox-pop of the team. We publicize what DRAIC as a team does. We design the outlook of the team. we work with team collaboration and interpersonal skills. We create thoughtful, data-backed pitches, engage with social media, send swag, maintain relevant media lists, and manage all follow-through. we constantly aim to maximize the reach and impact of DRAIC.
             </p>
           </div>
           <div className="mech-department-image-container">

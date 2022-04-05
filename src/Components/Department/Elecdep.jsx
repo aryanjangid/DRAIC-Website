@@ -16,14 +16,7 @@ function Elecdep() {
           <div className="elec-department-text-container">
             <h1 className="elec-department-title">ELECTRONICS DEPARTMENT</h1>
             <p className="elec-department-description">
-              We as Electrical Team are responsible for the design and
-              implementation of electrical systems used in projects. As a
-              connecting link between the programming and mechanical team, we
-              integrate the club, receive feedback, transmit information,
-              transform ideas and work without delays. We believe in optimizing,
-              therefore no project is declared finished under our supervision.
-              There’s always room for improvement and improving what already
-              exists is our duty.
+            We as Electronics Team are responsible for the design and implementation of electrical systems used in projects. As a connecting link between the programming and mechanical team, we integrate the club, receive feedback, transmit information, transform ideas and work without delays. We believe in optimizing, therefore no project is declared finished under our supervision. There’s always room for improvement and improving what already exists is our duty.
             </p>
           </div>
           <div className="elec-department-image-container">

@@ -1,4 +1,4 @@
-import test from "../Assets/image.jpg";
+// import test from "../Assets/image.jpg";
 import Vedansh from "../Assets/Testimonials/vedansh_shrivastava.jpg"
 import Shreyash from "../Assets/Testimonials/Shreyash_Choppawar.jpg"
 import Aparna from "../Assets/Testimonials/Aparna Agrawal.jpg"

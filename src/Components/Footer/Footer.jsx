@@ -139,6 +139,7 @@ const Footer = () => {
               className="footer_social_links"
               href="https://www.instagram.com/draicdypcoe/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 loading="lazy"
@@ -152,6 +153,7 @@ const Footer = () => {
               className="footer_social_links"
               href="https://twitter.com/DraicDypcoe"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 loading="lazy"

@@ -15,14 +15,7 @@ function mechdep() {
           <div className="mech-department-text-container">
             <h1 className="mech-department-title">MECHANICAL DEPARTMENT</h1>
             <p className="mech-department-description">
-              We as a Programming team develop new programs, test and update
-              existing ones, identify and correct those errors and work on all
-              the technical stuff you can think of. We believe that any problem
-              that exists, can be solved by having a clear perspective and using
-              a logical approach to solve it. We keep this principle in our
-              minds while working on a project. Innovation and creativity are
-              always welcome in our workspace. No Idea is too small for us. If
-              it can be coded, we will code it!
+            We as the Mechanical team are the skeleton of the entire club. It’s our job to bring a project to life and give it structure in the physical realm. We are the ones responsible for providing a reality check to a project and seeing if it is feasible or not. And if it’s not, we put in our heart and soul to make it achievable. Our team is characterized by personal creativity, a breadth of knowledge, and versatility. We create what is programmed. We as a team build what's just an idea.
             </p>
           </div>
           <div className="mech-department-image-container">
