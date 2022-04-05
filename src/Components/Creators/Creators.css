@@ -62,6 +62,7 @@
 .creator_container {
   width: 100%;
   display: flex;
+  padding: 50px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -153,6 +154,9 @@
   background: #ffffff;
 }
 
+.creator-outer-box{
+  /* padding: 30px; */
+}
 .creator_top {
   display: flex;
   justify-content: space-between;

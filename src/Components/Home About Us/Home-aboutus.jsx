@@ -60,8 +60,8 @@ function HomeAbout() {
 
   const handlenext3 = () => {
     setPrevIndex3(activeindex3);
-    setActiveIndex3((activeindex3 + 1) % 3);
-    setNextIndex3((activeindex3 + 2) % 3);
+    setActiveIndex3((activeindex3 + 1) % 2);
+    setNextIndex3((activeindex3 + 2) % 2);
     setMove3("right");
   };
   const handleprev3 = () => {
@@ -144,10 +144,10 @@ function HomeAbout() {
               <div className="secondrowcol2">
                 <div className="div1">
                   <div className="our-team-slider">
-                    <i
+                    {/* <i
                       className="home-about-arrow left"
                       onClick={handleprev2}
-                    />
+                    /> */}
                     {card.ourteamimages.map((image, index) => (
                         <img
                           loading="lazy"
@@ -175,10 +175,10 @@ function HomeAbout() {
                           key={index}
                         ></img>
                     ))}
-                    <i
+                    {/* <i
                       className="home-about-arrow right"
                       onClick={handlenext2}
-                    />
+                    /> */}
                   </div>
                   <Link to="/team" className="home-about-slider-image-container" >
                   <h1 className="imagetext">OUR TEAM</h1>
@@ -190,6 +190,7 @@ function HomeAbout() {
                       className="home-about-arrow left"
                       onClick={handleprev3}
                     />
+                    
                     {card.ourworkshopimages.map((image, index) => (
                         <img
                           loading="lazy"

@@ -1,7 +1,7 @@
 import React from "react";
-import Avatar from "./Avatar";
-import SocialMedia from "./Socialmedia";
-import members from "./ProgDepList";
+// import Avatar from "./Avatar";
+// import SocialMedia from "./Socialmedia";
+// import members from "./ProgDepList";
 
 import "./programming-department.css";
 
@@ -38,7 +38,7 @@ const Prdep = () => {
             ></img>
           </div>
         </div>
-
+{/* 
         <div className="mech-department-header-container">
           <h1 className="mech-department-moto">
             GETTING ATTENTION TO THE RIGHT PLACE..!
@@ -66,7 +66,8 @@ const Prdep = () => {
               </div>
             );
           })}
-        </div>
+        
+      </div> */}
       </div>
     </>
   );

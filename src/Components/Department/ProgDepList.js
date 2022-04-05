@@ -18,7 +18,7 @@ import akansha from "../../Assets/Departments/Programming/Akansha.jpeg";
 
 const progdep = [
   {
-    name: "Prathis Upadhyay",
+    name: "Kushal Therokar",
     imgurl: kushal,
     branch: "CSE",
     year: "4th Year",
