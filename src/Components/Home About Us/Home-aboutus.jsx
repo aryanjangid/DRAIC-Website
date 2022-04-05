@@ -11,10 +11,10 @@ function HomeAbout() {
   const [nextindex, setNextIndex] = useState(1);
   const [move, setMove] = useState("right");
 
-  const [activeindex2, setActiveIndex2] = useState(0);
-  const [previndex2, setPrevIndex2] = useState(2);
-  const [nextindex2, setNextIndex2] = useState(1);
-  const [move2, setMove2] = useState("right");
+  // const [activeindex2, setActiveIndex2] = useState(0);
+  // const [previndex2, setPrevIndex2] = useState(2);
+  // const [nextindex2, setNextIndex2] = useState(1);
+  // const [move2, setMove2] = useState("right");
 
   const [activeindex3, setActiveIndex3] = useState(0);
   const [previndex3, setPrevIndex3] = useState(2);
@@ -45,18 +45,18 @@ function HomeAbout() {
     setMove("left");
   };
 
-  const handlenext2 = () => {
-    setPrevIndex2(activeindex2);
-    setActiveIndex2((activeindex2 + 1) % 3);
-    setNextIndex2((activeindex2 + 2) % 3);
-    setMove2("right");
-  };
-  const handleprev2 = () => {
-    setPrevIndex2(previndex2 - 1 < 0 ? 2 : previndex2 - 1);
-    setActiveIndex2(activeindex2 - 1 < 0 ? 2 : activeindex2 - 1);
-    setNextIndex2(activeindex2);
-    setMove2("left");
-  };
+  // const handlenext2 = () => {
+  //   setPrevIndex2(activeindex2);
+  //   setActiveIndex2((activeindex2 + 1) % 3);
+  //   setNextIndex2((activeindex2 + 2) % 3);
+  //   setMove2("right");
+  // };
+  // const handleprev2 = () => {
+  //   setPrevIndex2(previndex2 - 1 < 0 ? 2 : previndex2 - 1);
+  //   setActiveIndex2(activeindex2 - 1 < 0 ? 2 : activeindex2 - 1);
+  //   setNextIndex2(activeindex2);
+  //   setMove2("left");
+  // };
 
   const handlenext3 = () => {
     setPrevIndex3(activeindex3);
@@ -152,24 +152,24 @@ function HomeAbout() {
                         <img
                           loading="lazy"
                           decoding="async"
-                          className={`ourteamimg 
-                        ${
-                          index === activeindex2
-                            ? "active"
-                            : index === previndex2
-                            ? "prev"
-                            : index === nextindex2
-                            ? "next"
-                            : ""
-                        }
-                        ${
-                          move2 === "left"
-                            ? "left"
-                            : move2 === "right"
-                            ? "right"
-                            : ""
-                        }
-                        `}
+                          className="ourteamimg"
+                        // ${
+                        //   index === activeindex2
+                        //     ? "active"
+                        //     : index === previndex2
+                        //     ? "prev"
+                        //     : index === nextindex2
+                        //     ? "next"
+                        //     : ""
+                        // }
+                        // ${
+                        //   move2 === "left"
+                        //     ? "left"
+                        //     : move2 === "right"
+                        //     ? "right"
+                        //     : ""
+                        // }
+                        // `}
                           src={image}
                           alt="collegepic"
                           key={index}

@@ -84,7 +84,7 @@ const Loading = () => {
             </g>
           </svg>
         </div>
-        <h1 className="loading_text">
+        {/* <h1 className="loading_text">
           <span>C</span>
           <span>O</span>
           <span>M</span>
@@ -99,7 +99,7 @@ const Loading = () => {
           <span>.</span>
           <span>.</span>
           <span>.</span>
-        </h1>
+        </h1> */}
       </div>
     </>
   );
