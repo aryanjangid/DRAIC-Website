@@ -38,6 +38,7 @@
 .faq_question {
   /* font-family: "Rowdies", cursive; */
   font-size: 1.3rem;
+  text-align: left;
   font-family: SansationBold;
 }
 

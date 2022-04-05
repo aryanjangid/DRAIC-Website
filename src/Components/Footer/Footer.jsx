@@ -21,7 +21,7 @@ const Footer = () => {
                 alt="draicimg"
               />
               <h1>DRAIC DYPCOE</h1>
-              <p>Let's ready to dive into Robotics</p>
+              <p>Let's get ready to dive into Robotics</p>
             </div>
           </Link>
           <div className="footer_links_section">

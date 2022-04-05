@@ -153,6 +153,8 @@
 
   .footer_intro p {
     padding-bottom: 10px;
+  text-align: center;
+
   }
   .footer_social {
     flex-direction: row;
