@@ -13,7 +13,7 @@ const members = [
         name: "Sumedh Salvekar",
         imgurl: sumedth,
         branch: "MECH",
-        year: "4nd Year",
+        year: "4th Year",
         linkedin: "https://www.linkedin.com/in/sumedhsalvekar",
         instagram: "https://www.instagram.com/sumedh2326/",
     },

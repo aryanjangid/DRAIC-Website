@@ -6,6 +6,10 @@ import Ansh from "../Assets/Testimonials/Ansh_Goyal.jpg"
 import Samiksha from "../Assets/Testimonials/Samiksha_Bhokare.jpg"
 import Amit from "../Assets/Testimonials/Amit_Prasad.jpg"
 import Dibyanshu from "../Assets/Testimonials/Dibyanshu_Sharma.jpg"
+import Tanmay from "../Assets/Testimonials/Tanmay.jpeg"
+import yash from "../Assets/Testimonials/yash bhagat.jfif"
+import siddhesh from "../Assets/Testimonials/Siddhesh.jfif"
+
 
 const testimonials = [
   {
@@ -32,7 +36,7 @@ const testimonials = [
     name: "Tanmay Salkadhe",
     position: "Electronics Department",
     test: "I joined DRC in my 2nd Year just hoping to learn something other than academics and that turned out to be the best decision of my engineering. Our team participated in Robocon making an automated Disk throwing Robot, a Four-legged Robot, and also making a 3D Printer which was yet another interesting project to work on. Participating in different college and National level Robotics competitions, Organizing events, workshops, and making robots all year round. It’s amazing working with 30 people of different streams and learning about other streams as well. Working with DRC was like being part of a family, I’ve been part of this family for good three years and was fortunate enough to lead the team for a year.",
-    image: test,
+    image: Tanmay,
   },
   {
     name: "Ansh Goyal",
@@ -44,7 +48,7 @@ const testimonials = [
     name: "Yash Bhagwat",
     position: "Mechanical Department",
     test:" Experience with Draic is not something that can be expressed in few words. Because it has given not only knowledge but also memories and most importantly a family. Starting from the first day of the recruitment test to the interview and then getting selected in team was very unexpected. Because I thought I won't get selected. But still they selected me. And I am really thankful to all. Experience with juniors also was great. One of the best people I have ever met. . With constant support of my seniors I've performed my best in every project assigned.The journey has been explicit and I'm truly thankful for being a part of something so amazing.",
-    image: test,
+    image: yash,
   },
   {
     name: "Samiksha Bokare",
@@ -62,7 +66,7 @@ const testimonials = [
     name: "Siddhesh Padhatre",
     position: "Mechanical Department",
     test: "Joining DRC was one of my best decisions in my life. Like any other person, I used to think robotics as something a high tech thing and feared it. I was selected as an external member. But due to my dedication I was included in the core team the same year.I used to spend most of my time at DRC. Participating in National level Robotics competitions and an opportunity to represent India at International level gave us the chills.I feel very proud to be selected as a part of this small team that became a family. We organized Events, Workshops and participated in different college level competitions as well.I consider myself lucky to be a part of such a wonderful family.",
-    image: test,
+    image: siddhesh,
   },
   {
     name: "Dibyanshu Sharma",
