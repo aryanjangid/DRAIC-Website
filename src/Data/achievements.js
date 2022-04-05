@@ -14,7 +14,7 @@ const achievements = [
     delay: "1000",
   },
   {
-    name: "Sagar Warungase",
+    name: " Dibyanshu Sharma",
     description:
       "First Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.",
     img: Achievements2,
@@ -22,7 +22,7 @@ const achievements = [
     delay: "1000",
   },
   {
-    name: "Samiksha Bhokare & Dibyanshu Sharma",
+    name: "Samiksha Bhokare & Sagar Warungase",
     description:
       "Second Position at Techtatva Electronics Competition Organised by EnTC Dept, DYPCOE, Pune.",
     img: Achievements3,
