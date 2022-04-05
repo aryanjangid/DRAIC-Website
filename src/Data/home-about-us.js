@@ -10,7 +10,7 @@ const aboutusinfo = [
   {
     ourcollegeimages: [college1, college2, college3],
     ourteamimages: [team1],
-    ourworkshopimages: [workshop1, workshop2],
+    ourworkshopimages: [workshop1, workshop2, workshop1,workshop2],
     whoweare:
       " The Club focuses on the development of students through working on various robotic projects and also participating in National as well as International level Competitions.",
     whatwedo:

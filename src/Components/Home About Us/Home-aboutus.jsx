@@ -11,10 +11,10 @@ function HomeAbout() {
   const [nextindex, setNextIndex] = useState(1);
   const [move, setMove] = useState("right");
 
-  // const [activeindex2, setActiveIndex2] = useState(0);
-  // const [previndex2, setPrevIndex2] = useState(2);
-  // const [nextindex2, setNextIndex2] = useState(1);
-  // const [move2, setMove2] = useState("right");
+  const [activeindex2, setActiveIndex2] = useState(0);
+  const [previndex2, setPrevIndex2] = useState(2);
+  const [nextindex2, setNextIndex2] = useState(1);
+  const [move2, setMove2] = useState("right");
 
   const [activeindex3, setActiveIndex3] = useState(0);
   const [previndex3, setPrevIndex3] = useState(2);
@@ -45,28 +45,28 @@ function HomeAbout() {
     setMove("left");
   };
 
-  // const handlenext2 = () => {
-  //   setPrevIndex2(activeindex2);
-  //   setActiveIndex2((activeindex2 + 1) % 3);
-  //   setNextIndex2((activeindex2 + 2) % 3);
-  //   setMove2("right");
-  // };
-  // const handleprev2 = () => {
-  //   setPrevIndex2(previndex2 - 1 < 0 ? 2 : previndex2 - 1);
-  //   setActiveIndex2(activeindex2 - 1 < 0 ? 2 : activeindex2 - 1);
-  //   setNextIndex2(activeindex2);
-  //   setMove2("left");
-  // };
+  const handlenext2 = () => {
+    setPrevIndex2(activeindex2);
+    setActiveIndex2((activeindex2 + 1) % 3);
+    setNextIndex2((activeindex2 + 2) % 3);
+    setMove2("right");
+  };
+  const handleprev2 = () => {
+    setPrevIndex2(previndex2 - 1 < 0 ? 2 : previndex2 - 1);
+    setActiveIndex2(activeindex2 - 1 < 0 ? 2 : activeindex2 - 1);
+    setNextIndex2(activeindex2);
+    setMove2("left");
+  };
 
   const handlenext3 = () => {
     setPrevIndex3(activeindex3);
-    setActiveIndex3((activeindex3 + 1) % 2);
-    setNextIndex3((activeindex3 + 2) % 2);
+    setActiveIndex3((activeindex3 + 1) % 4);
+    setNextIndex3((activeindex3 + 2) % 4);
     setMove3("right");
   };
   const handleprev3 = () => {
-    setPrevIndex3(previndex3 - 1 < 0 ? 2 : previndex3 - 1);
-    setActiveIndex3(activeindex3 - 1 < 0 ? 2 : activeindex3 - 1);
+    setPrevIndex3(previndex3 - 1 < 0 ? 3 : previndex3 - 1);
+    setActiveIndex3(activeindex3 - 1 < 0 ? 3 : activeindex3 - 1);
     setNextIndex3(activeindex3);
     setMove3("left");
   };
@@ -108,80 +108,78 @@ function HomeAbout() {
                   <i className="home-about-arrow left" onClick={handleprev} />
                   <div className="slider-content">
                     {card.ourcollegeimages.map((image, index) => (
-                        <img
-                          loading="lazy"
-                          decoding="async"
-                          className={`ourcollegeimg 
-                        ${
-                          index === activeindex
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        className={`ourcollegeimg 
+                        ${index === activeindex
                             ? "active"
                             : index === previndex
-                            ? "prev"
-                            : index === nextindex
-                            ? "next"
-                            : ""
-                        } 
-                        ${
-                          move === "left"
+                              ? "prev"
+                              : index === nextindex
+                                ? "next"
+                                : ""
+                          } 
+                        ${move === "left"
                             ? "left"
                             : move === "right"
-                            ? "right"
-                            : ""
-                        }
+                              ? "right"
+                              : ""
+                          }
                       `}
-                          src={image}
-                          alt="collegepic"
-                          key={index}
-                        />
+                        src={image}
+                        alt="collegepic"
+                        key={index}
+                      />
                     ))}
                   </div>
                   <i className="home-about-arrow right" onClick={handlenext} />
                 </div>
-                <Link to="//www.dypcoeakurdi.ac.in"  target="_blank" className="home-about-slider-image-container" > 
-                <h1 className="imagetext">OUR COLLEGE</h1>
+                <Link to="//www.dypcoeakurdi.ac.in" target="_blank" className="home-about-slider-image-container" >
+                  <h1 className="imagetext">OUR COLLEGE</h1>
                 </Link>
               </div>
               <div className="secondrowcol2">
                 <div className="div1">
                   <div className="our-team-slider">
-                    {/* <i
+                    <i
                       className="home-about-arrow left"
+                      style={{ display: "none" }}
                       onClick={handleprev2}
-                    /> */}
+                    />
                     {card.ourteamimages.map((image, index) => (
-                        <img
-                          loading="lazy"
-                          decoding="async"
-                          className="ourteamimg"
-                        // ${
-                        //   index === activeindex2
-                        //     ? "active"
-                        //     : index === previndex2
-                        //     ? "prev"
-                        //     : index === nextindex2
-                        //     ? "next"
-                        //     : ""
-                        // }
-                        // ${
-                        //   move2 === "left"
-                        //     ? "left"
-                        //     : move2 === "right"
-                        //     ? "right"
-                        //     : ""
-                        // }
-                        // `}
-                          src={image}
-                          alt="collegepic"
-                          key={index}
-                        ></img>
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        className={`ourteamimg
+                        ${index === activeindex2
+                            ? "active"
+                            : index === previndex2
+                              ? "prev"
+                              : index === nextindex2
+                                ? "next"
+                                : ""
+                          }
+                        ${move2 === "left"
+                            ? "left"
+                            : move2 === "right"
+                              ? "right"
+                              : ""
+                          }
+                        `}
+                        src={image}
+                        alt="collegepic"
+                      // key={index}
+                      ></img>
                     ))}
-                    {/* <i
+                    <i
                       className="home-about-arrow right"
+                      style={{ display: "none" }}
                       onClick={handlenext2}
-                    /> */}
+                    />
                   </div>
                   <Link to="/team" className="home-about-slider-image-container" >
-                  <h1 className="imagetext">OUR TEAM</h1>
+                    <h1 className="imagetext">OUR TEAM</h1>
                   </Link>
                 </div>
                 <div className="div2">
@@ -190,33 +188,31 @@ function HomeAbout() {
                       className="home-about-arrow left"
                       onClick={handleprev3}
                     />
-                    
+
                     {card.ourworkshopimages.map((image, index) => (
-                        <img
-                          loading="lazy"
-                          decoding="async"
-                          className={`ourworkshopimg
-                        ${
-                          index === activeindex3
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        className={`ourworkshopimg
+                        ${index === activeindex3
                             ? "active"
                             : index === previndex3
-                            ? "prev"
-                            : index === nextindex3
-                            ? "next"
-                            : ""
-                        }
-                        ${
-                          move3 === "left"
+                              ? "prev"
+                              : index === nextindex3
+                                ? "next"
+                                : ""
+                          }
+                        ${move3 === "left"
                             ? "left"
                             : move3 === "right"
-                            ? "right"
-                            : ""
-                        }
+                              ? "right"
+                              : ""
+                          }
                           `}
-                          src={image}
-                          alt="collegepic"
-                          key={index}
-                        ></img>
+                        src={image}
+                        alt="collegepic"
+                        key={index}
+                      ></img>
                     ))}
                     <i
                       className="home-about-arrow right"
