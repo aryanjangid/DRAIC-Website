@@ -5,6 +5,7 @@ import palash from "../Assets/Departments/Programming/Palash.jpg";
 import prince from "../Assets/Departments/Programming/Princeton.jpeg";
 import sarthak from "../Assets/Sarthakp.jpeg";
 import anubahv from "../Assets/anubhav.jpg";
+import akansha from "../Assets/Akansha.jpg";
 
 export const creatorsData = [
   {
@@ -53,7 +54,7 @@ export const creatorsData = [
     linkedin: "https://www.linkedin.com/in/akanksha-jadhav-81846421a/",
     instagram: "https://www.instagram.com/akanksha_jadhav__/",
     github: "https://github.com/Enthusiast22",
-    img: aryan,
+    img: akansha,
   },
   {
     name: "Sarthak Pawar",
