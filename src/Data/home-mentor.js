@@ -3,7 +3,7 @@ import Sir_img from "../Assets/Vipin Sir.jfif";
 const mentorinfo = [
   {
     id: 1,
-    mentor_name: "VIPIN VIBHUTE",
+    mentor_name: "PROF. VIPIN VIBHUTE",
     imgURL: Sir_img,
     content:
       "Assitant Professor at DY Patil College of Engineering. HOD at Instrumentation Enginnering, DYPCOE. 15+ years of experience in industry and 20+ years in teaching.",
