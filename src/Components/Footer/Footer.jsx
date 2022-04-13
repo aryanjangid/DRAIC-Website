@@ -114,7 +114,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_location"
             >
-              D. Y. Patil College of Engineering, D. Y. Patil
+              D. Y. Patil College of Engineering, Dr. D. Y. Patil
               <br />
               Educational Complex, Sector 29, Nigdi
               <br />
